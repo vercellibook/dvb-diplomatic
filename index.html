@@ -1,0 +1,299 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+   <head>
+      <meta http-equiv="Content-Type" content="text/plain; charset=UTF-8"></meta>
+      <meta property="og:title" content="The Vercelli Book: a digital facsimile with transcription of selected texts"></meta>
+      <meta property="og:image" content="./data/input_data/images/thumb_fb.jpg"></meta>
+      <title>The Vercelli Book: a digital facsimile with transcription of selected texts</title>
+      <link rel="stylesheet" type="text/css" href="./css/main.css"></link>
+      <link rel="stylesheet" type="text/css" href="./css/page_data-include.css"></link>
+      <link rel="stylesheet" type="text/css" href="./css/jquery-ui-1.9.0.custom.css"></link>
+      <link rel="stylesheet" type="text/css" href="./css/ImageTextLink.css"></link>
+      <link rel="stylesheet" type="text/css" href="./css/jquery.jqzoom.css"></link>
+      <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css"></link>
+      <link rel="stylesheet" type="text/css" href="./css/evt-icons.css"></link>
+      <link rel="stylesheet" type="text/css" href="./css/BRnav.css"></link>
+      <link rel="stylesheet" type="text/css" href="./css/viscoll.css"></link><script type="text/javascript" src="./js/plugin/jquery-lang.js"></script><script type="text/javascript" src="./config/langpack/en.js"></script><script type="text/javascript" src="./config/langpack/it.js"></script><script type="text/javascript" src="./config/langpack/fr.js"></script><script type="text/javascript" src="./config/langpack/de.js"></script><script type="text/javascript" src="./config/langpack/cs.js"></script><link rel="stylesheet" type="text/css" href="./config/evt_builder-custom-styles.css"></link>
+   </head>
+   <body data-prose-verses-feature="active">
+      <div id="global_wrapper" data-image-extension="jpg">
+         <div id="global_loading">
+            <div><i class="fa fa-spinner fa-spin fa-lg"></i><span id="loading_msg">
+                  <div id="ui_init_msg" lang="def">EVT_INIT</div>
+                  <div id="loading_data_msg" lang="def">LOADING_DATA</div></span></div>
+         </div>
+         <div id="keyboard_shortcuts_cont" class="dialog" data-content="keyboard_shortcuts">
+            <div id="keyboard_shortcuts" class="dialog_cont"><a href="javascript:void(0);" id="close_keyboard_shortcuts_cont" class="dialog_close" data-dialog="keyboard_shortcuts_cont" lang="def" title="CLOSE"><i class="fa fa-close"></i></a><div class="title main" lang="def">KEYBOARD_SHORTCUTS</div>
+               <div class="dialog_separator"><i class="fa fa-caret-down"></i></div>
+               <div class="dialog_cont_inner">
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_OPEN_PROJECT_INFO</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">alt</span>+<span class="shortcuts_key">i</span></p>
+                  </div>
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_SWITCH_MODE_VIEW</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">alt</span>+<span class="shortcuts_key">1</span> / <span class="shortcuts_key">alt</span>+<span class="shortcuts_key">2</span> / <span class="shortcuts_key">alt</span>+<span class="shortcuts_key">3</span> ...</p>
+                  </div>
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_CHANGE_PAGE</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">←</span> and <span class="shortcuts_key">→</span></p>
+                  </div>
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_CHANGE_DOC</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">↑</span> and <span class="shortcuts_key">↓</span></p>
+                  </div>
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_GO_FULLSCREEN</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">ctrl/cmd</span>+<span class="shortcuts_key">alt</span>+<span class="shortcuts_key">shift</span>+<span class="shortcuts_key">f</span></p>
+                  </div>
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_OPEN_SEARCH</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">ctrl/cmd</span>+<span class="shortcuts_key">alt</span>+<span class="shortcuts_key">f</span></p>
+                  </div>
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_OPEN_PAGE_SELECTOR</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">alt</span>+<span class="shortcuts_key">p</span></p>
+                  </div>
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_OPEN_TEXT_SELECTOR</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">alt</span>+<span class="shortcuts_key">t</span></p>
+                  </div>
+                  <div class="shortcuts_row">
+                     <p class="shortcuts_col_left"><span lang="def">KS_OPEN_EDITION_SELECTOR</span></p>
+                     <p class="shortcuts_col_right"><span class="shortcuts_key">alt</span>+<span class="shortcuts_key">e</span></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="welcomeInfo_cont" class="dialog" data-content="welcomeInfo">
+            <div id="welcomeInfo" class="dialog_cont"><a href="javascript:void(0);" id="close_welcome_info_cont" class="dialog_close" data-dialog="welcomeInfo_cont" title="CLOSE" lang="def"><i class="fa fa-close"></i></a><div id="welcomeInfo_content_top">
+                  <div>
+                     <p class="title main">Welcome to the Digital Vercelli Book!</p>
+                  </div>
+                  <div>This is a facsimile and diplomatic edition of Codex Vercellensis CXVII, Archivio e
+                     Biblioteca Capitolare di Vercelli. 
+                     			Here are a few tips about how to better browse the edition:
+                     </div>
+                  <div>
+                     <ul>
+                        <li>it is recommended to go to full screen mode so that all available screen space is
+                           used to show the manuscript images and the transcription text;</li>
+                        <li>speaking of "text", note that unfortunately only part of the homilies and poems are
+                           currently available, they will be all present in the final version of the edition;</li>
+                        <li>note that the digitized images, while not too heavy, require some time to load in
+                           the browser window, so we advise against going too fast when moving from folio to
+                           folio, lest the navigation software gets confused;</li>
+                        <li>finally, if you have any suggestions or spot an error/bug please contact me at 
+                           					<a href="mailto:roberto.rossellidelturco@unito.it">roberto.rossellidelturco@unito.it</a>.</li>
+                     </ul>
+                  </div>
+                  <div>This edition was created using <a href="http://evt.labcd.unipi.it/" target="blank">EVT</a>.</div>
+               </div>
+               <div id="welcomeInfo_content_center"><i class="fa fa-caret-down"></i></div>
+               <div id="welcomeInfo_content_bottom"><a href="javascript:void(0);" id="button_welcome_info_cont" class="closeDialog" data-dialog="welcomeInfo_cont" title="CLOSE" lang="def"><button class="button_welcome">start</button></a><div class="neverShowDiv"><input type="checkbox" checked="checked" class="neverShowAgain"></input><span lang="def">NEVER_SHOW_AGAIN</span></div>
+               </div>
+            </div>
+         </div>
+         <div id="EVTinfo_cont" class="dialog" data-content="EVTinfo">
+            <div id="EVTinfo" class="dialog_cont"><a href="javascript:void(0);" class="dialog_close" data-dialog="EVTinfo_cont" title="CLOSE" lang="def"><i class="fa fa-close"></i></a><div class="title main">Information about EVT</div>
+               <div class="dialog_separator"><i class="fa fa-caret-down"></i></div>
+               <div id="EVTinfo_content" class="dialog_cont_inner">
+                  <p>EVT (Edition Visualization Technology) is a software for creating and browsing digital
+                     editions of manuscripts
+                     			based on text encoded according to the TEI XML schemas and Guidelines. This tool
+                     was born as part of the DVB (<a href="http://vbd.humnet.unipi.it/" target="blank"> Digital Vercelli Book</a>) project in order to allow the
+                     			creation of a digital edition of the Vercelli Book, a parchment codex of the late
+                     tenth century, now preserved in
+                     			the Archivio e Biblioteca Capitolare of Vercelli and regarded as one of the four
+                     most important manuscripts of the
+                     			Anglo-Saxon period as regards the transmission of poetic texts in the Old English
+                     language. </p>
+                  <p>To ensure that it will be working on all the most recent web browsers, and for as
+                     long as possible on the World
+                     			Wide Web itself, EVT is built on open and standard web technologies such as HTML,
+                     CSS and JavaScript. Specific
+                     			features, such as the magnifying lens, are entrusted to jQuery plugins, again chosen
+                     among the open source and
+                     			best supported ones to reduce the risk of future incompatibilities. The general
+                     architecture of the software,
+                     			in any case, is modular, so that any component which may cause trouble or turn
+                     out to be not completely up to
+                     			the task can be replaced easily.</p>
+                  <p>For more information about how to use and/or customize EVT please refer to the EVT
+                     Manual included in the
+                     			archive you downloaded, in the "doc" folder.</p>
+                  <p>EVT is used in the following projects:</p>
+                  <ul>
+                     <li><a href="http://pelavicino.labcd.unipi.it/" target="blank">Codice Pelavicino Digitale</a></li>
+                     <li><a href="http://vbd.humnet.unipi.it/" target="blank">Vercelli Book Digitale</a></li>
+                  </ul>
+                  <p>EVT has a home page <a href="http://evt.labcd.unipi.it/" target="blank">here</a> and an older one in the <a href="https://sourceforge.net/p/evt-project/" target="blank">SourceForge</a> repository, but development is done
+                     			on <a href="https://github.com/evt-project/evt-builder" target="blank">GitHub</a>: if you are interested in
+                     			learning more about EVT and/or in adapting it to your specific needs please contact
+                     the project Director, Roberto
+                     			Rosselli Del Turco <a href="mailto:roberto.rossellidelturco@gmail.com" target="_top">roberto.rossellidelturco@gmail.com</a>.</p>
+                  <p>If you have any suggestions or spot an error/bug please contact us at <a href="mailto:evt.developers@gmail.com">evt.developers@gmail.com</a></p>
+               </div>
+            </div>
+         </div>
+         <div id="headerInfo_cont" class="dialog" data-content="headerInfo"></div>
+         <div id="generalBiblio_cont" class="dialog" data-content="generalBiblio"></div>
+         <header id="main_header">
+            <div id="home_title">The Digital Vercelli Book</div>
+            <div class="concave">
+               <div class="extTop">
+                  <div class="topleftconcave"></div>
+               </div>
+               <div class="botleftconcave"></div>
+            </div>
+            <div id="cont_interface_tools">
+               <div id="mode_switch"><a href="javascript:void(0);" id="txtimg_link" class="current_mode mode_view" title="MODE_IMAGE_TEXT" lang="def"><img src="images/img-txt.png" class="mainHeaderimg"></img></a><a href="javascript:void(0);" id="txttxt_link" class="mode_view" title="MODE_TEXT_TEXT" lang="def"><img src="images/txt-txt.png" class="mainHeaderimg"></img></a><a href="javascript:void(0);" id="imgd_link" class="mode_view" title="MODE_BOOKREADER" lang="def"><img src="images/double-view.png" class="mainHeaderimg"></img></a></div><a href="javascript:void(0);" id="settings_link" lang="def" title="SETTINGS"><i class="fa fa-navicon"></i></a><a href="javascript:void(0);" id="main_fullscreen" data-action="go_fullscreen" title="GO_FULLSCREEN" lang="def"><i class="fa fa-expand"></i></a></div>
+         </header>
+         <div id="settings_cont">
+            <div class="setting_row button_like" id="info_link">
+               <div class="setting_row_title"><i class="fa fa-info-circle"></i><span lang="def">PROJECT_INFO</span></div>
+            </div>
+            <div class="setting_row button_like" id="biblio_link">
+               <div class="setting_row_title"><i class="fa fa-book"></i><span lang="def">BIBLIO</span></div>
+            </div>
+            <div class="setting_row button_like" id="biblio_link"><a class="setting_row_title" href="https://www.collane.unito.it/oa/items/show/11" target="blank"><i class="fa fa-external-link"></i><span lang="def">VISIT_WEB_SITE</span></a></div>
+            <div class="setting_row">
+               <div class="setting_row_title"><i class="fa fa-language"></i><span lang="def">LANGUAGES</span>:</div>
+               <div class="setting_row_content"><img src="images/en.gif" class="flag active" data-value="en" lang="def" title="ENGLISH" alt="ENG"></img><img src="images/fr.gif" class="flag" data-value="fr" lang="def" title="FRENCH" alt="FR"></img><img src="images/ita.gif" class="flag" data-value="it" lang="def" title="ITALIAN" alt="ITA"></img><img src="images/de.png" class="flag" data-value="de" lang="def" title="GERMAN" alt="GER"></img><img src="images/cs.png" class="flag" data-value="cs" lang="def" title="CZECH" alt="CZE"></img></div>
+            </div>
+            <div class="setting_row button_like" id="keyboard_shortcuts_link">
+               <div class="setting_row_title"><i class="fa fa-keyboard-o"></i><span lang="def">KEYBOARD_SHORTCUTS</span></div>
+            </div>
+         </div>
+         <section id="central_wrapper" class="hasNavbar navBarExpanded"><i class="fa fa-caret-up" id="header_collapse" data-action="collapse" title="TOGGLE_MENU" lang="def"></i><div class="main_left_arrow" onclick="UnInitialize()" title="PREVIOUS_PAGE" lang="def"></div>
+            <div class="main_right_arrow" title="NEXT_PAGE" lang="def"></div>
+            <div id="main_left_frame" class="main_frame" style=""><i class="fa fa-caret-up go-full-left" id="goFullScreenLeft" title="EXPAND_FRAME" lang="def"></i><header id="left_header" class="top-menu"><i class="fa fa-times-circle closeFullScreen" id="closeFullScreenLeft" title="COLLAPSE_FRAME" lang="def"></i><div id="left_menu"><span id="span_dd_select" class="like_select" lang="def" title="SELECTOR_DOUBLE_PAGE">
+                        <div class="main_dd_select"><span class="label_selected"></span><div class="open_select"><i class="fa fa-sort-desc"></i></div>
+                           <div class="option_container down"></div>
+                        </div></span><span id="thumb_elem-add" class="iconButtons"><a href="javascript:void(0);" class="thumb_link" title="THUMBNAILS" lang="def"><span lang="def">THUMBS</span><i class="fa fa-th"></i></a></span><span id="span_ee_select-add" class=" like_select " title="SELECTOR_EDITION_LEVEL" lang="def">
+                        <div class="main_ee_select"><span class="label_selected"></span><div class="open_select"><i class="fa fa-sort-desc"></i></div>
+                           <div class="option_container down"></div>
+                        </div></span><span class="imageTopTool mainButtons toggleFront" id="switchFront-add" value="info" title="INFORMATION_ABOUT_THIS_TEXT" lang="def"><span lang="def">INFO</span><i class="fa fa-info"></i></span><div id="image_menu"><span class="imageTopTool mainButtons" id="switchHS" value="HS" onclick="switchHS()" title="HOT_SPOTS" lang="def"><span lang="def">HOTSPOTS</span><i class="fa fa-circle-o"></i></span><span class="imageTopTool mainButtons" id="switchITL" value="turn ITL on" onclick="switchITL()" title="IMAGE_TEXT_LINK" lang="def"><span lang="def">IMAGE_TEXT</span><i class="fa fa-chain-broken"></i></span><span id="switch_msDesc" title="MANUSCRIPT_DESCRIPTION" lang="def" class="mainButtons secondary_toggler "><span lang="def">MS_DESC</span><i class="fa fa-info-circle"></i></span></div>
+                  </div>
+               </header>
+               <div id="search_cont-add" class="collapsed bottomBox searchContainer">
+                  <div id="search_header-add" class="bottomBoxHeader"><span id="toggle_search_cont-add" class="mainButtons small toggleSearchButton" data-boxsuffix="-add" title="TOGGLE_SEARCH" lang="def"><i class="fa fa-angle-double-up"></i></span><span id="keyboard_link-add" class="mainButtons small searchKeyboardButton " data-boxsuffix="-add" title="TOGGLE_KEYBOARD" lang="def"><i class="fa fa-keyboard-o"></i></span><span id="search_case_sensitive_toggler-add" class="mainButtons small searchCaseSensitiveButton" data-boxsuffix="-add" title="TOGGLE_CASE_SENSITIVE" lang="def"><i class="fake-icon">
+                           													aA
+                           												</i></span><div id="tipue_search_input_div-add"><input type="text" id="tipue_search_input-add" class="searchInput" data-boxsuffix="-add"></input><i class="fa fa-close clear_input" title="CLEAR_SEARCH" lang="def"></i></div><span id="start_search-add" class="mainButtons small searchStart" data-boxsuffix="-add" title="START_SEARCH" lang="def"><i class="fa fa-search"></i></span></div>
+                  <div id="search_sub_header-add" class="bottomBoxSubHeader">
+                     <div id="search_query-add" class="searchQuery"><span lang="def">ENTER_YOUR_QUERY_INTO_THE_SEARCH_BOX_ABOVE</span></div>
+                     <div id="search_results-add" class="searchResults can-change-font-size"></div>
+                  </div>
+                  <div id="search_cont_results-add" class="bottomBoxContent">
+                     <div id="tipue_search_content-add" class="searchResultsContent"></div>
+                  </div>
+                  <div id="search_foot-add" class="bottomBoxFooter"></div>
+               </div>
+               <div id="text_tool-add" class="bottom-menu hidden"><span id="toggleVersesProseBtn-add" class="mainButtons" data-active-status="prose" data-boxsuffix="" onclick="toggleProseVerses(this)" title="versi/prosa" lang="def"><span lang="def">VERSES</span><i class="fa fa-align-left" aria-hidden="true"></i></span><span id="search_link-add" class="mainButtons searchButton" data-boxsuffix="-add" title="OPEN_SEARCH" lang="def"><span lang="def">SEARCH</span><i class="fa fa-search"></i></span><span id="span_list_select-add" class="like_select filter" title="SELECTOR_ENTITIES" lang="def">
+                     <div class="main_list_select"><span data-value="none" class="label_selected" lang="def">NO_SELECTION</span><div class="open_select open_up"><i class="fa fa-sort-asc"></i></div>
+                        <div class="option_container up"><span lang="def" class="groupTitle" title="NAMED_ENTITIES"><span lang="def">NAMED_ENTITIES</span></span><div class="option" data-value="persName" lang="def" title="persName" data-label="PERSNAME"><i class="fa fa-circle filter_color"></i><span lang="def">PERSNAME</span></div><span lang="def" class="groupTitle" title="OTHERS"><span lang="def">OTHERS</span></span><div class="option" data-value="seg" lang="def" title="seg" data-type="kenning" data-label="KENNING"><i class="fa fa-circle filter_color"></i><span lang="def">KENNING</span></div><span lang="def" class="groupTitle" title="GLOSSARY"><span lang="def">GLOSSARY</span></span><div class="option" data-value="term" lang="def" title="term" data-label="TERM"><i class="fa fa-circle filter_color"></i><span lang="def">TERM</span></div>
+                           <div class="option" data-value="all" lang="def">SELECT_ALL</div>
+                           <div class="option" data-value="clear" lang="def">CLEAR_SELECTION</div>
+                        </div>
+                     </div></span><span class="mainButtons small font-size-controller" data-action="decrease" lang="def" title="DECREASE_FONT_SIZE"><i class="fa fa-font"></i><i class="fa fa-minus"></i></span><span class="mainButtons small font-size-controller" data-action="increase" lang="def" title="INCREASE_FONT_SIZE"><i class="fa fa-font"></i><i class="fa fa-plus"></i></span></div><span id="inside_left_arrow-add" lang="def" title="PREVIOUS_DOCUMENT"><i class="fa fa-chevron-up"></i></span><span id="inside_right_arrow-add" lang="def" title="NEXT_DOCUMENT"><i class="fa fa-chevron-down"></i></span><div id="image_cont" class="inner_frame">
+                  <div id="image_fade">
+                     <div id="image_elem"></div>
+                  </div>
+                  <div id="image_loading"><i class="fa fa-refresh fa-spin"></i></div>
+                  <div id="mag_image_elem"></div>
+                  <div id="image_tool" class="bottom-menu">
+                     <div id="spb"><a id="zoom_orig" class="zoom_btn" href="javascript:void(0);" title="100%" lang="def"><i class="evt-zoom1"></i></a><a id="zoom_fit" class="zoom_btn" href="javascript:void(0);" title="FIT_TO_FRAME" lang="def"><i class="fa evt-zoomfit"></i></a><a id="zoom_out" class="zoom_btn" href="javascript:void(0);" title="ZOOM_OUT" lang="def"><i class="fa evt-zoomminus"></i></a><div id="spb_cont">
+                           <div id="slider"></div>
+                        </div><a id="zoom_in" class="zoom_btn" href="javascript:void(0);" title="ZOOM_IN" lang="def"><i class="fa evt-zoomplus"></i></a></div>
+                     <div id="zval"><span id="zvalint"><span id="val">0</span>%</span><span id="zvalopz"></span></div>
+                  </div><input id="dimFit" type="hidden" value=""></input><input id="imgTit" type="hidden" value=""></input></div>
+               <div id="thumb_cont" class="inner_frame secondary_content full-height"></div>
+               <div id="viscoll_cont" class="inner_frame secondary_content full-height"></div>
+               <div id="msDesc_cont" class="inner_frame secondary_content full-height "></div>
+            </div>
+            <div id="main_right_frame" class="main_frame"><i class="fa fa-caret-up go-full-right" id="goFullScreenRight" title="EXPAND_FRAME" lang="def"></i><header id="right_header" class="top-menu">
+                  <div id="right_menu"><span id="span_tt_select" class="like_select" title="SELECTOR_TEXT" lang="def">
+                        <div class="main_tt_select"><span class="label_selected"></span><div class="open_select"><i class="fa fa-sort-desc"></i></div>
+                           <div class="option_container down"></div>
+                        </div></span><span id="span_pp_select" class="like_select right_menu groupByDoc optionDocTooltip" title="SELECTOR_PAGE" lang="def">
+                        <div class="main_pp_select"><span class="label_selected"></span><div class="open_select"><i class="fa fa-sort-desc"></i></div>
+                           <div class="option_container down"></div>
+                        </div></span><span id="span_ee_select" title="SELECTOR_EDITION_LEVEL" lang="def" class="like_select ">
+                        <div class="main_ee_select"><span class="label_selected"></span><div class="open_select"><i class="fa fa-sort-desc"></i></div>
+                           <div class="option_container down"></div>
+                        </div></span><span class="imageTopTool mainButtons toggleFront " id="switchFront" value="reg" title="INFORMATION_ABOUT_THIS_TEXT" lang="def"><span lang="def">INFO</span><i class="fa fa-info-circle"></i></span></div><i class="fa fa-times-circle closeFullScreen" id="closeFullScreenRight" title="COLLAPSE_FRAME" lang="def"></i></header>
+               <div id="front_cont" class="text-box can-change-font-size inner_frame "></div>
+               <div id="text_cont" class="text-box can-change-font-size inner_frame">
+                  <div id="text_elem">
+                     <div id="front_frame"></div>
+                     <div id="text_frame"></div>
+                  </div>
+               </div>
+               <div id="search_cont" class="collapsed bottomBox searchContainer">
+                  <div id="search_header" class="bottomBoxHeader"><span id="toggle_search_cont" class="mainButtons small toggleSearchButton" data-boxsuffix="" title="TOGGLE_SEARCH" lang="def"><i class="fa fa-angle-double-up"></i></span><span id="keyboard_link" class="mainButtons small searchKeyboardButton " data-boxsuffix="" title="TOGGLE_KEYBOARD" lang="def"><i class="fa fa-keyboard-o"></i></span><span id="search_case_sensitive_toggler" class="mainButtons small searchCaseSensitiveButton" data-boxsuffix="" title="TOGGLE_CASE_SENSITIVE" lang="def"><i class="fake-icon">
+                           												aA
+                           											</i></span><div id="tipue_search_input_div"><input type="text" id="tipue_search_input" class="searchInput" data-boxsuffix=""></input><i class="fa fa-close clear_input" title="CLEAR_SEARCH" lang="def"></i></div><span id="start_search" class="mainButtons small searchStart" data-boxsuffix="" title="START_SEARCH" lang="def"><i class="fa fa-search"></i></span></div>
+                  <div id="search_sub_header" class="bottomBoxSubHeader">
+                     <div id="search_query" class="searchQuery"><span lang="def">ENTER_YOUR_QUERY_INTO_THE_SEARCH_BOX_ABOVE</span></div>
+                     <div id="search_results" class="searchResults"></div>
+                  </div>
+                  <div id="search_cont_results" class="bottomBoxContent">
+                     <div id="tipue_search_content" class="searchResultsContent can-change-font-size"></div>
+                  </div>
+                  <div id="search_foot" class="bottomBoxFooter"></div>
+               </div>
+               <div id="lists_cont" class="bottomBox">
+                  <div id="list_header" class="bottomBoxHeader"><span id="toggle_list_cont" class="mainButtons small" title="TOGGLE_LISTS" lang="def"><i class="fa fa-angle-double-down"></i></span><div id="list_header_elements">
+                        <div id="list_header_elements_contents"></div>
+                     </div><span id="navListHeadersLx" class="mainButtons small no-margin"><i class="fa fa-angle-left"></i></span><span id="navListHeadersRx" class="mainButtons small"><i class="fa fa-angle-right"></i></span></div>
+                  <div id="list_letters" class="bottomBoxContent"><span class="list_filter" data-filter-type="first_letter" data-value="A">A</span><span class="list_filter" data-filter-type="first_letter" data-value="B">B</span><span class="list_filter" data-filter-type="first_letter" data-value="C">C</span><span class="list_filter" data-filter-type="first_letter" data-value="D">D</span><span class="list_filter" data-filter-type="first_letter" data-value="E">E</span><span class="list_filter" data-filter-type="first_letter" data-value="F">F</span><span class="list_filter" data-filter-type="first_letter" data-value="G">G</span><span class="list_filter" data-filter-type="first_letter" data-value="H">H</span><span class="list_filter" data-filter-type="first_letter" data-value="I">I</span><span class="list_filter" data-filter-type="first_letter" data-value="J">J</span><span class="list_filter" data-filter-type="first_letter" data-value="K">K</span><span class="list_filter" data-filter-type="first_letter" data-value="L">L</span><span class="list_filter" data-filter-type="first_letter" data-value="M">M</span><span class="list_filter" data-filter-type="first_letter" data-value="N">N</span><span class="list_filter" data-filter-type="first_letter" data-value="O">O</span><span class="list_filter" data-filter-type="first_letter" data-value="P">P</span><span class="list_filter" data-filter-type="first_letter" data-value="Q">Q</span><span class="list_filter" data-filter-type="first_letter" data-value="R">R</span><span class="list_filter" data-filter-type="first_letter" data-value="S">S</span><span class="list_filter" data-filter-type="first_letter" data-value="T">T</span><span class="list_filter" data-filter-type="first_letter" data-value="U">U</span><span class="list_filter" data-filter-type="first_letter" data-value="V">V</span><span class="list_filter" data-filter-type="first_letter" data-value="W">W</span><span class="list_filter" data-filter-type="first_letter" data-value="X">X</span><span class="list_filter" data-filter-type="first_letter" data-value="Y">Y</span><span class="list_filter" data-filter-type="first_letter" data-value="Z">Z</span><span lang="def" class="list_filter" data-filter-type="first_letter" data-value="*">ALL</span></div>
+                  <div id="list_tools" class="bottomBoxContent"><span id="span_listDoc_select" class="like_select" title="SELECTOR_SORT_ATTRIBUTE" lang="def">
+                        <div class="docList_sort_attribute_select"><span data-value="sort_date" class="label_selected" lang="def">DATE</span><div class="open_select open_down"><i class="fa fa-sort-desc"></i></div>
+                           <div class="option_container down">
+                              <div class="option" data-value="sort_date" lang="def">DATE</div>
+                              <div class="option" data-value="sort_document" lang="def">DOCUMENT</div>
+                           </div>
+                        </div></span><div id="sortingOrder" class="mainButtons" title="SORT_ORDER" lang="def" onclick="toggleSortingOrder(this)"><span lang="def" data-lang="ASCENDING_ORDER" data-button-sort="asc">ASCENDING_ORDER</span><i class="fa fa-sort-amount-asc"></i></div>
+                  </div>
+               </div><span id="inside_left_arrow" title="PREVIOUS_DOCUMENT" lang="def"><i class="fa fa-chevron-up"></i></span><span id="inside_right_arrow" title="NEXT_DOCUMENT" lang="def"><i class="fa fa-chevron-down"></i></span><div id="text_tool" class="bottom-menu"><span id="toggleVersesProseBtn" class="mainButtons" data-active-status="prose" data-boxsuffix="" onclick="toggleProseVerses(this)" title="versi/prosa" lang="def"><span lang="def">Versi</span><i class="fa fa-align-left" aria-hidden="true"></i></span><span id="search_link" class="mainButtons searchButton" data-boxsuffix="" title="OPEN_SEARCH" lang="def"><span lang="def">SEARCH</span><i class="fa fa-search"></i></span><span id="list_link" class="mainButtons" title="OPEN_LISTS" lang="def"><span lang="def">LISTS</span><i class="fa fa-list"></i></span><span id="span_list_select" class="like_select filter" title="SELECTOR_ENTITIES" lang="def">
+                     <div class="main_list_select"><span data-value="none" class="label_selected" lang="def">NO_SELECTION</span><div class="open_select open_up"><i class="fa fa-sort-asc"></i></div>
+                        <div class="option_container up"><span lang="def" class="groupTitle" title="NAMED_ENTITIES"><span lang="def">NAMED_ENTITIES</span></span><div class="option" data-value="persName" lang="def" title="persName" data-label="PERSNAME"><i class="fa fa-circle filter_color"></i><span lang="def">PERSNAME</span></div><span lang="def" class="groupTitle" title="OTHERS"><span lang="def">OTHERS</span></span><div class="option" data-value="seg" lang="def" title="seg" data-type="kenning" data-label="KENNING"><i class="fa fa-circle filter_color"></i><span lang="def">KENNING</span></div><span lang="def" class="groupTitle" title="GLOSSARY"><span lang="def">GLOSSARY</span></span><div class="option" data-value="term" lang="def" title="term" data-label="TERM"><i class="fa fa-circle filter_color"></i><span lang="def">TERM</span></div>
+                           <div class="option" data-value="all" lang="def">SELECT_ALL</div>
+                           <div class="option" data-value="clear" lang="def">CLEAR_SELECTION</div>
+                        </div>
+                     </div></span><span class="mainButtons small font-size-controller" data-action="decrease" title="DECREASE_FONT_SIZE" lang="def"><i class="fa fa-font"></i><i class="fa fa-minus"></i></span><span class="mainButtons small font-size-controller" data-action="increase" title="INCREASE_FONT_SIZE" lang="def"><i class="fa fa-font"></i><i class="fa fa-plus"></i></span></div>
+            </div>
+         </section>
+         <section id="central_button"><input id="folio_page_number" type="hidden" value=""></input></section>
+         <div id="poweredBy">Powered by EVT 1.3.2</div>
+         <div id="BRnav" class="expanded">
+            <div class="leftSideButtons"><span class="mainButtons secondary_toggler thumb_link" id="thumb_elem" value="th" title="THUMBNAILS"><i class="fa fa-th"></i></span><span class="mainButtons secondary_toggler viscoll_link" id="viscoll" value="th" title="VISCOLL"></span></div>
+            <div id="BRnavpos">
+               <div id="BRpager"></div>
+            </div>
+            <div id="pagenum"></div>
+            <div id="BRpage"><span class="mainButtons" id="BRicon_book_start"><i class="fa fa-minus fa-rotate-90"></i><i class="fa fa-chevron-left"></i></span><span class="mainButtons" id="BRicon_book_left"><i class="fa fa-chevron-left"></i></span><span class="mainButtons" id="BRicon_book_right"><i class="fa fa-chevron-right"></i></span><span class="mainButtons" id="BRicon_book_end"><i class="fa fa-chevron-right"></i><i class="fa fa-minus fa-rotate-90"></i></span></div>
+            <div id="BRnavCntlBtm" class="BRnavCntl BRdn"><i class="fa fa-caret-down fa-lg"></i></div>
+         </div>
+         <footer>
+            <p>2012 - 2018 @ EVT team – University of Pisa</p>
+         </footer>
+      </div>
+      <!--jQuery lib--><script type="text/javascript" src="./js/jquery_lib/jquery-latest.js"></script><script type="text/javascript" src="./js/jquery_lib/jquery-ui-latest.js"></script>
+      <!--/jQuery lib--><!--Infinite Scroll--><script type="text/javascript" src="./js/plugin/jquery.jscroll.min.js"></script>
+      <!--/ Infinite Scroll--><!--main lib--><!--interface control--><script type="text/javascript" src="./js/main/interface_control/ic_generic_bindings.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_global_menu.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_internal_fullscreen.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_lists.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_navigation.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_prefatory_matter.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_resizings.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_search.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_viewModes.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_viewVerses.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_hashChange.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_init.js"></script><script type="text/javascript" src="./js/main/interface_control/ic_main.js"></script>
+      <!--/interface control--><script type="text/javascript" src="./js/main/utils.js"></script>
+      <!--/main lib--><!--keydown--><script src="./js/plugin/jquery.rafmas-keydown.js"></script>
+      <!--/keydown--><!--iViewer--><script type="text/javascript" src="./js/plugin/jquery_iviewer/jquery.mousewheel.min.js"></script><script type="text/javascript" src="./js/plugin/jquery_iviewer/jquery.iviewer.js"></script><script type="text/javascript" src="./js/plugin_settings/iviewer_config.js"></script>
+      <!--/iViewer--><!--magnifier--><script type="text/javascript" src="./js/plugin/jquery.jqzoom-core.js"></script><script type="text/javascript" src="./js/main/switchZM.js"></script>
+      <!--/magnifier--><!--hashchange--><script src="./js/plugin/jquery.ba-bbq.js"></script>
+      <!--/hashchange--><!--image text link--><script type="text/javascript" src="./js/main/ImageTextLink.js"></script>
+      <!--/image text link--><!--page data--><script type="text/javascript" src="./js/main/page_data-include.js"></script>
+      <!--/page data--><!--highlight--><script type="text/javascript" src="./js/plugin/jquery.highlight_mod.js"></script>
+      <!--/highlight--><!--TipueSearch--><script type="text/javascript" src="./js/plugin/tipuesearch/tipuesearch.js"></script><script type="text/javascript" src="./js/plugin/tipuesearch/tipuesearch_content.js"></script><script type="text/javascript" src="./js/plugin/tipuesearch/tipuesearch_set.js"></script>
+      <!--/TipueSearch--><!--search--><script type="text/javascript" src="./js/main/search.js"></script>
+      <!--/search--><!--BRnav--><script type="text/javascript" src="./js/main/interface_control/ic_BRnav.js"></script>
+      <!--/BRnav--><!--VisColl--><script type="text/javascript" src="./js/main/interface_control/ic_viscoll.js"></script>
+      <!--/VisColl--><script src="js/main/fullscreen_request.js"></script><script></script></body>
+</html>
