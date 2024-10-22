@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Copyright (C) 2013-2017 the EVT Development Team.
+    
+    EVT 1 is free software: you can redistribute it 
+    and/or modify it under the terms of the 
+    GNU General Public License version 2
+    available in the LICENSE file (or see <http://www.gnu.org/licenses/>).
+    
+    EVT 1 is distributed in the hope that it will be useful, 
+    but WITHOUT ANY WARRANTY; without even the implied 
+    warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+    See the GNU General Public License for more details. 
+-->
+<xsl:stylesheet xpath-default-namespace="http://www.tei-c.org/ns/1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:eg="http://www.tei-c.org/ns/Examples"
+    xmlns:xd="http://www.pnp-software.com/XSLTdoc" 
+    xmlns:fn="http://www.w3.org/2005/xpath-functions"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="#all">
+  	
+	<!--<xsl:import href="modules/xml-to-string.xsl"/>-->
+	
+	<xd:doc type="stylesheet">
+		<xd:author>RafMas</xd:author>
+		<xd:short>
+			EN: Transformation from TEI P5 to HTML5
+			IT: Strumento di trasformazione da TEI P5 ad HTML5
+		</xd:short>
+		  <xd:detail>
+			EN: This is the main file to perform the transformation, it is used to include all other evt_builder-*.xsl modules		
+			IT: Questo è il file principale per effettuare la trasformazione, serve per includere tutti gli altri moduli evt_builder-*.xsl		
+		  </xd:detail>
+	</xd:doc>
+
+	<!-- Basic -->
+	<xsl:include href="modules/evt_builder-main.xsl"/>
+	<xsl:include href="../config/evt_builder-config.xsl"/>
+
+	<xsl:variable name="evtVersion" select="'1.3.2'"/>
+
+	<xsl:include href="modules/fundamental_units/evt_builder-copy_and_call_main.xsl"/>
+	<xsl:include href="modules/fundamental_units/evt_builder-structure.xsl"/>
+	
+	<!-- Image-Text link & HotSpot-->
+	<xsl:include href="modules/fundamental_units/evt-builder_imagetext-link_hotspot.xsl"/>
+
+	<!-- Biblio -->
+	<xsl:include href="modules/elements/evt_builder-biblio.xsl"/>
+	
+	<!-- HTML structure -->
+	<xsl:include href="modules/html_build/evt_builder-callhtml.xsl"/>
+	<xsl:include href="modules/html_build/evt_builder-callhtml-prefatory_matter.xsl"/>
+	<xsl:include href="modules/html_build/evt_builder-function.xsl"/>
+		
+	<!-- Elements -->
+	<xsl:include href="modules/elements/evt_builder-divLine.xsl"/>
+	<xsl:include href="modules/elements/evt_builder-header-info.xsl"/>
+	<xsl:include href="modules/elements/evt_builder-ms-desc.xsl"/>
+	<!--<xsl:include href="modules/elements/process4.xsl"/>-->
+	
+	<!--<xsl:include href="modules/elements/process5.xsl"/>-->
+	
+	<!-- Elements for diplomatic version-->
+	<xsl:include href="modules/elements/evt_builder-dipl-core.xsl"/>
+	<xsl:include href="modules/elements/evt_builder-dipl-multi_module.xsl"/>
+	<!--<xsl:include href="modules/elements/evt_builder-dipl-textstructure.xsl"/>--> <!-- Added By JK-->
+	<!-- Elements for namedEntities-->
+	<xsl:include href="modules/elements/evt_builder-namedEntities.xsl"/>
+
+	<xsl:include href="modules/elements/evt_builder-lists.xsl"/>
+	
+	<!-- Elements for interpretative version-->
+	<xsl:include href="modules/elements/evt_builder-interp-core.xsl"/>
+	<xsl:include href="modules/elements/evt_builder-interp-multi_module.xsl"/>
+	<!--<xsl:include href="modules/elements/evt_builder-interp-textstructure.xsl"/>-->
+	
+	<!-- Elements for translation version -->  <!-- Added By FS -->
+	<xsl:include href="modules/elements/evt_builder-transl-core.xsl"/>
+
+	<!-- Elements for facsimile version -->
+	
+	<!-- Generic transformations -->
+	<xsl:include href="modules/elements/evt_builder-general.xsl"/>
+	
+	<!-- Extra -->
+	<xsl:include href="modules/extra/functx-1.0.xsl"/>
+	
+	<!-- Viscoll -->
+	<xsl:include href="modules/viscoll/evt_builder-viscoll.xsl"/>
+	<xsl:include href="modules/viscoll/process_idno.xsl"/>
+	<xsl:include href="modules/viscoll/process4.xsl"/>
+	<xsl:include href="modules/viscoll/process5.xsl"/>
+	<xsl:include href="modules/viscoll/process6.xsl"/>
+	<xsl:include href="modules/viscoll/process7.xsl"/>
+	<xsl:include href="modules/viscoll/process7-diagrams.xsl"/>
+	
+	
+	
+	<!-- Generation of text label from id. -->
+	<xsl:include href="modules/elements/evt_builder-generate-text_label.xsl"/>
+	
+	<!-- Custom templates -->
+	<xsl:include href="../config/evt_builder-custom-templates.xsl"/>
+	
+</xsl:stylesheet>
