@@ -1,0 +1,243 @@
+/**
+ * Copyright (C) 2013-2017 the EVT Development Team.
+ *
+ * EVT 1 is free software: you can redistribute it
+ * and/or modify it under the terms of the
+ * GNU General Public License version 2
+ * available in the LICENSE file (or see <http://www.gnu.org/licenses/>).
+ *
+ * EVT 1 is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied
+ * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details.
+ *
+ **/
+
+div#CurrentAnnotation{
+    display: none;
+}
+
+div.Annotation{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #4E443C;
+    border-radius: 2px;
+    padding: 0;
+    width: 300px;
+    text-align: left;
+}
+
+div.AnnTitleBar{
+
+}
+
+div.PopupCloser{
+/* Floating right causes the containing element to stretch to its max-width. :-( */
+    float: right;
+    width: 1em;
+    margin-right: 0;
+    text-align: center;
+    font-variant: small-caps;
+    font-stretch: extra-expanded;
+    cursor: pointer;
+    height: 17px;
+    line-height: 17px;
+    font-size: 17px;
+    color: #F5EAD4;
+}
+
+div.PopupCloser:hover{
+    opacity: .8;
+}
+div.Annotation img{
+  max-width: 250px;
+  max-height: 250px;
+  margin: 5px;
+  display: block;
+}
+
+div.AnnText{
+    border-top: 2px solid #4E443C;
+    font-size: 16px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+}
+/*
+#buttons{
+	position: absolute;
+	left: 1100px;}
+
+#AnnMenuContainer{
+    position: relative;
+	left: 600px;
+    padding: 0.2em;
+    width: 400px;
+	height: 800px;
+    border: 2px solid #d0d0f0;
+    background-color: #bbbbdd;
+    color: #000000;
+    max-width: 33%;
+}
+*/
+#AnnMenuTitle, div.Annotation div.AnnTitlebar{
+	height: 20px;
+    background-color: #bbbbdd;
+    color: #000000;
+    cursor: move;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.AnnTitle{
+    width: 100%;
+    height: 100%;
+    background-color: #4E443C;
+    /*background-color: #F5EAD4;*/
+}
+/*
+#AnnMenu{
+    margin: 0;
+    padding: 0;
+    font-family: "trebuchet ms", verdana, sans-serif;
+	border: 1px solid green;
+    list-style-type: none;
+    background-color: #ffffff;
+    color: #000000;
+    overflow: auto;
+	position: relative;
+	top: -790px;
+}
+
+.CategoryTitleClosed{
+    cursor: pointer;
+    font-weight: bold;
+}
+*/
+
+#AnnMenu>li{
+    padding: 0.25em;
+    margin: 0.2em;
+    /*cursor: pointer;*/
+}
+
+.AnnSubmenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*.AnnSubmenu>li{
+    margin-left: 0.5em;
+}*/
+
+.AnnMenuItem{
+    /*cursor: pointer;*/
+    color: #000000;
+    background-color: #ffffff;
+    /*margin:1px 0px;*/
+    border:1px solid #fff;
+}
+
+.HighlightedAnnMenuItem{
+    cursor: pointer;
+    background-color: rgba(230,206,160,0.8); /*d5b17d e4c89b*/
+	/*opacity: 0.8;
+	filter:alpha(opacity=80);  For IE8 and earlier */
+	border: 1px solid #b99562;
+    color: #000000;
+}
+
+.SelectedAnnMenuItem{
+    cursor: pointer;
+    background-color: rgba(213,177,125,0.9);
+    /*opacity: 0.9;
+    filter:alpha(opacity=90);  For IE8 and earlier */
+    border: 1px solid #b99562;
+    color: #000000;
+}
+
+/* Modifiche per gestione VERSI/PROSA */
+[data-prose-verses-status='verses'] .AnnMenuItem,
+[data-prose-verses-status='verses'] .HighlightedAnnMenuItem,
+[data-prose-verses-status='verses'] .SelectedAnnMenuItem,
+[data-prose-verses-status='verses'] div.dipl-left,
+[data-prose-verses-status='verses'] .dipl.line,
+[data-prose-verses-status='verses'] div.interp-left,
+[data-prose-verses-status='verses'] .interp.line {
+    display: inline !important;
+}
+[data-prose-verses-status='verses'] .AnnSubmenu {
+    margin-left: 20px;
+}
+div.dipl-left, div.interp-left {
+    width: 100%;
+}
+/* CDP provvisorio */
+.HighlightedAnnMenuItem div.dipl-right, .HighlightedAnnMenuItem div.dipl-center, .HighlightedAnnMenuItem div.interp-right, .HighlightedAnnMenuItem div.interp-center, .HighlightedAnnMenuItem div.tdipl-right, .HighlightedAnnMenuItem div.tdipl-center, .HighlightedAnnMenuItem div.crit-right, .HighlightedAnnMenuItem div.crit-center, .HighlightedAnnMenuItem div.transl-right, .HighlightedAnnMenuItem div.transl-center,
+.SelectedAnnMenuItem div.dipl-right, .SelectedAnnMenuItem div.dipl-center, .SelectedAnnMenuItem div.interp-right, .SelectedAnnMenuItem div.interp-center .SelectedAnnMenuItem div.tdipl-right, .SelectedAnnMenuItem div.tdipl-center, .SelectedAnnMenuItem div.crit-right, .SelectedAnnMenuItem div.crit-center, .SelectedAnnMenuItem div.transl-right, .SelectedAnnMenuItem div.transl-center {
+    background-color: transparent;
+}
+/*FS : cambio colore di evidenziazione Image Text Link*/
+div.AreaHS{
+    border: 1px solid #4c2f2f;
+    background-color: #c67261;
+   	opacity: 0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+div.SelectedArea,
+div.SelectedAreaHS{
+    border: 1px solid #4c2f2f;
+	background-color: #9c4837;
+	opacity: 0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.HighlightedArea,
+div.HighlightedAreaHS{
+    border: 1px solid #4c2f2f;
+	background-color: #c67261;
+	opacity: 0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+/*p{
+    margin: 0.25em;
+}
+
+div.Para{
+    margin: 0.25em;
+}
+
+div.Stanza{
+    margin: 0.5em;
+}
+
+div.BlockCit{
+    margin: 1em;
+}
+
+div.BlockCitBibl{
+    text-align: right;
+}
+
+
+div#Zoom{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #ffffff;
+}
+
+div#Zoom img{
+    position: relative;
+}
+*/

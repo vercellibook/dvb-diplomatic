@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei-vbd.rng" 
+                       title="Vercelli Book Digital standard schema" 
+                       schematypens="http://relaxng.org/ns/structure/1.0" 
+                       type="application/xml"
+                     ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <teiHeader>
+    
+    <!-- CHECK all minimal TEI headers for
+
+      - correct assignment of <resp> (dall'Omelia V in poi in particolare per RC e FG, mantenere EM solo dove c'è la <revision> corrispondente)
+      - il valore di <author> (inserire Cynewulf dove appropriato)
+
+    -->
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>The Vercelli Book: a digital facsimile with transcription of selected texts</title>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup: </resp>
+          <name>Raffaele Cioffi</name>
+          <name>Federica Goria</name>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Elisabetta Magnanti</name>
+        </respStmt>
+        <respStmt>
+          <resp>General overview: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+        <respStmt>
+          <resp>Experimental style sheets: </resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>Second digital edition (beta 2) of the <title>Vercelli Book</title>, April 2016. The first one was
+          released in beta version during <date>January 2014</date> (announcement and preliminary version dating to
+            <date>Christmas 2013</date>). Encoded according to the TEI P5 schemas and <title>Guidelines</title> within
+          the <ref target="http://vbd.humnet.unipi.it/">Digital Vercelli Book</ref> project.</edition>
+        <principal>Roberto Rosselli Del Turco</principal>
+      </editionStmt>
+
+      <extent>[??] kilobytes</extent>
+
+      <publicationStmt>
+        <authority>Digital Vercelli Book Project</authority>
+        <date>2004-</date>
+        <availability status="restricted">
+          <p>Not to ricirculate. Contact the Digital Vercelli Book Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Italy</country>
+            <settlement>Vercelli</settlement>
+            <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+            <idno>CXVII</idno>
+            <msName>Vercelli Book</msName>
+            <msName>Codex Vercellensis</msName>
+          </msIdentifier>
+          <msContents>
+            <summary>The Codex Vercellensis, or Vercelli Book, as it is known in the Anglo-Saxon world and now also in
+              Italy, is a manuscript dating back to the end of the 10th century, containing miscellaneous religious
+              works, in verse and prose: 23 homilies in prose and 6 poetic works following the Anglo-Saxon alliterative
+              metrics. </summary>
+            <!-- check language code DONE -->
+            <textLang mainLang="ang" otherLangs="lat">The primary language in this manuscript is Old English, with a few
+              isolated Latin words and phrases.</textLang>
+
+            <!-- is an item for the whole MS necessary?
+                  <msItem>
+                     <locus from="1r" to="234r">1r - 135v</locus>
+                     <title type="work">Vercelli Book</title>
+                      -->
+
+            <!-- NB all incipit/explicit content for homilies to be changed
+                  add "ff. " to <locus> elements content; add @target as well? 
+            -->
+
+            <msItem>
+              <locus from="1r" to="9r">ff. 1r - 9r</locus>
+              <title subtype="prose" type="work">Homily I</title>
+              <incipit>ſceaþe for þan ne meaht ðu þa þrowunge gelettan</incipit>
+              <explicit>ain ecneꞅꞅe þurh eallra woruld aworuld AmeN abutan ende</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="9v" to="12r">ff. 9v - 12r</locus>
+              <title subtype="prose" type="work">Homily II</title>
+              <incipit>MENÐALE OFESTAN. þæꞅ myclan dóm dægeꞅ worc bið ſwiðe egeꞅ lic ⁊andryꞅ</incipit>
+              <explicit>þurh ealra woruld aworuld aabutan ende am̄</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="12v" to="16r">ff. 12v - 16r</locus>
+              <title subtype="prose" type="work">Homily III</title>
+              <incipit>BRoðor þa leofestan ic cyðe þæt þreo þing ſynt ærest</incipit>
+              <explicit>á in ecneꞅꞅe þurh ealra woruld aworuld aabutan ende AMEN.</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="16v" to="24v">ff. 16v - 24v</locus>
+              <title subtype="prose" type="work">Homily IV</title>
+              <incipit>Men þa leofestan, ıc eow bidde ⁊eaðmodlice lære</incipit>
+              <explicit>þær he leofað ⁊ricꞅað ın ealra worulda woruld abutan ende amen;</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="25r" to="29r">ff. 25r - 29r</locus>
+              <title subtype="prose" type="work">Homily V</title>
+              <incipit>to middan wintra Oſtende nob̄ dne</incipit>
+              <explicit>we ureꞅ dryhtneꞅ naman hælendeꞅ criſteꞅ he leofað ⁊ricꞅað áábutan ende ;</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="29v" to="52v">ff. 29v - 52v</locus>
+              <title subtype="poetry" type="work">Andreas</title>
+              <incipit>Hwæt! We gefrunan on fyrndagum</incipit>
+              <explicit>ece mid englum. þæt is æðele cyning!</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="52v" to="54r">ff. 52v - 54r</locus>
+              <title subtype="poetry" type="work">Fates of the Apostles</title>
+              <incipit>Hwæt! Ic þysne sang siðgeomor fand</incipit>
+              <explicit>ece ond edgiong, ofer ealle gesceaft.</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="54v" to="56r">ff. 54v - 56r</locus>
+              <title subtype="prose" type="work">Homily VI</title>
+              <incipit>INcipit narrare miracula quefacta fuerant ante aduentum saluatoris</incipit>
+              <explicit>gyldeð uꞅ god ece mede æt uꞅꞅum ende;</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="56v" to="59r">ff. 56v - 59r</locus>
+              <title subtype="prose" type="work">Homily VII</title>
+              <incipit>BUTAN tweon lar iꞅ halig domeꞅ dæl ⁊ealleꞅ ſwiðoſt</incipit>
+              <explicit>ꞅynt onþã toweardan rice mid þam hælendan criſte. ⁊midþã halegan gaſte ınealra worulda
+                woruld;</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="59r" to="61r">ff. 59r - 61r</locus>
+              <title subtype="prose" type="work">Homily VIII</title>
+              <incipit>MENĐA leofeꞅtan manað uꞅ ⁊myngað onþyꞅꞅum bocum</incipit>
+              <explicit>⁊ mid ðam godeꞅ ꞅuna ðam þe aliofað ⁊rixaþ mid fæder ⁊mid ꞅuna ato widan feore ameN</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="61r" to="65r">ff. 61r - 65r</locus>
+              <title subtype="prose" type="work">Homily IX</title>
+              <incipit>MEN ðaleofestan manað uꞅ ⁊mingaþ þeoꞅ halige boc þæt</incipit>
+              <explicit>we mid him ⁊mid hiꞅ þam halegan gæꞅte wunigean ınealra worulda woruld ameN ;</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="65r" to="71r">ff. 65r - 71r</locus>
+              <title subtype="prose" type="work">Homily X</title>
+              <incipit>HERsagað on þyꞅꞅum halegũ bocum be ælmihtigeꞅ</incipit>
+              <explicit>drihten criſt wunaþ ⁊rixað mid eallũ halegum abutan ende ameN</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="71v" to="73v">ff. 71v - 73v</locus>
+              <title subtype="prose" type="work">Homily XI</title>
+              <incipit>ſpelto forman gang dæge. MEN ðaleofestan þiꞅ ꞅindon halige dagaꞅ ⁊halwendlice</incipit>
+              <explicit>gefultumige þe ofer uꞅ ealle liofað ⁊rixað. ameN</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="73v" to="75v">ff. 73v - 75v</locus>
+              <title subtype="prose" type="work">Homily XII</title>
+              <incipit>ſpeltoðam oðrum gang dæge GIR ꞅan dæg we wæron manode menþa leofestan þiꞅꞅa haliga</incipit>
+              <explicit>midhim ⁊mid hiꞅ halgum ainealra worulda woruld on ecnesse </explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="75v" to="76v">ff. 75v - 76v</locus>
+              <title subtype="prose" type="work">Homily XIII</title>
+              <incipit>ſpelto þriddan gangdæge ÐISISꞅe þridda dæg men þa leofeſtan þyꞅꞅe halgan tide þe uꞅ</incipit>
+              <explicit>world to widan feore midfæder ⁊mid ꞅuna ⁊midþam halgan gaſte in ecneꞅꞅe ameN </explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="76v" to="80v">ff. 76v - 80v</locus>
+              <title subtype="prose" type="work">Homily XIV</title>
+              <incipit>lar ſpel to ſwylcere tide ſwa man wile . MEN ða leofestan þiꞅꞅynt halige dagaꞅ ⁊gaſtlice ⁊uꞅꞅũ </incipit>
+              <explicit>odeꞅ halgum onþone heofen lican eðel ⁊þæꞅ ꞅiððan brucan onecneꞅꞅe amen ;</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="80v" to="85v">ff. 80v - 85v</locus>
+              <title subtype="prose" type="work">Homily XV</title>
+              <incipit>ALIA OMELIADEDI E IVDICII. M sægð us onþyꞅꞅum bocum huꞅe halga thomas godes apsł</incipit>
+              <explicit>ece gefean abutan ende ı scl̄a scl̄orum in secula seculorum ameN</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="85v" to="90v">ff. 85v - 90v</locus>
+              <title subtype="prose" type="work">Homily XVI</title>
+              <incipit>OMELIA EPYFFANIA DNI M̄ sceolon we nú hwylcum hwegm wordum secgan be </incipit>
+              <explicit>rixað nú áþurh eallra woruld áworuld ábutan ende ın ꞅclā sclōrum ameN.</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="90v" to="94v">ff. 90v - 94v</locus>
+              <title subtype="prose" type="work">Homily XVII</title>
+              <incipit>DEPURIFICATIO SCAMIA M[Men þa leofestan] sægeð uꞅ ⁊myngaþ þiꞅ halige god ſpel be þysse
+                arwyrðan</incipit>
+              <explicit>aworuld abutan ende ınsca scorum am̄;in sæcula sæculorum, amen.</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="94v" to="101r">ff. 94v - 101r</locus>
+              <title subtype="prose" type="work">Homily XVIII</title>
+              <incipit>DE SCO MARTINO CONF. M̄ magon we nu hwylcum hwego wordum asecgan</incipit>
+              <explicit>leofaþ ⁊rixaþ á ıneallra woruld aworld abutan ende ameN;</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="101v" to="103v">ff. 101v - 103v</locus>
+              <title subtype="poetry" type="work">Soul and Body I</title>
+              <incipit>Huru, ðæs behofað hæleða æghwylc</incipit>
+              <explicit>geþungen þrymlice þysses</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="104r" to="104v">ff. 104r - 104v</locus>
+              <title subtype="poetry" type="work">Homiletic Fragment I</title>
+              <incipit>sorh cymeð / manig ond mislic in manna dream.</incipit>
+              <explicit>eorðan lifes ende gewyrcan!</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="104v" to="106r">ff. 104v - 106r</locus>
+              <title subtype="poetry" type="work">The Dream of the Rood</title>
+              <incipit>Hwæt! Ic swefna cyst secgan wylle</incipit>
+              <explicit>ælmihtig god, þær his eðel wæs</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="106v" to="109v">ff. 106v - 109v</locus>
+              <title subtype="prose" type="work">Homily XIX</title>
+              <incipit>MENða leofestan uꞅ gedafenaþ æreꞅt</incipit>
+              <explicit>ꞅuna . ⁊mid þam haligan gaſte . ábutan ende amen :,</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="109v" to="112r">ff. 109v - 112r</locus>
+              <title subtype="prose" type="work">Homily XX</title>
+              <incipit>MMEMENNÐA leofestan þiſ ꞅyndon halige dagaꞅ ⁊hal</incipit>
+              <explicit>efen ecan haligan gafre abutan ende :,</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="112r" to="116v">ff. 112r - 116v</locus>
+              <title subtype="prose" type="work">Homily XXI</title>
+              <incipit>MENĐALEOfestan usys mycel þearf þæt we god lufien of eallre</incipit>
+              <explicit>haligan gaſte onwuldre ⁊onwyrð mynde áábutan ende onecneꞅꞅe;</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="116v" to="120v">ff. 116v - 120v</locus>
+              <title subtype="prose" type="work">Homily XXII</title>
+              <incipit>hER ſægð hu sc̄s isodorus spræc be ðære sawle gedale ⁊be</incipit>
+              <explicit>her on worulde ⁊on þære toweardan. seðe leofað ⁊ricsað aabutan ende in ecnesse</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="121r" to="133v">ff. 121r - 133v</locus>
+              <title subtype="poetry" type="work">Elene</title>
+              <incipit>þa wæs agangen geara hwyrftum</incipit>
+              <explicit>wuldorcyninges to widan feore. Amen.</explicit>
+            </msItem>
+
+            <msItem>
+              <locus from="133v" to="135v">ff. 133v - 135v</locus>
+              <title subtype="prose" type="work">Homily XXIII</title>
+              <incipit>Wæꞅ þær inþam ſprecenan iglande sum mycel hlæw of eorþan ge</incipit>
+              <explicit>fona riceꞅ wuldre abutan ende onecneꞅꞅe amen fiat:,</explicit>
+            </msItem>
+
+          </msContents>
+
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="parchment">
+                <support>
+                  <p><material>Parchment</material>
+                    <objectType>codex</objectType> with <material>leather</material> binding.</p>
+                </support>
+                <extent>135+1 leaves <dimensions scope="all" type="leaf" unit="cm">
+                    <height>31</height>
+                    <width>20</width>
+                  </dimensions>
+                </extent>
+
+                <collation>
+                  <p>The Vercelli Book consists of 19 quires, marked with Roman numerals at the beginning of each quire,
+                    and with letters at the end. Originally the quires were based on eight leaves of parchment, but many
+                    leafs are missing and a few single leaves have been added sporadically. <formula>1(10,-7),
+                      2(12,-4,-8,-11), 3(8,-6,-8), 4(10,-3,-7), 5(10,-4,-8), 6(8,-3), 7(10,-4,-8), 8(12,-4,-8),
+                      9(10,-4,-8), 10(10,-5,-9), 11(10,-4,-6,-8,-10), 12(6), 13(10,-3,-7,-9), 14(8,-3,-7), 15(8,-6),
+                      16(10,-1,-4,-8), 17(4,-3,-4), 18(8), 19(8,-8)</formula>
+                    <signatures/>
+                    <catchwords>None</catchwords> Quires begin on fols. 1(1), [...] <!-- ??? EDIT -->
+                  </p>
+                </collation>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1">
+                  <p>Text is written in a single column per parchment leaf.</p>
+                </layout>
+              </layoutDesc>
+
+            </objectDesc>
+
+            <handDesc>
+              <p>In the opinion of many scholars, the manuscript was written by a single scribe, who has been
+                particularly diligent and meticulous in using the writing of that period, the Anglo-Saxon square
+                minuscule.</p>
+            </handDesc>
+            <decoDesc>
+              <p>The Vercelli Book is very simple in appearance, in fact only three initials are decorated (H on f. 49r,
+                M on ff. 106v and 112r) with new texts usually beginning with a larger, undecorated initial.</p>
+            </decoDesc>
+
+          </physDesc>
+
+          <history>
+            <origin>The manuscript was written in England, presumably in the South-Eastern area, and seems to have never
+              have left the country until the end of the eleventh century, since some notes in Old English were written
+              into the margins and can be dated back to that time.</origin>
+            <provenance>It is still unclear how and when it came to Italy, a Latin verse of Psalm XXVI in neumatic
+              notation written in Italian handwriting can be dated to the early XII century and is then a reasonable
+              post-quem term.</provenance>
+          </history>
+
+        </msDesc>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <encodingDesc>
+
+      <projectDesc>
+        <p/>
+      </projectDesc>
+
+      <editorialDecl>
+        <correction>
+          <p/>
+        </correction>
+        <normalization>
+          <p/>
+        </normalization>
+        <segmentation>
+          <p/>
+        </segmentation>
+        <hyphenation eol="all">
+          <p>Physical line breaks are rigidly observed.</p>
+        </hyphenation>
+      </editorialDecl>
+
+      <xi:include href="extra/charDecl.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="general_charDecl">
+        <xi:fallback>
+          <p>
+            <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+          </p>
+        </xi:fallback>
+      </xi:include>
+
+    </encodingDesc>
+
+    <profileDesc>
+      <abstract>
+        <p>The <title>Digital Vercelli Book</title> project has been launched by <persName>Roberto Rosselli Del
+            Turco</persName> in 2003-4. The main aim of the project is the production of a digital version of the
+          manuscript in order to offer a practical and effective way to consult it both to scholars and to anyone who is
+          interested in studying the codex, eliminating the need for a direct consultation. To this purpose, the DVB
+          researchers will publish high resolution images of the whole manuscript, and produce a diplomatic and
+          diplomatic-interpretative edition of all the texts it contains, together with tools for consultation and
+          textual analysis.</p>
+        <p>The edition is being published on the World Wide Web thanks to the <title>Edition Visualization Tool</title>
+            (<ref target="https://sourceforge.net/p/evt-project/">SourceForge page</ref>): this is a separate project, a
+          tool originally born specifically to publish the <title>Vercelli Book</title> online, but which has grown into
+          an independent, general purpose software suitable for other types of texts. To ensure that it will be working
+          on all the most recent web browsers, and for as long as possible on the World Wide Web itself, EVT is built on
+          open and standard web technologies such as HTML, CSS and JavaScript. Specific features, such as the magnifying
+          lens, are entrusted to jQuery plug-ins, again chosen among the open source and best supported ones to reduce
+          the risk of future incompatibilities. The general architecture of the software, in any case, is modular, so
+          that any component which may cause trouble or turn out to be not completely up to the task can be replaced
+          easily.</p>
+        <p>At the present moment EVT can be used to create image-based editions with two possible edition levels:
+          diplomatic and diplomatic-interpretative. This means that a transcription encoded using elements of the TEI
+          transcr module (see chapter 11 Representation of Primary Sources in the Guidelines) should already be
+          compatible with EVT, or require only minor changes to be made compatible. The Vercelli Book transcription is
+          following the standard TEI schemas with no custom elements or attributes added: our tests with similarly
+          encoded texts showed a high grade of compatibility. A critical edition level is being studied and it will be
+          added in the future.</p>
+        <p>On the image side, several features such as a magnifying lens, a general zoom, image-text linking and more
+          are already available. The image-text feature is inspired by Martin Holmes’ Image Markup Tool software and was
+          implemented in XSLT and CSS by one of the students collaborating to the project; all other features are
+          achieved by using jQuery plugins.</p>
+      </abstract>
+      <langUsage>
+        <language ident="ang">Old English</language>
+        <language ident="lat">Latin</language>
+      </langUsage>
+      <!-- CHECK proper element to describe scribal hands here or in ms description?
+	     <handList>
+         <hand id="unknown" scribe="unknown-placeholder"/>
+       </handList>
+      -->
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="2022-04" who="RRDT">Removed the old VBD-related &lt;charDecl&gt;, added XInclude link to the
+        expanded one</change>
+      <change when="2020-11" who="RRDT">Expansions and improvements</change>
+      <change when="2015-10" who="RRDT">Experimental VBD-global TEI document with XInclude links to single texts. [GIT
+        REPO]</change>
+      <change when="2013-11" who="RRDT">Moved from entity-based markup to use of the Gaiji module elements; replaced ms
+        and ss entities with choice-based element groups; cleaned up punctuation markup</change>
+      <change when="2012-11" who="RRDT">Added element facsimile and all necessary stuff to do image-text
+        linking</change>
+      <change when="2012-11" who="RRDT RC">First cross-revision</change>
+      <change when="2010-09" who="RRDT">Conversion to the TEI P5 encoding schema</change>
+      <change when="2004-01" who="RRDT">Experimental transcription using the Digital Scriptorium DTD</change>
+    </revisionDesc>
+
+  </teiHeader>
+
+  <facsimile xml:id="VB_fac_complete">
+
+    <surface xml:id="VB_surf_02r" corresp="#VB_fol_02r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_002R_S_300dpi.jpg" width="1200px"/>
+      <zone corresp="VB_lb_002r_01" lrx="928" lry="247" rend="visible" rendition="Line" ulx="148" uly="199" xml:id="VB_line_002r_01"/>
+      <zone corresp="VB_lb_002r_02" lrx="927" lry="306" rend="visible" rendition="Line" ulx="147" uly="253" xml:id="VB_line_002r_02"/>
+      <zone corresp="VB_lb_002r_03" lrx="927" lry="360" rend="visible" rendition="Line" ulx="147" uly="309" xml:id="VB_line_002r_03"/>
+      <zone corresp="VB_lb_002r_04" lrx="927" lry="420" rend="visible" rendition="Line" ulx="147" uly="365" xml:id="VB_line_002r_04"/>
+      <zone corresp="VB_lb_002r_05" lrx="926" lry="473" rend="visible" rendition="Line" ulx="146" uly="418" xml:id="VB_line_002r_05"/>
+      <zone corresp="VB_lb_002r_06" lrx="926" lry="526" rend="visible" rendition="Line" ulx="146" uly="471" xml:id="VB_line_002r_06"/>
+      <zone corresp="VB_lb_002r_07" lrx="926" lry="578" rend="visible" rendition="Line" ulx="146" uly="523" xml:id="VB_line_002r_07"/>
+      <zone corresp="VB_lb_002r_08" lrx="925" lry="633" rend="visible" rendition="Line" ulx="145" uly="578" xml:id="VB_line_002r_08"/>
+      <zone corresp="VB_lb_002r_09" lrx="924" lry="690" rend="visible" rendition="Line" ulx="144" uly="635" xml:id="VB_line_002r_09"/>
+      <zone corresp="VB_lb_002r_10" lrx="923" lry="747" rend="visible" rendition="Line" ulx="143" uly="692" xml:id="VB_line_002r_10"/>
+      <zone corresp="VB_lb_002r_11" lrx="923" lry="803" rend="visible" rendition="Line" ulx="143" uly="748" xml:id="VB_line_002r_11"/>
+      <zone corresp="VB_lb_002r_12" lrx="923" lry="858" rend="visible" rendition="Line" ulx="143" uly="803" xml:id="VB_line_002r_12"/>
+      <zone corresp="VB_lb_002r_13" lrx="923" lry="912" rend="visible" rendition="Line" ulx="143" uly="857" xml:id="VB_line_002r_13"/>
+      <zone corresp="VB_lb_002r_14" lrx="922" lry="964" rend="visible" rendition="Line" ulx="142" uly="909" xml:id="VB_line_002r_14"/>
+      <zone corresp="VB_lb_002r_15" lrx="922" lry="1020" rend="visible" rendition="Line" ulx="142" uly="965" xml:id="VB_line_002r_15"/>
+      <zone corresp="VB_lb_002r_16" lrx="921" lry="1064" rend="visible" rendition="Line" ulx="141" uly="1017" xml:id="VB_line_002r_16"/>
+      <zone corresp="VB_lb_002r_17" lrx="921" lry="1117" rend="visible" rendition="Line" ulx="141" uly="1062" xml:id="VB_line_002r_17"/>
+      <zone corresp="VB_lb_002r_18" lrx="944" lry="1168" rend="visible" rendition="Line" ulx="156" uly="1113" xml:id="VB_line_002r_18"/>
+      <zone corresp="VB_lb_002r_19" lrx="903" lry="1221" rend="visible" rendition="Line" ulx="155" uly="1166" xml:id="VB_line_002r_19"/>
+      <zone corresp="VB_lb_002r_20" lrx="910" lry="1274" rend="visible" rendition="Line" ulx="166" uly="1222" xml:id="VB_line_002r_20"/>
+      <zone corresp="VB_lb_002r_21" lrx="902" lry="1338" rend="visible" rendition="Line" ulx="167" uly="1277" xml:id="VB_line_002r_21"/>
+      <zone corresp="VB_lb_002r_22" lrx="897" lry="1392" rend="visible" rendition="Line" ulx="169" uly="1336" xml:id="VB_line_002r_22"/>
+      <zone corresp="VB_lb_002r_23" lrx="899" lry="1445" rend="visible" rendition="Line" ulx="182" uly="1389" xml:id="VB_line_002r_23"/>
+      <zone corresp="VB_lb_002r_24" lrx="895" lry="1508" rend="visible" rendition="Line" ulx="178" uly="1452" xml:id="VB_line_002r_24"/>
+      <zone lrx="471" lry="269" rend="visible" rendition="HotSpot" ulx="104" uly="141" xml:id="VB_hs_002r_01"/>
+      <zone lrx="918" lry="774" rend="visible" rendition="HotSpot" ulx="728" uly="610" xml:id="VB_hs_002r_02"/>
+      <zone lrx="873" lry="904" rend="visible" rendition="HotSpot" ulx="706" uly="767" xml:id="VB_hs_002r_03"/>
+    </surface>
+
+    <surface xml:id="VB_surf_02v" corresp="#VB_fol_02v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_002V_S_300dpi.jpg" width="1200px"/>
+      <zone corresp="VB_lb_002v_01" lrx="1069" lry="247" rend="visible" rendition="Line" ulx="289" uly="199" xml:id="VB_line_002v_01"/>
+      <zone corresp="VB_lb_002v_02" lrx="1068" lry="304" rend="visible" rendition="Line" ulx="288" uly="251" xml:id="VB_line_002v_02"/>
+      <zone corresp="VB_lb_002v_03" lrx="1068" lry="357" rend="visible" rendition="Line" ulx="288" uly="306" xml:id="VB_line_002v_03"/>
+      <zone corresp="VB_lb_002v_04" lrx="1068" lry="417" rend="visible" rendition="Line" ulx="288" uly="362" xml:id="VB_line_002v_04"/>
+      <zone corresp="VB_lb_002v_05" lrx="1067" lry="467" rend="visible" rendition="Line" ulx="291" uly="414" xml:id="VB_line_002v_05"/>
+      <zone corresp="VB_lb_002v_06" lrx="1076" lry="523" rend="visible" rendition="Line" ulx="291" uly="468" xml:id="VB_line_002v_06"/>
+      <zone corresp="VB_lb_002v_07" lrx="1062" lry="576" rend="visible" rendition="Line" ulx="296" uly="521" xml:id="VB_line_002v_07"/>
+      <zone corresp="VB_lb_002v_08" lrx="1078" lry="635" rend="visible" rendition="Line" ulx="298" uly="580" xml:id="VB_line_002v_08"/>
+      <zone corresp="VB_lb_002v_09" lrx="1077" lry="691" rend="visible" rendition="Line" ulx="297" uly="636" xml:id="VB_line_002v_09"/>
+      <zone corresp="VB_lb_002v_10" lrx="1077" lry="746" rend="visible" rendition="Line" ulx="297" uly="691" xml:id="VB_line_002v_10"/>
+      <zone corresp="VB_lb_002v_11" lrx="1076" lry="798" rend="visible" rendition="Line" ulx="296" uly="743" xml:id="VB_line_002v_11"/>
+      <zone corresp="VB_lb_002v_12" lrx="1060" lry="851" rend="visible" rendition="Line" ulx="295" uly="796" xml:id="VB_line_002v_12"/>
+      <zone corresp="VB_lb_002v_13" lrx="1050" lry="903" rend="visible" rendition="Line" ulx="292" uly="848" xml:id="VB_line_002v_13"/>
+      <zone corresp="VB_lb_002v_14" lrx="1036" lry="956" rend="visible" rendition="Line" ulx="293" uly="901" xml:id="VB_line_002v_14"/>
+      <zone corresp="VB_lb_002v_15" lrx="1063" lry="1015" rend="visible" rendition="Line" ulx="291" uly="960" xml:id="VB_line_002v_15"/>
+      <zone corresp="VB_lb_002v_16" lrx="1051" lry="1063" rend="visible" rendition="Line" ulx="300" uly="1012" xml:id="VB_line_002v_16"/>
+      <zone corresp="VB_lb_002v_17" lrx="1045" lry="1115" rend="visible" rendition="Line" ulx="296" uly="1060" xml:id="VB_line_002v_17"/>
+      <zone corresp="VB_lb_002v_18" lrx="1027" lry="1168" rend="visible" rendition="Line" ulx="295" uly="1113" xml:id="VB_line_002v_18"/>
+      <zone corresp="VB_lb_002v_19" lrx="1049" lry="1224" rend="visible" rendition="Line" ulx="301" uly="1165" xml:id="VB_line_002v_19"/>
+      <zone corresp="VB_lb_002v_20" lrx="1048" lry="1279" rend="visible" rendition="Line" ulx="302" uly="1222" xml:id="VB_line_002v_20"/>
+      <zone corresp="VB_lb_002v_21" lrx="1043" lry="1338" rend="visible" rendition="Line" ulx="308" uly="1277" xml:id="VB_line_002v_21"/>
+      <zone corresp="VB_lb_002v_22" lrx="1035" lry="1397" rend="visible" rendition="Line" ulx="307" uly="1335" xml:id="VB_line_002v_22"/>
+      <zone corresp="VB_lb_002v_23" lrx="1079" lry="1453" rend="visible" rendition="Line" ulx="301" uly="1395" xml:id="VB_line_002v_23"/>
+      <zone corresp="VB_lb_002v_24" lrx="1012" lry="1517" rend="visible" rendition="Line" ulx="310" uly="1451" xml:id="VB_line_002v_24"/>
+      <zone lrx="319" lry="239" rend="hidden" rendition="HotSpot" ulx="118" uly="75" xml:id="VB_hs_002v_01"/>
+      <zone lrx="508" lry="912" rend="hidden" rendition="HotSpot" ulx="299" uly="748" xml:id="VB_hs_002v_02"/>
+      <zone lrx="292" lry="1762" rend="hidden" rendition="HotSpot" ulx="61" uly="769" xml:id="VB_hs_002v_03"/>
+    </surface>
+
+    <surface xml:id="VB_surf_03r" corresp="#VB_fol_03r">
+      <graphic url="immagini\Vercelli-Book_003R_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_003r_01" xml:id="VB_line_003r_01" rendition="Line" ulx="139" uly="196" lrx="881" lry="253" rend="visible"/>
+      <zone corresp="VB_lb_003r_02" xml:id="VB_line_003r_02" rendition="Line" ulx="141" uly="254" lrx="880" lry="309" rend="visible"/>
+      <zone corresp="VB_lb_003r_03" xml:id="VB_line_003r_03" rendition="Line" ulx="147" uly="307" lrx="880" lry="366" rend="visible"/>
+      <zone corresp="VB_lb_003r_04" xml:id="VB_line_003r_04" rendition="Line" ulx="145" uly="365" lrx="880" lry="420" rend="visible"/>
+      <zone corresp="VB_lb_003r_05" xml:id="VB_line_003r_05" rendition="Line" ulx="146" uly="418" lrx="920" lry="471" rend="visible"/>
+      <zone corresp="VB_lb_003r_06" xml:id="VB_line_003r_06" rendition="Line" ulx="146" uly="470" lrx="859" lry="526" rend="visible"/>
+      <zone corresp="VB_lb_003r_07" xml:id="VB_line_003r_07" rendition="Line" ulx="146" uly="523" lrx="878" lry="578" rend="visible"/>
+      <zone corresp="VB_lb_003r_08" xml:id="VB_line_003r_08" rendition="Line" ulx="145" uly="578" lrx="887" lry="637" rend="visible"/>
+      <zone corresp="VB_lb_003r_09" xml:id="VB_line_003r_09" rendition="Line" ulx="144" uly="635" lrx="888" lry="690" rend="visible"/>
+      <zone corresp="VB_lb_003r_10" xml:id="VB_line_003r_10" rendition="Line" ulx="143" uly="688" lrx="888" lry="747" rend="visible"/>
+      <zone corresp="VB_lb_003r_11" xml:id="VB_line_003r_11" rendition="Line" ulx="143" uly="745" lrx="897" lry="801" rend="visible"/>
+      <zone corresp="VB_lb_003r_12" xml:id="VB_line_003r_12" rendition="Line" ulx="143" uly="799" lrx="880" lry="855" rend="visible"/>
+      <zone corresp="VB_lb_003r_13" xml:id="VB_line_003r_13" rendition="Line" ulx="143" uly="849" lrx="881" lry="908" rend="visible"/>
+      <zone corresp="VB_lb_003r_14" xml:id="VB_line_003r_14" rendition="Line" ulx="142" uly="904" lrx="888" lry="960" rend="visible"/>
+      <zone corresp="VB_lb_003r_15" xml:id="VB_line_003r_15" rendition="Line" ulx="142" uly="957" lrx="865" lry="1014" rend="visible"/>
+      <zone corresp="VB_lb_003r_16" xml:id="VB_line_003r_16" rendition="Line" ulx="141" uly="1011" lrx="882" lry="1064" rend="visible"/>
+      <zone corresp="VB_lb_003r_17" xml:id="VB_line_003r_17" rendition="Line" ulx="141" uly="1062" lrx="921" lry="1117" rend="visible"/>
+      <zone corresp="VB_lb_003r_18" xml:id="VB_line_003r_18" rendition="Line" ulx="142" uly="1114" lrx="919" lry="1168" rend="visible"/>
+      <zone corresp="VB_lb_003r_19" xml:id="VB_line_003r_19" rendition="Line" ulx="146" uly="1166" lrx="903" lry="1225" rend="visible"/>
+      <zone corresp="VB_lb_003r_20" xml:id="VB_line_003r_20" rendition="Line" ulx="153" uly="1222" lrx="910" lry="1279" rend="visible"/>
+      <zone corresp="VB_lb_003r_21" xml:id="VB_line_003r_21" rendition="Line" ulx="158" uly="1277" lrx="898" lry="1338" rend="visible"/>
+      <zone corresp="VB_lb_003r_22" xml:id="VB_line_003r_22" rendition="Line" ulx="157" uly="1336" lrx="897" lry="1392" rend="visible"/>
+      <zone corresp="VB_lb_003r_23" xml:id="VB_line_003r_23" rendition="Line" ulx="155" uly="1389" lrx="903" lry="1445" rend="visible"/>
+      <zone corresp="VB_lb_003r_24" xml:id="VB_line_003r_24" rendition="Line" ulx="155" uly="1443" lrx="947" lry="1516" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_03v" corresp="#VB_fol_03v">
+      <graphic url="immagini\Vercelli-Book_003V_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_003v_01" xml:id="VB_line_003v_01" rendition="Line" ulx="303" uly="175" lrx="1063" lry="231" rend="visible"/>
+      <zone corresp="VB_lb_003v_02" xml:id="VB_line_003v_02" rendition="Line" ulx="303" uly="229" lrx="1083" lry="290" rend="visible"/>
+      <zone corresp="VB_lb_003v_03" xml:id="VB_line_003v_03" rendition="Line" ulx="303" uly="288" lrx="1076" lry="342" rend="visible"/>
+      <zone corresp="VB_lb_003v_04" xml:id="VB_line_003v_04" rendition="Line" ulx="304" uly="339" lrx="1069" lry="399" rend="visible"/>
+      <zone corresp="VB_lb_003v_05" xml:id="VB_line_003v_05" rendition="Line" ulx="304" uly="396" lrx="1061" lry="455" rend="visible"/>
+      <zone corresp="VB_lb_003v_06" xml:id="VB_line_003v_06" rendition="Line" ulx="304" uly="453" lrx="1050" lry="508" rend="visible"/>
+      <zone corresp="VB_lb_003v_07" xml:id="VB_line_003v_07" rendition="Line" ulx="304" uly="506" lrx="1098" lry="566" rend="visible"/>
+      <zone corresp="VB_lb_003v_08" xml:id="VB_line_003v_08" rendition="Line" ulx="304" uly="563" lrx="1027" lry="621" rend="visible"/>
+      <zone corresp="VB_lb_003v_09" xml:id="VB_line_003v_09" rendition="Line" ulx="303" uly="618" lrx="1049" lry="673" rend="visible"/>
+      <zone corresp="VB_lb_003v_10" xml:id="VB_line_003v_10" rendition="Line" ulx="303" uly="671" lrx="1064" lry="730" rend="visible"/>
+      <zone corresp="VB_lb_003v_11" xml:id="VB_line_003v_11" rendition="Line" ulx="297" uly="727" lrx="1056" lry="782" rend="visible"/>
+      <zone corresp="VB_lb_003v_12" xml:id="VB_line_003v_12" rendition="Line" ulx="300" uly="779" lrx="1089" lry="840" rend="visible"/>
+      <zone corresp="VB_lb_003v_13" xml:id="VB_line_003v_13" rendition="Line" ulx="306" uly="838" lrx="1076" lry="893" rend="visible"/>
+      <zone corresp="VB_lb_003v_14" xml:id="VB_line_003v_14" rendition="Line" ulx="305" uly="891" lrx="1027" lry="946" rend="visible"/>
+      <zone corresp="VB_lb_003v_15" xml:id="VB_line_003v_15" rendition="Line" ulx="304" uly="944" lrx="1064" lry="1002" rend="visible"/>
+      <zone corresp="VB_lb_003v_16" xml:id="VB_line_003v_16" rendition="Line" ulx="304" uly="1000" lrx="1059" lry="1055" rend="visible"/>
+      <zone corresp="VB_lb_003v_17" xml:id="VB_line_003v_17" rendition="Line" ulx="312" uly="1053" lrx="1043" lry="1108" rend="visible"/>
+      <zone corresp="VB_lb_003v_18" xml:id="VB_line_003v_18" rendition="Line" ulx="314" uly="1105" lrx="1060" lry="1164" rend="visible"/>
+      <zone corresp="VB_lb_003v_19" xml:id="VB_line_003v_19" rendition="Line" ulx="305" uly="1162" lrx="1058" lry="1221" rend="visible"/>
+      <zone corresp="VB_lb_003v_20" xml:id="VB_line_003v_20" rendition="Line" ulx="303" uly="1218" lrx="1056" lry="1273" rend="visible"/>
+      <zone corresp="VB_lb_003v_21" xml:id="VB_line_003v_21" rendition="Line" ulx="306" uly="1271" lrx="1041" lry="1332" rend="visible"/>
+      <zone corresp="VB_lb_003v_22" xml:id="VB_line_003v_22" rendition="Line" ulx="304" uly="1329" lrx="1032" lry="1387" rend="visible"/>
+      <zone corresp="VB_lb_003v_23" xml:id="VB_line_003v_23" rendition="Line" ulx="303" uly="1384" lrx="1009" lry="1442" rend="visible"/>
+      <zone corresp="VB_lb_003v_24" xml:id="VB_line_003v_24" rendition="Line" ulx="305" uly="1439" lrx="1050" lry="1515" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_04r" corresp="#VB_fol_04r">
+      <graphic url="immagini\Vercelli-Book_004R_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_004r_01" xml:id="VB_line_004r_01" rendition="Line" ulx="138" uly="203" lrx="880" lry="260" rend="visible"/>
+      <zone corresp="VB_lb_004r_02" xml:id="VB_line_004r_02" rendition="Line" ulx="128" uly="258" lrx="878" lry="316" rend="visible"/>
+      <zone corresp="VB_lb_004r_03" xml:id="VB_line_004r_03" rendition="Line" ulx="136" uly="314" lrx="869" lry="373" rend="visible"/>
+      <zone corresp="VB_lb_004r_04" xml:id="VB_line_004r_04" rendition="Line" ulx="136" uly="371" lrx="880" lry="420" rend="visible"/>
+      <zone corresp="VB_lb_004r_05" xml:id="VB_line_004r_05" rendition="Line" ulx="134" uly="418" lrx="875" lry="472" rend="visible"/>
+      <zone corresp="VB_lb_004r_06" xml:id="VB_line_004r_06" rendition="Line" ulx="135" uly="470" lrx="868" lry="531" rend="visible"/>
+      <zone corresp="VB_lb_004r_07" xml:id="VB_line_004r_07" rendition="Line" ulx="135" uly="529" lrx="853" lry="585" rend="visible"/>
+      <zone corresp="VB_lb_004r_08" xml:id="VB_line_004r_08" rendition="Line" ulx="135" uly="583" lrx="867" lry="640" rend="visible"/>
+      <zone corresp="VB_lb_004r_09" xml:id="VB_line_004r_09" rendition="Line" ulx="130" uly="637" lrx="851" lry="696" rend="visible"/>
+      <zone corresp="VB_lb_004r_10" xml:id="VB_line_004r_10" rendition="Line" ulx="135" uly="694" lrx="849" lry="753" rend="visible"/>
+      <zone corresp="VB_lb_004r_11" xml:id="VB_line_004r_11" rendition="Line" ulx="134" uly="751" lrx="868" lry="801" rend="visible"/>
+      <zone corresp="VB_lb_004r_12" xml:id="VB_line_004r_12" rendition="Line" ulx="133" uly="799" lrx="872" lry="855" rend="visible"/>
+      <zone corresp="VB_lb_004r_13" xml:id="VB_line_004r_13" rendition="Line" ulx="136" uly="853" lrx="861" lry="908" rend="visible"/>
+      <zone corresp="VB_lb_004r_14" xml:id="VB_line_004r_14" rendition="Line" ulx="134" uly="905" lrx="872" lry="962" rend="visible"/>
+      <zone corresp="VB_lb_004r_15" xml:id="VB_line_004r_15" rendition="Line" ulx="135" uly="959" lrx="833" lry="1014" rend="visible"/>
+      <zone corresp="VB_lb_004r_16" xml:id="VB_line_004r_16" rendition="Line" ulx="137" uly="1011" lrx="869" lry="1064" rend="visible"/>
+      <zone corresp="VB_lb_004r_17" xml:id="VB_line_004r_17" rendition="Line" ulx="136" uly="1062" lrx="886" lry="1118" rend="visible"/>
+      <zone corresp="VB_lb_004r_18" xml:id="VB_line_004r_18" rendition="Line" ulx="134" uly="1116" lrx="882" lry="1172" rend="visible"/>
+      <zone corresp="VB_lb_004r_19" xml:id="VB_line_004r_19" rendition="Line" ulx="136" uly="1170" lrx="889" lry="1227" rend="visible"/>
+      <zone corresp="VB_lb_004r_20" xml:id="VB_line_004r_20" rendition="Line" ulx="136" uly="1225" lrx="888" lry="1282" rend="visible"/>
+      <zone corresp="VB_lb_004r_21" xml:id="VB_line_004r_21" rendition="Line" ulx="136" uly="1280" lrx="888" lry="1340" rend="visible"/>
+      <zone corresp="VB_lb_004r_22" xml:id="VB_line_004r_22" rendition="Line" ulx="136" uly="1337" lrx="868" lry="1396" rend="visible"/>
+      <zone corresp="VB_lb_004r_23" xml:id="VB_line_004r_23" rendition="Line" ulx="136" uly="1394" lrx="893" lry="1455" rend="visible"/>
+      <zone corresp="VB_lb_004r_24" xml:id="VB_line_004r_24" rendition="Line" ulx="137" uly="1453" lrx="870" lry="1521" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_04v" corresp="#VB_fol_04v">
+      <graphic url="immagini\Vercelli-Book_004V_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_004v_01" xml:id="VB_line_004v_01" rendition="Line" ulx="287" uly="183" lrx="1047" lry="246" rend="visible"/>
+      <zone corresp="VB_lb_004v_02" xml:id="VB_line_004v_02" rendition="Line" ulx="289" uly="244" lrx="1069" lry="304" rend="visible"/>
+      <zone corresp="VB_lb_004v_03" xml:id="VB_line_004v_03" rendition="Line" ulx="290" uly="300" lrx="1069" lry="356" rend="visible"/>
+      <zone corresp="VB_lb_004v_04" xml:id="VB_line_004v_04" rendition="Line" ulx="295" uly="354" lrx="1069" lry="412" rend="visible"/>
+      <zone corresp="VB_lb_004v_05" xml:id="VB_line_004v_05" rendition="Line" ulx="294" uly="409" lrx="1079" lry="468" rend="visible"/>
+      <zone corresp="VB_lb_004v_06" xml:id="VB_line_004v_06" rendition="Line" ulx="298" uly="465" lrx="1064" lry="520" rend="visible"/>
+      <zone corresp="VB_lb_004v_07" xml:id="VB_line_004v_07" rendition="Line" ulx="298" uly="517" lrx="1064" lry="576" rend="visible"/>
+      <zone corresp="VB_lb_004v_08" xml:id="VB_line_004v_08" rendition="Line" ulx="298" uly="573" lrx="1048" lry="631" rend="visible"/>
+      <zone corresp="VB_lb_004v_09" xml:id="VB_line_004v_09" rendition="Line" ulx="298" uly="629" lrx="1020" lry="685" rend="visible"/>
+      <zone corresp="VB_lb_004v_10" xml:id="VB_line_004v_10" rendition="Line" ulx="298" uly="683" lrx="1053" lry="741" rend="visible"/>
+      <zone corresp="VB_lb_004v_11" xml:id="VB_line_004v_11" rendition="Line" ulx="299" uly="739" lrx="1088" lry="796" rend="visible"/>
+      <zone corresp="VB_lb_004v_12" xml:id="VB_line_004v_12" rendition="Line" ulx="299" uly="794" lrx="1064" lry="852" rend="visible"/>
+      <zone corresp="VB_lb_004v_13" xml:id="VB_line_004v_13" rendition="Line" ulx="299" uly="850" lrx="1050" lry="902" rend="visible"/>
+      <zone corresp="VB_lb_004v_14" xml:id="VB_line_004v_14" rendition="Line" ulx="299" uly="900" lrx="1073" lry="955" rend="visible"/>
+      <zone corresp="VB_lb_004v_15" xml:id="VB_line_004v_15" rendition="Line" ulx="299" uly="952" lrx="1094" lry="1010" rend="visible"/>
+      <zone corresp="VB_lb_004v_16" xml:id="VB_line_004v_16" rendition="Line" ulx="303" uly="1007" lrx="1058" lry="1067" rend="visible"/>
+      <zone corresp="VB_lb_004v_17" xml:id="VB_line_004v_17" rendition="Line" ulx="303" uly="1064" lrx="1093" lry="1122" rend="visible"/>
+      <zone corresp="VB_lb_004v_18" xml:id="VB_line_004v_18" rendition="Line" ulx="302" uly="1119" lrx="1053" lry="1176" rend="visible"/>
+      <zone corresp="VB_lb_004v_19" xml:id="VB_line_004v_19" rendition="Line" ulx="302" uly="1173" lrx="1052" lry="1230" rend="visible"/>
+      <zone corresp="VB_lb_004v_20" xml:id="VB_line_004v_20" rendition="Line" ulx="305" uly="1227" lrx="1093" lry="1287" rend="visible"/>
+      <zone corresp="VB_lb_004v_21" xml:id="VB_line_004v_21" rendition="Line" ulx="306" uly="1285" lrx="1021" lry="1343" rend="visible"/>
+      <zone corresp="VB_lb_004v_22" xml:id="VB_line_004v_22" rendition="Line" ulx="306" uly="1341" lrx="1063" lry="1399" rend="visible"/>
+      <zone corresp="VB_lb_004v_23" xml:id="VB_line_004v_23" rendition="Line" ulx="312" uly="1397" lrx="1052" lry="1459" rend="visible"/>
+      <zone corresp="VB_lb_004v_24" xml:id="VB_line_004v_24" rendition="Line" ulx="314" uly="1457" lrx="1059" lry="1522" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_05r" corresp="#VB_fol_05r">
+      <graphic url="immagini\Vercelli-Book_005R_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_005r_01" xml:id="VB_line_005r_01" rendition="Line" ulx="138" uly="203" lrx="880" lry="260" rend="visible"/>
+      <zone corresp="VB_lb_005r_02" xml:id="VB_line_005r_02" rendition="Line" ulx="128" uly="258" lrx="891" lry="316" rend="visible"/>
+      <zone corresp="VB_lb_005r_03" xml:id="VB_line_005r_03" rendition="Line" ulx="136" uly="314" lrx="876" lry="369" rend="visible"/>
+      <zone corresp="VB_lb_005r_04" xml:id="VB_line_005r_04" rendition="Line" ulx="121" uly="366" lrx="875" lry="420" rend="visible"/>
+      <zone corresp="VB_lb_005r_05" xml:id="VB_line_005r_05" rendition="Line" ulx="128" uly="418" lrx="875" lry="476" rend="visible"/>
+      <zone corresp="VB_lb_005r_06" xml:id="VB_line_005r_06" rendition="Line" ulx="135" uly="473" lrx="902" lry="531" rend="visible"/>
+      <zone corresp="VB_lb_005r_07" xml:id="VB_line_005r_07" rendition="Line" ulx="121" uly="528" lrx="875" lry="586" rend="visible"/>
+      <zone corresp="VB_lb_005r_08" xml:id="VB_line_005r_08" rendition="Line" ulx="136" uly="583" lrx="885" lry="640" rend="visible"/>
+      <zone corresp="VB_lb_005r_09" xml:id="VB_line_005r_09" rendition="Line" ulx="130" uly="637" lrx="879" lry="697" rend="visible"/>
+      <zone corresp="VB_lb_005r_10" xml:id="VB_line_005r_10" rendition="Line" ulx="135" uly="694" lrx="895" lry="748" rend="visible"/>
+      <zone corresp="VB_lb_005r_11" xml:id="VB_line_005r_11" rendition="Line" ulx="135" uly="745" lrx="895" lry="801" rend="visible"/>
+      <zone corresp="VB_lb_005r_12" xml:id="VB_line_005r_12" rendition="Line" ulx="135" uly="799" lrx="876" lry="855" rend="visible"/>
+      <zone corresp="VB_lb_005r_13" xml:id="VB_line_005r_13" rendition="Line" ulx="134" uly="853" lrx="871" lry="908" rend="visible"/>
+      <zone corresp="VB_lb_005r_14" xml:id="VB_line_005r_14" rendition="Line" ulx="130" uly="905" lrx="877" lry="968" rend="visible"/>
+      <zone corresp="VB_lb_005r_15" xml:id="VB_line_005r_15" rendition="Line" ulx="129" uly="965" lrx="910" lry="1021" rend="visible"/>
+      <zone corresp="VB_lb_005r_16" xml:id="VB_line_005r_16" rendition="Line" ulx="135" uly="1018" lrx="910" lry="1075" rend="visible"/>
+      <zone corresp="VB_lb_005r_17" xml:id="VB_line_005r_17" rendition="Line" ulx="130" uly="1072" lrx="878" lry="1128" rend="visible"/>
+      <zone corresp="VB_lb_005r_18" xml:id="VB_line_005r_18" rendition="Line" ulx="134" uly="1125" lrx="854" lry="1180" rend="visible"/>
+      <zone corresp="VB_lb_005r_19" xml:id="VB_line_005r_19" rendition="Line" ulx="134" uly="1177" lrx="865" lry="1236" rend="visible"/>
+      <zone corresp="VB_lb_005r_20" xml:id="VB_line_005r_20" rendition="Line" ulx="136" uly="1233" lrx="872" lry="1290" rend="visible"/>
+      <zone corresp="VB_lb_005r_21" xml:id="VB_line_005r_21" rendition="Line" ulx="136" uly="1287" lrx="888" lry="1344" rend="visible"/>
+      <zone corresp="VB_lb_005r_22" xml:id="VB_line_005r_22" rendition="Line" ulx="136" uly="1341" lrx="888" lry="1402" rend="visible"/>
+      <zone corresp="VB_lb_005r_23" xml:id="VB_line_005r_23" rendition="Line" ulx="136" uly="1399" lrx="879" lry="1460" rend="visible"/>
+      <zone corresp="VB_lb_005r_24" xml:id="VB_line_005r_24" rendition="Line" ulx="137" uly="1457" lrx="870" lry="1521" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_05v" corresp="#VB_fol_05v">
+      <graphic url="immagini\Vercelli-Book_005V_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_005v_01" xml:id="VB_line_005v_01" rendition="Line" ulx="308" uly="150" lrx="1068" lry="213" rend="visible"/>
+      <zone corresp="VB_lb_005v_02" xml:id="VB_line_005v_02" rendition="Line" ulx="308" uly="210" lrx="1078" lry="270" rend="visible"/>
+      <zone corresp="VB_lb_005v_03" xml:id="VB_line_005v_03" rendition="Line" ulx="307" uly="267" lrx="1068" lry="323" rend="visible"/>
+      <zone corresp="VB_lb_005v_04" xml:id="VB_line_005v_04" rendition="Line" ulx="307" uly="320" lrx="1082" lry="378" rend="visible"/>
+      <zone corresp="VB_lb_005v_05" xml:id="VB_line_005v_05" rendition="Line" ulx="310" uly="375" lrx="1074" lry="431" rend="visible"/>
+      <zone corresp="VB_lb_005v_06" xml:id="VB_line_005v_06" rendition="Line" ulx="309" uly="428" lrx="1067" lry="484" rend="visible"/>
+      <zone corresp="VB_lb_005v_07" xml:id="VB_line_005v_07" rendition="Line" ulx="308" uly="481" lrx="1089" lry="540" rend="visible"/>
+      <zone corresp="VB_lb_005v_08" xml:id="VB_line_005v_08" rendition="Line" ulx="308" uly="537" lrx="1071" lry="595" rend="visible"/>
+      <zone corresp="VB_lb_005v_09" xml:id="VB_line_005v_09" rendition="Line" ulx="308" uly="592" lrx="1081" lry="653" rend="visible"/>
+      <zone corresp="VB_lb_005v_10" xml:id="VB_line_005v_10" rendition="Line" ulx="307" uly="650" lrx="1068" lry="708" rend="visible"/>
+      <zone corresp="VB_lb_005v_11" xml:id="VB_line_005v_11" rendition="Line" ulx="306" uly="705" lrx="1038" lry="762" rend="visible"/>
+      <zone corresp="VB_lb_005v_12" xml:id="VB_line_005v_12" rendition="Line" ulx="306" uly="759" lrx="1055" lry="817" rend="visible"/>
+      <zone corresp="VB_lb_005v_13" xml:id="VB_line_005v_13" rendition="Line" ulx="317" uly="814" lrx="1071" lry="872" rend="visible"/>
+      <zone corresp="VB_lb_005v_14" xml:id="VB_line_005v_14" rendition="Line" ulx="312" uly="869" lrx="1070" lry="931" rend="visible"/>
+      <zone corresp="VB_lb_005v_15" xml:id="VB_line_005v_15" rendition="Line" ulx="310" uly="928" lrx="1096" lry="986" rend="visible"/>
+      <zone corresp="VB_lb_005v_16" xml:id="VB_line_005v_16" rendition="Line" ulx="310" uly="983" lrx="1089" lry="1040" rend="visible"/>
+      <zone corresp="VB_lb_005v_17" xml:id="VB_line_005v_17" rendition="Line" ulx="310" uly="1037" lrx="1086" lry="1095" rend="visible"/>
+      <zone corresp="VB_lb_005v_18" xml:id="VB_line_005v_18" rendition="Line" ulx="310" uly="1092" lrx="1061" lry="1147" rend="visible"/>
+      <zone corresp="VB_lb_005v_19" xml:id="VB_line_005v_19" rendition="Line" ulx="309" uly="1144" lrx="1044" lry="1201" rend="visible"/>
+      <zone corresp="VB_lb_005v_20" xml:id="VB_line_005v_20" rendition="Line" ulx="312" uly="1198" lrx="1044" lry="1259" rend="visible"/>
+      <zone corresp="VB_lb_005v_21" xml:id="VB_line_005v_21" rendition="Line" ulx="311" uly="1256" lrx="1070" lry="1316" rend="visible"/>
+      <zone corresp="VB_lb_005v_22" xml:id="VB_line_005v_22" rendition="Line" ulx="310" uly="1313" lrx="1070" lry="1371" rend="visible"/>
+      <zone corresp="VB_lb_005v_23" xml:id="VB_line_005v_23" rendition="Line" ulx="314" uly="1368" lrx="1054" lry="1430" rend="visible"/>
+      <zone corresp="VB_lb_005v_24" xml:id="VB_line_005v_24" rendition="Line" ulx="312" uly="1427" lrx="1060" lry="1495" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_06r" corresp="#VB_fol_06r">
+      <graphic url="immagini\Vercelli-Book_006R_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_006r_01" xml:id="VB_line_006r_01" rendition="Line" ulx="129" uly="189" lrx="871" lry="253" rend="visible"/>
+      <zone corresp="VB_lb_006r_02" xml:id="VB_line_006r_02" rendition="Line" ulx="130" uly="250" lrx="934" lry="305" rend="visible"/>
+      <zone corresp="VB_lb_006r_03" xml:id="VB_line_006r_03" rendition="Line" ulx="126" uly="302" lrx="905" lry="362" rend="visible"/>
+      <zone corresp="VB_lb_006r_04" xml:id="VB_line_006r_04" rendition="Line" ulx="125" uly="359" lrx="847" lry="415" rend="visible"/>
+      <zone corresp="VB_lb_006r_05" xml:id="VB_line_006r_05" rendition="Line" ulx="125" uly="412" lrx="861" lry="470" rend="visible"/>
+      <zone corresp="VB_lb_006r_06" xml:id="VB_line_006r_06" rendition="Line" ulx="125" uly="467" lrx="910" lry="525" rend="visible"/>
+      <zone corresp="VB_lb_006r_07" xml:id="VB_line_006r_07" rendition="Line" ulx="124" uly="522" lrx="895" lry="580" rend="visible"/>
+      <zone corresp="VB_lb_006r_08" xml:id="VB_line_006r_08" rendition="Line" ulx="124" uly="577" lrx="924" lry="639" rend="visible"/>
+      <zone corresp="VB_lb_006r_09" xml:id="VB_line_006r_09" rendition="Line" ulx="130" uly="636" lrx="879" lry="692" rend="visible"/>
+      <zone corresp="VB_lb_006r_10" xml:id="VB_line_006r_10" rendition="Line" ulx="129" uly="689" lrx="871" lry="745" rend="visible"/>
+      <zone corresp="VB_lb_006r_11" xml:id="VB_line_006r_11" rendition="Line" ulx="129" uly="742" lrx="902" lry="799" rend="visible"/>
+      <zone corresp="VB_lb_006r_12" xml:id="VB_line_006r_12" rendition="Line" ulx="115" uly="796" lrx="896" lry="855" rend="visible"/>
+      <zone corresp="VB_lb_006r_13" xml:id="VB_line_006r_13" rendition="Line" ulx="130" uly="852" lrx="877" lry="908" rend="visible"/>
+      <zone corresp="VB_lb_006r_14" xml:id="VB_line_006r_14" rendition="Line" ulx="130" uly="905" lrx="877" lry="960" rend="visible"/>
+      <zone corresp="VB_lb_006r_15" xml:id="VB_line_006r_15" rendition="Line" ulx="129" uly="957" lrx="888" lry="1017" rend="visible"/>
+      <zone corresp="VB_lb_006r_16" xml:id="VB_line_006r_16" rendition="Line" ulx="129" uly="1014" lrx="910" lry="1071" rend="visible"/>
+      <zone corresp="VB_lb_006r_17" xml:id="VB_line_006r_17" rendition="Line" ulx="130" uly="1068" lrx="896" lry="1120" rend="visible"/>
+      <zone corresp="VB_lb_006r_18" xml:id="VB_line_006r_18" rendition="Line" ulx="134" uly="1117" lrx="884" lry="1175" rend="visible"/>
+      <zone corresp="VB_lb_006r_19" xml:id="VB_line_006r_19" rendition="Line" ulx="134" uly="1172" lrx="896" lry="1236" rend="visible"/>
+      <zone corresp="VB_lb_006r_20" xml:id="VB_line_006r_20" rendition="Line" ulx="134" uly="1233" lrx="893" lry="1290" rend="visible"/>
+      <zone corresp="VB_lb_006r_21" xml:id="VB_line_006r_21" rendition="Line" ulx="127" uly="1287" lrx="893" lry="1342" rend="visible"/>
+      <zone corresp="VB_lb_006r_22" xml:id="VB_line_006r_22" rendition="Line" ulx="127" uly="1339" lrx="888" lry="1399" rend="visible"/>
+      <zone corresp="VB_lb_006r_23" xml:id="VB_line_006r_23" rendition="Line" ulx="136" uly="1396" lrx="899" lry="1456" rend="visible"/>
+      <zone corresp="VB_lb_006r_24" xml:id="VB_line_006r_24" rendition="Line" ulx="137" uly="1453" lrx="890" lry="1521" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_06v" corresp="#VB_fol_06v">
+      <graphic url="immagini\Vercelli-Book_006V_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_006v_01" xml:id="VB_line_006v_01" rendition="Line" ulx="289" uly="173" lrx="1057" lry="243" rend="visible"/>
+      <zone corresp="VB_lb_006v_02" xml:id="VB_line_006v_02" rendition="Line" ulx="293" uly="240" lrx="1063" lry="300" rend="visible"/>
+      <zone corresp="VB_lb_006v_03" xml:id="VB_line_006v_03" rendition="Line" ulx="288" uly="297" lrx="1062" lry="357" rend="visible"/>
+      <zone corresp="VB_lb_006v_04" xml:id="VB_line_006v_04" rendition="Line" ulx="288" uly="354" lrx="1063" lry="409" rend="visible"/>
+      <zone corresp="VB_lb_006v_05" xml:id="VB_line_006v_05" rendition="Line" ulx="291" uly="406" lrx="1058" lry="467" rend="visible"/>
+      <zone corresp="VB_lb_006v_06" xml:id="VB_line_006v_06" rendition="Line" ulx="291" uly="464" lrx="1058" lry="520" rend="visible"/>
+      <zone corresp="VB_lb_006v_07" xml:id="VB_line_006v_07" rendition="Line" ulx="290" uly="517" lrx="1044" lry="576" rend="visible"/>
+      <zone corresp="VB_lb_006v_08" xml:id="VB_line_006v_08" rendition="Line" ulx="289" uly="573" lrx="1044" lry="631" rend="visible"/>
+      <zone corresp="VB_lb_006v_09" xml:id="VB_line_006v_09" rendition="Line" ulx="289" uly="628" lrx="1051" lry="687" rend="visible"/>
+      <zone corresp="VB_lb_006v_10" xml:id="VB_line_006v_10" rendition="Line" ulx="287" uly="684" lrx="1037" lry="743" rend="visible"/>
+      <zone corresp="VB_lb_006v_11" xml:id="VB_line_006v_11" rendition="Line" ulx="286" uly="740" lrx="1058" lry="800" rend="visible"/>
+      <zone corresp="VB_lb_006v_12" xml:id="VB_line_006v_12" rendition="Line" ulx="286" uly="797" lrx="1074" lry="855" rend="visible"/>
+      <zone corresp="VB_lb_006v_13" xml:id="VB_line_006v_13" rendition="Line" ulx="297" uly="852" lrx="1038" lry="908" rend="visible"/>
+      <zone corresp="VB_lb_006v_14" xml:id="VB_line_006v_14" rendition="Line" ulx="298" uly="905" lrx="1049" lry="962" rend="visible"/>
+      <zone corresp="VB_lb_006v_15" xml:id="VB_line_006v_15" rendition="Line" ulx="297" uly="959" lrx="1050" lry="1017" rend="visible"/>
+      <zone corresp="VB_lb_006v_16" xml:id="VB_line_006v_16" rendition="Line" ulx="303" uly="1014" lrx="1021" lry="1071" rend="visible"/>
+      <zone corresp="VB_lb_006v_17" xml:id="VB_line_006v_17" rendition="Line" ulx="292" uly="1068" lrx="1044" lry="1126" rend="visible"/>
+      <zone corresp="VB_lb_006v_18" xml:id="VB_line_006v_18" rendition="Line" ulx="302" uly="1123" lrx="1081" lry="1180" rend="visible"/>
+      <zone corresp="VB_lb_006v_19" xml:id="VB_line_006v_19" rendition="Line" ulx="307" uly="1177" lrx="1089" lry="1236" rend="visible"/>
+      <zone corresp="VB_lb_006v_20" xml:id="VB_line_006v_20" rendition="Line" ulx="308" uly="1233" lrx="1024" lry="1294" rend="visible"/>
+      <zone corresp="VB_lb_006v_21" xml:id="VB_line_006v_21" rendition="Line" ulx="309" uly="1291" lrx="1097" lry="1351" rend="visible"/>
+      <zone corresp="VB_lb_006v_22" xml:id="VB_line_006v_22" rendition="Line" ulx="308" uly="1348" lrx="1075" lry="1406" rend="visible"/>
+      <zone corresp="VB_lb_006v_23" xml:id="VB_line_006v_23" rendition="Line" ulx="311" uly="1403" lrx="1058" lry="1465" rend="visible"/>
+      <zone corresp="VB_lb_006v_24" xml:id="VB_line_006v_24" rendition="Line" ulx="310" uly="1462" lrx="1058" lry="1530" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_07r" corresp="#VB_fol_07r">
+      <graphic url="immagini\Vercelli-Book_007R_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_007r_01" xml:id="VB_line_007r_01" rendition="Line" ulx="129" uly="182" lrx="871" lry="253" rend="visible"/>
+      <zone corresp="VB_lb_007r_02" xml:id="VB_line_007r_02" rendition="Line" ulx="130" uly="250" lrx="896" lry="305" rend="visible"/>
+      <zone corresp="VB_lb_007r_03" xml:id="VB_line_007r_03" rendition="Line" ulx="126" uly="302" lrx="896" lry="362" rend="visible"/>
+      <zone corresp="VB_lb_007r_04" xml:id="VB_line_007r_04" rendition="Line" ulx="125" uly="359" lrx="878" lry="415" rend="visible"/>
+      <zone corresp="VB_lb_007r_05" xml:id="VB_line_007r_05" rendition="Line" ulx="125" uly="412" lrx="890" lry="470" rend="visible"/>
+      <zone corresp="VB_lb_007r_06" xml:id="VB_line_007r_06" rendition="Line" ulx="125" uly="467" lrx="910" lry="525" rend="visible"/>
+      <zone corresp="VB_lb_007r_07" xml:id="VB_line_007r_07" rendition="Line" ulx="125" uly="522" lrx="895" lry="580" rend="visible"/>
+      <zone corresp="VB_lb_007r_08" xml:id="VB_line_007r_08" rendition="Line" ulx="125" uly="577" lrx="878" lry="633" rend="visible"/>
+      <zone corresp="VB_lb_007r_09" xml:id="VB_line_007r_09" rendition="Line" ulx="130" uly="630" lrx="894" lry="692" rend="visible"/>
+      <zone corresp="VB_lb_007r_10" xml:id="VB_line_007r_10" rendition="Line" ulx="129" uly="689" lrx="871" lry="741" rend="visible"/>
+      <zone corresp="VB_lb_007r_11" xml:id="VB_line_007r_11" rendition="Line" ulx="129" uly="738" lrx="902" lry="796" rend="visible"/>
+      <zone corresp="VB_lb_007r_12" xml:id="VB_line_007r_12" rendition="Line" ulx="129" uly="793" lrx="896" lry="849" rend="visible"/>
+      <zone corresp="VB_lb_007r_13" xml:id="VB_line_007r_13" rendition="Line" ulx="130" uly="846" lrx="877" lry="902" rend="visible"/>
+      <zone corresp="VB_lb_007r_14" xml:id="VB_line_007r_14" rendition="Line" ulx="118" uly="899" lrx="877" lry="959" rend="visible"/>
+      <zone corresp="VB_lb_007r_15" xml:id="VB_line_007r_15" rendition="Line" ulx="129" uly="956" lrx="864" lry="1012" rend="visible"/>
+      <zone corresp="VB_lb_007r_16" xml:id="VB_line_007r_16" rendition="Line" ulx="129" uly="1009" lrx="883" lry="1066" rend="visible"/>
+      <zone corresp="VB_lb_007r_17" xml:id="VB_line_007r_17" rendition="Line" ulx="130" uly="1063" lrx="913" lry="1118" rend="visible"/>
+      <zone corresp="VB_lb_007r_18" xml:id="VB_line_007r_18" rendition="Line" ulx="134" uly="1115" lrx="920" lry="1172" rend="visible"/>
+      <zone corresp="VB_lb_007r_19" xml:id="VB_line_007r_19" rendition="Line" ulx="134" uly="1169" lrx="896" lry="1232" rend="visible"/>
+      <zone corresp="VB_lb_007r_20" xml:id="VB_line_007r_20" rendition="Line" ulx="134" uly="1229" lrx="893" lry="1286" rend="visible"/>
+      <zone corresp="VB_lb_007r_21" xml:id="VB_line_007r_21" rendition="Line" ulx="133" uly="1283" lrx="893" lry="1337" rend="visible"/>
+      <zone corresp="VB_lb_007r_22" xml:id="VB_line_007r_22" rendition="Line" ulx="133" uly="1334" lrx="898" lry="1394" rend="visible"/>
+      <zone corresp="VB_lb_007r_23" xml:id="VB_line_007r_23" rendition="Line" ulx="136" uly="1391" lrx="883" lry="1449" rend="visible"/>
+      <zone corresp="VB_lb_007r_24" xml:id="VB_line_007r_24" rendition="Line" ulx="137" uly="1446" lrx="890" lry="1513" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_07v" corresp="#VB_fol_07v">
+      <graphic url="immagini\Vercelli-Book_007V_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_007v_01" xml:id="VB_line_007v_01" rendition="Line" ulx="296" uly="205" lrx="1064" lry="265" rend="visible"/>
+      <zone corresp="VB_lb_007v_02" xml:id="VB_line_007v_02" rendition="Line" ulx="296" uly="262" lrx="1063" lry="318" rend="visible"/>
+      <zone corresp="VB_lb_007v_03" xml:id="VB_line_007v_03" rendition="Line" ulx="296" uly="315" lrx="1071" lry="373" rend="visible"/>
+      <zone corresp="VB_lb_007v_04" xml:id="VB_line_007v_04" rendition="Line" ulx="295" uly="370" lrx="1070" lry="425" rend="visible"/>
+      <zone corresp="VB_lb_007v_05" xml:id="VB_line_007v_05" rendition="Line" ulx="295" uly="422" lrx="1058" lry="478" rend="visible"/>
+      <zone corresp="VB_lb_007v_06" xml:id="VB_line_007v_06" rendition="Line" ulx="295" uly="475" lrx="1069" lry="531" rend="visible"/>
+      <zone corresp="VB_lb_007v_07" xml:id="VB_line_007v_07" rendition="Line" ulx="295" uly="528" lrx="1091" lry="586" rend="visible"/>
+      <zone corresp="VB_lb_007v_08" xml:id="VB_line_007v_08" rendition="Line" ulx="294" uly="583" lrx="1076" lry="641" rend="visible"/>
+      <zone corresp="VB_lb_007v_09" xml:id="VB_line_007v_09" rendition="Line" ulx="293" uly="638" lrx="1087" lry="695" rend="visible"/>
+      <zone corresp="VB_lb_007v_10" xml:id="VB_line_007v_10" rendition="Line" ulx="294" uly="692" lrx="1086" lry="751" rend="visible"/>
+      <zone corresp="VB_lb_007v_11" xml:id="VB_line_007v_11" rendition="Line" ulx="297" uly="748" lrx="1058" lry="807" rend="visible"/>
+      <zone corresp="VB_lb_007v_12" xml:id="VB_line_007v_12" rendition="Line" ulx="297" uly="804" lrx="1092" lry="861" rend="visible"/>
+      <zone corresp="VB_lb_007v_13" xml:id="VB_line_007v_13" rendition="Line" ulx="297" uly="858" lrx="1038" lry="911" rend="visible"/>
+      <zone corresp="VB_lb_007v_14" xml:id="VB_line_007v_14" rendition="Line" ulx="298" uly="908" lrx="1049" lry="962" rend="visible"/>
+      <zone corresp="VB_lb_007v_15" xml:id="VB_line_007v_15" rendition="Line" ulx="297" uly="959" lrx="1050" lry="1023" rend="visible"/>
+      <zone corresp="VB_lb_007v_16" xml:id="VB_line_007v_16" rendition="Line" ulx="296" uly="1020" lrx="1076" lry="1076" rend="visible"/>
+      <zone corresp="VB_lb_007v_17" xml:id="VB_line_007v_17" rendition="Line" ulx="292" uly="1073" lrx="1044" lry="1126" rend="visible"/>
+      <zone corresp="VB_lb_007v_18" xml:id="VB_line_007v_18" rendition="Line" ulx="292" uly="1123" lrx="1064" lry="1180" rend="visible"/>
+      <zone corresp="VB_lb_007v_19" xml:id="VB_line_007v_19" rendition="Line" ulx="291" uly="1177" lrx="1057" lry="1236" rend="visible"/>
+      <zone corresp="VB_lb_007v_20" xml:id="VB_line_007v_20" rendition="Line" ulx="290" uly="1233" lrx="1057" lry="1294" rend="visible"/>
+      <zone corresp="VB_lb_007v_21" xml:id="VB_line_007v_21" rendition="Line" ulx="288" uly="1291" lrx="1057" lry="1351" rend="visible"/>
+      <zone corresp="VB_lb_007v_22" xml:id="VB_line_007v_22" rendition="Line" ulx="288" uly="1348" lrx="1057" lry="1406" rend="visible"/>
+      <zone corresp="VB_lb_007v_23" xml:id="VB_line_007v_23" rendition="Line" ulx="287" uly="1403" lrx="1058" lry="1465" rend="visible"/>
+      <zone corresp="VB_lb_007v_24" xml:id="VB_line_007v_24" rendition="Line" ulx="287" uly="1462" lrx="1058" lry="1530" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_08r" corresp="#VB_fol_08r">
+      <graphic url="immagini\Vercelli-Book_008R_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_008r_01" xml:id="VB_line_008r_01" rendition="Line" ulx="125" uly="182" lrx="895" lry="246" rend="visible"/>
+      <zone corresp="VB_lb_008r_02" xml:id="VB_line_008r_02" rendition="Line" ulx="125" uly="243" lrx="896" lry="294" rend="visible"/>
+      <zone corresp="VB_lb_008r_03" xml:id="VB_line_008r_03" rendition="Line" ulx="126" uly="291" lrx="896" lry="350" rend="visible"/>
+      <zone corresp="VB_lb_008r_04" xml:id="VB_line_008r_04" rendition="Line" ulx="125" uly="347" lrx="915" lry="403" rend="visible"/>
+      <zone corresp="VB_lb_008r_05" xml:id="VB_line_008r_05" rendition="Line" ulx="125" uly="400" lrx="890" lry="455" rend="visible"/>
+      <zone corresp="VB_lb_008r_06" xml:id="VB_line_008r_06" rendition="Line" ulx="116" uly="452" lrx="890" lry="508" rend="visible"/>
+      <zone corresp="VB_lb_008r_07" xml:id="VB_line_008r_07" rendition="Line" ulx="125" uly="505" lrx="890" lry="561" rend="visible"/>
+      <zone corresp="VB_lb_008r_08" xml:id="VB_line_008r_08" rendition="Line" ulx="125" uly="558" lrx="901" lry="613" rend="visible"/>
+      <zone corresp="VB_lb_008r_09" xml:id="VB_line_008r_09" rendition="Line" ulx="130" uly="610" lrx="879" lry="669" rend="visible"/>
+      <zone corresp="VB_lb_008r_10" xml:id="VB_line_008r_10" rendition="Line" ulx="129" uly="666" lrx="902" lry="724" rend="visible"/>
+      <zone corresp="VB_lb_008r_11" xml:id="VB_line_008r_11" rendition="Line" ulx="129" uly="721" lrx="902" lry="780" rend="visible"/>
+      <zone corresp="VB_lb_008r_12" xml:id="VB_line_008r_12" rendition="Line" ulx="129" uly="777" lrx="901" lry="833" rend="visible"/>
+      <zone corresp="VB_lb_008r_13" xml:id="VB_line_008r_13" rendition="Line" ulx="125" uly="830" lrx="877" lry="887" rend="visible"/>
+      <zone corresp="VB_lb_008r_14" xml:id="VB_line_008r_14" rendition="Line" ulx="126" uly="884" lrx="866" lry="939" rend="visible"/>
+      <zone corresp="VB_lb_008r_15" xml:id="VB_line_008r_15" rendition="Line" ulx="129" uly="936" lrx="898" lry="995" rend="visible"/>
+      <zone corresp="VB_lb_008r_16" xml:id="VB_line_008r_16" rendition="Line" ulx="129" uly="992" lrx="916" lry="1044" rend="visible"/>
+      <zone corresp="VB_lb_008r_17" xml:id="VB_line_008r_17" rendition="Line" ulx="122" uly="1041" lrx="913" lry="1096" rend="visible"/>
+      <zone corresp="VB_lb_008r_18" xml:id="VB_line_008r_18" rendition="Line" ulx="119" uly="1093" lrx="882" lry="1156" rend="visible"/>
+      <zone corresp="VB_lb_008r_19" xml:id="VB_line_008r_19" rendition="Line" ulx="127" uly="1153" lrx="854" lry="1207" rend="visible"/>
+      <zone corresp="VB_lb_008r_20" xml:id="VB_line_008r_20" rendition="Line" ulx="127" uly="1204" lrx="880" lry="1263" rend="visible"/>
+      <zone corresp="VB_lb_008r_21" xml:id="VB_line_008r_21" rendition="Line" ulx="133" uly="1260" lrx="898" lry="1320" rend="visible"/>
+      <zone corresp="VB_lb_008r_22" xml:id="VB_line_008r_22" rendition="Line" ulx="133" uly="1317" lrx="886" lry="1374" rend="visible"/>
+      <zone corresp="VB_lb_008r_23" xml:id="VB_line_008r_23" rendition="Line" ulx="136" uly="1371" lrx="883" lry="1428" rend="visible"/>
+      <zone corresp="VB_lb_008r_24" xml:id="VB_line_008r_24" rendition="Line" ulx="137" uly="1425" lrx="890" lry="1490" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_08v" corresp="#VB_fol_08v">
+      <graphic url="immagini\Vercelli-Book_008V_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_008v_01" xml:id="VB_line_008v_01" rendition="Line" ulx="291" uly="211" lrx="1053" lry="271" rend="visible"/>
+      <zone corresp="VB_lb_008v_02" xml:id="VB_line_008v_02" rendition="Line" ulx="293" uly="268" lrx="1084" lry="328" rend="visible"/>
+      <zone corresp="VB_lb_008v_03" xml:id="VB_line_008v_03" rendition="Line" ulx="294" uly="325" lrx="1071" lry="382" rend="visible"/>
+      <zone corresp="VB_lb_008v_04" xml:id="VB_line_008v_04" rendition="Line" ulx="294" uly="379" lrx="1070" lry="435" rend="visible"/>
+      <zone corresp="VB_lb_008v_05" xml:id="VB_line_008v_05" rendition="Line" ulx="295" uly="432" lrx="1068" lry="487" rend="visible"/>
+      <zone corresp="VB_lb_008v_06" xml:id="VB_line_008v_06" rendition="Line" ulx="288" uly="484" lrx="1069" lry="543" rend="visible"/>
+      <zone corresp="VB_lb_008v_07" xml:id="VB_line_008v_07" rendition="Line" ulx="295" uly="540" lrx="1087" lry="596" rend="visible"/>
+      <zone corresp="VB_lb_008v_08" xml:id="VB_line_008v_08" rendition="Line" ulx="294" uly="593" lrx="1058" lry="649" rend="visible"/>
+      <zone corresp="VB_lb_008v_09" xml:id="VB_line_008v_09" rendition="Line" ulx="293" uly="646" lrx="1059" lry="705" rend="visible"/>
+      <zone corresp="VB_lb_008v_10" xml:id="VB_line_008v_10" rendition="Line" ulx="294" uly="702" lrx="1086" lry="762" rend="visible"/>
+      <zone corresp="VB_lb_008v_11" xml:id="VB_line_008v_11" rendition="Line" ulx="297" uly="759" lrx="1040" lry="815" rend="visible"/>
+      <zone corresp="VB_lb_008v_12" xml:id="VB_line_008v_12" rendition="Line" ulx="297" uly="812" lrx="1056" lry="865" rend="visible"/>
+      <zone corresp="VB_lb_008v_13" xml:id="VB_line_008v_13" rendition="Line" ulx="297" uly="862" lrx="1057" lry="917" rend="visible"/>
+      <zone corresp="VB_lb_008v_14" xml:id="VB_line_008v_14" rendition="Line" ulx="306" uly="914" lrx="1053" lry="978" rend="visible"/>
+      <zone corresp="VB_lb_008v_15" xml:id="VB_line_008v_15" rendition="Line" ulx="305" uly="975" lrx="1060" lry="1032" rend="visible"/>
+      <zone corresp="VB_lb_008v_16" xml:id="VB_line_008v_16" rendition="Line" ulx="305" uly="1029" lrx="1056" lry="1086" rend="visible"/>
+      <zone corresp="VB_lb_008v_17" xml:id="VB_line_008v_17" rendition="Line" ulx="306" uly="1083" lrx="1064" lry="1136" rend="visible"/>
+      <zone corresp="VB_lb_008v_18" xml:id="VB_line_008v_18" rendition="Line" ulx="306" uly="1133" lrx="1043" lry="1189" rend="visible"/>
+      <zone corresp="VB_lb_008v_19" xml:id="VB_line_008v_19" rendition="Line" ulx="304" uly="1186" lrx="1077" lry="1247" rend="visible"/>
+      <zone corresp="VB_lb_008v_20" xml:id="VB_line_008v_20" rendition="Line" ulx="308" uly="1244" lrx="1085" lry="1302" rend="visible"/>
+      <zone corresp="VB_lb_008v_21" xml:id="VB_line_008v_21" rendition="Line" ulx="315" uly="1299" lrx="1098" lry="1360" rend="visible"/>
+      <zone corresp="VB_lb_008v_22" xml:id="VB_line_008v_22" rendition="Line" ulx="312" uly="1357" lrx="1075" lry="1412" rend="visible"/>
+      <zone corresp="VB_lb_008v_23" xml:id="VB_line_008v_23" rendition="Line" ulx="314" uly="1409" lrx="1081" lry="1472" rend="visible"/>
+      <zone corresp="VB_lb_008v_24" xml:id="VB_line_008v_24" rendition="Line" ulx="306" uly="1469" lrx="1058" lry="1530" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_09r" corresp="#VB_fol_09r">
+      <graphic url="immagini\Vercelli-Book_009R_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone corresp="VB_lb_009r_01" xml:id="VB_line_009r_01" rendition="Line" ulx="126" uly="205" lrx="876" lry="271" rend="visible"/>
+      <zone corresp="VB_lb_009r_02" xml:id="VB_line_009r_02" rendition="Line" ulx="125" uly="268" lrx="876" lry="331" rend="visible"/>
+      <zone corresp="VB_lb_009r_03" xml:id="VB_line_009r_03" rendition="Line" ulx="128" uly="328" lrx="898" lry="381" rend="visible"/>
+      <zone corresp="VB_lb_009r_04" xml:id="VB_line_009r_04" rendition="Line" ulx="127" uly="378" lrx="922" lry="433" rend="visible"/>
+      <zone corresp="VB_lb_009r_05" xml:id="VB_line_009r_05" rendition="Line" ulx="127" uly="430" lrx="889" lry="486" rend="visible"/>
+      <zone corresp="VB_lb_009r_06" xml:id="VB_line_009r_06" rendition="Line" ulx="126" uly="483" lrx="925" lry="541" rend="visible"/>
+      <zone corresp="VB_lb_009r_07" xml:id="VB_line_009r_07" rendition="Line" ulx="125" uly="538" lrx="888" lry="590" rend="visible"/>
+      <zone corresp="VB_lb_009r_08" xml:id="VB_line_009r_08" rendition="Line" ulx="122" uly="587" lrx="898" lry="640" rend="visible"/>
+      <zone corresp="VB_lb_009r_09" xml:id="VB_line_009r_09" rendition="Line" ulx="130" uly="637" lrx="879" lry="699" rend="visible"/>
+      <zone corresp="VB_lb_009r_10" xml:id="VB_line_009r_10" rendition="Line" ulx="130" uly="696" lrx="903" lry="754" rend="visible"/>
+      <zone corresp="VB_lb_009r_11" xml:id="VB_line_009r_11" rendition="Line" ulx="133" uly="751" lrx="900" lry="809" rend="visible"/>
+      <zone corresp="VB_lb_009r_12" xml:id="VB_line_009r_12" rendition="Line" ulx="136" uly="806" lrx="900" lry="863" rend="visible"/>
+      <zone corresp="VB_lb_009r_13" xml:id="VB_line_009r_13" rendition="Line" ulx="142" uly="860" lrx="894" lry="918" rend="visible"/>
+      <zone corresp="VB_lb_009r_14" xml:id="VB_line_009r_14" rendition="Line" ulx="140" uly="915" lrx="871" lry="971" rend="visible"/>
+      <zone corresp="VB_lb_009r_15" xml:id="VB_line_009r_15" rendition="Line" ulx="141" uly="968" lrx="893" lry="1029" rend="visible"/>
+      <zone corresp="VB_lb_009r_16" xml:id="VB_line_009r_16" rendition="Line" ulx="139" uly="1026" lrx="893" lry="1081" rend="visible"/>
+      <zone corresp="VB_lb_009r_17" xml:id="VB_line_009r_17" rendition="Line" ulx="139" uly="1078" lrx="918" lry="1132" rend="visible"/>
+      <zone corresp="VB_lb_009r_18" xml:id="VB_line_009r_18" rendition="Line" ulx="143" uly="1129" lrx="898" lry="1181" rend="visible"/>
+      <zone corresp="VB_lb_009r_19" xml:id="VB_line_009r_19" rendition="Line" ulx="145" uly="1178" lrx="872" lry="1232" rend="visible"/>
+      <zone corresp="VB_lb_009r_20" xml:id="VB_line_009r_20" rendition="Line" ulx="148" uly="1229" lrx="897" lry="1287" rend="visible"/>
+      <zone corresp="VB_lb_009r_21" xml:id="VB_line_009r_21" rendition="Line" ulx="149" uly="1284" lrx="871" lry="1344" rend="visible"/>
+      <zone corresp="VB_lb_009r_22" xml:id="VB_line_009r_22" rendition="Line" ulx="151" uly="1341" lrx="930" lry="1402" rend="visible"/>
+      <zone corresp="VB_lb_009r_23" xml:id="VB_line_009r_23" rendition="Line" ulx="151" uly="1399" lrx="874" lry="1460" rend="visible"/>
+      <zone corresp="VB_lb_009r_24" xml:id="VB_line_009r_24" rendition="Line" ulx="150" uly="1457" lrx="874" lry="1519" rend="visible"/>
+    </surface>
+
+    <surface xml:id="VB_surf_09v" corresp="#VB_fol_09v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_009V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1093" lry="315" rend="visible" rendition="Line" ulx="291" uly="188" xml:id="VB_line_009v_01"/>
+      <zone lrx="1138" lry="363" rend="visible" rendition="Line" ulx="418" uly="312" xml:id="VB_line_009v_02"/>
+      <zone lrx="1138" lry="417" rend="visible" rendition="Line" ulx="328" uly="360" xml:id="VB_line_009v_03"/>
+      <zone lrx="1079" lry="472" rend="visible" rendition="Line" ulx="328" uly="414" xml:id="VB_line_009v_04"/>
+      <zone lrx="1079" lry="524" rend="visible" rendition="Line" ulx="327" uly="469" xml:id="VB_line_009v_05"/>
+      <zone lrx="1079" lry="578" rend="visible" rendition="Line" ulx="327" uly="521" xml:id="VB_line_009v_06"/>
+      <zone lrx="1088" lry="630" rend="visible" rendition="Line" ulx="326" uly="575" xml:id="VB_line_009v_07"/>
+      <zone lrx="1105" lry="686" rend="visible" rendition="Line" ulx="320" uly="627" xml:id="VB_line_009v_08"/>
+      <zone lrx="1104" lry="745" rend="visible" rendition="Line" ulx="320" uly="683" xml:id="VB_line_009v_09"/>
+      <zone lrx="1109" lry="800" rend="visible" rendition="Line" ulx="320" uly="742" xml:id="VB_line_009v_10"/>
+      <zone lrx="1102" lry="854" rend="visible" rendition="Line" ulx="327" uly="797" xml:id="VB_line_009v_11"/>
+      <zone lrx="1107" lry="908" rend="visible" rendition="Line" ulx="327" uly="851" xml:id="VB_line_009v_12"/>
+      <zone lrx="1125" lry="964" rend="visible" rendition="Line" ulx="333" uly="905" xml:id="VB_line_009v_13"/>
+      <zone lrx="1099" lry="1020" rend="visible" rendition="Line" ulx="330" uly="961" xml:id="VB_line_009v_14"/>
+      <zone lrx="1063" lry="1071" rend="visible" rendition="Line" ulx="330" uly="1017" xml:id="VB_line_009v_15"/>
+      <zone lrx="1089" lry="1125" rend="visible" rendition="Line" ulx="330" uly="1068" xml:id="VB_line_009v_16"/>
+      <zone lrx="1112" lry="1178" rend="visible" rendition="Line" ulx="340" uly="1122" xml:id="VB_line_009v_17"/>
+      <zone lrx="1089" lry="1231" rend="visible" rendition="Line" ulx="339" uly="1175" xml:id="VB_line_009v_18"/>
+      <zone lrx="1101" lry="1289" rend="visible" rendition="Line" ulx="338" uly="1228" xml:id="VB_line_009v_19"/>
+      <zone lrx="1090" lry="1344" rend="visible" rendition="Line" ulx="337" uly="1286" xml:id="VB_line_009v_20"/>
+      <zone lrx="1089" lry="1402" rend="visible" rendition="Line" ulx="337" uly="1341" xml:id="VB_line_009v_21"/>
+      <zone lrx="1071" lry="1457" rend="visible" rendition="Line" ulx="337" uly="1399" xml:id="VB_line_009v_22"/>
+      <zone lrx="1071" lry="1521" rend="visible" rendition="Line" ulx="336" uly="1454" xml:id="VB_line_009v_23"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_10r" corresp="#VB_fol_10r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_010R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="914" lry="249" rend="visible" rendition="Line" ulx="141" uly="181" xml:id="VB_line_010r_01"/>
+      <zone lrx="914" lry="309" rend="visible" rendition="Line" ulx="141" uly="246" xml:id="VB_line_010r_02"/>
+      <zone lrx="891" lry="359" rend="visible" rendition="Line" ulx="142" uly="306" xml:id="VB_line_010r_03"/>
+      <zone lrx="909" lry="416" rend="visible" rendition="Line" ulx="141" uly="356" xml:id="VB_line_010r_04"/>
+      <zone lrx="918" lry="472" rend="visible" rendition="Line" ulx="145" uly="413" xml:id="VB_line_010r_05"/>
+      <zone lrx="889" lry="527" rend="visible" rendition="Line" ulx="145" uly="469" xml:id="VB_line_010r_06"/>
+      <zone lrx="920" lry="585" rend="visible" rendition="Line" ulx="144" uly="524" xml:id="VB_line_010r_07"/>
+      <zone lrx="890" lry="636" rend="visible" rendition="Line" ulx="143" uly="582" xml:id="VB_line_010r_08"/>
+      <zone lrx="911" lry="692" rend="visible" rendition="Line" ulx="143" uly="633" xml:id="VB_line_010r_09"/>
+      <zone lrx="887" lry="744" rend="visible" rendition="Line" ulx="151" uly="689" xml:id="VB_line_010r_10"/>
+      <zone lrx="928" lry="799" rend="visible" rendition="Line" ulx="151" uly="741" xml:id="VB_line_010r_11"/>
+      <zone lrx="896" lry="853" rend="visible" rendition="Line" ulx="155" uly="796" xml:id="VB_line_010r_12"/>
+      <zone lrx="913" lry="905" rend="visible" rendition="Line" ulx="158" uly="850" xml:id="VB_line_010r_13"/>
+      <zone lrx="907" lry="958" rend="visible" rendition="Line" ulx="157" uly="902" xml:id="VB_line_010r_14"/>
+      <zone lrx="908" lry="1011" rend="visible" rendition="Line" ulx="156" uly="955" xml:id="VB_line_010r_15"/>
+      <zone lrx="922" lry="1067" rend="visible" rendition="Line" ulx="155" uly="1008" xml:id="VB_line_010r_16"/>
+      <zone lrx="909" lry="1127" rend="visible" rendition="Line" ulx="154" uly="1064" xml:id="VB_line_010r_17"/>
+      <zone lrx="909" lry="1181" rend="visible" rendition="Line" ulx="153" uly="1124" xml:id="VB_line_010r_18"/>
+      <zone lrx="910" lry="1232" rend="visible" rendition="Line" ulx="152" uly="1178" xml:id="VB_line_010r_19"/>
+      <zone lrx="911" lry="1287" rend="visible" rendition="Line" ulx="151" uly="1229" xml:id="VB_line_010r_20"/>
+      <zone lrx="910" lry="1348" rend="visible" rendition="Line" ulx="151" uly="1284" xml:id="VB_line_010r_21"/>
+      <zone lrx="911" lry="1408" rend="visible" rendition="Line" ulx="151" uly="1345" xml:id="VB_line_010r_22"/>
+      <zone lrx="889" lry="1470" rend="visible" rendition="Line" ulx="151" uly="1405" xml:id="VB_line_010r_23"/>
+      <zone lrx="920" lry="1534" rend="visible" rendition="Line" ulx="150" uly="1467" xml:id="VB_line_010r_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_10v" corresp="#VB_fol_10v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_010V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1083" lry="271" rend="visible" rendition="Line" ulx="291" uly="211" xml:id="VB_line_010v_01"/>
+      <zone lrx="1084" lry="328" rend="visible" rendition="Line" ulx="293" uly="268" xml:id="VB_line_010v_02"/>
+      <zone lrx="1071" lry="382" rend="visible" rendition="Line" ulx="294" uly="325" xml:id="VB_line_010v_03"/>
+      <zone lrx="1082" lry="435" rend="visible" rendition="Line" ulx="294" uly="379" xml:id="VB_line_010v_04"/>
+      <zone lrx="1082" lry="487" rend="visible" rendition="Line" ulx="285" uly="432" xml:id="VB_line_010v_05"/>
+      <zone lrx="1087" lry="543" rend="visible" rendition="Line" ulx="288" uly="484" xml:id="VB_line_010v_06"/>
+      <zone lrx="1087" lry="596" rend="visible" rendition="Line" ulx="295" uly="540" xml:id="VB_line_010v_07"/>
+      <zone lrx="1085" lry="649" rend="visible" rendition="Line" ulx="294" uly="593" xml:id="VB_line_010v_08"/>
+      <zone lrx="1102" lry="705" rend="visible" rendition="Line" ulx="293" uly="646" xml:id="VB_line_010v_09"/>
+      <zone lrx="1086" lry="762" rend="visible" rendition="Line" ulx="294" uly="702" xml:id="VB_line_010v_10"/>
+      <zone lrx="1085" lry="815" rend="visible" rendition="Line" ulx="293" uly="759" xml:id="VB_line_010v_11"/>
+      <zone lrx="1092" lry="865" rend="visible" rendition="Line" ulx="293" uly="812" xml:id="VB_line_010v_12"/>
+      <zone lrx="1071" lry="917" rend="visible" rendition="Line" ulx="287" uly="862" xml:id="VB_line_010v_13"/>
+      <zone lrx="1071" lry="978" rend="visible" rendition="Line" ulx="292" uly="914" xml:id="VB_line_010v_14"/>
+      <zone lrx="1070" lry="1032" rend="visible" rendition="Line" ulx="292" uly="975" xml:id="VB_line_010v_15"/>
+      <zone lrx="1035" lry="1091" rend="visible" rendition="Line" ulx="294" uly="1029" xml:id="VB_line_010v_16"/>
+      <zone lrx="1079" lry="1146" rend="visible" rendition="Line" ulx="293" uly="1088" xml:id="VB_line_010v_17"/>
+      <zone lrx="1043" lry="1203" rend="visible" rendition="Line" ulx="298" uly="1143" xml:id="VB_line_010v_18"/>
+      <zone lrx="1049" lry="1254" rend="visible" rendition="Line" ulx="298" uly="1200" xml:id="VB_line_010v_19"/>
+      <zone lrx="1059" lry="1311" rend="visible" rendition="Line" ulx="298" uly="1251" xml:id="VB_line_010v_20"/>
+      <zone lrx="1066" lry="1374" rend="visible" rendition="Line" ulx="298" uly="1308" xml:id="VB_line_010v_21"/>
+      <zone lrx="1059" lry="1433" rend="visible" rendition="Line" ulx="307" uly="1371" xml:id="VB_line_010v_22"/>
+      <zone lrx="1025" lry="1494" rend="visible" rendition="Line" ulx="307" uly="1430" xml:id="VB_line_010v_23"/>
+      <zone lrx="1033" lry="1569" rend="visible" rendition="Line" ulx="307" uly="1491" xml:id="VB_line_010v_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_11r" corresp="#VB_fol_11r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_011R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="944" lry="265" rend="visible" rendition="Line" ulx="179" uly="197" xml:id="VB_line_011r_01"/>
+      <zone lrx="928" lry="325" rend="visible" rendition="Line" ulx="178" uly="262" xml:id="VB_line_011r_02"/>
+      <zone lrx="977" lry="379" rend="visible" rendition="Line" ulx="177" uly="322" xml:id="VB_line_011r_03"/>
+      <zone lrx="950" lry="434" rend="visible" rendition="Line" ulx="177" uly="376" xml:id="VB_line_011r_04"/>
+      <zone lrx="949" lry="486" rend="visible" rendition="Line" ulx="176" uly="431" xml:id="VB_line_011r_05"/>
+      <zone lrx="942" lry="541" rend="visible" rendition="Line" ulx="176" uly="483" xml:id="VB_line_011r_06"/>
+      <zone lrx="944" lry="599" rend="visible" rendition="Line" ulx="175" uly="538" xml:id="VB_line_011r_07"/>
+      <zone lrx="921" lry="651" rend="visible" rendition="Line" ulx="174" uly="596" xml:id="VB_line_011r_08"/>
+      <zone lrx="941" lry="707" rend="visible" rendition="Line" ulx="173" uly="648" xml:id="VB_line_011r_09"/>
+      <zone lrx="933" lry="759" rend="visible" rendition="Line" ulx="173" uly="704" xml:id="VB_line_011r_10"/>
+      <zone lrx="958" lry="814" rend="visible" rendition="Line" ulx="173" uly="756" xml:id="VB_line_011r_11"/>
+      <zone lrx="933" lry="867" rend="visible" rendition="Line" ulx="172" uly="811" xml:id="VB_line_011r_12"/>
+      <zone lrx="934" lry="920" rend="visible" rendition="Line" ulx="172" uly="864" xml:id="VB_line_011r_13"/>
+      <zone lrx="953" lry="977" rend="visible" rendition="Line" ulx="172" uly="917" xml:id="VB_line_011r_14"/>
+      <zone lrx="937" lry="1026" rend="visible" rendition="Line" ulx="172" uly="974" xml:id="VB_line_011r_15"/>
+      <zone lrx="913" lry="1082" rend="visible" rendition="Line" ulx="172" uly="1023" xml:id="VB_line_011r_16"/>
+      <zone lrx="951" lry="1139" rend="visible" rendition="Line" ulx="171" uly="1079" xml:id="VB_line_011r_17"/>
+      <zone lrx="937" lry="1196" rend="visible" rendition="Line" ulx="170" uly="1136" xml:id="VB_line_011r_18"/>
+      <zone lrx="943" lry="1250" rend="visible" rendition="Line" ulx="169" uly="1193" xml:id="VB_line_011r_19"/>
+      <zone lrx="917" lry="1305" rend="visible" rendition="Line" ulx="168" uly="1247" xml:id="VB_line_011r_20"/>
+      <zone lrx="917" lry="1366" rend="visible" rendition="Line" ulx="168" uly="1302" xml:id="VB_line_011r_21"/>
+      <zone lrx="947" lry="1426" rend="visible" rendition="Line" ulx="167" uly="1363" xml:id="VB_line_011r_22"/>
+      <zone lrx="935" lry="1482" rend="visible" rendition="Line" ulx="167" uly="1423" xml:id="VB_line_011r_23"/>
+      <zone lrx="946" lry="1540" rend="visible" rendition="Line" ulx="167" uly="1479" xml:id="VB_line_011r_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_11v" corresp="#VB_fol_11v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_011V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1083" lry="271" rend="visible" rendition="Line" ulx="291" uly="211" xml:id="VB_line_011v_01"/>
+      <zone lrx="1049" lry="328" rend="visible" rendition="Line" ulx="293" uly="268" xml:id="VB_line_011v_02"/>
+      <zone lrx="1071" lry="382" rend="visible" rendition="Line" ulx="294" uly="325" xml:id="VB_line_011v_03"/>
+      <zone lrx="1037" lry="435" rend="visible" rendition="Line" ulx="294" uly="379" xml:id="VB_line_011v_04"/>
+      <zone lrx="1073" lry="487" rend="visible" rendition="Line" ulx="285" uly="432" xml:id="VB_line_011v_05"/>
+      <zone lrx="1067" lry="547" rend="visible" rendition="Line" ulx="288" uly="484" xml:id="VB_line_011v_06"/>
+      <zone lrx="1087" lry="604" rend="visible" rendition="Line" ulx="295" uly="544" xml:id="VB_line_011v_07"/>
+      <zone lrx="1080" lry="659" rend="visible" rendition="Line" ulx="294" uly="601" xml:id="VB_line_011v_08"/>
+      <zone lrx="1077" lry="718" rend="visible" rendition="Line" ulx="293" uly="656" xml:id="VB_line_011v_09"/>
+      <zone lrx="1079" lry="770" rend="visible" rendition="Line" ulx="293" uly="715" xml:id="VB_line_011v_10"/>
+      <zone lrx="1086" lry="823" rend="visible" rendition="Line" ulx="294" uly="767" xml:id="VB_line_011v_11"/>
+      <zone lrx="1079" lry="880" rend="visible" rendition="Line" ulx="296" uly="820" xml:id="VB_line_011v_12"/>
+      <zone lrx="1075" lry="936" rend="visible" rendition="Line" ulx="296" uly="877" xml:id="VB_line_011v_13"/>
+      <zone lrx="1049" lry="990" rend="visible" rendition="Line" ulx="295" uly="933" xml:id="VB_line_011v_14"/>
+      <zone lrx="1057" lry="1044" rend="visible" rendition="Line" ulx="295" uly="987" xml:id="VB_line_011v_15"/>
+      <zone lrx="1057" lry="1103" rend="visible" rendition="Line" ulx="295" uly="1041" xml:id="VB_line_011v_16"/>
+      <zone lrx="1066" lry="1159" rend="visible" rendition="Line" ulx="295" uly="1100" xml:id="VB_line_011v_17"/>
+      <zone lrx="1108" lry="1212" rend="visible" rendition="Line" ulx="295" uly="1156" xml:id="VB_line_011v_18"/>
+      <zone lrx="1047" lry="1266" rend="visible" rendition="Line" ulx="294" uly="1209" xml:id="VB_line_011v_19"/>
+      <zone lrx="1082" lry="1323" rend="visible" rendition="Line" ulx="301" uly="1263" xml:id="VB_line_011v_20"/>
+      <zone lrx="1071" lry="1380" rend="visible" rendition="Line" ulx="303" uly="1320" xml:id="VB_line_011v_21"/>
+      <zone lrx="1047" lry="1425" rend="visible" rendition="Line" ulx="304" uly="1377" xml:id="VB_line_011v_22"/>
+      <zone lrx="1059" lry="1475" rend="visible" rendition="Line" ulx="304" uly="1422" xml:id="VB_line_011v_23"/>
+      <zone lrx="1086" lry="1517" rend="visible" rendition="Line" ulx="303" uly="1472" xml:id="VB_line_011v_24"/>
+      <zone lrx="1113" lry="1574" rend="visible" rendition="Line" ulx="303" uly="1514" xml:id="VB_line_011v_25"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_12r" corresp="#VB_fol_12r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_012R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="925" lry="261" rend="visible" rendition="Line" ulx="169" uly="204" xml:id="VB_line_012r_01"/>
+      <zone lrx="920" lry="317" rend="visible" rendition="Line" ulx="161" uly="258" xml:id="VB_line_012r_02"/>
+      <zone lrx="925" lry="367" rend="visible" rendition="Line" ulx="166" uly="314" xml:id="VB_line_012r_03"/>
+      <zone lrx="919" lry="422" rend="visible" rendition="Line" ulx="172" uly="364" xml:id="VB_line_012r_04"/>
+      <zone lrx="920" lry="477" rend="visible" rendition="Line" ulx="168" uly="419" xml:id="VB_line_012r_05"/>
+      <zone lrx="961" lry="532" rend="visible" rendition="Line" ulx="168" uly="474" xml:id="VB_line_012r_06"/>
+      <zone lrx="943" lry="587" rend="visible" rendition="Line" ulx="174" uly="529" xml:id="VB_line_012r_07"/>
+      <zone lrx="921" lry="643" rend="visible" rendition="Line" ulx="174" uly="584" xml:id="VB_line_012r_08"/>
+      <zone lrx="942" lry="699" rend="visible" rendition="Line" ulx="174" uly="640" xml:id="VB_line_012r_09"/>
+      <zone lrx="934" lry="751" rend="visible" rendition="Line" ulx="174" uly="696" xml:id="VB_line_012r_10"/>
+      <zone lrx="946" lry="806" rend="visible" rendition="Line" ulx="174" uly="748" xml:id="VB_line_012r_11"/>
+      <zone lrx="961" lry="859" rend="visible" rendition="Line" ulx="174" uly="803" xml:id="VB_line_012r_12"/>
+      <zone lrx="931" lry="912" rend="visible" rendition="Line" ulx="173" uly="856" xml:id="VB_line_012r_13"/>
+      <zone lrx="925" lry="968" rend="visible" rendition="Line" ulx="168" uly="909" xml:id="VB_line_012r_14"/>
+      <zone lrx="931" lry="1026" rend="visible" rendition="Line" ulx="172" uly="965" xml:id="VB_line_012r_15"/>
+      <zone lrx="913" lry="1078" rend="visible" rendition="Line" ulx="172" uly="1023" xml:id="VB_line_012r_16"/>
+      <zone lrx="951" lry="1130" rend="visible" rendition="Line" ulx="173" uly="1075" xml:id="VB_line_012r_17"/>
+      <zone lrx="934" lry="1181" rend="visible" rendition="Line" ulx="174" uly="1127" xml:id="VB_line_012r_18"/>
+      <zone lrx="917" lry="1236" rend="visible" rendition="Line" ulx="173" uly="1178" xml:id="VB_line_012r_19"/>
+      <zone lrx="927" lry="1291" rend="visible" rendition="Line" ulx="173" uly="1233" xml:id="VB_line_012r_20"/>
+      <zone lrx="916" lry="1338" rend="visible" rendition="Line" ulx="177" uly="1288" xml:id="VB_line_012r_21"/>
+      <zone lrx="922" lry="1383" rend="visible" rendition="Line" ulx="177" uly="1335" xml:id="VB_line_012r_22"/>
+      <zone lrx="902" lry="1432" rend="visible" rendition="Line" ulx="178" uly="1380" xml:id="VB_line_012r_23"/>
+      <zone lrx="945" lry="1490" rend="visible" rendition="Line" ulx="179" uly="1429" xml:id="VB_line_012r_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_12v" corresp="#VB_fol_12v">
+      <graphic url="immagini\Vercelli-Book_012V_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone xml:id="VB_line_012v_01" rendition="Line" ulx="243" uly="215" lrx="1062" lry="316" rend="visible"/>
+      <zone xml:id="VB_line_012v_02" rendition="Line" ulx="321" uly="313" lrx="1072" lry="374" rend="visible"/>
+      <zone xml:id="VB_line_012v_03" rendition="Line" ulx="287" uly="371" lrx="1072" lry="429" rend="visible"/>
+      <zone xml:id="VB_line_012v_04" rendition="Line" ulx="291" uly="426" lrx="1094" lry="482" rend="visible"/>
+      <zone xml:id="VB_line_012v_05" rendition="Line" ulx="291" uly="479" lrx="1049" lry="535" rend="visible"/>
+      <zone xml:id="VB_line_012v_06" rendition="Line" ulx="294" uly="532" lrx="1048" lry="595" rend="visible"/>
+      <zone xml:id="VB_line_012v_07" rendition="Line" ulx="293" uly="592" lrx="1034" lry="647" rend="visible"/>
+      <zone xml:id="VB_line_012v_08" rendition="Line" ulx="294" uly="644" lrx="1053" lry="702" rend="visible"/>
+      <zone xml:id="VB_line_012v_09" rendition="Line" ulx="296" uly="699" lrx="1028" lry="756" rend="visible"/>
+      <zone xml:id="VB_line_012v_10" rendition="Line" ulx="298" uly="753" lrx="1063" lry="808" rend="visible"/>
+      <zone xml:id="VB_line_012v_11" rendition="Line" ulx="297" uly="805" lrx="1005" lry="862" rend="visible"/>
+      <zone xml:id="VB_line_012v_12" rendition="Line" ulx="300" uly="859" lrx="1098" lry="916" rend="visible"/>
+      <zone xml:id="VB_line_012v_13" rendition="Line" ulx="295" uly="913" lrx="1082" lry="972" rend="visible"/>
+      <zone xml:id="VB_line_012v_14" rendition="Line" ulx="295" uly="969" lrx="1038" lry="1028" rend="visible"/>
+      <zone xml:id="VB_line_012v_15" rendition="Line" ulx="299" uly="1025" lrx="1073" lry="1080" rend="visible"/>
+      <zone xml:id="VB_line_012v_16" rendition="Line" ulx="305" uly="1077" lrx="1067" lry="1134" rend="visible"/>
+      <zone xml:id="VB_line_012v_17" rendition="Line" ulx="307" uly="1131" lrx="1057" lry="1182" rend="visible"/>
+      <zone xml:id="VB_line_012v_18" rendition="Line" ulx="311" uly="1179" lrx="1070" lry="1241" rend="visible"/>
+      <zone xml:id="VB_line_012v_19" rendition="Line" ulx="314" uly="1238" lrx="1027" lry="1295" rend="visible"/>
+      <zone xml:id="VB_line_012v_20" rendition="Line" ulx="315" uly="1292" lrx="1050" lry="1345" rend="visible"/>
+      <zone xml:id="VB_line_012v_21" rendition="Line" ulx="313" uly="1342" lrx="1075" lry="1388" rend="visible"/>
+      <zone xml:id="VB_line_012v_22" rendition="Line" ulx="318" uly="1385" lrx="1045" lry="1434" rend="visible"/>
+      <zone xml:id="VB_line_012v_23" rendition="Line" ulx="320" uly="1431" lrx="1044" lry="1487" rend="visible"/>
+      <zone xml:id="VB_line_012v_24" rendition="Line" ulx="322" uly="1484" lrx="1065" lry="1544" rend="visible"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_13r" corresp="#VB_fol_13r">
+      <graphic url="immagini\Vercelli-Book_013R_S_300dpi.jpg" width="1200px" height="1800px"/>
+      <zone xml:id="VB_line_013r_01" rendition="Line" ulx="166" uly="204" lrx="942" lry="255" rend="visible"/>
+      <zone xml:id="VB_line_013r_02" rendition="Line" ulx="165" uly="252" lrx="923" lry="306" rend="visible"/>
+      <zone xml:id="VB_line_013r_03" rendition="Line" ulx="160" uly="303" lrx="925" lry="362" rend="visible"/>
+      <zone xml:id="VB_line_013r_04" rendition="Line" ulx="162" uly="359" lrx="908" lry="417" rend="visible"/>
+      <zone xml:id="VB_line_013r_05" rendition="Line" ulx="158" uly="414" lrx="895" lry="473" rend="visible"/>
+      <zone xml:id="VB_line_013r_06" rendition="Line" ulx="162" uly="470" lrx="905" lry="524" rend="visible"/>
+      <zone xml:id="VB_line_013r_07" rendition="Line" ulx="161" uly="521" lrx="919" lry="580" rend="visible"/>
+      <zone xml:id="VB_line_013r_08" rendition="Line" ulx="161" uly="577" lrx="921" lry="635" rend="visible"/>
+      <zone xml:id="VB_line_013r_09" rendition="Line" ulx="161" uly="632" lrx="898" lry="694" rend="visible"/>
+      <zone xml:id="VB_line_013r_10" rendition="Line" ulx="160" uly="691" lrx="926" lry="747" rend="visible"/>
+      <zone xml:id="VB_line_013r_11" rendition="Line" ulx="159" uly="744" lrx="931" lry="803" rend="visible"/>
+      <zone xml:id="VB_line_013r_12" rendition="Line" ulx="158" uly="800" lrx="931" lry="856" rend="visible"/>
+      <zone xml:id="VB_line_013r_13" rendition="Line" ulx="160" uly="853" lrx="915" lry="910" rend="visible"/>
+      <zone xml:id="VB_line_013r_14" rendition="Line" ulx="160" uly="907" lrx="917" lry="966" rend="visible"/>
+      <zone xml:id="VB_line_013r_15" rendition="Line" ulx="159" uly="963" lrx="883" lry="1024" rend="visible"/>
+      <zone xml:id="VB_line_013r_16" rendition="Line" ulx="164" uly="1021" lrx="934" lry="1080" rend="visible"/>
+      <zone xml:id="VB_line_013r_17" rendition="Line" ulx="163" uly="1077" lrx="926" lry="1132" rend="visible"/>
+      <zone xml:id="VB_line_013r_18" rendition="Line" ulx="165" uly="1129" lrx="913" lry="1183" rend="visible"/>
+      <zone xml:id="VB_line_013r_19" rendition="Line" ulx="166" uly="1180" lrx="910" lry="1239" rend="visible"/>
+      <zone xml:id="VB_line_013r_20" rendition="Line" ulx="163" uly="1236" lrx="889" lry="1291" rend="visible"/>
+      <zone xml:id="VB_line_013r_21" rendition="Line" ulx="162" uly="1288" lrx="897" lry="1338" rend="visible"/>
+      <zone xml:id="VB_line_013r_22" rendition="Line" ulx="161" uly="1335" lrx="912" lry="1389" rend="visible"/>
+      <zone xml:id="VB_line_013r_23" rendition="Line" ulx="169" uly="1386" lrx="893" lry="1438" rend="visible"/>
+      <zone xml:id="VB_line_013r_24" rendition="Line" ulx="158" uly="1435" lrx="942" lry="1488" rend="visible"/>
+      <zone xml:id="VB_line_013r_25" rendition="Line" ulx="160" uly="1485" lrx="914" lry="1557" rend="visible"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_13v" corresp="#VB_fol_13v">
+      <graphic url="immagini\Vercelli-Book_013V_S_300dpi.jpg" width="1200px" height="1800px"></graphic>
+      <zone xml:id="VB_line_013v_01" rendition="Line" ulx="295" uly="215" lrx="1062" lry="282" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_02" rendition="Line" ulx="300" uly="280" lrx="1051" lry="333" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_03" rendition="Line" ulx="292" uly="331" lrx="1043" lry="388" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_04" rendition="Line" ulx="303" uly="386" lrx="1036" lry="442" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_05" rendition="Line" ulx="297" uly="440" lrx="1070" lry="495" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_06" rendition="Line" ulx="301" uly="493" lrx="1055" lry="555" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_07" rendition="Line" ulx="305" uly="553" lrx="1083" lry="608" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_08" rendition="Line" ulx="310" uly="606" lrx="1053" lry="664" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_09" rendition="Line" ulx="301" uly="662" lrx="1033" lry="721" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_10" rendition="Line" ulx="306" uly="719" lrx="1107" lry="774" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_11" rendition="Line" ulx="303" uly="772" lrx="1048" lry="829" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_12" rendition="Line" ulx="294" uly="827" lrx="1048" lry="884" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_13" rendition="Line" ulx="294" uly="882" lrx="1066" lry="940" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_14" rendition="Line" ulx="299" uly="938" lrx="1064" lry="996" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_15" rendition="Line" ulx="302" uly="994" lrx="1076" lry="1056" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_16" rendition="Line" ulx="303" uly="1054" lrx="1036" lry="1108" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_17" rendition="Line" ulx="306" uly="1106" lrx="1056" lry="1157" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_18" rendition="Line" ulx="307" uly="1155" lrx="1092" lry="1215" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_19" rendition="Line" ulx="310" uly="1213" lrx="1038" lry="1270" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_20" rendition="Line" ulx="314" uly="1268" lrx="1059" lry="1324" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_21" rendition="Line" ulx="312" uly="1322" lrx="1064" lry="1384" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_22" rendition="Line" ulx="313" uly="1382" lrx="1063" lry="1433" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_23" rendition="Line" ulx="313" uly="1431" lrx="1055" lry="1481" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_24" rendition="Line" ulx="313" uly="1479" lrx="1065" lry="1529" rend="visible"></zone>
+      <zone xml:id="VB_line_013v_25" rendition="Line" ulx="313" uly="1527" lrx="1100" lry="1588" rend="visible"></zone>
+    </surface>
+    
+    <surface xml:id="VB_surf_14r" corresp="#VB_fol_14r">
+      <graphic url="immagini\Vercelli-Book_014R_S_300dpi.jpg" width="1200px" height="1800px"></graphic>
+      <zone xml:id="VB_line_014r_01" rendition="Line" ulx="150" uly="212" lrx="947" lry="274" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_02" rendition="Line" ulx="148" uly="272" lrx="932" lry="327" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_03" rendition="Line" ulx="149" uly="325" lrx="935" lry="383" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_04" rendition="Line" ulx="155" uly="381" lrx="924" lry="440" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_05" rendition="Line" ulx="154" uly="438" lrx="909" lry="496" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_06" rendition="Line" ulx="154" uly="494" lrx="900" lry="548" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_07" rendition="Line" ulx="156" uly="546" lrx="941" lry="605" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_08" rendition="Line" ulx="158" uly="603" lrx="947" lry="665" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_09" rendition="Line" ulx="160" uly="663" lrx="907" lry="716" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_10" rendition="Line" ulx="162" uly="714" lrx="928" lry="770" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_11" rendition="Line" ulx="162" uly="768" lrx="916" lry="827" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_12" rendition="Line" ulx="162" uly="825" lrx="907" lry="881" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_13" rendition="Line" ulx="162" uly="879" lrx="917" lry="936" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_14" rendition="Line" ulx="164" uly="934" lrx="927" lry="988" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_15" rendition="Line" ulx="159" uly="986" lrx="923" lry="1047" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_16" rendition="Line" ulx="158" uly="1045" lrx="913" lry="1102" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_17" rendition="Line" ulx="160" uly="1100" lrx="923" lry="1155" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_18" rendition="Line" ulx="163" uly="1153" lrx="896" lry="1207" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_19" rendition="Line" ulx="163" uly="1205" lrx="904" lry="1264" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_20" rendition="Line" ulx="164" uly="1262" lrx="866" lry="1326" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_21" rendition="Line" ulx="164" uly="1324" lrx="913" lry="1374" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_22" rendition="Line" ulx="159" uly="1372" lrx="935" lry="1426" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_23" rendition="Line" ulx="162" uly="1424" lrx="911" lry="1466" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_24" rendition="Line" ulx="159" uly="1464" lrx="909" lry="1512" rend="visible"></zone>
+      <zone xml:id="VB_line_014r_25" rendition="Line" ulx="161" uly="1510" lrx="915" lry="1575" rend="visible"></zone>
+    </surface>
+    
+    <surface xml:id="VB_surf_14v" corresp="#VB_fol_14v">
+      <graphic url="immagini\Vercelli-Book_014V_S_300dpi.jpg" width="1200px" height="1800px"></graphic>
+      <zone xml:id="VB_line_014v_01" rendition="Line" ulx="287" uly="195" lrx="1067" lry="256" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_02" rendition="Line" ulx="288" uly="254" lrx="1042" lry="311" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_03" rendition="Line" ulx="289" uly="309" lrx="1048" lry="366" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_04" rendition="Line" ulx="297" uly="364" lrx="1057" lry="420" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_05" rendition="Line" ulx="295" uly="418" lrx="1084" lry="477" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_06" rendition="Line" ulx="294" uly="475" lrx="1067" lry="531" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_07" rendition="Line" ulx="296" uly="529" lrx="1039" lry="584" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_08" rendition="Line" ulx="297" uly="582" lrx="1043" lry="640" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_09" rendition="Line" ulx="301" uly="638" lrx="1040" lry="697" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_10" rendition="Line" ulx="300" uly="695" lrx="1076" lry="750" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_11" rendition="Line" ulx="300" uly="748" lrx="1057" lry="805" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_12" rendition="Line" ulx="300" uly="803" lrx="1053" lry="860" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_13" rendition="Line" ulx="297" uly="858" lrx="1069" lry="916" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_14" rendition="Line" ulx="300" uly="914" lrx="1065" lry="972" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_15" rendition="Line" ulx="305" uly="970" lrx="1067" lry="1028" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_16" rendition="Line" ulx="305" uly="1026" lrx="1063" lry="1080" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_17" rendition="Line" ulx="305" uly="1078" lrx="1041" lry="1131" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_18" rendition="Line" ulx="309" uly="1129" lrx="1074" lry="1189" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_19" rendition="Line" ulx="310" uly="1187" lrx="1115" lry="1244" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_20" rendition="Line" ulx="314" uly="1242" lrx="1105" lry="1303" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_21" rendition="Line" ulx="310" uly="1301" lrx="1062" lry="1358" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_22" rendition="Line" ulx="313" uly="1356" lrx="1055" lry="1407" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_23" rendition="Line" ulx="314" uly="1405" lrx="1102" lry="1450" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_24" rendition="Line" ulx="313" uly="1448" lrx="1065" lry="1498" rend="visible"></zone>
+      <zone xml:id="VB_line_014v_25" rendition="Line" ulx="315" uly="1496" lrx="1051" lry="1549" rend="visible"></zone>
+    </surface>
+    
+    <surface xml:id="VB_surf_15r" corresp="#VB_fol_15r">
+      <graphic url="immagini\Vercelli-Book_015R_S_300dpi.jpg" width="1200px" height="1800px"></graphic>
+      <zone xml:id="VB_line_015r_01" rendition="Line" ulx="145" uly="197" lrx="922" lry="259" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_02" rendition="Line" ulx="148" uly="257" lrx="901" lry="312" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_03" rendition="Line" ulx="149" uly="310" lrx="935" lry="368" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_04" rendition="Line" ulx="147" uly="366" lrx="942" lry="424" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_05" rendition="Line" ulx="150" uly="422" lrx="917" lry="480" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_06" rendition="Line" ulx="151" uly="478" lrx="931" lry="535" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_07" rendition="Line" ulx="152" uly="533" lrx="918" lry="591" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_08" rendition="Line" ulx="148" uly="589" lrx="941" lry="648" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_09" rendition="Line" ulx="150" uly="646" lrx="898" lry="706" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_10" rendition="Line" ulx="149" uly="704" lrx="922" lry="760" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_11" rendition="Line" ulx="151" uly="758" lrx="905" lry="817" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_12" rendition="Line" ulx="153" uly="815" lrx="853" lry="870" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_13" rendition="Line" ulx="149" uly="868" lrx="904" lry="922" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_14" rendition="Line" ulx="150" uly="920" lrx="897" lry="974" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_15" rendition="Line" ulx="149" uly="972" lrx="898" lry="1033" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_16" rendition="Line" ulx="149" uly="1031" lrx="897" lry="1088" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_17" rendition="Line" ulx="147" uly="1086" lrx="891" lry="1140" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_18" rendition="Line" ulx="148" uly="1138" lrx="901" lry="1192" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_19" rendition="Line" ulx="147" uly="1190" lrx="883" lry="1249" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_20" rendition="Line" ulx="146" uly="1247" lrx="884" lry="1309" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_21" rendition="Line" ulx="146" uly="1307" lrx="889" lry="1362" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_22" rendition="Line" ulx="146" uly="1360" lrx="893" lry="1414" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_23" rendition="Line" ulx="147" uly="1412" lrx="896" lry="1453" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_24" rendition="Line" ulx="146" uly="1451" lrx="896" lry="1497" rend="visible"></zone>
+      <zone xml:id="VB_line_015r_25" rendition="Line" ulx="142" uly="1495" lrx="916" lry="1555" rend="visible"></zone>
+    </surface>
+    
+    <surface xml:id="VB_surf_15v" corresp="#VB_fol_15v">
+      <graphic url="immagini\Vercelli-Book_015V_S_300dpi.jpg" width="1200px" height="1800px"></graphic>
+      <zone xml:id="VB_line_015v_01" rendition="Line" ulx="295" uly="234" lrx="1035" lry="297" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_02" rendition="Line" ulx="296" uly="295" lrx="1059" lry="347" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_03" rendition="Line" ulx="292" uly="345" lrx="1073" lry="401" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_04" rendition="Line" ulx="299" uly="399" lrx="1059" lry="455" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_05" rendition="Line" ulx="302" uly="453" lrx="1054" lry="507" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_06" rendition="Line" ulx="301" uly="505" lrx="1035" lry="561" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_07" rendition="Line" ulx="301" uly="559" lrx="1044" lry="614" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_08" rendition="Line" ulx="301" uly="612" lrx="1077" lry="666" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_09" rendition="Line" ulx="300" uly="664" lrx="1058" lry="723" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_10" rendition="Line" ulx="300" uly="721" lrx="1076" lry="783" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_11" rendition="Line" ulx="300" uly="781" lrx="1072" lry="838" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_12" rendition="Line" ulx="302" uly="836" lrx="1055" lry="893" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_13" rendition="Line" ulx="302" uly="891" lrx="1095" lry="949" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_14" rendition="Line" ulx="302" uly="946" lrx="1031" lry="1004" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_15" rendition="Line" ulx="307" uly="1002" lrx="1041" lry="1062" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_16" rendition="Line" ulx="305" uly="1060" lrx="1063" lry="1114" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_17" rendition="Line" ulx="307" uly="1112" lrx="1050" lry="1165" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_18" rendition="Line" ulx="309" uly="1163" lrx="1074" lry="1222" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_19" rendition="Line" ulx="309" uly="1220" lrx="1056" lry="1277" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_20" rendition="Line" ulx="307" uly="1275" lrx="1109" lry="1330" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_21" rendition="Line" ulx="310" uly="1328" lrx="1077" lry="1385" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_22" rendition="Line" ulx="310" uly="1383" lrx="1054" lry="1434" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_23" rendition="Line" ulx="310" uly="1432" lrx="1054" lry="1482" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_24" rendition="Line" ulx="311" uly="1480" lrx="1033" lry="1531" rend="visible"></zone>
+      <zone xml:id="VB_line_015v_25" rendition="Line" ulx="310" uly="1529" lrx="1079" lry="1582" rend="visible"></zone>
+    </surface>
+    
+    <surface xml:id="VB_surf_16r" corresp="#VB_fol_16r">
+      <graphic url="immagini\Vercelli-Book_016R_S_300dpi.jpg" width="1200px" height="1800px"></graphic>
+      <zone xml:id="VB_line_016r_01" rendition="Line" ulx="133" uly="223" lrx="902" lry="285" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_02" rendition="Line" ulx="135" uly="283" lrx="896" lry="336" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_03" rendition="Line" ulx="135" uly="334" lrx="901" lry="387" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_04" rendition="Line" ulx="136" uly="385" lrx="886" lry="442" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_05" rendition="Line" ulx="132" uly="440" lrx="884" lry="498" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_06" rendition="Line" ulx="131" uly="496" lrx="873" lry="547" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_07" rendition="Line" ulx="133" uly="545" lrx="873" lry="598" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_08" rendition="Line" ulx="132" uly="596" lrx="932" lry="651" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_09" rendition="Line" ulx="131" uly="649" lrx="889" lry="709" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_10" rendition="Line" ulx="130" uly="707" lrx="887" lry="763" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_11" rendition="Line" ulx="136" uly="761" lrx="873" lry="817" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_12" rendition="Line" ulx="131" uly="815" lrx="905" lry="870" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_13" rendition="Line" ulx="132" uly="868" lrx="931" lry="930" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_14" rendition="Line" ulx="134" uly="928" lrx="905" lry="983" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_15" rendition="Line" ulx="135" uly="981" lrx="898" lry="1042" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_16" rendition="Line" ulx="133" uly="1040" lrx="874" lry="1097" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_17" rendition="Line" ulx="133" uly="1095" lrx="862" lry="1149" rend="visible"></zone>
+      <zone xml:id="VB_line_016r_18" rendition="Line" ulx="132" uly="1147" lrx="501" lry="1203" rend="visible"></zone>
+    </surface>
+    
+    <surface xml:id="VB_surf_16v" corresp="#VB_fol_16v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_016V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1077" lry="349" rend="visible" rendition="Line" ulx="254" uly="255" xml:id="VB_line_016v_01"/>
+      <zone lrx="1043" lry="403" rend="visible" rendition="Line" ulx="363" uly="347" xml:id="VB_line_016v_02"/>
+      <zone lrx="1089" lry="457" rend="visible" rendition="Line" ulx="308" uly="401" xml:id="VB_line_016v_03"/>
+      <zone lrx="1047" lry="506" rend="visible" rendition="Line" ulx="307" uly="455" xml:id="VB_line_016v_04"/>
+      <zone lrx="1068" lry="558" rend="visible" rendition="Line" ulx="307" uly="504" xml:id="VB_line_016v_05"/>
+      <zone lrx="1068" lry="612" rend="visible" rendition="Line" ulx="308" uly="556" xml:id="VB_line_016v_06"/>
+      <zone lrx="1078" lry="665" rend="visible" rendition="Line" ulx="308" uly="610" xml:id="VB_line_016v_07"/>
+      <zone lrx="1081" lry="720" rend="visible" rendition="Line" ulx="305" uly="663" xml:id="VB_line_016v_08"/>
+      <zone lrx="1080" lry="774" rend="visible" rendition="Line" ulx="315" uly="718" xml:id="VB_line_016v_09"/>
+      <zone lrx="1063" lry="834" rend="visible" rendition="Line" ulx="316" uly="772" xml:id="VB_line_016v_10"/>
+      <zone lrx="1104" lry="889" rend="visible" rendition="Line" ulx="317" uly="832" xml:id="VB_line_016v_11"/>
+      <zone lrx="1071" lry="944" rend="visible" rendition="Line" ulx="318" uly="887" xml:id="VB_line_016v_12"/>
+      <zone lrx="1083" lry="999" rend="visible" rendition="Line" ulx="320" uly="942" xml:id="VB_line_016v_13"/>
+      <zone lrx="1075" lry="1055" rend="visible" rendition="Line" ulx="322" uly="997" xml:id="VB_line_016v_14"/>
+      <zone lrx="1088" lry="1113" rend="visible" rendition="Line" ulx="324" uly="1053" xml:id="VB_line_016v_15"/>
+      <zone lrx="1052" lry="1168" rend="visible" rendition="Line" ulx="325" uly="1111" xml:id="VB_line_016v_16"/>
+      <zone lrx="1038" lry="1219" rend="visible" rendition="Line" ulx="329" uly="1166" xml:id="VB_line_016v_17"/>
+      <zone lrx="1097" lry="1270" rend="visible" rendition="Line" ulx="332" uly="1217" xml:id="VB_line_016v_18"/>
+      <zone lrx="1057" lry="1321" rend="visible" rendition="Line" ulx="334" uly="1268" xml:id="VB_line_016v_19"/>
+      <zone lrx="1068" lry="1366" rend="visible" rendition="Line" ulx="334" uly="1319" xml:id="VB_line_016v_20"/>
+      <zone lrx="1063" lry="1421" rend="visible" rendition="Line" ulx="333" uly="1364" xml:id="VB_line_016v_21"/>
+      <zone lrx="1065" lry="1470" rend="visible" rendition="Line" ulx="332" uly="1419" xml:id="VB_line_016v_22"/>
+      <zone lrx="1077" lry="1521" rend="visible" rendition="Line" ulx="333" uly="1468" xml:id="VB_line_016v_23"/>
+      <zone lrx="1064" lry="1571" rend="visible" rendition="Line" ulx="334" uly="1519" xml:id="VB_line_016v_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_17r" corresp="#VB_fol_17r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_017R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="940" lry="304" rend="visible" rendition="Line" ulx="143" uly="242" xml:id="VB_line_017r_01"/>
+      <zone lrx="899" lry="357" rend="visible" rendition="Line" ulx="142" uly="302" xml:id="VB_line_017r_02"/>
+      <zone lrx="900" lry="407" rend="visible" rendition="Line" ulx="147" uly="355" xml:id="VB_line_017r_03"/>
+      <zone lrx="867" lry="460" rend="visible" rendition="Line" ulx="145" uly="405" xml:id="VB_line_017r_04"/>
+      <zone lrx="883" lry="514" rend="visible" rendition="Line" ulx="142" uly="458" xml:id="VB_line_017r_05"/>
+      <zone lrx="895" lry="565" rend="visible" rendition="Line" ulx="141" uly="512" xml:id="VB_line_017r_06"/>
+      <zone lrx="897" lry="615" rend="visible" rendition="Line" ulx="138" uly="563" xml:id="VB_line_017r_07"/>
+      <zone lrx="903" lry="672" rend="visible" rendition="Line" ulx="139" uly="613" xml:id="VB_line_017r_08"/>
+      <zone lrx="876" lry="723" rend="visible" rendition="Line" ulx="138" uly="670" xml:id="VB_line_017r_09"/>
+      <zone lrx="898" lry="777" rend="visible" rendition="Line" ulx="137" uly="721" xml:id="VB_line_017r_10"/>
+      <zone lrx="909" lry="834" rend="visible" rendition="Line" ulx="137" uly="775" xml:id="VB_line_017r_11"/>
+      <zone lrx="904" lry="888" rend="visible" rendition="Line" ulx="141" uly="832" xml:id="VB_line_017r_12"/>
+      <zone lrx="890" lry="942" rend="visible" rendition="Line" ulx="133" uly="886" xml:id="VB_line_017r_13"/>
+      <zone lrx="898" lry="1003" rend="visible" rendition="Line" ulx="137" uly="940" xml:id="VB_line_017r_14"/>
+      <zone lrx="882" lry="1059" rend="visible" rendition="Line" ulx="140" uly="1001" xml:id="VB_line_017r_15"/>
+      <zone lrx="870" lry="1114" rend="visible" rendition="Line" ulx="135" uly="1057" xml:id="VB_line_017r_16"/>
+      <zone lrx="892" lry="1167" rend="visible" rendition="Line" ulx="129" uly="1112" xml:id="VB_line_017r_17"/>
+      <zone lrx="881" lry="1219" rend="visible" rendition="Line" ulx="136" uly="1165" xml:id="VB_line_017r_18"/>
+      <zone lrx="874" lry="1273" rend="visible" rendition="Line" ulx="133" uly="1217" xml:id="VB_line_017r_19"/>
+      <zone lrx="879" lry="1329" rend="visible" rendition="Line" ulx="132" uly="1271" xml:id="VB_line_017r_20"/>
+      <zone lrx="915" lry="1377" rend="visible" rendition="Line" ulx="126" uly="1327" xml:id="VB_line_017r_21"/>
+      <zone lrx="842" lry="1425" rend="visible" rendition="Line" ulx="128" uly="1375" xml:id="VB_line_017r_22"/>
+      <zone lrx="857" lry="1470" rend="visible" rendition="Line" ulx="129" uly="1423" xml:id="VB_line_017r_23"/>
+      <zone lrx="879" lry="1519" rend="visible" rendition="Line" ulx="129" uly="1468" xml:id="VB_line_017r_24"/>
+      <zone lrx="857" lry="1578" rend="visible" rendition="Line" ulx="126" uly="1517" xml:id="VB_line_017r_25"/>
+    </surface>
+
+    <surface xml:id="VB_surf_17v" corresp="#VB_fol_17v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_017V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1054" lry="284" rend="visible" rendition="Line" ulx="299" uly="227" xml:id="VB_line_017v_01"/>
+      <zone lrx="1027" lry="336" rend="visible" rendition="Line" ulx="299" uly="282" xml:id="VB_line_017v_02"/>
+      <zone lrx="1080" lry="390" rend="visible" rendition="Line" ulx="299" uly="334" xml:id="VB_line_017v_03"/>
+      <zone lrx="1045" lry="444" rend="visible" rendition="Line" ulx="301" uly="388" xml:id="VB_line_017v_04"/>
+      <zone lrx="1056" lry="498" rend="visible" rendition="Line" ulx="298" uly="442" xml:id="VB_line_017v_05"/>
+      <zone lrx="1047" lry="552" rend="visible" rendition="Line" ulx="301" uly="496" xml:id="VB_line_017v_06"/>
+      <zone lrx="1039" lry="605" rend="visible" rendition="Line" ulx="301" uly="550" xml:id="VB_line_017v_07"/>
+      <zone lrx="1053" lry="659" rend="visible" rendition="Line" ulx="301" uly="603" xml:id="VB_line_017v_08"/>
+      <zone lrx="1011" lry="713" rend="visible" rendition="Line" ulx="301" uly="657" xml:id="VB_line_017v_09"/>
+      <zone lrx="1059" lry="767" rend="visible" rendition="Line" ulx="301" uly="711" xml:id="VB_line_017v_10"/>
+      <zone lrx="1045" lry="822" rend="visible" rendition="Line" ulx="301" uly="765" xml:id="VB_line_017v_11"/>
+      <zone lrx="1040" lry="872" rend="visible" rendition="Line" ulx="303" uly="820" xml:id="VB_line_017v_12"/>
+      <zone lrx="1017" lry="928" rend="visible" rendition="Line" ulx="302" uly="870" xml:id="VB_line_017v_13"/>
+      <zone lrx="1026" lry="984" rend="visible" rendition="Line" ulx="306" uly="926" xml:id="VB_line_017v_14"/>
+      <zone lrx="1044" lry="1042" rend="visible" rendition="Line" ulx="310" uly="982" xml:id="VB_line_017v_15"/>
+      <zone lrx="1033" lry="1094" rend="visible" rendition="Line" ulx="310" uly="1040" xml:id="VB_line_017v_16"/>
+      <zone lrx="1068" lry="1145" rend="visible" rendition="Line" ulx="310" uly="1092" xml:id="VB_line_017v_17"/>
+      <zone lrx="1024" lry="1202" rend="visible" rendition="Line" ulx="315" uly="1143" xml:id="VB_line_017v_18"/>
+      <zone lrx="1037" lry="1254" rend="visible" rendition="Line" ulx="312" uly="1200" xml:id="VB_line_017v_19"/>
+      <zone lrx="1035" lry="1306" rend="visible" rendition="Line" ulx="316" uly="1252" xml:id="VB_line_017v_20"/>
+      <zone lrx="1027" lry="1361" rend="visible" rendition="Line" ulx="321" uly="1304" xml:id="VB_line_017v_21"/>
+      <zone lrx="1015" lry="1406" rend="visible" rendition="Line" ulx="321" uly="1359" xml:id="VB_line_017v_22"/>
+      <zone lrx="984" lry="1451" rend="visible" rendition="Line" ulx="322" uly="1404" xml:id="VB_line_017v_23"/>
+      <zone lrx="1049" lry="1500" rend="visible" rendition="Line" ulx="327" uly="1449" xml:id="VB_line_017v_24"/>
+      <zone lrx="1032" lry="1560" rend="visible" rendition="Line" ulx="331" uly="1498" xml:id="VB_line_017v_25"/>
+    </surface>
+
+    <surface xml:id="VB_surf_18r" corresp="#VB_fol_18r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_018R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="917" lry="264" rend="visible" rendition="Line" ulx="140" uly="202" xml:id="VB_line_018r_01"/>
+      <zone lrx="895" lry="320" rend="visible" rendition="Line" ulx="140" uly="262" xml:id="VB_line_018r_02"/>
+      <zone lrx="875" lry="376" rend="visible" rendition="Line" ulx="140" uly="318" xml:id="VB_line_018r_03"/>
+      <zone lrx="906" lry="427" rend="visible" rendition="Line" ulx="135" uly="374" xml:id="VB_line_018r_04"/>
+      <zone lrx="897" lry="482" rend="visible" rendition="Line" ulx="136" uly="424" xml:id="VB_line_018r_05"/>
+      <zone lrx="883" lry="537" rend="visible" rendition="Line" ulx="136" uly="480" xml:id="VB_line_018r_06"/>
+      <zone lrx="866" lry="595" rend="visible" rendition="Line" ulx="134" uly="535" xml:id="VB_line_018r_07"/>
+      <zone lrx="900" lry="647" rend="visible" rendition="Line" ulx="132" uly="593" xml:id="VB_line_018r_08"/>
+      <zone lrx="880" lry="701" rend="visible" rendition="Line" ulx="132" uly="645" xml:id="VB_line_018r_09"/>
+      <zone lrx="886" lry="758" rend="visible" rendition="Line" ulx="133" uly="699" xml:id="VB_line_018r_10"/>
+      <zone lrx="907" lry="815" rend="visible" rendition="Line" ulx="132" uly="756" xml:id="VB_line_018r_11"/>
+      <zone lrx="878" lry="867" rend="visible" rendition="Line" ulx="132" uly="812" xml:id="VB_line_018r_12"/>
+      <zone lrx="867" lry="919" rend="visible" rendition="Line" ulx="133" uly="865" xml:id="VB_line_018r_13"/>
+      <zone lrx="844" lry="971" rend="visible" rendition="Line" ulx="133" uly="917" xml:id="VB_line_018r_14"/>
+      <zone lrx="876" lry="1030" rend="visible" rendition="Line" ulx="132" uly="969" xml:id="VB_line_018r_15"/>
+      <zone lrx="901" lry="1084" rend="visible" rendition="Line" ulx="131" uly="1028" xml:id="VB_line_018r_16"/>
+      <zone lrx="846" lry="1140" rend="visible" rendition="Line" ulx="130" uly="1082" xml:id="VB_line_018r_17"/>
+      <zone lrx="848" lry="1191" rend="visible" rendition="Line" ulx="131" uly="1138" xml:id="VB_line_018r_18"/>
+      <zone lrx="847" lry="1247" rend="visible" rendition="Line" ulx="123" uly="1189" xml:id="VB_line_018r_19"/>
+      <zone lrx="860" lry="1297" rend="visible" rendition="Line" ulx="122" uly="1245" xml:id="VB_line_018r_20"/>
+      <zone lrx="870" lry="1350" rend="visible" rendition="Line" ulx="127" uly="1295" xml:id="VB_line_018r_21"/>
+      <zone lrx="859" lry="1405" rend="visible" rendition="Line" ulx="127" uly="1348" xml:id="VB_line_018r_22"/>
+      <zone lrx="844" lry="1448" rend="visible" rendition="Line" ulx="130" uly="1403" xml:id="VB_line_018r_23"/>
+      <zone lrx="831" lry="1497" rend="visible" rendition="Line" ulx="125" uly="1446" xml:id="VB_line_018r_24"/>
+      <zone lrx="832" lry="1562" rend="visible" rendition="Line" ulx="129" uly="1495" xml:id="VB_line_018r_25"/>
+    </surface>
+
+    <surface xml:id="VB_surf_18v" corresp="#VB_fol_18v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_018V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1060" lry="302" rend="visible" rendition="Line" ulx="324" uly="240" xml:id="VB_line_018v_01"/>
+      <zone lrx="1078" lry="354" rend="visible" rendition="Line" ulx="330" uly="300" xml:id="VB_line_018v_02"/>
+      <zone lrx="1093" lry="406" rend="visible" rendition="Line" ulx="335" uly="352" xml:id="VB_line_018v_03"/>
+      <zone lrx="1099" lry="461" rend="visible" rendition="Line" ulx="330" uly="404" xml:id="VB_line_018v_04"/>
+      <zone lrx="1095" lry="518" rend="visible" rendition="Line" ulx="337" uly="459" xml:id="VB_line_018v_05"/>
+      <zone lrx="1119" lry="574" rend="visible" rendition="Line" ulx="342" uly="516" xml:id="VB_line_018v_06"/>
+      <zone lrx="1083" lry="630" rend="visible" rendition="Line" ulx="345" uly="572" xml:id="VB_line_018v_07"/>
+      <zone lrx="1088" lry="684" rend="visible" rendition="Line" ulx="349" uly="628" xml:id="VB_line_018v_08"/>
+      <zone lrx="1104" lry="738" rend="visible" rendition="Line" ulx="348" uly="682" xml:id="VB_line_018v_09"/>
+      <zone lrx="1063" lry="792" rend="visible" rendition="Line" ulx="348" uly="736" xml:id="VB_line_018v_10"/>
+      <zone lrx="1093" lry="847" rend="visible" rendition="Line" ulx="349" uly="790" xml:id="VB_line_018v_11"/>
+      <zone lrx="1074" lry="898" rend="visible" rendition="Line" ulx="350" uly="845" xml:id="VB_line_018v_12"/>
+      <zone lrx="1106" lry="952" rend="visible" rendition="Line" ulx="351" uly="896" xml:id="VB_line_018v_13"/>
+      <zone lrx="1073" lry="1010" rend="visible" rendition="Line" ulx="353" uly="950" xml:id="VB_line_018v_14"/>
+      <zone lrx="1100" lry="1067" rend="visible" rendition="Line" ulx="354" uly="1008" xml:id="VB_line_018v_15"/>
+      <zone lrx="1105" lry="1124" rend="visible" rendition="Line" ulx="355" uly="1065" xml:id="VB_line_018v_16"/>
+      <zone lrx="1090" lry="1175" rend="visible" rendition="Line" ulx="359" uly="1122" xml:id="VB_line_018v_17"/>
+      <zone lrx="1080" lry="1232" rend="visible" rendition="Line" ulx="361" uly="1173" xml:id="VB_line_018v_18"/>
+      <zone lrx="1089" lry="1284" rend="visible" rendition="Line" ulx="362" uly="1230" xml:id="VB_line_018v_19"/>
+      <zone lrx="1055" lry="1336" rend="visible" rendition="Line" ulx="364" uly="1282" xml:id="VB_line_018v_20"/>
+      <zone lrx="1095" lry="1391" rend="visible" rendition="Line" ulx="363" uly="1334" xml:id="VB_line_018v_21"/>
+      <zone lrx="1113" lry="1436" rend="visible" rendition="Line" ulx="363" uly="1389" xml:id="VB_line_018v_22"/>
+      <zone lrx="1065" lry="1483" rend="visible" rendition="Line" ulx="362" uly="1434" xml:id="VB_line_018v_23"/>
+      <zone lrx="1075" lry="1532" rend="visible" rendition="Line" ulx="360" uly="1481" xml:id="VB_line_018v_24"/>
+      <zone lrx="1052" lry="1592" rend="visible" rendition="Line" ulx="363" uly="1530" xml:id="VB_line_018v_25"/>
+    </surface>
+
+    <surface xml:id="VB_surf_19r" corresp="#VB_fol_19r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_019R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="912" lry="226" rend="visible" rendition="Line" ulx="135" uly="164" xml:id="VB_line_019r_01"/>
+      <zone lrx="912" lry="278" rend="visible" rendition="Line" ulx="140" uly="224" xml:id="VB_line_019r_02"/>
+      <zone lrx="924" lry="334" rend="visible" rendition="Line" ulx="138" uly="276" xml:id="VB_line_019r_03"/>
+      <zone lrx="910" lry="389" rend="visible" rendition="Line" ulx="141" uly="332" xml:id="VB_line_019r_04"/>
+      <zone lrx="905" lry="447" rend="visible" rendition="Line" ulx="144" uly="387" xml:id="VB_line_019r_05"/>
+      <zone lrx="937" lry="502" rend="visible" rendition="Line" ulx="146" uly="445" xml:id="VB_line_019r_06"/>
+      <zone lrx="919" lry="559" rend="visible" rendition="Line" ulx="146" uly="500" xml:id="VB_line_019r_07"/>
+      <zone lrx="944" lry="613" rend="visible" rendition="Line" ulx="146" uly="557" xml:id="VB_line_019r_08"/>
+      <zone lrx="910" lry="670" rend="visible" rendition="Line" ulx="150" uly="610" xml:id="VB_line_019r_09"/>
+      <zone lrx="921" lry="727" rend="visible" rendition="Line" ulx="150" uly="668" xml:id="VB_line_019r_10"/>
+      <zone lrx="955" lry="776" rend="visible" rendition="Line" ulx="147" uly="725" xml:id="VB_line_019r_11"/>
+      <zone lrx="923" lry="829" rend="visible" rendition="Line" ulx="149" uly="774" xml:id="VB_line_019r_12"/>
+      <zone lrx="947" lry="880" rend="visible" rendition="Line" ulx="150" uly="827" xml:id="VB_line_019r_13"/>
+      <zone lrx="930" lry="935" rend="visible" rendition="Line" ulx="156" uly="878" xml:id="VB_line_019r_14"/>
+      <zone lrx="952" lry="994" rend="visible" rendition="Line" ulx="159" uly="933" xml:id="VB_line_019r_15"/>
+      <zone lrx="917" lry="1048" rend="visible" rendition="Line" ulx="158" uly="992" xml:id="VB_line_019r_16"/>
+      <zone lrx="914" lry="1098" rend="visible" rendition="Line" ulx="158" uly="1046" xml:id="VB_line_019r_17"/>
+      <zone lrx="891" lry="1149" rend="visible" rendition="Line" ulx="164" uly="1096" xml:id="VB_line_019r_18"/>
+      <zone lrx="942" lry="1205" rend="visible" rendition="Line" ulx="166" uly="1147" xml:id="VB_line_019r_19"/>
+      <zone lrx="892" lry="1260" rend="visible" rendition="Line" ulx="169" uly="1203" xml:id="VB_line_019r_20"/>
+      <zone lrx="932" lry="1319" rend="visible" rendition="Line" ulx="170" uly="1258" xml:id="VB_line_019r_21"/>
+      <zone lrx="904" lry="1380" rend="visible" rendition="Line" ulx="172" uly="1317" xml:id="VB_line_019r_22"/>
+      <zone lrx="910" lry="1443" rend="visible" rendition="Line" ulx="172" uly="1378" xml:id="VB_line_019r_23"/>
+      <zone lrx="926" lry="1500" rend="visible" rendition="Line" ulx="173" uly="1441" xml:id="VB_line_019r_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_19v" corresp="#VB_fol_19v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_019V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1083" lry="228" rend="visible" rendition="Line" ulx="323" uly="166" xml:id="VB_line_019v_01"/>
+      <zone lrx="1089" lry="279" rend="visible" rendition="Line" ulx="322" uly="226" xml:id="VB_line_019v_02"/>
+      <zone lrx="1132" lry="332" rend="visible" rendition="Line" ulx="322" uly="277" xml:id="VB_line_019v_03"/>
+      <zone lrx="1108" lry="391" rend="visible" rendition="Line" ulx="324" uly="330" xml:id="VB_line_019v_04"/>
+      <zone lrx="1086" lry="448" rend="visible" rendition="Line" ulx="328" uly="389" xml:id="VB_line_019v_05"/>
+      <zone lrx="1084" lry="504" rend="visible" rendition="Line" ulx="323" uly="446" xml:id="VB_line_019v_06"/>
+      <zone lrx="1099" lry="560" rend="visible" rendition="Line" ulx="322" uly="502" xml:id="VB_line_019v_07"/>
+      <zone lrx="1097" lry="614" rend="visible" rendition="Line" ulx="325" uly="558" xml:id="VB_line_019v_08"/>
+      <zone lrx="1088" lry="665" rend="visible" rendition="Line" ulx="325" uly="612" xml:id="VB_line_019v_09"/>
+      <zone lrx="1081" lry="719" rend="visible" rendition="Line" ulx="307" uly="663" xml:id="VB_line_019v_10"/>
+      <zone lrx="1078" lry="774" rend="visible" rendition="Line" ulx="317" uly="717" xml:id="VB_line_019v_11"/>
+      <zone lrx="1072" lry="825" rend="visible" rendition="Line" ulx="318" uly="772" xml:id="VB_line_019v_12"/>
+      <zone lrx="1128" lry="876" rend="visible" rendition="Line" ulx="322" uly="823" xml:id="VB_line_019v_13"/>
+      <zone lrx="1080" lry="929" rend="visible" rendition="Line" ulx="322" uly="874" xml:id="VB_line_019v_14"/>
+      <zone lrx="1057" lry="985" rend="visible" rendition="Line" ulx="324" uly="927" xml:id="VB_line_019v_15"/>
+      <zone lrx="1077" lry="1039" rend="visible" rendition="Line" ulx="327" uly="983" xml:id="VB_line_019v_16"/>
+      <zone lrx="1052" lry="1090" rend="visible" rendition="Line" ulx="316" uly="1037" xml:id="VB_line_019v_17"/>
+      <zone lrx="1079" lry="1143" rend="visible" rendition="Line" ulx="317" uly="1088" xml:id="VB_line_019v_18"/>
+      <zone lrx="1080" lry="1199" rend="visible" rendition="Line" ulx="318" uly="1141" xml:id="VB_line_019v_19"/>
+      <zone lrx="1051" lry="1254" rend="visible" rendition="Line" ulx="319" uly="1197" xml:id="VB_line_019v_20"/>
+      <zone lrx="1073" lry="1313" rend="visible" rendition="Line" ulx="316" uly="1252" xml:id="VB_line_019v_21"/>
+      <zone lrx="1107" lry="1375" rend="visible" rendition="Line" ulx="319" uly="1311" xml:id="VB_line_019v_22"/>
+      <zone lrx="1089" lry="1431" rend="visible" rendition="Line" ulx="318" uly="1373" xml:id="VB_line_019v_23"/>
+      <zone lrx="1050" lry="1490" rend="visible" rendition="Line" ulx="323" uly="1429" xml:id="VB_line_019v_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_20r" corresp="#VB_fol_20r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_020R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="926" lry="231" rend="visible" rendition="Line" ulx="149" uly="174" xml:id="VB_line_020r_01"/>
+      <zone lrx="937" lry="287" rend="visible" rendition="Line" ulx="147" uly="229" xml:id="VB_line_020r_02"/>
+      <zone lrx="912" lry="344" rend="visible" rendition="Line" ulx="148" uly="285" xml:id="VB_line_020r_03"/>
+      <zone lrx="936" lry="396" rend="visible" rendition="Line" ulx="155" uly="342" xml:id="VB_line_020r_04"/>
+      <zone lrx="944" lry="452" rend="visible" rendition="Line" ulx="158" uly="394" xml:id="VB_line_020r_05"/>
+      <zone lrx="940" lry="507" rend="visible" rendition="Line" ulx="162" uly="450" xml:id="VB_line_020r_06"/>
+      <zone lrx="934" lry="561" rend="visible" rendition="Line" ulx="159" uly="505" xml:id="VB_line_020r_07"/>
+      <zone lrx="924" lry="613" rend="visible" rendition="Line" ulx="154" uly="559" xml:id="VB_line_020r_08"/>
+      <zone lrx="919" lry="667" rend="visible" rendition="Line" ulx="160" uly="611" xml:id="VB_line_020r_09"/>
+      <zone lrx="864" lry="721" rend="visible" rendition="Line" ulx="161" uly="665" xml:id="VB_line_020r_10"/>
+      <zone lrx="951" lry="772" rend="visible" rendition="Line" ulx="160" uly="719" xml:id="VB_line_020r_11"/>
+      <zone lrx="930" lry="825" rend="visible" rendition="Line" ulx="163" uly="770" xml:id="VB_line_020r_12"/>
+      <zone lrx="937" lry="877" rend="visible" rendition="Line" ulx="164" uly="823" xml:id="VB_line_020r_13"/>
+      <zone lrx="924" lry="933" rend="visible" rendition="Line" ulx="164" uly="875" xml:id="VB_line_020r_14"/>
+      <zone lrx="904" lry="984" rend="visible" rendition="Line" ulx="172" uly="931" xml:id="VB_line_020r_15"/>
+      <zone lrx="930" lry="1038" rend="visible" rendition="Line" ulx="160" uly="982" xml:id="VB_line_020r_16"/>
+      <zone lrx="955" lry="1090" rend="visible" rendition="Line" ulx="164" uly="1036" xml:id="VB_line_020r_17"/>
+      <zone lrx="907" lry="1141" rend="visible" rendition="Line" ulx="171" uly="1088" xml:id="VB_line_020r_18"/>
+      <zone lrx="897" lry="1195" rend="visible" rendition="Line" ulx="163" uly="1139" xml:id="VB_line_020r_19"/>
+      <zone lrx="948" lry="1251" rend="visible" rendition="Line" ulx="169" uly="1193" xml:id="VB_line_020r_20"/>
+      <zone lrx="928" lry="1304" rend="visible" rendition="Line" ulx="168" uly="1249" xml:id="VB_line_020r_21"/>
+      <zone lrx="910" lry="1359" rend="visible" rendition="Line" ulx="171" uly="1302" xml:id="VB_line_020r_22"/>
+      <zone lrx="938" lry="1418" rend="visible" rendition="Line" ulx="170" uly="1357" xml:id="VB_line_020r_23"/>
+      <zone lrx="918" lry="1479" rend="visible" rendition="Line" ulx="166" uly="1416" xml:id="VB_line_020r_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_20v" corresp="#VB_fol_20v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_020V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1096" lry="235" rend="visible" rendition="Line" ulx="318" uly="173" xml:id="VB_line_020v_01"/>
+      <zone lrx="1114" lry="286" rend="visible" rendition="Line" ulx="323" uly="233" xml:id="VB_line_020v_02"/>
+      <zone lrx="1098" lry="338" rend="visible" rendition="Line" ulx="329" uly="284" xml:id="VB_line_020v_03"/>
+      <zone lrx="1097" lry="387" rend="visible" rendition="Line" ulx="328" uly="336" xml:id="VB_line_020v_04"/>
+      <zone lrx="1085" lry="441" rend="visible" rendition="Line" ulx="327" uly="385" xml:id="VB_line_020v_05"/>
+      <zone lrx="1091" lry="496" rend="visible" rendition="Line" ulx="329" uly="439" xml:id="VB_line_020v_06"/>
+      <zone lrx="1098" lry="551" rend="visible" rendition="Line" ulx="329" uly="494" xml:id="VB_line_020v_07"/>
+      <zone lrx="1081" lry="605" rend="visible" rendition="Line" ulx="323" uly="549" xml:id="VB_line_020v_08"/>
+      <zone lrx="1091" lry="659" rend="visible" rendition="Line" ulx="328" uly="603" xml:id="VB_line_020v_09"/>
+      <zone lrx="1109" lry="716" rend="visible" rendition="Line" ulx="335" uly="657" xml:id="VB_line_020v_10"/>
+      <zone lrx="1080" lry="771" rend="visible" rendition="Line" ulx="332" uly="714" xml:id="VB_line_020v_11"/>
+      <zone lrx="1098" lry="822" rend="visible" rendition="Line" ulx="330" uly="769" xml:id="VB_line_020v_12"/>
+      <zone lrx="1077" lry="876" rend="visible" rendition="Line" ulx="330" uly="820" xml:id="VB_line_020v_13"/>
+      <zone lrx="1084" lry="931" rend="visible" rendition="Line" ulx="331" uly="874" xml:id="VB_line_020v_14"/>
+      <zone lrx="1080" lry="988" rend="visible" rendition="Line" ulx="334" uly="929" xml:id="VB_line_020v_15"/>
+      <zone lrx="1067" lry="1040" rend="visible" rendition="Line" ulx="340" uly="986" xml:id="VB_line_020v_16"/>
+      <zone lrx="1081" lry="1085" rend="visible" rendition="Line" ulx="335" uly="1038" xml:id="VB_line_020v_17"/>
+      <zone lrx="1114" lry="1132" rend="visible" rendition="Line" ulx="339" uly="1083" xml:id="VB_line_020v_18"/>
+      <zone lrx="1100" lry="1194" rend="visible" rendition="Line" ulx="334" uly="1130" xml:id="VB_line_020v_19"/>
+      <zone lrx="1077" lry="1248" rend="visible" rendition="Line" ulx="339" uly="1192" xml:id="VB_line_020v_20"/>
+      <zone lrx="1141" lry="1302" rend="visible" rendition="Line" ulx="343" uly="1246" xml:id="VB_line_020v_21"/>
+      <zone lrx="1145" lry="1357" rend="visible" rendition="Line" ulx="345" uly="1300" xml:id="VB_line_020v_22"/>
+      <zone lrx="1071" lry="1411" rend="visible" rendition="Line" ulx="346" uly="1355" xml:id="VB_line_020v_23"/>
+      <zone lrx="1102" lry="1476" rend="visible" rendition="Line" ulx="346" uly="1409" xml:id="VB_line_020v_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_21r" corresp="#VB_fol_21r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_021R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="930" lry="252" rend="visible" rendition="Line" ulx="129" uly="190" xml:id="VB_line_021r_01"/>
+      <zone lrx="901" lry="305" rend="visible" rendition="Line" ulx="132" uly="250" xml:id="VB_line_021r_02"/>
+      <zone lrx="917" lry="357" rend="visible" rendition="Line" ulx="136" uly="303" xml:id="VB_line_021r_03"/>
+      <zone lrx="922" lry="407" rend="visible" rendition="Line" ulx="134" uly="355" xml:id="VB_line_021r_04"/>
+      <zone lrx="896" lry="463" rend="visible" rendition="Line" ulx="135" uly="405" xml:id="VB_line_021r_05"/>
+      <zone lrx="930" lry="519" rend="visible" rendition="Line" ulx="131" uly="461" xml:id="VB_line_021r_06"/>
+      <zone lrx="912" lry="577" rend="visible" rendition="Line" ulx="131" uly="517" xml:id="VB_line_021r_07"/>
+      <zone lrx="893" lry="629" rend="visible" rendition="Line" ulx="135" uly="575" xml:id="VB_line_021r_08"/>
+      <zone lrx="900" lry="681" rend="visible" rendition="Line" ulx="136" uly="627" xml:id="VB_line_021r_09"/>
+      <zone lrx="932" lry="738" rend="visible" rendition="Line" ulx="136" uly="679" xml:id="VB_line_021r_10"/>
+      <zone lrx="950" lry="792" rend="visible" rendition="Line" ulx="134" uly="736" xml:id="VB_line_021r_11"/>
+      <zone lrx="898" lry="843" rend="visible" rendition="Line" ulx="136" uly="790" xml:id="VB_line_021r_12"/>
+      <zone lrx="932" lry="894" rend="visible" rendition="Line" ulx="131" uly="841" xml:id="VB_line_021r_13"/>
+      <zone lrx="940" lry="948" rend="visible" rendition="Line" ulx="137" uly="892" xml:id="VB_line_021r_14"/>
+      <zone lrx="888" lry="1003" rend="visible" rendition="Line" ulx="143" uly="946" xml:id="VB_line_021r_15"/>
+      <zone lrx="896" lry="1055" rend="visible" rendition="Line" ulx="142" uly="1001" xml:id="VB_line_021r_16"/>
+      <zone lrx="888" lry="1101" rend="visible" rendition="Line" ulx="144" uly="1053" xml:id="VB_line_021r_17"/>
+      <zone lrx="908" lry="1151" rend="visible" rendition="Line" ulx="146" uly="1099" xml:id="VB_line_021r_18"/>
+      <zone lrx="954" lry="1211" rend="visible" rendition="Line" ulx="140" uly="1149" xml:id="VB_line_021r_19"/>
+      <zone lrx="896" lry="1265" rend="visible" rendition="Line" ulx="143" uly="1209" xml:id="VB_line_021r_20"/>
+      <zone lrx="926" lry="1324" rend="visible" rendition="Line" ulx="145" uly="1263" xml:id="VB_line_021r_21"/>
+      <zone lrx="901" lry="1378" rend="visible" rendition="Line" ulx="149" uly="1322" xml:id="VB_line_021r_22"/>
+      <zone lrx="897" lry="1434" rend="visible" rendition="Line" ulx="152" uly="1376" xml:id="VB_line_021r_23"/>
+      <zone lrx="914" lry="1498" rend="visible" rendition="Line" ulx="150" uly="1432" xml:id="VB_line_021r_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_21v" corresp="#VB_fol_21v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_021V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1118" lry="256" rend="visible" rendition="Line" ulx="340" uly="194" xml:id="VB_line_021v_01"/>
+      <zone lrx="1082" lry="307" rend="visible" rendition="Line" ulx="339" uly="254" xml:id="VB_line_021v_02"/>
+      <zone lrx="1131" lry="358" rend="visible" rendition="Line" ulx="343" uly="305" xml:id="VB_line_021v_03"/>
+      <zone lrx="1093" lry="412" rend="visible" rendition="Line" ulx="343" uly="356" xml:id="VB_line_021v_04"/>
+      <zone lrx="1082" lry="465" rend="visible" rendition="Line" ulx="346" uly="410" xml:id="VB_line_021v_05"/>
+      <zone lrx="1104" lry="522" rend="visible" rendition="Line" ulx="342" uly="463" xml:id="VB_line_021v_06"/>
+      <zone lrx="1114" lry="576" rend="visible" rendition="Line" ulx="344" uly="520" xml:id="VB_line_021v_07"/>
+      <zone lrx="1117" lry="628" rend="visible" rendition="Line" ulx="347" uly="574" xml:id="VB_line_021v_08"/>
+      <zone lrx="1075" lry="682" rend="visible" rendition="Line" ulx="345" uly="626" xml:id="VB_line_021v_09"/>
+      <zone lrx="1100" lry="739" rend="visible" rendition="Line" ulx="345" uly="680" xml:id="VB_line_021v_10"/>
+      <zone lrx="1130" lry="793" rend="visible" rendition="Line" ulx="340" uly="737" xml:id="VB_line_021v_11"/>
+      <zone lrx="1094" lry="844" rend="visible" rendition="Line" ulx="342" uly="791" xml:id="VB_line_021v_12"/>
+      <zone lrx="1128" lry="895" rend="visible" rendition="Line" ulx="341" uly="842" xml:id="VB_line_021v_13"/>
+      <zone lrx="1095" lry="950" rend="visible" rendition="Line" ulx="342" uly="893" xml:id="VB_line_021v_14"/>
+      <zone lrx="1122" lry="1004" rend="visible" rendition="Line" ulx="340" uly="948" xml:id="VB_line_021v_15"/>
+      <zone lrx="1103" lry="1055" rend="visible" rendition="Line" ulx="343" uly="1002" xml:id="VB_line_021v_16"/>
+      <zone lrx="1109" lry="1106" rend="visible" rendition="Line" ulx="342" uly="1053" xml:id="VB_line_021v_17"/>
+      <zone lrx="1082" lry="1157" rend="visible" rendition="Line" ulx="342" uly="1104" xml:id="VB_line_021v_18"/>
+      <zone lrx="1090" lry="1213" rend="visible" rendition="Line" ulx="343" uly="1155" xml:id="VB_line_021v_19"/>
+      <zone lrx="1088" lry="1272" rend="visible" rendition="Line" ulx="341" uly="1211" xml:id="VB_line_021v_20"/>
+      <zone lrx="1105" lry="1328" rend="visible" rendition="Line" ulx="337" uly="1270" xml:id="VB_line_021v_21"/>
+      <zone lrx="1139" lry="1380" rend="visible" rendition="Line" ulx="341" uly="1326" xml:id="VB_line_021v_22"/>
+      <zone lrx="1128" lry="1433" rend="visible" rendition="Line" ulx="343" uly="1378" xml:id="VB_line_021v_23"/>
+      <zone lrx="1072" lry="1499" rend="visible" rendition="Line" ulx="346" uly="1431" xml:id="VB_line_021v_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_22r" corresp="#VB_fol_22r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_022R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="903" lry="239" rend="visible" rendition="Line" ulx="127" uly="177" xml:id="VB_line_022r_01"/>
+      <zone lrx="900" lry="292" rend="visible" rendition="Line" ulx="131" uly="237" xml:id="VB_line_022r_02"/>
+      <zone lrx="894" lry="344" rend="visible" rendition="Line" ulx="136" uly="290" xml:id="VB_line_022r_03"/>
+      <zone lrx="884" lry="399" rend="visible" rendition="Line" ulx="134" uly="342" xml:id="VB_line_022r_04"/>
+      <zone lrx="882" lry="455" rend="visible" rendition="Line" ulx="139" uly="397" xml:id="VB_line_022r_05"/>
+      <zone lrx="912" lry="511" rend="visible" rendition="Line" ulx="139" uly="453" xml:id="VB_line_022r_06"/>
+      <zone lrx="905" lry="566" rend="visible" rendition="Line" ulx="141" uly="509" xml:id="VB_line_022r_07"/>
+      <zone lrx="921" lry="619" rend="visible" rendition="Line" ulx="141" uly="564" xml:id="VB_line_022r_08"/>
+      <zone lrx="899" lry="671" rend="visible" rendition="Line" ulx="138" uly="617" xml:id="VB_line_022r_09"/>
+      <zone lrx="889" lry="728" rend="visible" rendition="Line" ulx="139" uly="669" xml:id="VB_line_022r_10"/>
+      <zone lrx="919" lry="782" rend="visible" rendition="Line" ulx="139" uly="726" xml:id="VB_line_022r_11"/>
+      <zone lrx="902" lry="833" rend="visible" rendition="Line" ulx="140" uly="780" xml:id="VB_line_022r_12"/>
+      <zone lrx="874" lry="885" rend="visible" rendition="Line" ulx="140" uly="831" xml:id="VB_line_022r_13"/>
+      <zone lrx="908" lry="939" rend="visible" rendition="Line" ulx="142" uly="883" xml:id="VB_line_022r_14"/>
+      <zone lrx="896" lry="994" rend="visible" rendition="Line" ulx="142" uly="937" xml:id="VB_line_022r_15"/>
+      <zone lrx="883" lry="1045" rend="visible" rendition="Line" ulx="143" uly="992" xml:id="VB_line_022r_16"/>
+      <zone lrx="897" lry="1097" rend="visible" rendition="Line" ulx="145" uly="1043" xml:id="VB_line_022r_17"/>
+      <zone lrx="886" lry="1147" rend="visible" rendition="Line" ulx="143" uly="1095" xml:id="VB_line_022r_18"/>
+      <zone lrx="900" lry="1205" rend="visible" rendition="Line" ulx="146" uly="1145" xml:id="VB_line_022r_19"/>
+      <zone lrx="899" lry="1259" rend="visible" rendition="Line" ulx="146" uly="1203" xml:id="VB_line_022r_20"/>
+      <zone lrx="893" lry="1317" rend="visible" rendition="Line" ulx="145" uly="1257" xml:id="VB_line_022r_21"/>
+      <zone lrx="902" lry="1371" rend="visible" rendition="Line" ulx="150" uly="1315" xml:id="VB_line_022r_22"/>
+      <zone lrx="894" lry="1427" rend="visible" rendition="Line" ulx="149" uly="1369" xml:id="VB_line_022r_23"/>
+      <zone lrx="936" lry="1498" rend="visible" rendition="Line" ulx="147" uly="1425" xml:id="VB_line_022r_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_22v" corresp="#VB_fol_22v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_022V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1118" lry="233" rend="visible" rendition="Line" ulx="340" uly="179" xml:id="VB_line_022v_01"/>
+      <zone lrx="1115" lry="284" rend="visible" rendition="Line" ulx="343" uly="231" xml:id="VB_line_022v_02"/>
+      <zone lrx="1131" lry="335" rend="visible" rendition="Line" ulx="343" uly="282" xml:id="VB_line_022v_03"/>
+      <zone lrx="1130" lry="392" rend="visible" rendition="Line" ulx="342" uly="333" xml:id="VB_line_022v_04"/>
+      <zone lrx="1081" lry="449" rend="visible" rendition="Line" ulx="345" uly="390" xml:id="VB_line_022v_05"/>
+      <zone lrx="1121" lry="506" rend="visible" rendition="Line" ulx="348" uly="447" xml:id="VB_line_022v_06"/>
+      <zone lrx="1075" lry="560" rend="visible" rendition="Line" ulx="347" uly="504" xml:id="VB_line_022v_07"/>
+      <zone lrx="1091" lry="612" rend="visible" rendition="Line" ulx="347" uly="558" xml:id="VB_line_022v_08"/>
+      <zone lrx="1080" lry="667" rend="visible" rendition="Line" ulx="350" uly="610" xml:id="VB_line_022v_09"/>
+      <zone lrx="1085" lry="723" rend="visible" rendition="Line" ulx="349" uly="665" xml:id="VB_line_022v_10"/>
+      <zone lrx="1087" lry="777" rend="visible" rendition="Line" ulx="350" uly="721" xml:id="VB_line_022v_11"/>
+      <zone lrx="1100" lry="828" rend="visible" rendition="Line" ulx="348" uly="775" xml:id="VB_line_022v_12"/>
+      <zone lrx="1123" lry="879" rend="visible" rendition="Line" ulx="346" uly="826" xml:id="VB_line_022v_13"/>
+      <zone lrx="1092" lry="931" rend="visible" rendition="Line" ulx="347" uly="877" xml:id="VB_line_022v_14"/>
+      <zone lrx="1139" lry="985" rend="visible" rendition="Line" ulx="349" uly="929" xml:id="VB_line_022v_15"/>
+      <zone lrx="1077" lry="1038" rend="visible" rendition="Line" ulx="349" uly="983" xml:id="VB_line_022v_16"/>
+      <zone lrx="1064" lry="1086" rend="visible" rendition="Line" ulx="352" uly="1036" xml:id="VB_line_022v_17"/>
+      <zone lrx="1096" lry="1137" rend="visible" rendition="Line" ulx="356" uly="1084" xml:id="VB_line_022v_18"/>
+      <zone lrx="1103" lry="1193" rend="visible" rendition="Line" ulx="356" uly="1135" xml:id="VB_line_022v_19"/>
+      <zone lrx="1104" lry="1252" rend="visible" rendition="Line" ulx="357" uly="1191" xml:id="VB_line_022v_20"/>
+      <zone lrx="1126" lry="1308" rend="visible" rendition="Line" ulx="358" uly="1250" xml:id="VB_line_022v_21"/>
+      <zone lrx="1112" lry="1363" rend="visible" rendition="Line" ulx="360" uly="1306" xml:id="VB_line_022v_22"/>
+      <zone lrx="1110" lry="1419" rend="visible" rendition="Line" ulx="362" uly="1361" xml:id="VB_line_022v_23"/>
+      <zone lrx="1157" lry="1486" rend="visible" rendition="Line" ulx="363" uly="1417" xml:id="VB_line_022v_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_23r" corresp="#VB_fol_23r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_023R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="911" lry="222" rend="visible" rendition="Line" ulx="123" uly="160" xml:id="VB_line_023r_01"/>
+      <zone lrx="911" lry="274" rend="visible" rendition="Line" ulx="123" uly="220" xml:id="VB_line_023r_02"/>
+      <zone lrx="881" lry="326" rend="visible" rendition="Line" ulx="125" uly="272" xml:id="VB_line_023r_03"/>
+      <zone lrx="916" lry="376" rend="visible" rendition="Line" ulx="126" uly="324" xml:id="VB_line_023r_04"/>
+      <zone lrx="894" lry="437" rend="visible" rendition="Line" ulx="127" uly="374" xml:id="VB_line_023r_05"/>
+      <zone lrx="885" lry="492" rend="visible" rendition="Line" ulx="126" uly="435" xml:id="VB_line_023r_06"/>
+      <zone lrx="878" lry="547" rend="visible" rendition="Line" ulx="126" uly="490" xml:id="VB_line_023r_07"/>
+      <zone lrx="878" lry="599" rend="visible" rendition="Line" ulx="127" uly="545" xml:id="VB_line_023r_08"/>
+      <zone lrx="853" lry="651" rend="visible" rendition="Line" ulx="128" uly="597" xml:id="VB_line_023r_09"/>
+      <zone lrx="885" lry="707" rend="visible" rendition="Line" ulx="128" uly="649" xml:id="VB_line_023r_10"/>
+      <zone lrx="911" lry="761" rend="visible" rendition="Line" ulx="127" uly="705" xml:id="VB_line_023r_11"/>
+      <zone lrx="883" lry="812" rend="visible" rendition="Line" ulx="130" uly="759" xml:id="VB_line_023r_12"/>
+      <zone lrx="906" lry="867" rend="visible" rendition="Line" ulx="133" uly="810" xml:id="VB_line_023r_13"/>
+      <zone lrx="875" lry="921" rend="visible" rendition="Line" ulx="134" uly="865" xml:id="VB_line_023r_14"/>
+      <zone lrx="842" lry="976" rend="visible" rendition="Line" ulx="134" uly="919" xml:id="VB_line_023r_15"/>
+      <zone lrx="881" lry="1027" rend="visible" rendition="Line" ulx="137" uly="974" xml:id="VB_line_023r_16"/>
+      <zone lrx="887" lry="1076" rend="visible" rendition="Line" ulx="137" uly="1025" xml:id="VB_line_023r_17"/>
+      <zone lrx="882" lry="1128" rend="visible" rendition="Line" ulx="137" uly="1074" xml:id="VB_line_023r_18"/>
+      <zone lrx="895" lry="1186" rend="visible" rendition="Line" ulx="141" uly="1126" xml:id="VB_line_023r_19"/>
+      <zone lrx="885" lry="1240" rend="visible" rendition="Line" ulx="136" uly="1184" xml:id="VB_line_023r_20"/>
+      <zone lrx="894" lry="1297" rend="visible" rendition="Line" ulx="138" uly="1238" xml:id="VB_line_023r_21"/>
+      <zone lrx="879" lry="1351" rend="visible" rendition="Line" ulx="139" uly="1295" xml:id="VB_line_023r_22"/>
+      <zone lrx="896" lry="1406" rend="visible" rendition="Line" ulx="139" uly="1349" xml:id="VB_line_023r_23"/>
+      <zone lrx="876" lry="1469" rend="visible" rendition="Line" ulx="139" uly="1404" xml:id="VB_line_023r_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_23v" corresp="#VB_fol_23v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_023V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1103" lry="250" rend="visible" rendition="Line" ulx="348" uly="192" xml:id="VB_line_023v_01"/>
+      <zone lrx="1112" lry="301" rend="visible" rendition="Line" ulx="349" uly="248" xml:id="VB_line_023v_02"/>
+      <zone lrx="1091" lry="352" rend="visible" rendition="Line" ulx="348" uly="299" xml:id="VB_line_023v_03"/>
+      <zone lrx="1077" lry="407" rend="visible" rendition="Line" ulx="347" uly="350" xml:id="VB_line_023v_04"/>
+      <zone lrx="1110" lry="459" rend="visible" rendition="Line" ulx="346" uly="405" xml:id="VB_line_023v_05"/>
+      <zone lrx="1095" lry="511" rend="visible" rendition="Line" ulx="348" uly="457" xml:id="VB_line_023v_06"/>
+      <zone lrx="1105" lry="570" rend="visible" rendition="Line" ulx="346" uly="509" xml:id="VB_line_023v_07"/>
+      <zone lrx="1112" lry="622" rend="visible" rendition="Line" ulx="345" uly="568" xml:id="VB_line_023v_08"/>
+      <zone lrx="1123" lry="671" rend="visible" rendition="Line" ulx="340" uly="620" xml:id="VB_line_023v_09"/>
+      <zone lrx="1119" lry="727" rend="visible" rendition="Line" ulx="337" uly="669" xml:id="VB_line_023v_10"/>
+      <zone lrx="1120" lry="782" rend="visible" rendition="Line" ulx="341" uly="725" xml:id="VB_line_023v_11"/>
+      <zone lrx="1091" lry="833" rend="visible" rendition="Line" ulx="339" uly="780" xml:id="VB_line_023v_12"/>
+      <zone lrx="1115" lry="888" rend="visible" rendition="Line" ulx="338" uly="831" xml:id="VB_line_023v_13"/>
+      <zone lrx="1111" lry="941" rend="visible" rendition="Line" ulx="339" uly="886" xml:id="VB_line_023v_14"/>
+      <zone lrx="1079" lry="990" rend="visible" rendition="Line" ulx="333" uly="939" xml:id="VB_line_023v_15"/>
+      <zone lrx="1070" lry="1043" rend="visible" rendition="Line" ulx="332" uly="988" xml:id="VB_line_023v_16"/>
+      <zone lrx="1082" lry="1094" rend="visible" rendition="Line" ulx="332" uly="1041" xml:id="VB_line_023v_17"/>
+      <zone lrx="1096" lry="1146" rend="visible" rendition="Line" ulx="330" uly="1092" xml:id="VB_line_023v_18"/>
+      <zone lrx="1098" lry="1201" rend="visible" rendition="Line" ulx="326" uly="1144" xml:id="VB_line_023v_19"/>
+      <zone lrx="1073" lry="1255" rend="visible" rendition="Line" ulx="326" uly="1199" xml:id="VB_line_023v_20"/>
+      <zone lrx="1092" lry="1315" rend="visible" rendition="Line" ulx="324" uly="1253" xml:id="VB_line_023v_21"/>
+      <zone lrx="1076" lry="1365" rend="visible" rendition="Line" ulx="324" uly="1311" xml:id="VB_line_023v_22"/>
+      <zone lrx="1082" lry="1421" rend="visible" rendition="Line" ulx="324" uly="1363" xml:id="VB_line_023v_23"/>
+      <zone lrx="1078" lry="1487" rend="visible" rendition="Line" ulx="325" uly="1419" xml:id="VB_line_023v_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_24r" corresp="#VB_fol_24r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_024R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="911" lry="227" rend="visible" rendition="Line" ulx="133" uly="169" xml:id="VB_line_024r_01"/>
+      <zone lrx="899" lry="281" rend="visible" rendition="Line" ulx="133" uly="225" xml:id="VB_line_024r_02"/>
+      <zone lrx="896" lry="333" rend="visible" rendition="Line" ulx="131" uly="279" xml:id="VB_line_024r_03"/>
+      <zone lrx="927" lry="383" rend="visible" rendition="Line" ulx="131" uly="331" xml:id="VB_line_024r_04"/>
+      <zone lrx="902" lry="440" rend="visible" rendition="Line" ulx="140" uly="381" xml:id="VB_line_024r_05"/>
+      <zone lrx="927" lry="492" rend="visible" rendition="Line" ulx="141" uly="438" xml:id="VB_line_024r_06"/>
+      <zone lrx="917" lry="544" rend="visible" rendition="Line" ulx="141" uly="490" xml:id="VB_line_024r_07"/>
+      <zone lrx="931" lry="599" rend="visible" rendition="Line" ulx="142" uly="542" xml:id="VB_line_024r_08"/>
+      <zone lrx="896" lry="651" rend="visible" rendition="Line" ulx="144" uly="597" xml:id="VB_line_024r_09"/>
+      <zone lrx="904" lry="703" rend="visible" rendition="Line" ulx="152" uly="649" xml:id="VB_line_024r_10"/>
+      <zone lrx="922" lry="758" rend="visible" rendition="Line" ulx="150" uly="701" xml:id="VB_line_024r_11"/>
+      <zone lrx="900" lry="809" rend="visible" rendition="Line" ulx="150" uly="756" xml:id="VB_line_024r_12"/>
+      <zone lrx="909" lry="860" rend="visible" rendition="Line" ulx="150" uly="807" xml:id="VB_line_024r_13"/>
+      <zone lrx="893" lry="914" rend="visible" rendition="Line" ulx="148" uly="858" xml:id="VB_line_024r_14"/>
+      <zone lrx="907" lry="965" rend="visible" rendition="Line" ulx="148" uly="912" xml:id="VB_line_024r_15"/>
+      <zone lrx="953" lry="1016" rend="visible" rendition="Line" ulx="160" uly="963" xml:id="VB_line_024r_16"/>
+      <zone lrx="925" lry="1067" rend="visible" rendition="Line" ulx="159" uly="1014" xml:id="VB_line_024r_17"/>
+      <zone lrx="933" lry="1119" rend="visible" rendition="Line" ulx="158" uly="1065" xml:id="VB_line_024r_18"/>
+      <zone lrx="913" lry="1170" rend="visible" rendition="Line" ulx="159" uly="1117" xml:id="VB_line_024r_19"/>
+      <zone lrx="916" lry="1228" rend="visible" rendition="Line" ulx="159" uly="1168" xml:id="VB_line_024r_20"/>
+      <zone lrx="914" lry="1285" rend="visible" rendition="Line" ulx="158" uly="1226" xml:id="VB_line_024r_21"/>
+      <zone lrx="889" lry="1339" rend="visible" rendition="Line" ulx="158" uly="1283" xml:id="VB_line_024r_22"/>
+      <zone lrx="915" lry="1395" rend="visible" rendition="Line" ulx="158" uly="1337" xml:id="VB_line_024r_23"/>
+      <zone lrx="920" lry="1453" rend="visible" rendition="Line" ulx="157" uly="1393" xml:id="VB_line_024r_24"/>
+    </surface>
+
+    <surface xml:id="VB_surf_24v" corresp="#VB_fol_24v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_024V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1074" lry="249" rend="visible" rendition="Line" ulx="312" uly="191" xml:id="VB_line_024v_01"/>
+      <zone lrx="1071" lry="303" rend="visible" rendition="Line" ulx="308" uly="247" xml:id="VB_line_024v_02"/>
+      <zone lrx="1077" lry="360" rend="visible" rendition="Line" ulx="307" uly="301" xml:id="VB_line_024v_03"/>
+      <zone lrx="1058" lry="410" rend="visible" rendition="Line" ulx="305" uly="358" xml:id="VB_line_024v_04"/>
+      <zone lrx="1054" lry="465" rend="visible" rendition="Line" ulx="302" uly="408" xml:id="VB_line_024v_05"/>
+      <zone lrx="1075" lry="517" rend="visible" rendition="Line" ulx="302" uly="463" xml:id="VB_line_024v_06"/>
+      <zone lrx="1064" lry="567" rend="visible" rendition="Line" ulx="301" uly="515" xml:id="VB_line_024v_07"/>
+      <zone lrx="1044" lry="616" rend="visible" rendition="Line" ulx="299" uly="565" xml:id="VB_line_024v_08"/>
+      <zone lrx="1104" lry="673" rend="visible" rendition="Line" ulx="299" uly="614" xml:id="VB_line_024v_09"/>
+      <zone lrx="1030" lry="724" rend="visible" rendition="Line" ulx="296" uly="671" xml:id="VB_line_024v_10"/>
+      <zone lrx="1045" lry="774" rend="visible" rendition="Line" ulx="295" uly="722" xml:id="VB_line_024v_11"/>
+      <zone lrx="1066" lry="828" rend="visible" rendition="Line" ulx="294" uly="772" xml:id="VB_line_024v_12"/>
+      <zone lrx="1003" lry="875" rend="visible" rendition="Line" ulx="292" uly="826" xml:id="VB_line_024v_13"/>
+      <zone lrx="1004" lry="928" rend="visible" rendition="Line" ulx="291" uly="873" xml:id="VB_line_024v_14"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_101v" corresp="#VB_fol_101v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_101V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1054" lry="289" rend="visible" rendition="Line" ulx="222" uly="207" xml:id="VB_line_101v_01"/>
+      <zone lrx="1087" lry="336" rend="visible" rendition="Line" ulx="285" uly="286" xml:id="VB_line_101v_02"/>
+      <zone lrx="1089" lry="387" rend="visible" rendition="Line" ulx="265" uly="333" xml:id="VB_line_101v_03"/>
+      <zone lrx="1075" lry="435" rend="visible" rendition="Line" ulx="264" uly="384" xml:id="VB_line_101v_04"/>
+      <zone lrx="1063" lry="485" rend="visible" rendition="Line" ulx="260" uly="432" xml:id="VB_line_101v_05"/>
+      <zone lrx="1072" lry="532" rend="visible" rendition="Line" ulx="258" uly="482" xml:id="VB_line_101v_06"/>
+      <zone lrx="1086" lry="579" rend="visible" rendition="Line" ulx="251" uly="529" xml:id="VB_line_101v_07"/>
+      <zone lrx="1092" lry="631" rend="visible" rendition="Line" ulx="254" uly="576" xml:id="VB_line_101v_08"/>
+      <zone lrx="1055" lry="678" rend="visible" rendition="Line" ulx="252" uly="628" xml:id="VB_line_101v_09"/>
+      <zone lrx="1070" lry="725" rend="visible" rendition="Line" ulx="251" uly="675" xml:id="VB_line_101v_10"/>
+      <zone lrx="1077" lry="774" rend="visible" rendition="Line" ulx="249" uly="722" xml:id="VB_line_101v_11"/>
+      <zone lrx="1085" lry="823" rend="visible" rendition="Line" ulx="239" uly="771" xml:id="VB_line_101v_12"/>
+      <zone lrx="1090" lry="874" rend="visible" rendition="Line" ulx="239" uly="820" xml:id="VB_line_101v_13"/>
+      <zone lrx="1057" lry="929" rend="visible" rendition="Line" ulx="238" uly="871" xml:id="VB_line_101v_14"/>
+      <zone lrx="1038" lry="980" rend="visible" rendition="Line" ulx="235" uly="926" xml:id="VB_line_101v_15"/>
+      <zone lrx="1063" lry="1030" rend="visible" rendition="Line" ulx="228" uly="977" xml:id="VB_line_101v_16"/>
+      <zone lrx="1037" lry="1078" rend="visible" rendition="Line" ulx="231" uly="1027" xml:id="VB_line_101v_17"/>
+      <zone lrx="1046" lry="1127" rend="visible" rendition="Line" ulx="223" uly="1075" xml:id="VB_line_101v_18"/>
+      <zone lrx="1082" lry="1176" rend="visible" rendition="Line" ulx="224" uly="1124" xml:id="VB_line_101v_19"/>
+      <zone lrx="1055" lry="1224" rend="visible" rendition="Line" ulx="220" uly="1173" xml:id="VB_line_101v_20"/>
+      <zone lrx="1030" lry="1275" rend="visible" rendition="Line" ulx="219" uly="1221" xml:id="VB_line_101v_21"/>
+      <zone lrx="1082" lry="1321" rend="visible" rendition="Line" ulx="217" uly="1272" xml:id="VB_line_101v_22"/>
+      <zone lrx="1051" lry="1374" rend="visible" rendition="Line" ulx="213" uly="1318" xml:id="VB_line_101v_23"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_102r" corresp="#VB_fol_102r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_102R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="905" lry="241" rend="visible" rendition="Line" ulx="120" uly="177" xml:id="VB_line_102r_01"/>
+      <zone lrx="882" lry="282" rend="visible" rendition="Line" ulx="120" uly="238" xml:id="VB_line_102r_02"/>
+      <zone lrx="894" lry="327" rend="visible" rendition="Line" ulx="126" uly="279" xml:id="VB_line_102r_03"/>
+      <zone lrx="950" lry="379" rend="visible" rendition="Line" ulx="124" uly="324" xml:id="VB_line_102r_04"/>
+      <zone lrx="946" lry="429" rend="visible" rendition="Line" ulx="129" uly="376" xml:id="VB_line_102r_05"/>
+      <zone lrx="977" lry="475" rend="visible" rendition="Line" ulx="124" uly="426" xml:id="VB_line_102r_06"/>
+      <zone lrx="920" lry="529" rend="visible" rendition="Line" ulx="128" uly="472" xml:id="VB_line_102r_07"/>
+      <zone lrx="916" lry="577" rend="visible" rendition="Line" ulx="126" uly="526" xml:id="VB_line_102r_08"/>
+      <zone lrx="951" lry="628" rend="visible" rendition="Line" ulx="133" uly="574" xml:id="VB_line_102r_09"/>
+      <zone lrx="963" lry="679" rend="visible" rendition="Line" ulx="128" uly="625" xml:id="VB_line_102r_10"/>
+      <zone lrx="925" lry="726" rend="visible" rendition="Line" ulx="132" uly="676" xml:id="VB_line_102r_11"/>
+      <zone lrx="936" lry="768" rend="visible" rendition="Line" ulx="130" uly="723" xml:id="VB_line_102r_12"/>
+      <zone lrx="943" lry="816" rend="visible" rendition="Line" ulx="131" uly="765" xml:id="VB_line_102r_13"/>
+      <zone lrx="942" lry="869" rend="visible" rendition="Line" ulx="133" uly="813" xml:id="VB_line_102r_14"/>
+      <zone lrx="945" lry="922" rend="visible" rendition="Line" ulx="132" uly="866" xml:id="VB_line_102r_15"/>
+      <zone lrx="939" lry="978" rend="visible" rendition="Line" ulx="136" uly="919" xml:id="VB_line_102r_16"/>
+      <zone lrx="960" lry="1030" rend="visible" rendition="Line" ulx="133" uly="975" xml:id="VB_line_102r_17"/>
+      <zone lrx="954" lry="1078" rend="visible" rendition="Line" ulx="136" uly="1027" xml:id="VB_line_102r_18"/>
+      <zone lrx="982" lry="1124" rend="visible" rendition="Line" ulx="137" uly="1075" xml:id="VB_line_102r_19"/>
+      <zone lrx="969" lry="1177" rend="visible" rendition="Line" ulx="139" uly="1121" xml:id="VB_line_102r_20"/>
+      <zone lrx="978" lry="1227" rend="visible" rendition="Line" ulx="136" uly="1174" xml:id="VB_line_102r_21"/>
+      <zone lrx="964" lry="1278" rend="visible" rendition="Line" ulx="138" uly="1224" xml:id="VB_line_102r_22"/>
+      <zone lrx="977" lry="1324" rend="visible" rendition="Line" ulx="133" uly="1275" xml:id="VB_line_102r_23"/>
+      <zone lrx="1006" lry="1388" rend="visible" rendition="Line" ulx="133" uly="1321" xml:id="VB_line_102r_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_102v" corresp="#VB_fol_102v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_102V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1095" lry="238" rend="visible" rendition="Line" ulx="263" uly="180" xml:id="VB_line_102v_01"/>
+      <zone lrx="1047" lry="285" rend="visible" rendition="Line" ulx="263" uly="235" xml:id="VB_line_102v_02"/>
+      <zone lrx="1060" lry="339" rend="visible" rendition="Line" ulx="264" uly="282" xml:id="VB_line_102v_03"/>
+      <zone lrx="1041" lry="388" rend="visible" rendition="Line" ulx="259" uly="336" xml:id="VB_line_102v_04"/>
+      <zone lrx="1039" lry="438" rend="visible" rendition="Line" ulx="257" uly="385" xml:id="VB_line_102v_05"/>
+      <zone lrx="1087" lry="487" rend="visible" rendition="Line" ulx="255" uly="435" xml:id="VB_line_102v_06"/>
+      <zone lrx="1072" lry="537" rend="visible" rendition="Line" ulx="253" uly="484" xml:id="VB_line_102v_07"/>
+      <zone lrx="1089" lry="588" rend="visible" rendition="Line" ulx="250" uly="534" xml:id="VB_line_102v_08"/>
+      <zone lrx="1085" lry="636" rend="visible" rendition="Line" ulx="247" uly="585" xml:id="VB_line_102v_09"/>
+      <zone lrx="1084" lry="683" rend="visible" rendition="Line" ulx="243" uly="633" xml:id="VB_line_102v_10"/>
+      <zone lrx="1047" lry="732" rend="visible" rendition="Line" ulx="244" uly="680" xml:id="VB_line_102v_11"/>
+      <zone lrx="1018" lry="779" rend="visible" rendition="Line" ulx="234" uly="729" xml:id="VB_line_102v_12"/>
+      <zone lrx="1047" lry="832" rend="visible" rendition="Line" ulx="237" uly="776" xml:id="VB_line_102v_13"/>
+      <zone lrx="1052" lry="882" rend="visible" rendition="Line" ulx="225" uly="829" xml:id="VB_line_102v_14"/>
+      <zone lrx="1047" lry="938" rend="visible" rendition="Line" ulx="224" uly="879" xml:id="VB_line_102v_15"/>
+      <zone lrx="1022" lry="988" rend="visible" rendition="Line" ulx="226" uly="935" xml:id="VB_line_102v_16"/>
+      <zone lrx="1060" lry="1037" rend="visible" rendition="Line" ulx="227" uly="985" xml:id="VB_line_102v_17"/>
+      <zone lrx="1063" lry="1085" rend="visible" rendition="Line" ulx="224" uly="1034" xml:id="VB_line_102v_18"/>
+      <zone lrx="1056" lry="1132" rend="visible" rendition="Line" ulx="223" uly="1082" xml:id="VB_line_102v_19"/>
+      <zone lrx="1064" lry="1186" rend="visible" rendition="Line" ulx="211" uly="1129" xml:id="VB_line_102v_20"/>
+      <zone lrx="1022" lry="1237" rend="visible" rendition="Line" ulx="216" uly="1183" xml:id="VB_line_102v_21"/>
+      <zone lrx="1037" lry="1286" rend="visible" rendition="Line" ulx="213" uly="1234" xml:id="VB_line_102v_22"/>
+      <zone lrx="1016" lry="1337" rend="visible" rendition="Line" ulx="208" uly="1283" xml:id="VB_line_102v_23"/>
+      <zone lrx="1040" lry="1395" rend="visible" rendition="Line" ulx="209" uly="1334" xml:id="VB_line_102v_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_103r" corresp="#VB_fol_103r">
+      <graphic height="1800px" url="immagini\Vercelli-Book_103R_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="905" lry="236" rend="visible" rendition="Line" ulx="144" uly="177" xml:id="VB_line_103r_01"/>
+      <zone lrx="942" lry="283" rend="visible" rendition="Line" ulx="143" uly="233" xml:id="VB_line_103r_02"/>
+      <zone lrx="936" lry="334" rend="visible" rendition="Line" ulx="139" uly="280" xml:id="VB_line_103r_03"/>
+      <zone lrx="924" lry="386" rend="visible" rendition="Line" ulx="146" uly="331" xml:id="VB_line_103r_04"/>
+      <zone lrx="925" lry="439" rend="visible" rendition="Line" ulx="146" uly="383" xml:id="VB_line_103r_05"/>
+      <zone lrx="964" lry="484" rend="visible" rendition="Line" ulx="150" uly="436" xml:id="VB_line_103r_06"/>
+      <zone lrx="941" lry="532" rend="visible" rendition="Line" ulx="149" uly="481" xml:id="VB_line_103r_07"/>
+      <zone lrx="954" lry="582" rend="visible" rendition="Line" ulx="152" uly="529" xml:id="VB_line_103r_08"/>
+      <zone lrx="966" lry="633" rend="visible" rendition="Line" ulx="154" uly="579" xml:id="VB_line_103r_09"/>
+      <zone lrx="964" lry="683" rend="visible" rendition="Line" ulx="151" uly="630" xml:id="VB_line_103r_10"/>
+      <zone lrx="931" lry="730" rend="visible" rendition="Line" ulx="149" uly="680" xml:id="VB_line_103r_11"/>
+      <zone lrx="945" lry="779" rend="visible" rendition="Line" ulx="152" uly="727" xml:id="VB_line_103r_12"/>
+      <zone lrx="958" lry="827" rend="visible" rendition="Line" ulx="146" uly="776" xml:id="VB_line_103r_13"/>
+      <zone lrx="1000" lry="880" rend="visible" rendition="Line" ulx="152" uly="824" xml:id="VB_line_103r_14"/>
+      <zone lrx="973" lry="931" rend="visible" rendition="Line" ulx="151" uly="877" xml:id="VB_line_103r_15"/>
+      <zone lrx="1011" lry="987" rend="visible" rendition="Line" ulx="151" uly="928" xml:id="VB_line_103r_16"/>
+      <zone lrx="958" lry="1038" rend="visible" rendition="Line" ulx="155" uly="984" xml:id="VB_line_103r_17"/>
+      <zone lrx="956" lry="1087" rend="visible" rendition="Line" ulx="154" uly="1035" xml:id="VB_line_103r_18"/>
+      <zone lrx="1019" lry="1140" rend="visible" rendition="Line" ulx="157" uly="1084" xml:id="VB_line_103r_19"/>
+      <zone lrx="977" lry="1184" rend="visible" rendition="Line" ulx="147" uly="1137" xml:id="VB_line_103r_20"/>
+      <zone lrx="978" lry="1236" rend="visible" rendition="Line" ulx="104" uly="1181" xml:id="VB_line_103r_21"/>
+      <zone lrx="987" lry="1288" rend="visible" rendition="Line" ulx="161" uly="1233" xml:id="VB_line_103r_22"/>
+      <zone lrx="1023" lry="1337" rend="visible" rendition="Line" ulx="156" uly="1285" xml:id="VB_line_103r_23"/>
+      <zone lrx="1041" lry="1401" rend="visible" rendition="Line" ulx="153" uly="1334" xml:id="VB_line_103r_24"/>
+    </surface>
+    
+    <surface xml:id="VB_surf_103v" corresp="#VB_fol_103v">
+      <graphic height="1800px" url="immagini\Vercelli-Book_103V_S_300dpi.jpg" width="1200px"/>
+      <zone lrx="1095" lry="238" rend="visible" rendition="Line" ulx="263" uly="180" xml:id="VB_line_103v_01"/>
+      <zone lrx="1075" lry="285" rend="visible" rendition="Line" ulx="263" uly="235" xml:id="VB_line_103v_02"/>
+      <zone lrx="1038" lry="339" rend="visible" rendition="Line" ulx="264" uly="282" xml:id="VB_line_103v_03"/>
+      <zone lrx="1054" lry="394" rend="visible" rendition="Line" ulx="259" uly="336" xml:id="VB_line_103v_04"/>
+      <zone lrx="1063" lry="445" rend="visible" rendition="Line" ulx="257" uly="391" xml:id="VB_line_103v_05"/>
+      <zone lrx="1075" lry="489" rend="visible" rendition="Line" ulx="255" uly="442" xml:id="VB_line_103v_06"/>
+      <zone lrx="1093" lry="537" rend="visible" rendition="Line" ulx="253" uly="486" xml:id="VB_line_103v_07"/>
+      <zone lrx="1080" lry="588" rend="visible" rendition="Line" ulx="257" uly="534" xml:id="VB_line_103v_08"/>
+      <zone lrx="1050" lry="636" rend="visible" rendition="Line" ulx="252" uly="585" xml:id="VB_line_103v_09"/>
+      <zone lrx="1084" lry="683" rend="visible" rendition="Line" ulx="249" uly="633" xml:id="VB_line_103v_10"/>
+      <zone lrx="1055" lry="732" rend="visible" rendition="Line" ulx="251" uly="680" xml:id="VB_line_103v_11"/>
+      <zone lrx="1043" lry="779" rend="visible" rendition="Line" ulx="245" uly="729" xml:id="VB_line_103v_12"/>
+      <zone lrx="1060" lry="832" rend="visible" rendition="Line" ulx="248" uly="776" xml:id="VB_line_103v_13"/>
+      <zone lrx="1052" lry="882" rend="visible" rendition="Line" ulx="240" uly="829" xml:id="VB_line_103v_14"/>
+      <zone lrx="1024" lry="938" rend="visible" rendition="Line" ulx="235" uly="879" xml:id="VB_line_103v_15"/>
+      <zone lrx="1074" lry="993" rend="visible" rendition="Line" ulx="226" uly="935" xml:id="VB_line_103v_16"/>
+      <zone lrx="1099" lry="1042" rend="visible" rendition="Line" ulx="227" uly="990" xml:id="VB_line_103v_17"/>
+      <zone lrx="1063" lry="1089" rend="visible" rendition="Line" ulx="224" uly="1039" xml:id="VB_line_103v_18"/>
+      <zone lrx="1041" lry="1140" rend="visible" rendition="Line" ulx="223" uly="1086" xml:id="VB_line_103v_19"/>
+      <zone lrx="1011" lry="1191" rend="visible" rendition="Line" ulx="217" uly="1137" xml:id="VB_line_103v_20"/>
+      <zone lrx="1033" lry="1237" rend="visible" rendition="Line" ulx="216" uly="1188" xml:id="VB_line_103v_21"/>
+      <zone lrx="1003" lry="1289" rend="visible" rendition="Line" ulx="213" uly="1234" xml:id="VB_line_103v_22"/>
+      <zone lrx="1049" lry="1343" rend="visible" rendition="Line" ulx="208" uly="1286" xml:id="VB_line_103v_23"/>
+      <zone lrx="1053" lry="1407" rend="visible" rendition="Line" ulx="209" uly="1340" xml:id="VB_line_103v_24"/>
+    </surface>
+
+  </facsimile>
+
+  <text>
+    <group>
+
+      <xi:include href="VB-00-Front.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_front"/>
+      
+      <xi:include href="VB-01-Hom01.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom01"/>
+
+      <xi:include href="VB-02-Hom02.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom02"/>
+
+      <xi:include href="VB-03-Hom03.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom03"/>
+
+      <xi:include href="VB-04-Hom04.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom04"/>
+      
+      <xi:include href="VB-05-Hom05.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom05"/>
+
+      <xi:include href="VB-06-Andreas.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Andreas"/>
+
+      <xi:include href="VB-07-Fates.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Fates"/>
+      
+      <xi:include href="VB-08-Hom06.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom06"/>
+      
+      <xi:include href="VB-09-Hom07.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom07"/>
+      
+      <xi:include href="VB-10-Hom08.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom08"/>
+      
+      <xi:include href="VB-11-Hom09.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom09"/>
+
+      <xi:include href="VB-12-Hom10.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom10"/>
+
+      <xi:include href="VB-13-Hom11.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom11"/>
+      
+      <xi:include href="VB-14-Hom12.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom12"/>
+      
+      <xi:include href="VB-15-Hom13.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom13"/>
+      
+      <xi:include href="VB-16-Hom14.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom14"/>
+      
+      <xi:include href="VB-17-Hom15.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom15"/>
+      
+      <xi:include href="VB-18-Hom16.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom16"/>
+      
+      <xi:include href="VB-19-Hom17.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom17"/>
+      
+      <xi:include href="VB-20-Hom18.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom18"/>
+      
+      <xi:include href="VB-21-SoulI.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_SoulI"/>
+
+      <xi:include href="VB-22-HomFrI.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_HomFrI"/>
+      
+      <xi:include href="VB-23-DOTR.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_DOTR"/>
+
+      <xi:include href="VB-24-Hom19.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom19"/>
+
+      <xi:include href="VB-25-Hom20.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom20"/>
+      
+      <xi:include href="VB-26-Hom21.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom21"/>
+      
+      <xi:include href="VB-27-Hom22.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom22"/>
+      
+      <xi:include href="VB-28-Elene.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Elene"/>
+      
+      <xi:include href="VB-29-Hom23.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="VB_text_Hom23"/>
+
+    </group>
+  </text>
+</TEI>

@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<xml xmlns="http://www.w3.org/1999/xhtml">
+   <msDesc active="1"/>
+   <headerInfo active="1"/>
+   <front active="1"/>
+   <liste/>
+   <editions>
+      <edition>Diplomatic</edition>
+      <edition>Interpretative</edition>
+   </editions>
+   <textpage>
+      <text n="Homily-1" label="Homily I">
+         <!-- Omelia sulla Passione 1r - 9r -->
+         <pb n="001r">VB_fol_001r</pb>
+         <pb n="001v">VB_fol_001v</pb>
+         <pb n="002r">VB_fol_002r</pb>
+         <pb n="002v">VB_fol_002v</pb>
+         <pb n="003r">VB_fol_003r</pb>
+         <pb n="003v">VB_fol_003v</pb>
+         <pb n="004r">VB_fol_004r</pb>
+         <pb n="004v">VB_fol_004v</pb>
+         <pb n="005r">VB_fol_005r</pb>
+         <pb n="005v">VB_fol_005v</pb>
+         <pb n="006r">VB_fol_006r</pb>
+         <pb n="006v">VB_fol_006v</pb>
+         <pb n="007r">VB_fol_007r</pb>
+         <pb n="007v">VB_fol_007v</pb>
+         <pb n="008r">VB_fol_008r</pb>
+         <pb n="008v">VB_fol_008v</pb>
+         <pb n="009r">VB_fol_009r</pb>
+      </text>
+      <text n="Homily-2" label="Homily II">
+         <!-- Omelia sul Giudizio Universale 9v-12r -->
+         <pb n="009v">VB_fol_009v</pb>
+         <pb n="010r">VB_fol_010r</pb>
+         <pb n="010v">VB_fol_010v</pb>
+         <pb n="011r">VB_fol_011r</pb>
+         <pb n="011v">VB_fol_011v</pb>
+         <pb n="012r">VB_fol_012r</pb>
+      </text>
+      <text n="Homily-3" label="Homily III *">
+         <!-- Omelia sulle virtù cristiane 12v-16r -->
+         <pb n="012v">VB_fol_012v</pb>
+         <pb n="013r">VB_fol_013r</pb>
+         <pb n="013v">VB_fol_013v</pb>
+         <pb n="014r">VB_fol_014r</pb>
+         <pb n="014v">VB_fol_014v</pb>
+         <pb n="015r">VB_fol_015r</pb>
+         <pb n="015v">VB_fol_015v</pb>
+         <pb n="016r">VB_fol_016r</pb>
+      </text>
+      <text n="Homily-4" label="Homily IV">
+         <!-- Omelia sulla penitenza 16v-24v -->
+         <pb n="016v">VB_fol_016v</pb>
+         <pb n="017r">VB_fol_017r</pb>
+         <pb n="017v">VB_fol_017v</pb>
+         <pb n="018r">VB_fol_018r</pb>
+         <pb n="018v">VB_fol_018v</pb>
+         <pb n="019r">VB_fol_019r</pb>
+         <pb n="019v">VB_fol_019v</pb>
+         <pb n="020r">VB_fol_020r</pb>
+         <pb n="020v">VB_fol_020v</pb>
+         <pb n="021r">VB_fol_021r</pb>
+         <pb n="021v">VB_fol_021v</pb>
+         <pb n="022r">VB_fol_022r</pb>
+         <pb n="022v">VB_fol_022v</pb>
+         <pb n="023r">VB_fol_023r</pb>
+         <pb n="023v">VB_fol_023v</pb>
+         <pb n="024r">VB_fol_024r</pb>
+         <pb n="024v">VB_fol_024v</pb>
+      </text>
+
+      <text n="Homily-5" label="Homily V *">
+         <!-- Omelia sulla nascita di Cristo dal titolo 25r-29r -->
+         <pb n="025r">VB_fol_025r</pb>
+         <pb n="025v">VB_fol_025v</pb>
+         <pb n="026r">VB_fol_026r</pb>
+         <pb n="026v">VB_fol_026v</pb>
+         <pb n="027r">VB_fol_027r</pb>
+         <pb n="027v">VB_fol_027v</pb>
+         <pb n="028r">VB_fol_028r</pb>
+         <pb n="028v">VB_fol_028v</pb>
+         <pb n="029r">VB_fol_029r</pb>
+      </text>
+      <text n="Andreas" label="Andreas *">
+         <!-- Andreas 29v-52v -->
+         <pb n="029v">VB_fol_029v</pb>
+         <pb n="030r">VB_fol_030r</pb>
+         <pb n="030v">VB_fol_030v</pb>
+         <pb n="031r">VB_fol_031r</pb>
+         <pb n="031v">VB_fol_031v</pb>
+         <pb n="032r">VB_fol_032r</pb>
+         <pb n="032v">VB_fol_032v</pb>
+         <pb n="033r">VB_fol_033r</pb>
+         <pb n="033v">VB_fol_033v</pb>
+         <pb n="034r">VB_fol_034r</pb>
+         <pb n="034v">VB_fol_034v</pb>
+         <pb n="035r">VB_fol_035r</pb>
+         <pb n="035v">VB_fol_035v</pb>
+         <pb n="036r">VB_fol_036r</pb>
+         <pb n="036v">VB_fol_036v</pb>
+         <pb n="037r">VB_fol_037r</pb>
+         <pb n="037v">VB_fol_037v</pb>
+         <pb n="038r">VB_fol_038r</pb>
+         <pb n="038v">VB_fol_038v</pb>
+         <pb n="039r">VB_fol_039r</pb>
+         <pb n="039v">VB_fol_039v</pb>
+         <pb n="040r">VB_fol_040r</pb>
+         <pb n="040v">VB_fol_040v</pb>
+         <pb n="041r">VB_fol_041r</pb>
+         <pb n="041v">VB_fol_041v</pb>
+         <pb n="042r">VB_fol_042r</pb>
+         <pb n="042v">VB_fol_042v</pb>
+         <pb n="043r">VB_fol_043r</pb>
+         <pb n="043v">VB_fol_043v</pb>
+         <pb n="044r">VB_fol_044r</pb>
+         <pb n="044v">VB_fol_044v</pb>
+         <pb n="045r">VB_fol_045r</pb>
+         <pb n="045v">VB_fol_045v</pb>
+         <pb n="046r">VB_fol_046r</pb>
+         <pb n="046v">VB_fol_046v</pb>
+         <pb n="047r">VB_fol_047r</pb>
+         <pb n="047v">VB_fol_047v</pb>
+         <pb n="048r">VB_fol_048r</pb>
+         <pb n="048v">VB_fol_048v</pb>
+         <pb n="049r">VB_fol_049r</pb>
+         <pb n="049v">VB_fol_049v</pb>
+         <pb n="050r">VB_fol_050r</pb>
+         <pb n="050v">VB_fol_050v</pb>
+         <pb n="051r">VB_fol_051r</pb>
+         <pb n="051v">VB_fol_051v</pb>
+         <pb n="052r">VB_fol_052r</pb>
+         <pb n="052v">VB_fol_052v</pb>
+      </text>
+      <text n="Fates" label="Fates of the Apostoles *">
+         <!-- I Fati degli Apostoli 52v-54r -->
+         <pb n="052v">VB_fol_052v</pb>
+         <pb n="053r">VB_fol_053r</pb>
+         <pb n="053v">VB_fol_053v</pb>
+         <pb n="054r">VB_fol_054r</pb>
+      </text>
+      <text n="Homily-6" label="Homily VI *">
+         <!-- Omelia sulla nascita di Cristo intitolata 54v-56r -->
+         <pb n="054v">VB_fol_054v</pb>
+         <pb n="055r">VB_fol_055r</pb>
+         <pb n="055v">VB_fol_055v</pb>
+         <pb n="056r">VB_fol_056r</pb>
+      </text>
+      <text n="Homily-7" label="Homily VII *">
+         <!-- Omelia contro i vizi della mollezza e della lussuria 56v-59r -->
+         <pb n="056v">VB_fol_056v</pb>
+         <pb n="057r">VB_fol_057r</pb>
+         <pb n="057v">VB_fol_057v</pb>
+         <pb n="058r">VB_fol_058r</pb>
+         <pb n="058v">VB_fol_058v</pb>
+         <pb n="059r">VB_fol_059r</pb>
+      </text>
+      <text n="Homily-8" label="Homily VIII *">
+         <!-- Omelia sul Giudizio Universale e i tormenti dell’inferno 59r-61r -->
+         <pb n="059r">VB_fol_059r</pb>
+         <pb n="059v">VB_fol_059v</pb>
+         <pb n="060r">VB_fol_060r</pb>
+         <pb n="060v">VB_fol_060v</pb>
+         <pb n="061r">VB_fol_061r</pb>
+      </text>
+      <text n="Homily-9" label="Homily IX *">
+         <!-- Omelia sulla morte e sui simboli dell’inferno 61r-65r -->
+         <pb n="061r">VB_fol_061r</pb>
+         <pb n="061v">VB_fol_061v</pb>
+         <pb n="062r">VB_fol_062r</pb>
+         <pb n="062v">VB_fol_062v</pb>
+         <pb n="063r">VB_fol_063r</pb>
+         <pb n="063v">VB_fol_063v</pb>
+         <pb n="064r">VB_fol_064r</pb>
+         <pb n="064v">VB_fol_064v</pb>
+         <pb n="065r">VB_fol_065r</pb>
+      </text>
+      <text n="Homily-10" label="Homily X *">
+         <!-- Omelia sulla penitenza 65r-71r -->
+         <pb n="065r">VB_fol_065r</pb>
+         <pb n="065v">VB_fol_065v</pb>
+         <pb n="066r">VB_fol_066r</pb>
+         <pb n="066v">VB_fol_066v</pb>
+         <pb n="067r">VB_fol_067r</pb>
+         <pb n="067v">VB_fol_067v</pb>
+         <pb n="068r">VB_fol_068r</pb>
+         <pb n="068v">VB_fol_068v</pb>
+         <pb n="069r">VB_fol_069r</pb>
+         <pb n="069v">VB_fol_069v</pb>
+         <pb n="070r">VB_fol_070r</pb>
+         <pb n="070v">VB_fol_070v</pb>
+         <pb n="071r">VB_fol_071r</pb>
+      </text>
+      <text n="Homily-11" label="Homily XI *">
+         <!-- Prima delle tre omelie rogazionali 71v.73v -->
+         <pb n="071v">VB_fol_071v</pb>
+         <pb n="072r">VB_fol_072r</pb>
+         <pb n="072v">VB_fol_072v</pb>
+         <pb n="073r">VB_fol_073r</pb>
+         <pb n="073v">VB_fol_073v</pb>
+      </text>
+      <text n="Homily-12" label="Homily XII *">
+         <!-- Seconda omelia rogazionale 73v-75v -->
+         <pb n="073v">VB_fol_073v</pb>
+         <pb n="074r">VB_fol_074r</pb>
+         <pb n="074v">VB_fol_074v</pb>
+         <pb n="075r">VB_fol_075r</pb>
+         <pb n="075v">VB_fol_075v</pb>
+      </text>
+      <text n="Homily-13" label="Homily XIII *">
+         <!-- Terza omelia rogazionale 75v-76v -->
+         <pb n="075v">VB_fol_075v</pb>
+         <pb n="076r">VB_fol_076r</pb>
+         <pb n="076v">VB_fol_076v</pb>
+      </text>
+      <text n="Homily-14" label="Homily XIV *">
+         <!-- Omelia sulla necessità del perdono come vero sacrificio gradito a Dio 76v-80v -->
+         <pb n="076v">VB_fol_076v</pb>
+         <pb n="077r">VB_fol_077r</pb>
+         <pb n="077v">VB_fol_077v</pb>
+         <pb n="078r">VB_fol_078r</pb>
+         <pb n="078v">VB_fol_078v</pb>
+         <pb n="079r">VB_fol_079r</pb>
+         <pb n="079v">VB_fol_079v</pb>
+         <pb n="080r">VB_fol_080r</pb>
+         <pb n="080v">VB_fol_080v</pb>
+      </text>
+      <text n="Homily-15" label="Homily XV *">
+         <!-- Omelia sui sette segni premonitori del Giudizio Universale 80v-85v -->
+         <pb n="080v">VB_fol_080v</pb>
+         <pb n="081r">VB_fol_081r</pb>
+         <pb n="081v">VB_fol_081v</pb>
+         <pb n="082r">VB_fol_082r</pb>
+         <pb n="082v">VB_fol_082v</pb>
+         <pb n="083r">VB_fol_083r</pb>
+         <pb n="083v">VB_fol_083v</pb>
+         <pb n="084r">VB_fol_084r</pb>
+         <pb n="084v">VB_fol_084v</pb>
+         <pb n="085r">VB_fol_085r</pb>
+         <pb n="085v">VB_fol_085v</pb>
+      </text>
+      <text n="Homily-16" label="Homily XVI *">
+         <!-- Omelia sul battesimo di Gesù e sulla SS Trinità 85v-90v -->
+         <pb n="085v">VB_fol_085v</pb>
+         <pb n="086r">VB_fol_086r</pb>
+         <pb n="086v">VB_fol_086v</pb>
+         <pb n="087r">VB_fol_087r</pb>
+         <pb n="087v">VB_fol_087v</pb>
+         <pb n="088r">VB_fol_088r</pb>
+         <pb n="088v">VB_fol_088v</pb>
+         <pb n="089r">VB_fol_089r</pb>
+         <pb n="089v">VB_fol_089v</pb>
+         <pb n="090r">VB_fol_090r</pb>
+         <pb n="090v">VB_fol_090v</pb>
+      </text>
+      <text n="Homily-17" label="Homily XVII *">
+         <!-- Omelia dal titolo De purificatione sancta Maria 90v-94v -->
+         <pb n="090v">VB_fol_090v</pb>
+         <pb n="091r">VB_fol_091r</pb>
+         <pb n="091v">VB_fol_091v</pb>
+         <pb n="092r">VB_fol_092r</pb>
+         <pb n="092v">VB_fol_092v</pb>
+         <pb n="093r">VB_fol_093r</pb>
+         <pb n="093v">VB_fol_093v</pb>
+         <pb n="094r">VB_fol_094r</pb>
+
+      </text>
+      <text n="Homily-18" label="Homily XVIII *">
+         <!-- Omelia sulla vita di un soldato diventato monaco e vescovo 94v-101r -->
+         <pb n="094v">VB_fol_094v</pb>
+         <pb n="095r">VB_fol_095r</pb>
+         <pb n="095v">VB_fol_095v</pb>
+         <pb n="096r">VB_fol_096r</pb>
+         <pb n="096v">VB_fol_096v</pb>
+         <pb n="097r">VB_fol_097r</pb>
+         <pb n="097v">VB_fol_097v</pb>
+         <pb n="098r">VB_fol_098r</pb>
+         <pb n="098v">VB_fol_098v</pb>
+         <pb n="099r">VB_fol_099r</pb>
+         <pb n="099v">VB_fol_099v</pb>
+         <pb n="100r">VB_fol_100r</pb>
+         <pb n="100v">VB_fol_100v</pb>
+         <pb n="101r">VB_fol_101r</pb>
+      </text>
+      <text n="SoulI" label="Soul and Body I">
+         <!-- Discorso dell’anima al corpo 101v-103v -->
+         <pb n="101v">VB_fol_101v</pb>
+         <pb n="102r">VB_fol_102r</pb>
+         <pb n="102v">VB_fol_102v</pb>
+         <pb n="103r">VB_fol_103r</pb>
+         <pb n="103v">VB_fol_103v</pb>
+      </text>
+      <text n="HomFrI" label="Homiletic Fragment I *">
+         <!-- Frammento omiletico I dal titolo Bi manna lease 104r-104v-->
+         <pb n="104r">VB_fol_104r</pb>
+         <pb n="104v">VB_fol_104v</pb>
+      </text>
+      <text n="DOTR" label="DOTR">
+         <!-- Il Sogno della Croce 104v-106r -->
+         <pb n="104v">VB_fol_104v</pb>
+         <pb n="105r">VB_fol_105r</pb>
+         <pb n="105v">VB_fol_105v</pb>
+         <pb n="106r">VB_fol_106r</pb>
+      </text>
+      <text n="Homily-19" label="Homily XIX *">
+         <!-- Omelia sul peccato originale e sulla necessità del digiuno 106v-109v-->
+         <pb n="106v">VB_fol_106v</pb>
+         <pb n="107r">VB_fol_107r</pb>
+         <pb n="107v">VB_fol_107v</pb>
+         <pb n="108r">VB_fol_108r</pb>
+         <pb n="108v">VB_fol_108v</pb>
+         <pb n="109r">VB_fol_109r</pb>
+         <pb n="109v">VB_fol_109v</pb>
+      </text>
+      <text n="Homily-20" label="Homily XX *">
+         <!-- Omelia sui peccati capitali 109v-112r -->
+         <pb n="109v">VB_fol_109v</pb>
+         <pb n="110r">VB_fol_110r</pb>
+         <pb n="110v">VB_fol_110v</pb>
+         <pb n="111r">VB_fol_111r</pb>
+         <pb n="111v">VB_fol_111v</pb>
+         <pb n="112r">VB_fol_112r</pb>
+      </text>
+      <text n="Homily-21" label="Homily XXI *">
+         <!-- Omelia sull’elemosina come perfezionamento del digiuno, sulle virtù dell’anima, sul sacrificio di Cristo e sulla tentazione della superbia 112r-116v -->
+         <pb n="112r">VB_fol_112r</pb>
+         <pb n="112v">VB_fol_112v</pb>
+         <pb n="113r">VB_fol_113r</pb>
+         <pb n="113v">VB_fol_113v</pb>
+         <pb n="114r">VB_fol_114r</pb>
+         <pb n="114v">VB_fol_114v</pb>
+         <pb n="115r">VB_fol_115r</pb>
+         <pb n="115v">VB_fol_115v</pb>
+         <pb n="116r">VB_fol_116r</pb>
+         <pb n="116v">VB_fol_116v</pb>
+      </text>
+      <text n="Homily-22" label="Homily XXII *">
+         <!-- Omelia sulle virtù cristiane 116v-120v-->
+         <pb n="116v">VB_fol_116v</pb>
+         <pb n="117r">VB_fol_117r</pb>
+         <pb n="117v">VB_fol_117v</pb>
+         <pb n="118r">VB_fol_118r</pb>
+         <pb n="118v">VB_fol_118v</pb>
+         <pb n="119r">VB_fol_119r</pb>
+         <pb n="119v">VB_fol_119v</pb>
+         <pb n="120r">VB_fol_120r</pb>
+         <pb n="120v">VB_fol_120v</pb>
+      </text>
+      <text n="Elene" label="Elene *">
+         <!-- Elena 121r-133v -->
+         <pb n="121r">VB_fol_121r</pb>
+         <pb n="121v">VB_fol_121v</pb>
+         <pb n="122r">VB_fol_122r</pb>
+         <pb n="122v">VB_fol_122v</pb>
+         <pb n="123r">VB_fol_123r</pb>
+         <pb n="123v">VB_fol_123v</pb>
+         <pb n="124r">VB_fol_124r</pb>
+         <pb n="124v">VB_fol_124v</pb>
+         <pb n="125r">VB_fol_125r</pb>
+         <pb n="125v">VB_fol_125v</pb>
+         <pb n="126r">VB_fol_126r</pb>
+         <pb n="126v">VB_fol_126v</pb>
+         <pb n="127r">VB_fol_127r</pb>
+         <pb n="127v">VB_fol_127v</pb>
+         <pb n="128r">VB_fol_128r</pb>
+         <pb n="128v">VB_fol_128v</pb>
+         <pb n="129r">VB_fol_129r</pb>
+         <pb n="129v">VB_fol_129v</pb>
+         <pb n="130r">VB_fol_130r</pb>
+         <pb n="130v">VB_fol_130v</pb>
+         <pb n="131r">VB_fol_131r</pb>
+         <pb n="131v">VB_fol_131v</pb>
+         <pb n="132r">VB_fol_132r</pb>
+         <pb n="133v">VB_fol_133v</pb>
+      </text>
+      <text n="Homily-23" label="Homily XXIII">
+         <!-- Omelia sulla vita di San Guthlac 133v-135v -->
+         <pb n="133v">VB_fol_133v</pb>
+         <pb n="134r">VB_fol_134r</pb>
+         <pb n="134v">VB_fol_134v</pb>
+         <pb n="135r">VB_fol_135r</pb>
+         <pb n="135v">VB_fol_135v</pb>
+      </text>
+   </textpage>
+   <pages>
+      <pair>
+         <pb n="001r">VB_fol_001r</pb>
+      </pair>
+      <pair>
+         <pb n="001v">VB_fol_001v</pb>
+         <pb n="002r">VB_fol_002r</pb>
+      </pair>
+      <pair>
+         <pb n="002v">VB_fol_002v</pb>
+         <pb n="003r">VB_fol_003r</pb>
+      </pair>
+      <pair>
+         <pb n="003v">VB_fol_003v</pb>
+         <pb n="004r">VB_fol_004r</pb>
+      </pair>
+      <pair>
+         <pb n="004v">VB_fol_004v</pb>
+         <pb n="005r">VB_fol_005r</pb>
+      </pair>
+      <pair>
+         <pb n="005v">VB_fol_005v</pb>
+         <pb n="006r">VB_fol_006r</pb>
+      </pair>
+      <pair>
+         <pb n="006v">VB_fol_006v</pb>
+         <pb n="007r">VB_fol_007r</pb>
+      </pair>
+      <pair>
+         <pb n="007v">VB_fol_007v</pb>
+         <pb n="008r">VB_fol_008r</pb>
+      </pair>
+      <pair>
+         <pb n="008v">VB_fol_008v</pb>
+         <pb n="009r">VB_fol_009r</pb>
+      </pair>
+      <pair>
+         <pb n="009v">VB_fol_009v</pb>
+         <pb n="010r">VB_fol_010r</pb>
+      </pair>
+      <pair>
+         <pb n="010v">VB_fol_010v</pb>
+         <pb n="011r">VB_fol_011r</pb>
+      </pair>
+      <pair>
+         <pb n="011v">VB_fol_011v</pb>
+         <pb n="012r">VB_fol_012r</pb>
+      </pair>
+      <pair>
+         <pb n="012v">VB_fol_012v</pb>
+         <pb n="013r">VB_fol_013r</pb>
+      </pair>
+      <pair>
+         <pb n="013v">VB_fol_013v</pb>
+         <pb n="014r">VB_fol_014r</pb>
+      </pair>
+      <pair>
+         <pb n="014v">VB_fol_014v</pb>
+         <pb n="015r">VB_fol_015r</pb>
+      </pair>
+      <pair>
+         <pb n="015v">VB_fol_015v</pb>
+         <pb n="016r">VB_fol_016r</pb>
+      </pair>
+      <pair>
+         <pb n="016v">VB_fol_016v</pb>
+         <pb n="017r">VB_fol_017r</pb>
+      </pair>
+      <pair>
+         <pb n="017v">VB_fol_017v</pb>
+         <pb n="018r">VB_fol_018r</pb>
+      </pair>
+      <pair>
+         <pb n="018v">VB_fol_018v</pb>
+         <pb n="019r">VB_fol_019r</pb>
+      </pair>
+      <pair>
+         <pb n="019v">VB_fol_019v</pb>
+         <pb n="020r">VB_fol_020r</pb>
+      </pair>
+      <pair>
+         <pb n="020v">VB_fol_020v</pb>
+         <pb n="021r">VB_fol_021r</pb>
+      </pair>
+      <pair>
+         <pb n="021v">VB_fol_021v</pb>
+         <pb n="022r">VB_fol_022r</pb>
+      </pair>
+      <pair>
+         <pb n="022v">VB_fol_022v</pb>
+         <pb n="023r">VB_fol_023r</pb>
+      </pair>
+      <pair>
+         <pb n="023v">VB_fol_023v</pb>
+         <pb n="024r">VB_fol_024r</pb>
+      </pair>
+      <pair>
+         <pb n="024v">VB_fol_024v</pb>
+         <pb n="025r">VB_fol_025r</pb>
+      </pair>
+      <pair>
+         <pb n="025v">VB_fol_025v</pb>
+         <pb n="026r">VB_fol_026r</pb>
+      </pair>
+      <pair>
+         <pb n="026v">VB_fol_026v</pb>
+         <pb n="027r">VB_fol_027r</pb>
+      </pair>
+      <pair>
+         <pb n="027v">VB_fol_027v</pb>
+         <pb n="028r">VB_fol_028r</pb>
+      </pair>
+      <pair>
+         <pb n="028v">VB_fol_028v</pb>
+         <pb n="029r">VB_fol_029r</pb>
+      </pair>
+      <pair>
+         <pb n="029v">VB_fol_029v</pb>
+         <pb n="030r">VB_fol_030r</pb>
+      </pair>
+      <pair>
+         <pb n="030v">VB_fol_030v</pb>
+         <pb n="031r">VB_fol_031r</pb>
+      </pair>
+      <pair>
+         <pb n="031v">VB_fol_031v</pb>
+         <pb n="032r">VB_fol_032r</pb>
+      </pair>
+      <pair>
+         <pb n="032v">VB_fol_032v</pb>
+         <pb n="033r">VB_fol_033r</pb>
+      </pair>
+      <pair>
+         <pb n="033v">VB_fol_033v</pb>
+         <pb n="034r">VB_fol_034r</pb>
+      </pair>
+      <pair>
+         <pb n="034v">VB_fol_034v</pb>
+         <pb n="035r">VB_fol_035r</pb>
+      </pair>
+      <pair>
+         <pb n="035v">VB_fol_035v</pb>
+         <pb n="036r">VB_fol_036r</pb>
+      </pair>
+      <pair>
+         <pb n="036v">VB_fol_036v</pb>
+         <pb n="037r">VB_fol_037r</pb>
+      </pair>
+      <pair>
+         <pb n="037v">VB_fol_037v</pb>
+         <pb n="038r">VB_fol_038r</pb>
+      </pair>
+      <pair>
+         <pb n="038v">VB_fol_038v</pb>
+         <pb n="039r">VB_fol_039r</pb>
+      </pair>
+      <pair>
+         <pb n="039v">VB_fol_039v</pb>
+         <pb n="040r">VB_fol_040r</pb>
+      </pair>
+      <pair>
+         <pb n="040v">VB_fol_040v</pb>
+         <pb n="041r">VB_fol_041r</pb>
+      </pair>
+      <pair>
+         <pb n="041v">VB_fol_041v</pb>
+         <pb n="042r">VB_fol_042r</pb>
+      </pair>
+      <pair>
+         <pb n="042v">VB_fol_042v</pb>
+         <pb n="043r">VB_fol_043r</pb>
+      </pair>
+      <pair>
+         <pb n="043v">VB_fol_043v</pb>
+         <pb n="044r">VB_fol_044r</pb>
+      </pair>
+      <pair>
+         <pb n="044v">VB_fol_044v</pb>
+         <pb n="045r">VB_fol_045r</pb>
+      </pair>
+      <pair>
+         <pb n="045v">VB_fol_045v</pb>
+         <pb n="046r">VB_fol_046r</pb>
+      </pair>
+      <pair>
+         <pb n="046v">VB_fol_046v</pb>
+         <pb n="047r">VB_fol_047r</pb>
+      </pair>
+      <pair>
+         <pb n="047v">VB_fol_047v</pb>
+         <pb n="048r">VB_fol_048r</pb>
+      </pair>
+      <pair>
+         <pb n="048v">VB_fol_048v</pb>
+         <pb n="049r">VB_fol_049r</pb>
+      </pair>
+      <pair>
+         <pb n="049v">VB_fol_049v</pb>
+         <pb n="050r">VB_fol_050r</pb>
+      </pair>
+      <pair>
+         <pb n="050v">VB_fol_050v</pb>
+         <pb n="051r">VB_fol_051r</pb>
+      </pair>
+      <pair>
+         <pb n="051v">VB_fol_051v</pb>
+         <pb n="052r">VB_fol_052r</pb>
+      </pair>
+      <pair>
+         <pb n="052v">VB_fol_052v</pb>
+         <pb n="053r">VB_fol_053r</pb>
+      </pair>
+      <pair>
+         <pb n="053v">VB_fol_053v</pb>
+         <pb n="054r">VB_fol_054r</pb>
+      </pair>
+      <pair>
+         <pb n="054v">VB_fol_054v</pb>
+         <pb n="055r">VB_fol_055r</pb>
+      </pair>
+      <pair>
+         <pb n="055v">VB_fol_055v</pb>
+         <pb n="056r">VB_fol_056r</pb>
+      </pair>
+      <pair>
+         <pb n="056v">VB_fol_056v</pb>
+         <pb n="057r">VB_fol_057r</pb>
+      </pair>
+      <pair>
+         <pb n="057v">VB_fol_057v</pb>
+         <pb n="058r">VB_fol_058r</pb>
+      </pair>
+      <pair>
+         <pb n="058v">VB_fol_058v</pb>
+         <pb n="059r">VB_fol_059r</pb>
+      </pair>
+      <pair>
+         <pb n="059v">VB_fol_059v</pb>
+         <pb n="060r">VB_fol_060r</pb>
+      </pair>
+      <pair>
+         <pb n="060v">VB_fol_060v</pb>
+         <pb n="061r">VB_fol_061r</pb>
+      </pair>
+      <pair>
+         <pb n="061v">VB_fol_061v</pb>
+         <pb n="062r">VB_fol_062r</pb>
+      </pair>
+      <pair>
+         <pb n="062v">VB_fol_062v</pb>
+         <pb n="063r">VB_fol_063r</pb>
+      </pair>
+      <pair>
+         <pb n="063v">VB_fol_063v</pb>
+         <pb n="064r">VB_fol_064r</pb>
+      </pair>
+      <pair>
+         <pb n="064v">VB_fol_064v</pb>
+         <pb n="065r">VB_fol_065r</pb>
+      </pair>
+      <pair>
+         <pb n="065v">VB_fol_065v</pb>
+         <pb n="066r">VB_fol_066r</pb>
+      </pair>
+      <pair>
+         <pb n="066v">VB_fol_066v</pb>
+         <pb n="067r">VB_fol_067r</pb>
+      </pair>
+      <pair>
+         <pb n="067v">VB_fol_067v</pb>
+         <pb n="068r">VB_fol_068r</pb>
+      </pair>
+      <pair>
+         <pb n="068v">VB_fol_068v</pb>
+         <pb n="069r">VB_fol_069r</pb>
+      </pair>
+      <pair>
+         <pb n="069v">VB_fol_069v</pb>
+         <pb n="070r">VB_fol_070r</pb>
+      </pair>
+      <pair>
+         <pb n="070v">VB_fol_070v</pb>
+         <pb n="071r">VB_fol_071r</pb>
+      </pair>
+      <pair>
+         <pb n="071v">VB_fol_071v</pb>
+         <pb n="072r">VB_fol_072r</pb>
+      </pair>
+      <pair>
+         <pb n="072v">VB_fol_072v</pb>
+         <pb n="073r">VB_fol_073r</pb>
+      </pair>
+      <pair>
+         <pb n="073v">VB_fol_073v</pb>
+         <pb n="074r">VB_fol_074r</pb>
+      </pair>
+      <pair>
+         <pb n="074v">VB_fol_074v</pb>
+         <pb n="075r">VB_fol_075r</pb>
+      </pair>
+      <pair>
+         <pb n="075v">VB_fol_075v</pb>
+         <pb n="076r">VB_fol_076r</pb>
+      </pair>
+      <pair>
+         <pb n="076v">VB_fol_076v</pb>
+         <pb n="077r">VB_fol_077r</pb>
+      </pair>
+      <pair>
+         <pb n="077v">VB_fol_077v</pb>
+         <pb n="078r">VB_fol_078r</pb>
+      </pair>
+      <pair>
+         <pb n="078v">VB_fol_078v</pb>
+         <pb n="079r">VB_fol_079r</pb>
+      </pair>
+      <pair>
+         <pb n="079v">VB_fol_079v</pb>
+         <pb n="080r">VB_fol_080r</pb>
+      </pair>
+      <pair>
+         <pb n="080v">VB_fol_080v</pb>
+         <pb n="081r">VB_fol_081r</pb>
+      </pair>
+      <pair>
+         <pb n="081v">VB_fol_081v</pb>
+         <pb n="082r">VB_fol_082r</pb>
+      </pair>
+      <pair>
+         <pb n="082v">VB_fol_082v</pb>
+         <pb n="083r">VB_fol_083r</pb>
+      </pair>
+      <pair>
+         <pb n="083v">VB_fol_083v</pb>
+         <pb n="084r">VB_fol_084r</pb>
+      </pair>
+      <pair>
+         <pb n="084v">VB_fol_084v</pb>
+         <pb n="085r">VB_fol_085r</pb>
+      </pair>
+      <pair>
+         <pb n="085v">VB_fol_085v</pb>
+         <pb n="086r">VB_fol_086r</pb>
+      </pair>
+      <pair>
+         <pb n="086v">VB_fol_086v</pb>
+         <pb n="087r">VB_fol_087r</pb>
+      </pair>
+      <pair>
+         <pb n="087v">VB_fol_087v</pb>
+         <pb n="088r">VB_fol_088r</pb>
+      </pair>
+      <pair>
+         <pb n="088v">VB_fol_088v</pb>
+         <pb n="089r">VB_fol_089r</pb>
+      </pair>
+      <pair>
+         <pb n="089v">VB_fol_089v</pb>
+         <pb n="090r">VB_fol_090r</pb>
+      </pair>
+      <pair>
+         <pb n="090v">VB_fol_090v</pb>
+         <pb n="091r">VB_fol_091r</pb>
+      </pair>
+      <pair>
+         <pb n="091v">VB_fol_091v</pb>
+         <pb n="092r">VB_fol_092r</pb>
+      </pair>
+      <pair>
+         <pb n="092v">VB_fol_092v</pb>
+         <pb n="093r">VB_fol_093r</pb>
+      </pair>
+      <pair>
+         <pb n="093v">VB_fol_093v</pb>
+         <pb n="094r">VB_fol_094r</pb>
+      </pair>
+      <pair>
+         <pb n="094v">VB_fol_094v</pb>
+         <pb n="095r">VB_fol_095r</pb>
+      </pair>
+      <pair>
+         <pb n="095v">VB_fol_095v</pb>
+         <pb n="096r">VB_fol_096r</pb>
+      </pair>
+      <pair>
+         <pb n="096v">VB_fol_096v</pb>
+         <pb n="097r">VB_fol_097r</pb>
+      </pair>
+      <pair>
+         <pb n="097v">VB_fol_097v</pb>
+         <pb n="098r">VB_fol_098r</pb>
+      </pair>
+      <pair>
+         <pb n="098v">VB_fol_098v</pb>
+         <pb n="099r">VB_fol_099r</pb>
+      </pair>
+      <pair>
+         <pb n="099v">VB_fol_099v</pb>
+         <pb n="100r">VB_fol_0100r</pb>
+      </pair>
+      <pair>
+         <pb n="100v">VB_fol_100v</pb>
+         <pb n="101r">VB_fol_101r</pb>
+      </pair>
+      <pair>
+         <pb n="101v">VB_fol_101v</pb>
+         <pb n="102r">VB_fol_102r</pb>
+      </pair>
+      <pair>
+         <pb n="102v">VB_fol_102v</pb>
+         <pb n="103r">VB_fol_103r</pb>
+      </pair>
+      <pair>
+         <pb n="103v">VB_fol_103v</pb>
+         <pb n="104r">VB_fol_104r</pb>
+      </pair>
+      <pair>
+         <pb n="104v">VB_fol_104v</pb>
+         <pb n="105r">VB_fol_105r</pb>
+      </pair>
+      <pair>
+         <pb n="105v">VB_fol_105v</pb>
+         <pb n="106r">VB_fol_106r</pb>
+      </pair>
+      <pair>
+         <pb n="106v">VB_fol_106v</pb>
+         <pb n="107r">VB_fol_107r</pb>
+      </pair>
+      <pair>
+         <pb n="107v">VB_fol_107v</pb>
+         <pb n="108r">VB_fol_108r</pb>
+      </pair>
+      <pair>
+         <pb n="108v">VB_fol_108v</pb>
+         <pb n="109r">VB_fol_109r</pb>
+      </pair>
+      <pair>
+         <pb n="109v">VB_fol_109v</pb>
+         <pb n="110r">VB_fol_110r</pb>
+      </pair>
+      <pair>
+         <pb n="110v">VB_fol_110v</pb>
+         <pb n="111r">VB_fol_111r</pb>
+      </pair>
+      <pair>
+         <pb n="111v">VB_fol_111v</pb>
+         <pb n="112r">VB_fol_112r</pb>
+      </pair>
+      <pair>
+         <pb n="112v">VB_fol_112v</pb>
+         <pb n="113r">VB_fol_113r</pb>
+      </pair>
+      <pair>
+         <pb n="113v">VB_fol_113v</pb>
+         <pb n="114r">VB_fol_114r</pb>
+      </pair>
+      <pair>
+         <pb n="114v">VB_fol_114v</pb>
+         <pb n="115r">VB_fol_115r</pb>
+      </pair>
+      <pair>
+         <pb n="115v">VB_fol_115v</pb>
+         <pb n="116r">VB_fol_116r</pb>
+      </pair>
+      <pair>
+         <pb n="116v">VB_fol_116v</pb>
+         <pb n="117r">VB_fol_117r</pb>
+      </pair>
+      <pair>
+         <pb n="117v">VB_fol_117v</pb>
+         <pb n="118r">VB_fol_118r</pb>
+      </pair>
+      <pair>
+         <pb n="118v">VB_fol_118v</pb>
+         <pb n="119r">VB_fol_119r</pb>
+      </pair>
+      <pair>
+         <pb n="119v">VB_fol_119v</pb>
+         <pb n="120r">VB_fol_120r</pb>
+      </pair>
+      <pair>
+         <pb n="120v">VB_fol_120v</pb>
+         <pb n="121r">VB_fol_121r</pb>
+      </pair>
+      <pair>
+         <pb n="121v">VB_fol_121v</pb>
+         <pb n="122r">VB_fol_122r</pb>
+      </pair>
+      <pair>
+         <pb n="122v">VB_fol_122v</pb>
+         <pb n="123r">VB_fol_123r</pb>
+      </pair>
+      <pair>
+         <pb n="123v">VB_fol_123v</pb>
+         <pb n="124r">VB_fol_124r</pb>
+      </pair>
+      <pair>
+         <pb n="124v">VB_fol_124v</pb>
+         <pb n="125r">VB_fol_125r</pb>
+      </pair>
+      <pair>
+         <pb n="125v">VB_fol_125v</pb>
+         <pb n="126r">VB_fol_126r</pb>
+      </pair>
+      <pair>
+         <pb n="126v">VB_fol_126v</pb>
+         <pb n="127r">VB_fol_127r</pb>
+      </pair>
+      <pair>
+         <pb n="127v">VB_fol_127v</pb>
+         <pb n="128r">VB_fol_128r</pb>
+      </pair>
+      <pair>
+         <pb n="128v">VB_fol_128v</pb>
+         <pb n="129r">VB_fol_129r</pb>
+      </pair>
+      <pair>
+         <pb n="129v">VB_fol_129v</pb>
+         <pb n="130r">VB_fol_130r</pb>
+      </pair>
+      <pair>
+         <pb n="130v">VB_fol_130v</pb>
+         <pb n="131r">VB_fol_131r</pb>
+      </pair>
+      <pair>
+         <pb n="131v">VB_fol_131v</pb>
+         <pb n="132r">VB_fol_132r</pb>
+      </pair>
+      <pair>
+         <pb n="132v">VB_fol_132v</pb>
+         <pb n="133r">VB_fol_133r</pb>
+      </pair>
+      <pair>
+         <pb n="133v">VB_fol_133v</pb>
+         <pb n="134r">VB_fol_134r</pb>
+      </pair>
+      <pair>
+         <pb n="134v">VB_fol_134v</pb>
+         <pb n="135r">VB_fol_135r</pb>
+      </pair>
+      <pair>
+         <pb n="135v">VB_fol_135v</pb>
+         <pb n="136r">VB_fol_136r</pb>
+      </pair>
+      <pair>
+         <pb n="136v">VB_fol_136v</pb>
+      </pair>
+   </pages>
+</xml>
