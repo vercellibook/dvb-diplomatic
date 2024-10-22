@@ -1,1 +1,2221 @@
-/home/roby/Scrivania/GIT/VBD/vbd-transcription/xml/VB-25-Hom20.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei-vbd.rng" 
+                       title="Vercelli Book Digital standard schema" 
+                       schematypens="http://relaxng.org/ns/structure/1.0" 
+                       type="application/xml"
+                     ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>The Vercelli Book: a diplomatic/interpretative transcription with digital facsimile</title>
+        <title>Homily XX</title>
+        <author>Unknown</author>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Encoding in TEI-conformant markup: </resp>
+          <name>Raffaele Cioffi</name>
+          <name>Federica Goria</name>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Elisabetta Magnanti</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Digital Vercelli Project</authority>
+        <date>2004-</date>
+        <availability status="restricted">
+          <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Italy</country>
+            <settlement>Vercelli</settlement>
+            <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+            <idno>CXVII</idno>
+            <msName>Vercelli Book</msName>
+            <msName>Codex Vercellensis</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <!--<encodingDesc>
+      <xi:include href="../extra/charDecl.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="general_charDecl"/>
+    </encodingDesc>-->
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="ang">Old English</language>
+      </langUsage>
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="2022-04" who="RRDT">Switched to a minimal TEI header in anticipation of XInclude use.</change>
+      <change when="2021-01" who="EM">Replacement of old sic markup with choice-based element groups</change>
+      <change when="2010-09" who="RRDT">Conversion to the TEI P5 DTD</change>
+      <change when="2004-01" who="RRDT">Experimental transcription using the Digital Scriptorium DTD</change>
+    </revisionDesc>
+
+  </teiHeader>
+
+  <text n="Homily XX" xml:id="VB_text_Hom20">
+		<body>
+			<div type="prose">
+
+				<p>
+					<!--<pb n="109v"/>-->
+					<lb n="14"/>
+					<choice>
+						<orig><del type="erasure"><hi rend="init4.1">MM</hi></del><del type="erasure"><hi rend="cap3.0"
+								>E</hi></del><hi rend="init4.1">M</hi><hi rend="cap3.0">ENN</hi><hi rend="cap3.0">Ð</hi><add place="int"
+									><hi rend="cap">A</hi></add></orig>
+						<reg><hi rend="init4.1">M</hi><hi rend="cap3.0">ENN</hi>
+							<hi rend="cap3.0">Ð</hi><add place="int"><hi rend="cap">A</hi></add></reg>
+					</choice>
+					<lb n="15"/><space extent=""/>leofestan <reg><pc>,</pc></reg> þi<g ref="#sins"/>
+					<g ref="#sins"/>yndon halige daga<g ref="#sins"/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>hal<lb n="16"/><space extent=""
+							/>wendlice</w></orig>
+						<reg><expan><ex>and</ex></expan>
+							<w>hal<lb n="16"/><space extent=""/>wendlice</w></reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>urum</orig>
+						<reg><expan><ex>and</ex></expan> urum</reg>
+					</choice>
+					<g ref="#sins"/>awlum <choice>
+						<orig>læce domlice</orig>
+						<reg>læcedomlice</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<lb n="17"/><space extent=""/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>usge dafenaþ</orig>
+						<reg><expan><ex>and</ex></expan> us gedafenaþ</reg>
+					</choice> þæt we hie wel begangen <lb n="18"/>mid fæstenum <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+						<reg><expan><ex>and</ex></expan> mid</reg>
+					</choice>
+					<choice>
+						<orig>ælme<g ref="#sins"/> dædum</orig>
+						<reg>ælme<g ref="#sins"/>dædum</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+						<reg><expan><ex>and</ex></expan> mid</reg>
+					</choice>
+					<choice>
+						<abbr type="brev">halig<am><g ref="#umacr"/></am></abbr>
+						<expan>haligu<ex>m</ex></expan>
+					</choice> gebedum <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+						<reg><expan><ex>and</ex></expan> mid</reg>
+					</choice>
+					<lb n="19"/> reliquiasocnum <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mi<add place="sup">d</add><add place="sub"
+							>,</add>urum</orig>
+						<reg><expan><ex>and</ex></expan> mi<add place="sup">d</add> urum</reg>
+					</choice> eadmodlicum gange <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+						<reg><expan><ex>and</ex></expan> mid</reg>
+					</choice> eallre <lb n="20"/> heortan <choice>
+						<orig>onbr<g ref="#ydot"/>rd nesse</orig>
+						<reg>onbr<g ref="#ydot"/>rdnesse</reg>
+					</choice><pc>.</pc>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>uton</orig>
+						<reg><expan><ex>And</ex></expan> uton</reg>
+					</choice> lætan ure idelan <g ref="#slong"/>præca <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<damage type="blot" extent="5char">ægðer</damage>
+					<lb n="21"/>ge þonne we ut <choice>
+						<sic>gagen</sic>
+						<corr resp="scragg">gangen</corr>
+					</choice>
+					<choice>
+						<orig>mid haligdome</orig>
+						<reg>mid <supplied resp="scragg">þam</supplied> haligdome</reg>
+					</choice>
+					<orig><pc>.</pc></orig> ge þonne we <choice>
+						<orig><g ref="inodotenl"/>nto</orig>
+						<reg>in to</reg>
+					</choice> cyrican <lb n="22"/> gangen <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig>forðam</orig>
+						<reg>for ðam</reg>
+					</choice><orig><pc>.</pc></orig> þe þam deofle bið <g ref="#slong"/>wa leofre <choice>
+						<orig><g ref="#slong"/>wa<add place="sup">we</add><add place="sub">,</add><g ref="#slong"/>eldor</orig>
+						<reg><g ref="#slong"/>wa <add place="sup">we</add>
+							<g ref="#slong"/>eldor</reg>
+					</choice> on <lb n="23"/>
+					<name type="religion">
+						<choice>
+							<orig>godes</orig>
+							<reg>Godes</reg>
+						</choice>
+					</name> temple cumen <pc>.</pc>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
+						<reg><expan><ex>And</ex></expan> þonne</reg>
+					</choice> we <choice>
+						<orig>þær <g ref="#inodotenl"/>nne</orig>
+						<reg>þær<g ref="#inodotenl"/>nne</reg>
+					</choice> beoð <reg><pc>,</pc></reg> butan tweon <lb n="24"/>gif we elle<g ref="#sins"/> hwæt <choice>
+						<orig>þær <g ref="#inodotenl"/>nne</orig>
+						<reg>þær<g ref="#inodotenl"/>nne</reg>
+					</choice> doð <orig><pc>.</pc></orig> butan <choice>
+						<orig><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><abbr type="brev"><am><g
+										ref="#thornbarslash"/></am></abbr></orig>
+						<reg><expan>þ<ex>æt</ex></expan>
+							<expan>þ<ex>æt</ex></expan></reg>
+					</choice> us beboden ys on <lb n="25"/> haligum bocum <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> he us eall <del type="erasure">þæt</del> ðæt oðer lærð <choice>
+						<orig><pc><g ref="colon"/></pc>
+							<hi rend="cap">S</hi>elre</orig>
+						<reg>. Selre</reg>
+					</choice> bið <lb n="26"/> urum <choice>
+						<orig>ge <abbr type="brev">hwylc<am><g ref="#umacr"/></am></abbr></orig>
+						<reg>ge<expan>hwylcu<ex>m</ex></expan></reg>
+					</choice> þæt we na on cyrecan <choice>
+						<orig>necumen</orig>
+						<reg>ne cumen</reg>
+					</choice><orig><pc>.</pc></orig> þonne we <lb n="27"/> cumen <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> gyf we <choice>
+						<orig>þær inne</orig>
+						<reg>þærinne</reg>
+					</choice> idele <g ref="#slong"/>præca drifan willað <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>idele</orig>
+						<reg><expan><ex>and</ex></expan> idele</reg>
+					</choice>
+					<lb n="28"/>
+					<choice>
+						<orig>ge þancas</orig>
+						<reg>geþancas</reg>
+					</choice>
+					<choice>
+						<orig>þær <g ref="#inodotenl"/>nne</orig>
+						<reg>þær<g ref="#inodotenl"/>nne</reg>
+					</choice>
+					<choice>
+						<orig>ge þencan</orig>
+						<reg>geþencan</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig>forðam</orig>
+						<reg>for ðam</reg>
+					</choice> þe <g ref="#sins"/>e deofol <damage type="blot" extent="1char">æ</damage>fter <lb n="29"/>urum <choice>
+						<orig>forð siðe</orig>
+						<reg>forðsiðe</reg>
+					</choice> ealle þa idelan <g ref="#sins"/>præca <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
+						<reg><expan><ex>and</ex></expan> þa</reg>
+					</choice> dy<g ref="#sins"/>lican <lb n="30"/>word þe we <choice>
+						<orig>þær inne</orig>
+						<reg>þærinne</reg>
+					</choice>
+					<choice>
+						<orig>ge sprecað</orig>
+						<reg>gesprecað</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
+						<reg><expan><ex>and</ex></expan> þa</reg>
+					</choice>
+					<choice>
+						<orig>un nyttan</orig>
+						<reg>unnyttan</reg>
+					</choice>
+					<choice>
+						<orig>ge þohta<unclear reason="enter a reason"><!-- enter a reason --><g ref="#sins"/></unclear></orig>
+						<reg>geþohta<unclear reason="enter a reason"><!-- enter a reason --><g ref="#sins"/></unclear></reg>
+					</choice>
+					<lb n="31"/>þe we <choice>
+						<orig>þær inne</orig>
+						<reg>þærinne</reg>
+					</choice> geþencaþ <choice>
+						<orig><pc><g ref="colon"/></pc></orig>
+						<reg>,</reg>
+					</choice> ealle hie eft deoflu æfter urum forð<w><lb n="32"/><g ref="#sins"/>iðe</w> ongean
+							aweorpaþ<reg><pc>,</pc></reg> butan we ær ge<g ref="#slong"/>wican willan <pc>.</pc>
+					<hi rend="cap">W</hi>e reddon
+				  
+				  <pb n="110r" xml:id="VB_fol_110r"/>
+
+				  <add hand="unknown">
+						<fw type="fol" place="top-right">110.</fw>
+					</add>
+
+				  <lb n="1"/>on haligum bocum þæt <g ref="#sins"/>um wæ<g ref="#sins"/> mære wer <choice>
+						<orig>oneorðan</orig>
+						<reg>on eorðan</reg>
+					</choice> se wæ<g ref="#sins"/>
+					<name type="religion">
+						<choice>
+							<orig>gode<g ref="#sins"/></orig>
+							<reg>Godes</reg>
+						</choice>
+					</name>
+					<lb n="2"/>witiga <orig><pc>.</pc></orig> þam wæs nama <del type="erasure">h</del>
+					<name type="religion">
+						<choice>
+							<orig>elias</orig>
+							<reg>Elias</reg>
+						</choice>
+					</name><reg><pc>.</pc></reg>
+					<choice>
+						<orig>beðam</orig>
+						<reg>Be ðam</reg>
+					</choice> ys awriten <choice>
+						<orig>onhaligum</orig>
+						<reg>on haligum </reg>
+					</choice>
+					<lb n="3"/>
+					<choice>
+						<abbr type="brev">boc<am><g ref="#umacr"/></am></abbr>
+						<expan>bocu<ex>m</ex></expan>
+					</choice>
+					<orig><pc>.</pc></orig> þæt he abæd æt <name type="religion">
+						<choice>
+							<orig>gode</orig>
+							<reg>Gode</reg>
+						</choice>
+					</name> for þæ<g ref="#sins"/> folce geleafleste <orig><pc>.</pc></orig> þe he <lb n="4"/> mid wunude <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>for</orig>
+						<reg><expan><ex>and</ex></expan> for</reg>
+					</choice> hira <choice>
+						<orig><abbr type="brev">man full<am><g ref="#umacr"/></am></abbr></orig>
+						<reg><expan>manfullu<ex>m</ex></expan></reg>
+					</choice>
+					<choice>
+						<abbr type="brev">weorc<am><g ref="#umacr"/></am></abbr>
+						<expan>weorcu<ex>m</ex></expan>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> þæt hit ne nirnde <lb n="5"/> þrim gearum ne <choice>
+						<orig>þær to eacan</orig>
+						<reg>þærtoeacan</reg>
+					</choice> syx monðum <pc>.</pc>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>ona</orig>
+						<reg><expan><ex>And</ex></expan>
+							<g ref="#sins"/>ona</reg>
+					</choice>
+					<g ref="#slong"/>wa he eft <lb n="6"/> geseah <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ongeat</orig>
+						<reg><expan><ex>and</ex></expan> ongeat</reg>
+					</choice> þæt þæt folc <choice>
+						<orig>to<name type="religion">gode</name></orig>
+						<reg>to <name type="religion">Gode</name></reg>
+					</choice> cyrde <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<hi rend="double">h</hi>e ef<damage type="faded" extent="1char">t</damage> hrædlice <lb n="7"/>æt <name
+						type="religion">
+						<choice>
+							<orig>gode</orig>
+							<reg>Gode</reg>
+						</choice>
+					</name>abæd þæt he eft ren ofer eorðan wæ<g ref="#sins"/>tmas sealde <reg><pc>,</pc></reg>
+					<lb n="8"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
+						<reg><expan><ex>and</ex></expan> he</reg>
+					</choice> hrærdlice tiða wæ<g ref="#sins"/><pc>.</pc>
+					<choice>
+						<orig><hi rend="cap">V</hi>ton</orig>
+						<reg>Uton</reg>
+					</choice> u<g ref="#sins"/> nu ealle þe geornor warnian <reg><pc>,</pc></reg>
+					<lb n="9"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>for lætan</orig>
+						<reg><expan><ex>and</ex></expan> forlætan</reg>
+					</choice> urne <choice>
+						<orig>ge dwolan</orig>
+						<reg>gedwolan</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>unriht</orig>
+						<reg><expan><ex>and</ex></expan> unriht</reg>
+					</choice> hæme<damage type="faded" extent="1char">d</damage>o <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ær æta<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> æræta<g ref="#sins"/></reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>ofer<lb n="10"/>dru<add place="sup">n</add><add
+									place="sub">,</add>cenne<g ref="#sins"/><g ref="#sins"/>a</w></orig>
+						<reg><expan><ex>and</ex></expan>
+							<w>ofer<lb n="10"/>dru<add place="sup">n</add>cenne<g ref="#sins"/><g ref="#sins"/>a</w></reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hlaford <g ref="#slong"/>wicunga</orig>
+						<reg><expan><ex>and</ex></expan> hlaford<g ref="#slong"/>wicunga</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ofer mett</orig>
+						<reg><expan><ex>and</ex></expan> ofermett</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>andan</orig>
+						<reg><expan><ex>and</ex></expan> andan</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ofer<w><lb n="11"/>fylle</w></orig>
+						<reg><expan><ex>and</ex></expan> ofer<w><lb n="11"/>fylle</w></reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>galnesse</orig>
+						<reg><expan><ex>and</ex></expan> galnesse</reg>
+					</choice>
+					<orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>sceandlicnessa</orig>
+						<reg><expan><ex>and</ex></expan> sceandlicnessa</reg>
+					</choice>
+					<orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>leothbrædnessa</orig>
+						<reg><expan><ex>and</ex></expan> leothbrædnessa</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>idele</orig>
+						<reg><expan><ex>and</ex></expan> idele</reg>
+					</choice>
+					<lb n="12"/> spræca <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ealle</orig>
+						<reg><expan><ex>and</ex></expan> ealle</reg>
+					</choice> unclænessa <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ealle</orig>
+						<reg><expan><ex>and</ex></expan> ealle</reg>
+					</choice> yfelo <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> þe læ<g ref="#sins"/> u<g ref="#sins"/> ahwæne <lb n="13"/>
+					<name type="religion">
+						<choice>
+							<orig>god</orig>
+							<reg>God</reg>
+						</choice>
+					</name>for <choice>
+						<abbr type="brev">ur<am><g ref="#umacr"/></am></abbr>
+						<expan>uru<ex>m</ex></expan>
+					</choice> yfelum <choice>
+						<orig><abbr type="brev">ge earnig<am><g ref="#umacr"/></am></abbr></orig>
+						<reg><expan>geearnigu<ex>m</ex></expan></reg>
+					</choice> ure eorðan wæ<g ref="#sins"/>tma<g ref="#sins"/>
+					<choice>
+						<abbr>fr<am><g ref="#amacr"/></am></abbr>
+						<expan>fra<ex>m</ex></expan>
+					</choice>
+					<lb n="14"/> afyrre <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>u<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> u<g ref="#sins"/></reg>
+					</choice>
+					<g ref="#slong"/>wylce witu on <choice>
+						<sic>asend<g ref="aeligdot"/></sic>
+						<corr resp="scragg">asende</corr>
+					</choice> þe we aræfnian ne <lb n="15"/> magon <pc>.</pc>
+					<choice>
+						<orig><hi rend="double">a</hi>cutan</orig>
+						<reg>Ac utan</reg>
+					</choice> symle of <choice>
+						<abbr type="brev">eall<am><g ref="#umacr"/></am></abbr>
+						<expan>eallu<ex>m</ex></expan>
+					</choice>
+					<choice>
+						<abbr>þ<am><g ref="#amacr"/></am></abbr>
+						<expan>þa<ex>m</ex></expan>
+					</choice>
+					<choice>
+						<abbr type="brev">god<am><g ref="#umacr"/></am></abbr>
+						<expan>godu<ex>m</ex></expan>
+					</choice> þe u<g ref="#sins"/>
+					<name type="religion">
+						<choice>
+							<orig>god</orig>
+							<reg>God</reg>
+						</choice>
+					</name> her on <lb n="16"/> worulde læne hym þa teoðunga don eadmodlice <pc><g ref="coldmidcomposit"/></pc>
+					þonne <lb n="17"/> tiðaþ us <name type="religion">dryhten</name> þe rumodlicor þara nigon dæla <pc>.</pc>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>utan</orig>
+						<reg><expan><ex>And</ex></expan> utan</reg>
+					</choice>
+					<lb n="18"/>georne <choice>
+						<orig>ofðam</orig>
+						<reg>of ðam</reg>
+					</choice> nigon <choice>
+						<abbr type="brev">dæl<am><g ref="#umacr"/></am></abbr>
+						<expan>dælu<ex>m</ex></expan>
+					</choice>
+					<name type="religion">
+						<choice>
+							<orig>gode<g ref="#sins"/></orig>
+							<reg>Godes</reg>
+						</choice>
+					</name> þearfum ælme<g ref="#sins"/><g ref="#sins"/>an <unclear>dæ</unclear>lan <choice>
+						<orig><pc><g ref="middot"/>·</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<lb n="19"/>
+					<choice>
+						<orig>forþan</orig>
+						<reg>For þan</reg>
+					</choice>
+					<g ref="#sins"/>eo <choice>
+						<orig>ælme<g ref="#sins"/> sylen</orig>
+						<reg>ælme<g ref="#sins"/>sylen</reg>
+					</choice> aly<g ref="#sins"/>t þone <choice>
+						<orig>syn fullan</orig>
+						<reg>synfullan</reg>
+					</choice> mann <choice>
+						<abbr><unclear>fr</unclear><am><g ref="#amacr"/></am></abbr>
+						<expan><unclear>fra</unclear><ex>m</ex></expan>
+					</choice>
+					<lb n="20"/>
+					<choice>
+						<abbr type="brev">sinn<am><g ref="#umacr"/></am></abbr>
+						<expan>sinnu<ex>m</ex></expan>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>fram</orig>
+						<reg><expan><ex>and</ex></expan> fram</reg>
+					</choice> deaþe <choice>
+						<orig><pc><g ref="colmidcomposit"/></pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wa</orig>
+						<reg><expan><ex>and</ex></expan>
+							<g ref="#slong"/>wa</reg>
+					</choice>
+					<g ref="#slong"/>wa wæter adwæscit f<unclear><g ref="yacute"/>r</unclear><reg><pc>,</pc></reg>
+					<choice>
+						<orig><g ref="#slong"/>waad<unclear>wæ<g ref="#sins"/>cit</unclear></orig>
+						<reg><g ref="#slong"/>wa ad<unclear>wæ<g ref="#sins"/>cit</unclear></reg>
+					</choice>
+					<lb n="21"/>
+					<g ref="#sins"/>eo ælme<g ref="#sins"/><g ref="#sins"/>ylen þa <g ref="#sins"/>ynna of manna <choice>
+						<abbr type="brev">gehwylc<am><g ref="#umacr"/></am></abbr>
+						<expan>gehwylcu<ex>m</ex></expan>
+					</choice> þe hr<unclear>umo</unclear>dlice <lb n="22"/>dæleð <pc>.</pc>
+					<choice>
+						<orig>fæsten</orig>
+						<reg>Fæsten</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ælme<g ref="#sins"/><g ref="#sins"/>ylen</orig>
+						<reg><expan><ex>and</ex></expan> ælme<g ref="#sins"/><g ref="#sins"/>ylen</reg>
+					</choice> sceolon <choice>
+						<orig><abbr type="brev">ægh wylc<am><g ref="#umacr"/></am></abbr></orig>
+						<expan>æghwylcu<ex>m</ex></expan>
+					</choice> cristinu<unclear>m</unclear>
+					<lb n="23"/>
+					<choice>
+						<orig>men n</orig>
+						<reg>menn</reg>
+					</choice>
+					<choice>
+						<orig>æt gædere</orig>
+						<reg>ætgædere</reg>
+					</choice> fyligean <reg><pc>,</pc></reg><del type="erasure"><g ref="#sins"/></del>
+					<choice>
+						<orig>forðam</orig>
+						<reg>for ðam</reg>
+					</choice> þæt fæsten ys halig <lb n="24"/> þing <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hit</orig>
+						<reg><expan><ex>and</ex></expan> hit</reg>
+					</choice> i<g ref="#sins"/> heofonlic weorc <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hit</orig>
+						<reg><expan><ex>and</ex></expan> hit</reg>
+					</choice> i<g ref="#sins"/> duru ðæ<g ref="#sins"/> heofonlican <lb n="25"/> rices <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hyt</orig>
+						<reg><expan><ex>and</ex></expan> hyt</reg>
+					</choice> ys hiw þære toweardan worulde <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>sebyð</orig>
+						<reg><expan><ex>and</ex></expan> se byð</reg>
+					</choice>
+					<name type="religion">
+						<choice>
+							<orig>gode</orig>
+							<reg>Gode</reg>
+						</choice>
+					</name> geþeodd <orig><pc>.</pc></orig>
+					<lb n="26"/>
+					<choice>
+						<orig>seðe</orig>
+						<reg>se ðe</reg>
+					</choice> hyt haliglice deð <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
+						<reg><expan><ex>and</ex></expan> he</reg>
+					</choice> byð <choice>
+						<orig>ge elfremed</orig>
+						<reg>geelfremed</reg>
+					</choice> fram <choice>
+						<sic>middan gerde</sic>
+						<corr resp="scragg">middangearde</corr>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<lb n="27"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
+						<reg><expan><ex>and</ex></expan> he</reg>
+					</choice> byð ga<g ref="#slong"/>tlic <choice>
+						<orig>ge worden</orig>
+						<reg>geworden</reg>
+					</choice>
+					<pc>.</pc>
+					<choice>
+						<orig>þurh</orig>
+						<reg>Þurh</reg>
+					</choice> þæt beoð leahtra<g ref="#sins"/> afyllede <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<abbr type="brev"><am><g ref="#et"/></am></abbr>
+						<expan><ex>and</ex></expan>
+					</choice>
+					<lb n="28"/>þæt flæ<g ref="#sins"/>c byð <choice>
+						<orig>ge ead mett</orig>
+						<reg>geeadmett</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice> þæt beoð deofle<g ref="#sins"/> co<g ref="#sins"/>tunga <w>ofer<lb n="29"/><g ref="#slong"
+						/>wiðede</w>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hyt</orig>
+						<reg><expan><ex>and</ex></expan> hyt</reg>
+					</choice> framað <g ref="#slong"/>wiðe myclum <choice>
+						<orig>for<name type="religion">gode</name></orig>
+						<reg>for <name type="religion">Gode</name></reg>
+					</choice>
+					<orig><pc>.</pc></orig> þam þe hyt <w>wil<lb n="30"/>lindlice</w> fæst <choice>
+						<orig><pc><g ref="colmidcomposit"/></pc></orig>
+						<reg>.</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>seo</orig>
+						<reg><expan><ex>And</ex></expan> seo</reg>
+					</choice> ælme<g ref="#sins"/><g ref="#sins"/>ylen ys gefylledne<g ref="#sins"/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>fulfremedne<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> fulfremedne<g ref="#sins"/></reg>
+					</choice>
+					<lb n="31"/>eallra goda <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice> ys halig þing <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo<g ref="#ginsmacr"/>ycð</orig>
+						<reg><expan><ex>and</ex></expan> heo <corr resp="scragg"><g ref="#ginsmacr"/>eycð</corr></reg>
+					</choice> þa <choice>
+						<orig><abbr type="pref"><am><g ref="#et"/></am></abbr>weardan</orig>
+						<reg><expan><ex>and</ex></expan>weardan</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<w>ge<lb n="32"/>wanaþ</w> synna <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<choice>
+						<orig>ge mænig fylt</orig>
+						<reg>gemænigfylt</reg>
+					</choice> gear <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<choice>
+						<orig>ge æðelað</orig>
+						<reg>geæðelað</reg>
+					</choice> þ<unclear>æ</unclear>t mod <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<lb n="33"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice> tobræt g<damage type="blot" extent="1char">e</damage>mæro <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice> aclænsað eallo þing <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice> alyst <choice>
+						<abbr>fr<am><g ref="#amacr"/></am></abbr>
+						<expan>fra<ex>m</ex></expan>
+					</choice>
+
+				  <pb n="110v" xml:id="VB_fol_110v"/>
+
+				  <lb n="1"/>deaþe <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>fram</orig>
+						<reg><expan><ex>and</ex></expan> fram</reg>
+					</choice> witum <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<choice>
+						<orig>ge þeodeð</orig>
+						<reg>geþeodeð</reg>
+					</choice> þone mann þe hy <choice>
+						<orig>be gæð</orig>
+						<reg>begæð</reg>
+					</choice>
+					<lb n="2"/>
+					<name type="religion">
+						<choice>
+							<orig>godes</orig>
+							<reg>Godes</reg>
+						</choice>
+					</name>englum <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hine</orig>
+						<reg><expan><ex>and</ex></expan> hine</reg>
+					</choice> a<g ref="#slong"/>cyreð fram deoflum <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice> y<g ref="#sins"/>
+					<choice>
+						<orig><w>un ofer<lb n="3"/>winnendlic</w></orig>
+						<reg><w>unofer<lb n="3"/>winnendlic</w></reg>
+					</choice> weall ymb þa <g ref="#sins"/>awle <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice> fram adrifð deoflu <orig><pc>.</pc></orig>
+					<choice>
+						<abbr type="brev"><am><g ref="#et"/></am></abbr>
+						<expan><ex>and</ex></expan>
+					</choice>
+					<lb n="4"/>engla<g ref="#sins"/>
+					<choice>
+						<orig>toge laðað</orig>
+						<reg>togelaðað</reg>
+					</choice>
+					<choice>
+						<orig>on<abbr type="brev">fult<am><g ref="#umacr"/></am></abbr></orig>
+						<reg>on <expan>fultu<ex>m</ex></expan></reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<choice>
+						<orig>þurh færð</orig>
+						<reg>þurhfærð</reg>
+					</choice> þone heofon <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<lb n="5"/>
+					<choice>
+						<orig>fore stepð</orig>
+						<reg>forestepð</reg>
+					</choice> þone <g ref="#sins"/>yllendan <choice>
+						<orig>onheofona</orig>
+						<reg>on heofona</reg>
+					</choice> rice<g ref="#sins"/> wuldre <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<lb n="6"/>cny<g ref="#slong"/>t heofona rices duru <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice> awecð engla<g ref="#sins"/>
+					<choice>
+						<orig>on gean</orig>
+						<reg>ongean</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<lb n="7"/> to<g ref="#sins"/>omne gecigeð <name type="religion">dryhten</name> ælmihtigne onfultum <choice>
+						<orig>þamþe</orig>
+						<reg>þam þe</reg>
+					</choice>
+					<lb n="8"/>hie luflice <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>rumodlice</orig>
+						<reg><expan><ex>and</ex></expan> rumodlice</reg>
+					</choice> dæleð <choice>
+						<orig><pc><g ref="colmidcomposit"/></pc> þreo</orig>
+						<reg>. Þreo</reg>
+					</choice> cynn syndon ælme<g ref="#sins"/>dæda<pc>.</pc>
+					<lb n="9"/>
+					<choice>
+						<orig><g ref="aacute"/>n</orig>
+						<reg>Án</reg>
+					</choice> i<g ref="#sins"/> lichomlic <reg><pc>,</pc></reg> þæt man þam wædliendan <choice>
+						<orig>tog<g ref="oacute"/>de</orig>
+						<reg>to g<g ref="oacute"/>de</reg>
+					</choice>
+					<g ref="#sins"/>ylle <orig><pc>.</pc></orig>
+					<g ref="#slong"/>wa <lb n="10"/>hwæt <g ref="#slong"/><damage extent="1char">w</damage>a man mæge <pc>.</pc>
+					<choice>
+						<orig>oðer</orig>
+						<reg>Oðer</reg>
+					</choice> i<g ref="#sins"/>
+					<choice>
+						<orig>ga<g ref="#slong"/>t lic</orig>
+						<reg>ga<g ref="#slong"/>tlic</reg>
+					</choice>
+					<reg><pc>,</pc></reg> þæt man <choice>
+						<orig>for gife</orig>
+						<reg>forgife</reg>
+					</choice>
+					<choice>
+						<abbr>þ<am><g ref="#amacr"/></am></abbr>
+						<expan>þa<ex>m</ex></expan>
+					</choice>
+					<lb n="11"/>þe oðerum ænig yfel deð eall þæt he him <choice>
+						<orig>towite</orig>
+						<reg>to wite</reg>
+					</choice><pc>.</pc>
+					<choice>
+						<orig>þridde</orig>
+						<reg>Þridde</reg>
+					</choice> i<g ref="#sins"/>
+					<lb n="12"/>þæt man þa dweliendan on <damage extent="4char"><g ref="#sins"/>oðf</damage>æstne<g ref="#sins"
+						/><g ref="#sins"/>e <choice>
+						<sic>wegge</sic>
+						<corr resp="scragg">weg</corr>
+					</choice>
+					<choice>
+						<orig>ge lædde</orig>
+						<reg>gelædde</reg>
+					</choice>
+					<choice>
+						<orig><pc><g ref="colmidcomposit"/></pc></orig>
+						<reg>.</reg>
+					</choice>
+					<lb n="13"/>
+					<choice>
+						<orig><hi rend="cap">U</hi>tan</orig>
+						<reg>Utan</reg>
+					</choice> nu <reg><pc>,</pc></reg>
+					<choice>
+						<orig>menþa</orig>
+						<reg>men þa</reg>
+					</choice> leofestan <reg><pc>,</pc></reg> georne ægðer began <choice>
+						<orig>æt gædere</orig>
+						<reg>ætgædere</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<lb n="14"/>
+					<choice>
+						<orig>gefæstenu</orig>
+						<reg>ge fæstenu</reg>
+					</choice><orig><pc>.</pc></orig> ge <choice>
+						<orig>ælmy<g ref="#sins"/> dæda</orig>
+						<reg>ælmy<g ref="#sins"/>dæda</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>uton</orig>
+						<reg><expan><ex>and</ex></expan> uton</reg>
+					</choice> us<g ref="#sins"/> georne scyldan wið þa <lb n="15"/>etha <choice>
+						<orig>heafod leahtra<g ref="#sins"/></orig>
+						<reg>heafodleahtra<g ref="#sins"/></reg>
+					</choice> þe <g ref="#sins"/>ingallice manna <g ref="#sins"/>awla <w>wun<lb n="16"
+						/>diað</w><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><name type="religion">god</name></orig>
+						<reg><expan><ex>and</ex></expan>
+							<name type="religion">God</name></reg>
+					</choice>
+					<choice>
+						<orig>ge æbiliað</orig>
+						<reg>geæbiliað</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>deoflu</orig>
+						<reg><expan><ex>and</ex></expan> deoflu</reg>
+					</choice>
+					<choice>
+						<orig>ge gladiað</orig>
+						<reg>gegladiað</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on helle</orig>
+						<reg><expan><ex>and</ex></expan> onhelle</reg>
+					</choice> gebringað <orig><pc>.</pc></orig>
+					<lb n="17"/> ælcne þara þe hie oð hira<gap extent="3char" reason="erasure"/> ytemestan daga<g ref="#sins"/>
+					begað <choice>
+						<orig><pc><g ref="colmidcomposit"/></pc></orig>
+						<reg>.</reg>
+					</choice>
+					<lb n="18"/>
+					<choice>
+						<orig><hi rend="cap">S</hi>e</orig>
+						<reg>Se</reg>
+					</choice> forma heafodleahtor y<g ref="#sins"/>
+					<choice>
+						<orig>ofer modigne<g ref="#sins"/></orig>
+						<reg>ofermodigne<g ref="#sins"/></reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> seo ys <choice>
+						<orig>ge cweden</orig>
+						<reg>gecweden</reg>
+					</choice>
+					<lb n="19"/> cwen eallra yfela <pc>.</pc>
+					<choice>
+						<orig>þurhða</orig>
+						<reg>Þurh ða</reg>
+					</choice> feollon engla<g ref="#sins"/>
+					<choice>
+						<orig>ofheofonum</orig>
+						<reg>of heofonum</reg>
+					</choice> on <lb n="20"/> helle <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>to</orig>
+						<reg><expan><ex>and</ex></expan> to</reg>
+					</choice> deoflum <choice>
+						<orig>ge wurdon</orig>
+						<reg>gewurdon</reg>
+					</choice><pc>.</pc>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>And</ex></expan> heo</reg>
+					</choice> ys <choice>
+						<orig>ge cweden</orig>
+						<reg>gecweden</reg>
+					</choice> angin <lb n="21"/>ælcere synne <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig>seobið</orig>
+						<reg>seo bið</reg>
+					</choice> oft <choice>
+						<orig>uppa<g ref="#slong"/>prungen</orig>
+						<reg>upp a<g ref="#slong"/>prungen</reg>
+					</choice> of <choice>
+						<orig>fur hogunge</orig>
+						<reg>furhogunge</reg>
+					</choice>
+					<lb n="22"/>
+					<name type="religion">
+						<choice>
+							<orig>godes</orig>
+							<reg>Godes</reg>
+						</choice>
+					</name>
+					<choice>
+						<orig>be boda</orig>
+						<reg>beboda</reg>
+					</choice><pc>.</pc>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>þ<am><g ref="#omacr"/></am>n</abbr></orig>
+						<reg><expan><ex>And</ex></expan><expan>þon<ex>ne</ex></expan></reg>
+					</choice>
+					<choice>
+						<orig>þæt bið</orig>
+						<reg>þæt <supplied resp="scragg">mod</supplied> bið</reg>
+					</choice>
+					<choice>
+						<orig>uppahafen</orig>
+						<reg>upp hafen</reg>
+					</choice>
+					<choice>
+						<orig>begodum</orig>
+						<reg>be godum</reg>
+					</choice> wurcum <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<lb n="23"/> þonne <g ref="#sins"/>e mann wenð <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>teleð</orig>
+						<reg><expan><ex>And</ex></expan> teleð</reg>
+					</choice> hyne sylfne rottran þonne <lb n="24"/> oðerne <pc>.</pc>
+					<choice>
+						<orig>ofþære</orig>
+						<reg>Of þære</reg>
+					</choice> bið soðlice acenned ælc <choice>
+						<orig>un hyr<g ref="#sins"/>umne<g ref="#sins"/></orig>
+						<reg>unhyr<g ref="#sins"/>umne<g ref="#sins"/></reg>
+					</choice><orig><pc>.</pc></orig>
+					<lb n="25"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>geþrist læcung</orig>
+						<reg><expan><ex>and</ex></expan> geþristlæcung</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>geflit</orig>
+						<reg><expan><ex>and</ex></expan> geflit</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ge dwyld</orig>
+						<reg><expan><ex>and</ex></expan> gedwyld</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>gylp</orig>
+						<reg><expan><ex>and</ex></expan> gylp</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>oðere</orig>
+						<reg><expan><ex>and</ex></expan> oðere</reg>
+					</choice> manega <lb n="26"/> yfelu <pc>.</pc>
+					<choice>
+						<orig><g ref="#aenl"/>cþa<g ref="#sins"/></orig>
+						<reg>Ac þa<g ref="#sins"/></reg>
+					</choice> mæg <g ref="#sins"/>eo soðe eadmodne<g ref="#sins"/> ealle <choice>
+						<orig>ofer<g ref="#slong"/> wiðan</orig>
+						<reg>ofer<g ref="#slong"/>wiðan</reg>
+					</choice><pc>.</pc>
+					<lb n="27"/>
+					<choice>
+						<abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+						<expan>Þon<ex>ne</ex></expan>
+					</choice>
+					<choice>
+						<orig>y<g ref="sins"/>se</orig>
+						<reg>y<g ref="sins"/> se</reg>
+					</choice> oðer heafodleahter<orig><pc>.</pc></orig>
+					<choice>
+						<orig>ge cweden</orig>
+						<reg>gecweden</reg>
+					</choice>
+					<choice>
+						<orig>gifer ne<g ref="#sins"/></orig>
+						<reg>giferne<g ref="#sins"/></reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> seo y<g ref="#sins"/>
+					<lb n="28"/>
+					<choice>
+						<orig>unge metigende</orig>
+						<reg>ungemetigende</reg>
+					</choice>
+					<choice>
+						<orig>ge wilnung</orig>
+						<reg>gewilnung</reg>
+					</choice>
+					<space extent=""/>ægðer ge æte<g ref="#sins"/>
+					<choice>
+						<orig>gewæte<g ref="#sins"/></orig>
+						<reg>ge wæte<g ref="#sins"/></reg>
+					</choice><pc>.</pc>
+					<choice>
+						<orig>þurh</orig>
+						<reg>Þurh</reg>
+					</choice> þa <reg><pc>,</pc></reg>
+					<lb n="29"/> þa forman maga<g ref="#sins"/>
+					<choice>
+						<orig>men ne<g ref="#sins"/>ces</orig>
+						<reg>menne<g ref="#sins"/>ces</reg>
+					</choice> cynne<g ref="#sins"/>
+					<choice>
+						<orig>for spildon</orig>
+						<reg>forspildon</reg>
+					</choice> heofona <lb n="30"/> rice<g ref="#sins"/>
+					<choice>
+						<orig>ge sæligne<g ref="#sins"/><g ref="#sins"/>e</orig>
+						<reg>gesæligne<g ref="#sins"/><g ref="#sins"/>e</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>wurdon</orig>
+						<reg><expan><ex>and</ex></expan> wurdon</reg>
+					</choice> aweorpene on þi<g ref="#sins"/>
+					<choice>
+						<orig>earmlicelif</orig>
+						<reg>earmlice lif</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<lb n="31"/>
+					<choice>
+						<orig>onþa<damage extent="1char">m</damage></orig>
+						<reg>on þa<damage extent="1char">m</damage></reg>
+					</choice> bið ælc mann þurh synne acenned <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurhge<g ref="#slong"/>wync</orig>
+						<reg><expan><ex>and</ex></expan> þurh ge<g ref="#slong"/>wync</reg>
+					</choice><orig><pc>.</pc></orig>
+					<lb n="32"/> he leofaþ <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice> sar he swylt<pc>.</pc>
+					<choice>
+						<orig>seo</orig>
+						<reg>Seo</reg>
+					</choice> byð gesewen þrym <choice>
+						<orig><abbr type="brev">ge met<am><g ref="#umacr"/></am></abbr></orig>
+						<reg><expan>gemetu<ex>m</ex></expan></reg>
+					</choice>
+					<choice>
+						<orig>onþam</orig>
+						<reg>on þam</reg>
+					</choice> menn rixiende <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> þæt <choice>
+						<orig>ysþonne</orig>
+						<reg>ys þonne</reg>
+					</choice> þæt se man wile ær
+				  
+				  <pb n="111r" xml:id="VB_fol_111r"/>
+
+				  <add hand="unknown">
+						<fw type="fol" place="top-right">111.</fw>
+					</add>
+					<lb n="1"/> rihtre tide hy<g ref="#sins"/> willon mete þicgan <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>drynca<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> drynca<g ref="#sins"/></reg>
+					</choice> drincan <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mare</orig>
+						<reg><expan><ex>and</ex></expan> mare</reg>
+					</choice>
+					<lb n="2"/> lufað <choice>
+						<orig>onægðerum</orig>
+						<reg>on ægðerum</reg>
+					</choice> þara <choice>
+						<abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+						<expan>þon<ex>ne</ex></expan>
+					</choice> hyt <choice>
+						<orig>æniggemet</orig>
+						<reg>ænig gemet</reg>
+					</choice>
+					<g ref="#sins"/>ie <pc>.</pc>
+					<choice>
+						<orig>ofþære</orig>
+						<reg>Of þære</reg>
+					</choice> bið <lb n="3"/> acenned <choice>
+						<orig>ungesceadbliss</orig>
+						<reg>ungescead bliss</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>sceandlicne</orig>
+						<reg><expan><ex>and</ex></expan> sceandlicne</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>leohtbrædnes</orig>
+						<reg><expan><ex>and</ex></expan> leohtbrædnes</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>idel</orig>
+						<reg><expan><ex>and</ex></expan> idel</reg>
+					</choice>
+					<lb n="4"/> spræc <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>lichoman</orig>
+						<reg><expan><ex>and</ex></expan> lichoman</reg>
+					</choice> unclænne<g ref="#sins"/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><damage type="blot" agent="water" extent="4char"
+								>unst</damage>aðolfæstnes</orig>
+						<reg><expan><ex>and</ex></expan>
+							<damage type="blot" agent="water" extent="4char">unst</damage>aðolfæstnes</reg>
+					</choice> modes <lb n="5"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>druncene<g ref="#sins"/></orig>
+						<reg><abbr type="brev"><am><g ref="#et"/></am></abbr> druncene<g ref="#sins"/></reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>galne<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> galne<g ref="#sins"/></reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>oðere</orig>
+						<reg><expan><ex>and</ex></expan> oðere</reg>
+					</choice> manega yfelo <choice>
+						<orig>un attellendlice</orig>
+						<reg>unattellendlice</reg>
+					</choice><pc>.</pc>
+					<lb n="6"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><del type="erasure">fo</del>þonne</orig>
+						<reg><expan><ex>And</ex></expan>
+							<del type="erasure">fo</del> þonne</reg>
+					</choice> mæg <g ref="#sins"/>eo beon selest <choice>
+						<orig>ofer <g ref="#sins"/>wiðed</orig>
+						<reg>ofer<g ref="#sins"/>wiðed</reg>
+					</choice> þurh fæsteno <choice>
+						<abbr type="brev"><am><g ref="#et"/></am></abbr>
+						<expan><ex>and</ex></expan>
+					</choice>
+					<lb n="7"/> þurh<del type="erasure">f</del> forhæfednesse <choice>
+						<orig><pc><g ref="colmidcomposit"/></pc></orig>
+						<reg>.</reg>
+					</choice>
+					<hi rend="cap1.1">Ð</hi>onne y<g ref="#sins"/> se þridda <choice>
+						<orig>heafod leahter</orig>
+						<reg>heafodleahter</reg>
+					</choice>
+					<lb n="8"/>
+					<choice>
+						<orig>ge cweden</orig>
+						<reg>gecweden</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig>for l<g ref="yacute"/>r</orig>
+						<reg>forl<g ref="yacute"/>r</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> þæt y<g ref="#sins"/> eall lichamlic unclænne<g ref="#sins"/><reg><pc>.</pc></reg>
+					<choice>
+						<orig>ofðam acenned</orig>
+						<reg>Of ðam <supplied resp="scragg">bið</supplied> acenned</reg>
+					</choice>
+					<unclear>mode<g ref="#sins"/></unclear>
+					<lb n="9"/> blindne<g ref="#sins"/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eagena</orig>
+						<reg><expan><ex>and</ex></expan> eagena</reg>
+					</choice> unstaðulfæstne<g ref="#sins"/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>idelne</orig>
+						<reg><expan><ex>and</ex></expan> idelne</reg>
+					</choice> plegan <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>wrænne<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> wrænne<g ref="#sins"/></reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><unclear>eallum</unclear></orig>
+						<reg><expan><ex>and</ex></expan>
+							<unclear>eallum</unclear></reg>
+					</choice>
+					<lb n="10"/>
+					<choice>
+						<sic>for hæfde<g ref="#sins"/></sic>
+						<corr resp="scragg szarmach">unforhæfdnes</corr>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hatung</orig>
+						<reg><expan><ex>and</ex></expan> hatung</reg>
+					</choice>
+					<name type="religion">
+						<choice>
+							<orig>gode<g ref="#sins"/></orig>
+							<reg>Godes</reg>
+						</choice>
+					</name> beboda <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>gymeleast</orig>
+						<reg><expan><ex>and</ex></expan> gymeleast</reg>
+					</choice> þæ<g ref="#sins"/>
+					<choice>
+						<orig>to weardan</orig>
+						<reg>toweardan</reg>
+					</choice>
+					<lb n="11"/> life<g ref="#sins"/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>oðere</orig>
+						<reg><expan><ex>and</ex></expan> oðere</reg>
+					</choice> manega <reg><pc>.</pc></reg>
+					<choice>
+						<orig>þæt</orig>
+						<reg>Þæt</reg>
+					</choice> bið <choice>
+						<orig>ðeah æðere</orig>
+						<reg>ðeahæðere</reg>
+					</choice>
+					<choice>
+						<orig>ofer swiðed</orig>
+						<reg>oferswiðed</reg>
+					</choice> þurh <g ref="#sins"/>oðe <lb n="12"/> lufe <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice>
+					<choice>
+						<orig>ge heald <g ref="#sins"/>umness<damage type="blot" agent="water">e</damage></orig>
+						<reg>geheald<g ref="#sins"/>umness<damage type="blot" agent="water">e</damage></reg>
+					</choice>
+					<damage type="blot" agent="water"><orig><pc>.</pc></orig>
+						<choice>
+							<orig><damage type="blot" agent="water"><abbr type="brev"><am><g ref="#et"
+								/></am></abbr>þu</damage>rh</orig>
+							<reg><damage type="blot" agent="water"><expan><ex>and</ex></expan> þu</damage>rh</reg>
+						</choice></damage>
+					<choice>
+						<orig>ge mynd</orig>
+						<reg>gemynd</reg>
+					</choice> þæ<g ref="#sins"/> ecan fyre<unclear>s</unclear>
+					<lb n="13"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice> ege <name type="religion">
+						<choice>
+							<orig>gode<g ref="#sins"/></orig>
+							<reg>Godes</reg>
+						</choice>
+					</name>
+					<choice>
+						<orig><abbr type="pref"><am><g ref="#et"/></am></abbr>weardne<g ref="#sins"/><g ref="#sins"/>e</orig>
+						<reg><expan><ex>and</ex></expan>weardne<g ref="#sins"/><g ref="#sins"/>e</reg>
+					</choice><pc>.</pc>
+					<choice>
+						<orig>þonne</orig>
+						<reg>Þonne</reg>
+					</choice>
+					<choice>
+						<orig>y<g ref="#sins"/><g ref="#sins"/>e</orig>
+						<reg>y<g ref="#sins"/>
+							<g ref="#sins"/>e</reg>
+					</choice> feorða <choice>
+						<orig>heafod leahto<unclear>r</unclear></orig>
+						<reg>heafodleahto<unclear>r</unclear></reg>
+					</choice>
+					<lb n="14"/>
+					<choice>
+						<orig>ge cweden</orig>
+						<reg>gecweden</reg>
+					</choice>
+					<choice>
+						<orig>gyt <g ref="#sins"/>un<damage extent="1char">g</damage></orig>
+						<reg>gyt<g ref="#sins"/>un<damage extent="1char">g</damage></reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> seo i<g ref="#sins"/>
+					<g ref="#slong"/>wiðlic grædignes <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> ægðer ge welan to <w>hæbben<lb n="15"/>ne</w><orig><pc>.</pc></orig>
+					<choice>
+						<orig>getoge healdanne</orig>
+						<reg>ge to gehealdanne</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice> y<g ref="#sins"/> witodlice <choice>
+						<orig>unge fyllendlic</orig>
+						<reg>ungefyllendlic</reg>
+					</choice> cwyld <pc>.</pc>
+					<choice>
+						<orig><hi rend="double">e</hi>all</orig>
+						<reg>Eall</reg>
+					</choice>
+					<lb n="16"/>
+					<g ref="#sins"/>wa <choice>
+						<orig>wær <g ref="#sins"/>eoc</orig>
+						<reg>wær<g ref="#sins"/>eoc</reg>
+					</choice> mann <orig><pc>.</pc></orig> þam wyxt to geiht þurst þæst ðe <g ref="#slong"/>wiðor <lb n="17"/> þe
+					he <g ref="#slong"/>wiðor drincð <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> swa byð se gytsienda man <orig><pc>.</pc></orig> swa he mare hæfð <lb n="18"/>
+					<choice>
+						<orig>swahe</orig>
+						<reg>swa he</reg>
+					</choice> mare <choice>
+						<orig>ge wilnað</orig>
+						<reg>gewilnað</reg>
+					</choice><pc>.</pc>
+					<choice>
+						<orig>þære</orig>
+						<reg>Þære</reg>
+					</choice> gytsunge <choice>
+						<orig>cynn reno</orig>
+						<reg>cynnreno</reg>
+					</choice> syndon <orig><pc>.</pc></orig> anda <orig><pc>,</pc></orig>
+					<choice>
+						<abbr type="brev"><am><g ref="#et"/></am></abbr>
+						<expan><ex>and</ex></expan>
+					</choice>
+					<lb n="19"/> stala <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>ceaðunga</orig>
+						<reg><expan><ex>and</ex></expan><g ref="#slong"/>ceaðunga</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mann slihta<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> mannslihta<g ref="#sins"/></reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>lea<g ref="#sins"/>unga</orig>
+						<reg><expan><ex>and</ex></expan> lea<g ref="#sins"/>unga</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>un rihtwise</orig>
+						<reg><expan><ex>and</ex></expan> unrihtwise</reg>
+					</choice> domas <orig><pc>.</pc></orig>
+					<lb n="20"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>soðfæstnesse</orig>
+						<reg><expan><ex>and</ex></expan> soðfæstnesse</reg>
+					</choice>
+					<choice>
+						<orig>for hogung</orig>
+						<reg>forhogung</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>oðere</orig>
+						<reg><expan><ex>and</ex></expan> oðere</reg>
+					</choice> manega yfelo <pc>.</pc>
+					<choice>
+						<orig>seobyð</orig>
+						<reg>Seo byð</reg>
+					</choice> sodlice <lb n="21"/>
+					<choice>
+						<orig>ofer <g ref="#slong"/>wiðed</orig>
+						<reg>ofer<g ref="#slong"/>wiðed</reg>
+					</choice> þurh <name type="religion">
+						<choice>
+							<orig>gode<g ref="#sins"/></orig>
+							<reg>Godes</reg>
+						</choice>
+					</name> ege <orig><pc><g ref="punctelevdiag"/></pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice>
+					<choice>
+						<reg><supplied resp="scragg">broðera</supplied></reg>
+					</choice> soðe lufe <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice>
+					<choice>
+						<orig><w>mild heort<lb n="22"/>nesse</w></orig>
+						<reg><w>mildheort<lb n="22"/>nesse</w>></reg>
+					</choice> wuruc <choice>
+						<orig><pc><g ref="colmidcomposit"/></pc> þonne</orig>
+						<reg>. Þonne</reg>
+					</choice>
+					<choice>
+						<orig>y<g ref="#sins"/><g ref="#sins"/>e</orig>
+						<reg>y<g ref="#sins"/>
+							<g ref="#sins"/>e</reg>
+					</choice> fifta <choice>
+						<orig>heafod leahter</orig>
+						<reg>heafodleahter</reg>
+					</choice>
+					<choice>
+						<orig>ge cweden</orig>
+						<reg>gecweden</reg>
+					</choice> yrre <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<lb n="23"/> þurh <choice>
+						<orig>þæt<add place="sup">ne</add><add place="sub">,</add>mæg</orig>
+						<reg>þæt <add place="sup">ne</add> mæg</reg>
+					</choice> nan mann habban <choice>
+						<orig>full þungennesse</orig>
+						<reg>fullþungennesse</reg>
+					</choice> hys <choice>
+						<orig>ge þeahtes</orig>
+						<reg>geþeahtes</reg>
+					</choice><pc>.</pc>
+					<lb n="24"/>
+					<choice>
+						<orig><hi rend="double">o</hi>f</orig>
+						<reg>Of</reg>
+					</choice> ðam sprytt modes <choice>
+						<orig>to ðundennes<del type="erasure">se</del></orig>
+						<reg>toðundennes<del type="erasure">se</del></reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>saca</orig>
+						<reg><expan><ex>and</ex></expan> saca</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>teonan</orig>
+						<reg><expan><ex>and</ex></expan> teonan</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>æbylgð</orig>
+						<reg><expan><ex>and</ex></expan> æbylgð</reg>
+					</choice><orig><pc>.</pc></orig>
+					<lb n="25"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>yfel <g ref="#sins"/>acung</orig>
+						<reg><expan><ex>and</ex></expan> yfel<g ref="#sins"/>acung</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>blode<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> blode<g ref="#sins"/></reg>
+					</choice> agotene<g ref="#sins"/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mannsliht</orig>
+						<reg><expan><ex>and</ex></expan> mannsliht</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>grædigne<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> grædigne<g ref="#sins"/></reg>
+					</choice> teonan <orig><pc>.</pc></orig>
+					<lb n="26"/> to wyrcanne <pc>.</pc>
+					<choice>
+						<orig>þæt</orig>
+						<reg>Þæt</reg>
+					</choice> byð soðlice <choice>
+						<orig>ofer <g ref="#slong"/>wiðed</orig>
+						<reg>ofer<g ref="#slong"/>wiðed</reg>
+					</choice> þurh <choice>
+						<orig>geðyld</orig>
+						<reg>geðyld</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice>
+					<w>þo<lb n="27"/>lomodne<g ref="#sins"/><g ref="#sins"/>e</w><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="pref"><am><g ref="#et"/></am></abbr>gytlic</orig>
+						<reg><expan><ex>and</ex></expan>gytlic</reg>
+					</choice>
+					<choice>
+						<orig>ge scead</orig>
+						<reg>gescead</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig>ðe<name type="religion">god</name></orig>
+						<reg>ðe <name type="religion">God</name></reg>
+					</choice>
+					<choice>
+						<orig>ona <g ref="#slong"/>æwð</orig>
+						<reg>on a<g ref="#slong"/>æwð</reg>
+					</choice> on manna <lb n="28"/> modum <pc>.</pc>
+					<choice>
+						<orig>þonne</orig>
+						<reg>Þonne</reg>
+					</choice> ysse <g ref="#sins"/>yxta <orig><pc>.</pc></orig>
+					<choice>
+						<orig>heafod leahtor</orig>
+						<reg>heafodleahtor</reg>
+					</choice>
+					<choice>
+						<orig>ge cwden</orig>
+						<reg>gecwden</reg>
+					</choice>
+					<g ref="#sins"/>leacne<g ref="#sins"/>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> seo <lb n="29"/> derað þearle for oft þam þe <name type="religion">
+						<choice>
+							<orig>gode</orig>
+							<reg>Gode</reg>
+						</choice>
+					</name> þeowgean willað <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig>forðam</orig>
+						<reg>for ðam</reg>
+					</choice> þæt <lb n="30"/> mod <choice>
+						<orig>geond scrið</orig>
+						<reg>geondscrið</reg>
+					</choice> geond eallo þing <pc>.</pc>
+					<choice>
+						<orig>þi<g ref="#sins"/></orig>
+						<reg>Þi<g ref="#sins"/></reg>
+					</choice> i<g ref="#sins"/>
+					<g ref="#sins"/>e leahtor þe <g ref="#slong"/>wiðost <lb n="31"/>muneca<g ref="#sins"/> ut anytt of hyra <choice>
+						<abbr type="brev">mynst<am><g ref="#umacr"/></am></abbr>
+						<expan>mynstu<ex>m</ex></expan>
+					</choice>
+					<choice>
+						<orig>onworulde</orig>
+						<reg>on worulde</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
+						<reg><expan><ex>and</ex></expan> hie</reg>
+					</choice>
+					<choice>
+						<orig><w>ut<g ref="aacute"/><lb n="32"/>wyrpð</w></orig>
+						<reg><w>ut a<lb n="32"/>wyrpð</w></reg>
+					</choice> of hira regullican drohtunge <choice>
+						<orig>onleahtra</orig>
+						<reg>on leahtra</reg>
+					</choice> seaða<g ref="#sins"/><pc>.</pc>
+					<choice>
+						<orig>of</orig>
+						<reg>Of</reg>
+					</choice>
+					<lb n="33"/> þære byð acenned slapolnes <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>sleacne<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> sleacne<g ref="#sins"/></reg>
+					</choice> gode<g ref="#sins"/> weorce<g ref="#sins"/><orig><pc>.</pc></orig>
+				  <choice>
+				    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>unsta</orig>
+				    <reg><expan><ex>and</ex></expan></reg>
+				  </choice>
+				  
+				  <pb n="111v" xml:id="VB_fol_111v"/>
+				  
+					<lb n="1"/><choice>
+					  <orig>ðolfæstne<g ref="#sins"/></orig>
+						<reg>unstaðolfæstne<g ref="#sins"/><g ref="#sins"/></reg>
+					</choice> stowe<orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>worung</orig>
+						<reg><expan><ex>and</ex></expan> worung</reg>
+					</choice>
+					<choice>
+						<orig>ofstowe</orig>
+						<reg>of stowe</reg>
+					</choice>
+					<choice>
+						<orig>tostowe</orig>
+						<reg>to stowe</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>murcnung</orig>
+						<reg><expan><ex>and</ex></expan> murcnung</reg>
+					</choice><orig><pc>.</pc></orig>
+					<lb n="2"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>idele</orig>
+						<reg><expan><ex>and</ex></expan> idele</reg>
+					</choice> spræca<orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>oðere</orig>
+						<reg><expan><ex>and</ex></expan> oðere</reg>
+					</choice> manega yfelo <pc>.</pc>
+					<choice>
+						<orig>seo</orig>
+						<reg>Seo</reg>
+					</choice> byð <choice>
+						<orig>þeah hwæðere</orig>
+						<reg>þeahhwæðere</reg>
+					</choice>
+					<lb n="3"/>
+					<choice>
+						<orig>ofe <g ref="#slong"/>wiðed</orig>
+						<reg>ofer<g ref="#slong"/>wiðed</reg>
+					</choice> þurh þone bigang þære rædinge<orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ðurh</orig>
+						<reg><expan><ex>and</ex></expan> ðurh</reg>
+					</choice> þa <w><g ref="#sins"/>ingal<lb n="4"/>nesse</w> þæ<g ref="#sins"/> godan weorce<g ref="#sins"
+							/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+						<reg><expan><ex>and</ex></expan> þurh</reg>
+					</choice> þa <choice>
+						<orig>ge wilnunge</orig>
+						<reg>gewilnunge</reg>
+					</choice> þæra meda <lb n="5"/> þære <choice>
+						<orig>to weardan</orig>
+						<reg>toweardan</reg>
+					</choice> eadigne<g ref="#sins"/><g ref="#sins"/>e <pc>.</pc>
+					<hi rend="double">þ</hi>onne <choice>
+						<orig>ysse</orig>
+						<reg>ys se</reg>
+					</choice> seofeða <w>heafod<lb n="6"/>leahter</w><orig><pc>.</pc></orig>
+					<choice>
+						<orig>ge cweden</orig>
+						<reg>gecweden</reg>
+					</choice>
+					<choice>
+						<orig>un rotne<g ref="#sins"/></orig>
+						<reg>unrotne<g ref="#sins"/></reg>
+					</choice>
+					<pc>.</pc>
+					<choice>
+						<orig><hi rend="double">þ</hi>onne</orig>
+						<reg>Þonne</reg>
+					</choice> syndon s<damage extent="2char">oð</damage>lic<damage extent="2char">e t</damage>w<damage
+						extent="1char">a</damage>
+					<w><damage extent="1char">c</damage>ynn<lb n="7"/>r<g ref="#ydot"/>no</w>
+					<choice>
+						<orig>un rotne<g ref="#sins"/><g ref="#sins"/>e</orig>
+						<reg>unrotne<g ref="#sins"/><g ref="#sins"/>e</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> an <choice>
+						<orig>hal wendlic</orig>
+						<reg>halwendlic</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>oðer</orig>
+						<reg><expan><ex>and</ex></expan> oðer</reg>
+					</choice>
+					<choice>
+						<orig>cwylm berendlic</orig>
+						<reg>cwylmberendlic</reg>
+					</choice><pc>.</pc>
+					<lb n="8"/>
+					<hi rend="cap1.1">Ð</hi>onne <choice>
+						<orig>witodlice seo</orig>
+						<reg>witodlice <supplied resp="scragg">is</supplied> seo</reg>
+					</choice> unrotne<g ref="#sins"/> halwendlic <orig><pc><g ref="colmidcomposit"/></pc></orig>
+					<hi rend="double">þ</hi>onne þæ<g ref="#sins"/>
+					<w>synn<lb n="9"/>fullan</w> mannes mod byð <choice>
+						<orig>ge unrotsud</orig>
+						<reg>geunrotsud</reg>
+					</choice>
+					<choice>
+						<orig>forhi<g ref="#sins"/></orig>
+						<reg>for hi<g ref="#sins"/></reg>
+					</choice>
+					<choice>
+						<abbr type="brev">synn<am><g ref="#umacr"/></am></abbr>
+						<expan>synnu<ex>m</ex></expan>
+					</choice><pc>.</pc>
+					<choice>
+						<orig><hi rend="double">ð</hi>onne</orig>
+						<reg>Ðonne</reg>
+					</choice>
+					<lb n="10"/> is oðer <reg><pc>,</pc></reg>
+					<choice>
+						<orig>menða</orig>
+						<reg>men ða</reg>
+					</choice> leofestan <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<hi rend="double">ð</hi>ysse worulde unrotnes <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> seo gewyrcð <lb n="11"/> deað þære sawle <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
+						<reg><expan><ex>and</ex></expan> heo</reg>
+					</choice>
+					<choice>
+						<orig>nemæg</orig>
+						<reg>ne mæg</reg>
+					</choice> nan þing <choice>
+						<orig>ongodum</orig>
+						<reg>on godum</reg>
+					</choice>
+					<choice>
+						<abbr type="brev">worc<am><g ref="#umacr"/></am></abbr>
+						<expan>worcu<ex>m</ex></expan>
+					</choice> fromian <reg><pc>,</pc></reg>
+					<lb n="12"/> ac heo <choice>
+						<orig>ge drefeð</orig>
+						<reg>gedrefeð</reg>
+					</choice><orig><pc>.</pc></orig> þæt mod <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
+						<reg><expan><ex>and</ex></expan> on</reg>
+					</choice> orwennesse <choice>
+						<orig>oftðæs</orig>
+						<reg>oft ðæs</reg>
+					</choice> manne<g ref="#sins"/>
+					<lb n="13"/> mod <choice>
+						<orig>ge brincð</orig>
+						<reg>gebrincð</reg>
+					</choice>
+					<choice>
+						<orig><pc><g ref="colmidcomposit"/></pc></orig>
+						<reg>.</reg>
+					</choice>
+					<choice>
+						<orig><hi rend="cap1.1">O</hi>onnefþære</orig>
+						<reg><hi rend="cap1.1">O</hi>f þære</reg>
+					</choice>
+					<choice>
+						<orig>bið acened</orig>
+						<reg>bið <supplied resp="scragg">soðlice</supplied> acened</reg>
+					</choice> yfelne<g ref="#sins"/><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mode<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> mode<g ref="#sins"/></reg>
+					</choice> angsumne<g ref="#sins"/><orig><pc>.</pc></orig>
+					<lb n="14"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>wac modnes</orig>
+						<reg><expan><ex>and</ex></expan> wacmodnes</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>byternes</orig>
+						<reg><expan><ex>and</ex></expan> byternes</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig>onþære</orig>
+						<reg>on þære</reg>
+					</choice> ne biþ <choice>
+						<orig>nange lustfullung</orig>
+						<reg>nan gelustfullung</reg>
+					</choice><orig><pc>.</pc></orig>
+					<lb n="15"/>
+					<choice>
+						<sic>þys</sic>
+						<corr resp="scragg">þyses</corr>
+					</choice>
+					<choice>
+						<orig><abbr type="pref"><am><g ref="#et"/></am></abbr>weardan</orig>
+						<reg><expan><ex>and</ex></expan>weardan</reg>
+					</choice> life<g ref="#sins"/>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig>seobyð</orig>
+						<reg>Seo byð</reg>
+					</choice> soðlice <choice>
+						<orig>ofer swiðed</orig>
+						<reg>oferswiðed</reg>
+					</choice> of ga<g ref="#slong"/>tlicre <lb n="16"/> blisse <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ofhyhte</orig>
+						<reg><expan><ex>and</ex></expan> of hyhte</reg>
+					</choice><orig><pc>.</pc></orig> þæra toweardra goda<orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ofhaligra</orig>
+						<reg><expan><ex>and</ex></expan> of haligra</reg>
+					</choice>
+					<w>ge<lb n="17"/>writa</w> frofre <choice>
+						<orig><pc><g ref="colon"/></pc>
+							<hi rend="double">ð</hi>onne</orig>
+						<reg>. Ðonne </reg>
+					</choice>
+					<choice>
+						<orig>ysse</orig>
+						<reg>ys se</reg>
+					</choice> eahtoða <choice>
+						<orig>heafod leahter</orig>
+						<reg>heafodleahter</reg>
+					</choice> gecweden <lb n="18"/> idel wuldor <pc>.</pc>
+					<choice>
+						<orig>þæt</orig>
+						<reg>Þæt</reg>
+					</choice> is witodlice idel to wuldrigenne þonne se <lb n="19"/> mann gegyrnð þæt he beo hered on hi<g
+						ref="#sins"/> godum <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>nesylð</orig>
+						<reg><expan><ex>and</ex></expan> ne sylð</reg>
+					</choice>
+					<name type="religion">
+						<choice>
+							<orig>gode</orig>
+							<reg>Gode</reg>
+						</choice>
+					</name>
+					<lb n="20"/> nanne wyrðment <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> ne hit <choice>
+						<orig>nege teleð</orig>
+						<reg>ne geteleð</reg>
+					</choice>
+					<choice>
+						<orig>togod cundre</orig>
+						<reg>to godcundre</reg>
+					</choice> mihte <lb n="21"/>swa hwætt <choice>
+						<orig>swahe</orig>
+						<reg>swa he</reg>
+					</choice> gode<g ref="#sins"/> deð <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> ac <choice>
+						<orig>eall swylc</orig>
+						<reg>eallswylc</reg>
+					</choice> he hit of him <choice>
+						<abbr type="brev"><g ref="#sins"/>ylf<am><g ref="#umacr"/></am></abbr>
+						<expan><g ref="#sins"/>ylfu<ex>m</ex></expan>
+					</choice>
+					<lb n="22"/> hæbbe <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> þonne se mann <choice>
+						<orig>nemæg</orig>
+						<reg>ne mæg</reg>
+					</choice> nan þing g<g ref="oacute"/>de<g ref="#sins"/> habban <orig><pc>.</pc></orig> butan <lb n="23"/>
+					<name type="religion">
+						<choice>
+							<orig>gode<g ref="#sins"/></orig>
+							<reg>Godes</reg>
+						</choice>
+					</name>gife <choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> swa swa he <g ref="#sins"/>ylf hi<g ref="#sins"/>
+					<choice>
+						<orig><abbr type="brev">leorning cniht<am><g ref="#umacr"/></am></abbr></orig>
+						<reg><expan>leorningcniht<ex>m</ex></expan></reg>
+					</choice> sæde <choice>
+						<orig><pc>. ne</pc></orig>
+						<reg>: Ne</reg>
+					</choice>
+					<lb n="24"/> mage ge nan þing butan me d<g ref="oacute"/>n <choice>
+						<orig><pc><g ref="colmidcomposit"/></pc>
+							<hi rend="double">ð</hi>onne</orig>
+						<reg>. Ðonne</reg>
+					</choice>
+					<choice>
+						<orig>soð lice</orig>
+						<reg>soðlice</reg>
+					</choice>
+					<choice>
+						<orig>ofðyses</orig>
+						<reg>of ðyses</reg>
+					</choice>
+					<lb n="25"/> leahtre<g ref="#sins"/>
+					<choice>
+						<sic><choice>
+								<orig>wyr<add place="sup">t</add><add place="sub">,</add>trum</orig>
+								<reg>wyr<add place="sup">t</add>trum</reg>
+							</choice></sic>
+						<corr resp="scragg">wyrttruman</corr>
+					</choice> byð acenned boiung <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>gylp</orig>
+						<reg><expan><ex>and</ex></expan> gylp</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>æbylð</orig>
+						<reg><expan><ex>and</ex></expan> æbylð</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>unge<lb n="26"/>ðwærnes</w></orig>
+						<reg><expan><ex>and</ex></expan>
+							<w>unge<lb n="26"/>ðwærnes</w></reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>giferne<g ref="#sins"/></orig>
+						<reg><expan><ex>and</ex></expan> giferne<g ref="#sins"/></reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>licettung</orig>
+						<reg><expan><ex>and</ex></expan> licettung</reg>
+					</choice> godes wurce<g ref="#sins"/>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> þonne se mann
+					<lb n="27"/>wyle þæt beo
+					<choice>
+						<orig>behim</orig>
+						<reg>be him</reg>
+					</choice> gehered <orig><pc>.</pc></orig> þæt he furþon don <choice>
+						<orig>necann</orig>
+						<reg>ne cann</reg>
+					</choice>
+					<choice>
+						<orig><pc><g ref="colmidcomposit"/></pc></orig>
+						<reg>.</reg>
+					</choice>
+					<choice>
+						<abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+						<expan>Þon<ex>ne</ex></expan>
+					</choice>
+					<lb n="28"/> ys þ<damage extent="1char">æ</damage> adle lacedom <orig><pc>.</pc></orig>
+					<choice>
+						<orig>ge mynd</orig>
+						<reg>gemynd</reg>
+					</choice> þære godcundan godne<g ref="#sins"/><g ref="#sins"/>e 
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice> þurh 
+					<lb n="29"/> ða us synt ealle god forgyfene 
+					<choice>
+						<orig>þewe</orig>
+						<reg>þe we</reg>
+					</choice>
+					<choice>
+						<orig>onþysse</orig>
+						<reg>on þysse</reg>
+					</choice> worulde <lb n="30"/> syndon <choice>
+						<orig>ge sewene</orig>
+						<reg>gesewene</reg>
+					</choice>
+					<choice>
+						<orig>tohæbbenne</orig>
+						<reg>to hæbbenne</reg>
+					</choice>
+					<choice>
+						<orig><pc>.</pc></orig>
+						<reg>,</reg>
+					</choice>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>eo</orig>
+						<reg><expan><ex>and</ex></expan>
+							<g ref="#sins"/>eo</reg>
+					</choice> ece soðe lufe þæ<g ref="#sins"/> sylfan 
+					<lb n="31"/>
+					<name type="religion">
+						<choice>
+							<orig>gode<g ref="#sins"/></orig>
+							<reg>Godes</reg>
+						</choice>
+					</name>
+					<reg><pc>,</pc></reg> on þæ<g ref="#sins"/> lofe we <g ref="#sins"/>ceolon don <g ref="#sins"/>wa hwæt <g
+						ref="#sins"/>wa we on <reg><pc>.</pc></reg>
+					<add hand="unknown"><fw type="fol" place="margin_bottom_middle">p</fw></add>
+					<gb n="16" xml:id="VB_gb_16"/><gap	quantity="1" unit="folio" reason="lost"/>
+
+				  <pb n="112r" xml:id="VB_fol_112r"/>
+
+				  <add hand="unknown">
+						<fw type="fol" place="top-right">112.</fw>
+					</add>
+					<lb n="1"/><damage type="faded" extent="6char">
+						<choice>
+							<orig>hie</orig>
+							<reg>Hie</reg>
+						</choice> him</damage> on helle togene<g ref="#sins"/> beoð <choice>
+						<orig>ge earwode</orig>
+						<reg>geearwode</reg>
+					</choice><orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þær</orig>
+						<reg><expan><ex>and</ex></expan> þær</reg>
+					</choice> þonne æfre 
+					<lb n="2"/>on ecne<g ref="#sins"/><g ref="#sins"/>e witu þoliað <pc>.</pc>
+					<choice>
+						<orig>hwig</orig>
+						<reg>Hwig</reg>
+					</choice> nelle we <reg><pc>,</pc></reg> nu we eaðe magon <lb n="3"/>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>u<g ref="#sins"/><name type="religion"
+							>god</name></orig>
+						<reg><expan><ex>and</ex></expan> u<g ref="#sins"/>
+							<name type="religion">God</name></reg>
+					</choice> þone fyrst her on worulde <choice>
+						<orig>for læten</orig>
+						<reg>forlæten</reg>
+					</choice> hæfð <reg><pc>,</pc></reg>
+					<choice>
+						<orig><name type="religion">god e<g ref="#sins"/></name></orig>
+						<reg><name type="religion">Godes</name></reg>
+					</choice>
+					<lb n="4"/> willan georne wyrcan <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>tohi<g ref="#sins"/>þam</orig>
+						<reg><expan><ex>and</ex></expan> to hi<g ref="#sins"/> þam</reg>
+					</choice> uplican rice onetan <choice>
+						<orig><pc>.</pc> þær</orig>
+						<reg>? Þær</reg>
+					</choice>
+					<lb n="5"/> y<g ref="#sins"/> ece med <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þær</orig>
+						<reg><expan><ex>and</ex></expan> þær</reg>
+					</choice> y<g ref="#sins"/> lif butan deaðe <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þær</orig>
+						<reg><expan><ex>and</ex></expan> þær</reg>
+					</choice> ys gefea <lb n="6"/> butan unrotnesse <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þær</orig>
+						<reg><expan><ex>and</ex></expan> þær</reg>
+					</choice> i<g ref="#sins"/> leoht butan þystrum <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ðæris</orig>
+						<reg><expan><ex>and</ex></expan> ðær is</reg>
+					</choice>
+					<lb n="7"/> wlite butan awendendnesse <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þær</orig>
+						<reg><expan><ex>and</ex></expan> þær</reg>
+					</choice> i<g ref="#sins"/> ece blis <choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ece</orig>
+						<reg><expan><ex>and</ex></expan> ece</reg>
+					</choice>
+					<choice>
+						<orig>ge fea</orig>
+						<reg>gefea</reg>
+					</choice> mid <lb n="8"/> þam ecan fæder <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>midðam</orig>
+						<reg><expan><ex>and</ex></expan> mid ðam</reg>
+					</choice>
+					<choice>
+						<orig>efen ecan</orig>
+						<reg>efenecan</reg>
+					</choice> suna <orig><pc>.</pc></orig>
+					<choice>
+						<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+						<reg><expan><ex>and</ex></expan> mid</reg>
+					</choice> hi<g ref="#sins"/> þam <lb n="9"/>
+					<choice>
+						<orig><damage extent="4char">efen</damage> ecan</orig>
+						<reg><damage extent="4char">efen</damage>ecan</reg>
+					</choice> haligan gaste <choice>
+						<orig>abutan</orig>
+						<reg>a butan</reg>
+					</choice> ende <choice>
+						<orig><pc><g ref="coldmidcomposit"/></pc></orig>
+						<reg>.</reg>
+					</choice><!-- sostituire con milestone -->
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,1 +1,126 @@
-/home/roby/Scrivania/GIT/VBD/vbd-transcription/xml/VB-00-Front.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei-vbd.rng" 
+                       title="Vercelli Book Digital standard schema" 
+                       schematypens="http://relaxng.org/ns/structure/1.0" 
+                       type="application/xml"
+                     ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+
+    <fileDesc>
+      
+      <titleStmt>
+        <title>The Vercelli Book: a diplomatic/interpretative transcription with digital facsimile</title>
+        <title>Title page</title>
+        <author>Unknown</author>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Encoding in TEI-conformant markup: </resp>
+          <name>Federica Goria</name>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Elisabetta Magnanti</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority>Digital Vercelli Project</authority>
+        <date>2004-</date>
+        <availability status="restricted">
+          <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Italy</country>
+            <settlement>Vercelli</settlement>
+            <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+            <idno>CXVII</idno>
+            <msName>Vercelli Book</msName>
+            <msName>Codex Vercellensis</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+      
+    </fileDesc>
+    
+    <!--<encodingDesc>
+      <xi:include href="../extra/charDecl.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="general_charDecl"/>
+    </encodingDesc>-->
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="ang">Old English</language>
+      </langUsage>
+    </profileDesc>
+    
+    <revisionDesc>
+      <change when="2024-10" who="RRDT">First version of the title page and foreword to the second edition.</change>
+    </revisionDesc>
+    
+  </teiHeader>
+
+  <text n="Intro" xml:id="VB_text_front">
+
+    <body>
+      <div rend="center" type="titlepage">
+
+        <pb n="I" xml:id="VB_Dorso"/>
+
+        <byline>HOMILIARUM LIBER IGNOTI IDIOMATIS</byline>
+        <lb/>
+        <byline>SÆCULO X</byline>
+        <byline>CXVII</byline>
+
+        <lb/>
+        <lb/>
+
+        <head type="maintitle">The Digital Vercelli Book</head>
+        <head type="subtitle">A digital facsimile and edition of Vercelli, Biblioteca Capitolare CXVII</head>
+
+        <lb/>
+
+        <docAuthor>Roberto Rosselli Del Turco</docAuthor>
+
+        <byline>First edition (2017)</byline>
+        <byline>Second edition (2024)</byline>
+
+        <lb/>
+        <lb/>
+        <lb/>
+
+        <byline>Transcription and encoding by R. Rosselli Del Turco, R. Cioffi, F. Goria</byline>
+        <byline>Update to P5 TEI schemas by R. Rosselli Del Turco and E. Magnanti</byline>
+
+        <lb/>
+
+        <byline>Powered by EVT - Edition Visualization Technology</byline>
+        <byline>EVT created by C. Di Pietro, J. Kenny, R. Masotti, R. Rosselli Del turco</byline>
+        <byline>EVT home page: <ref target="http://evt.labcd.unipi.it/">http://evt.labcd.unipi.it/</ref></byline>
+
+        <lb/>
+        <lb/>
+        <lb/>
+
+        <byline>Torino</byline>
+        <byline>Collana <title>Open Access</title>, Università di Torino</byline>
+        <byline>2024</byline>
+        
+      </div>
+      
+      <div n="Foreword">
+
+        <pb n="Piatto anteriore" xml:id="VB_Piatto_anteriore"/>
+
+        <head>Foreward to the 2nd Edition</head>
+        
+        <p>The 1st edition of the <title>Digital Vercelli Book</title> was more of a digital facsimile than a full
+          diplomatic edition, since just a few texts were included to accompany the facing images. The second edition is
+          a complete diplomatic and interpretative edition linked to the original facsimile.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

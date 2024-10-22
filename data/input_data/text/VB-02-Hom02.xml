@@ -1,1 +1,1904 @@
-/home/roby/Scrivania/GIT/VBD/vbd-transcription/xml/VB-02-Hom02.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei-vbd.rng" 
+                       title="Vercelli Book Digital standard schema" 
+                       schematypens="http://relaxng.org/ns/structure/1.0" 
+                       type="application/xml"
+                     ?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>The Vercelli Book: a diplomatic/interpretative transcription with digital facsimile</title>
+        <title>Homily II</title>
+        <author>Unknown</author>
+        <principal>Roberto Rosselli Del Turco</principal>
+        <respStmt>
+          <resp>Encoding in TEI-conformant markup: </resp>
+          <name>Federica Goria</name>
+          <name>Roberto Rosselli Del Turco</name>
+          <name>Elisabetta Magnanti</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Digital Vercelli Project</authority>
+        <date>2004-</date>
+        <availability status="restricted">
+          <p>Not to ricirculate. Contact the Digital Vercelli Project researchers for more information.</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Italy</country>
+            <settlement>Vercelli</settlement>
+            <repository>Biblioteca e Archivio Capitolare di Vercelli</repository>
+            <idno>CXVII</idno>
+            <msName>Vercelli Book</msName>
+            <msName>Codex Vercellensis</msName>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+
+    </fileDesc>
+
+    <!--<encodingDesc>
+      <xi:include href="../extra/charDecl.xml" xmlns:xi="http://www.w3.org/2001/XInclude" xpointer="general_charDecl"/>
+    </encodingDesc>-->
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="ang">Old English</language>
+      </langUsage>
+    </profileDesc>
+
+    <revisionDesc>
+      <change when="2022-04" who="RRDT">Switched to a minimal TEI header in anticipation of XInclude use.</change>
+      <change when="2015-09" who="RRDT">New _rev2015 version based on the "alltexts" file.</change>
+      <change when="2014-09" who="RRDT">Moved from entity-based markup to use of the Gaiji module elements.</change>
+      <change when="2014-02" who="RRDT">Conversion to the VBD DTD, addition of the digital facsimile elements.</change>
+      <change when="2010-09" who="RRDT">Conversion to the TEI P5 DTD</change>
+      <change when="2004-01" who="RRDT">Experimental transcription using the Digital Scriptorium DTD</change>
+    </revisionDesc>
+
+  </teiHeader>
+
+   <facsimile xml:id="VB_fac_Hom02">
+
+      <surface xml:id="VB_surf_09v" corresp="#VB_fol_09v">
+         <graphic height="1800px" url="immagini\Vercelli-Book_009V_S_300dpi.jpg" width="1200px"/>
+         <zone lrx="1093" lry="315" rend="visible" rendition="Line" ulx="291" uly="188" xml:id="VB_line_009v_01"/>
+         <zone lrx="1138" lry="363" rend="visible" rendition="Line" ulx="418" uly="312" xml:id="VB_line_009v_02"/>
+         <zone lrx="1138" lry="417" rend="visible" rendition="Line" ulx="328" uly="360" xml:id="VB_line_009v_03"/>
+         <zone lrx="1079" lry="472" rend="visible" rendition="Line" ulx="328" uly="414" xml:id="VB_line_009v_04"/>
+         <zone lrx="1079" lry="524" rend="visible" rendition="Line" ulx="327" uly="469" xml:id="VB_line_009v_05"/>
+         <zone lrx="1079" lry="578" rend="visible" rendition="Line" ulx="327" uly="521" xml:id="VB_line_009v_06"/>
+         <zone lrx="1088" lry="630" rend="visible" rendition="Line" ulx="326" uly="575" xml:id="VB_line_009v_07"/>
+         <zone lrx="1105" lry="686" rend="visible" rendition="Line" ulx="320" uly="627" xml:id="VB_line_009v_08"/>
+         <zone lrx="1104" lry="745" rend="visible" rendition="Line" ulx="320" uly="683" xml:id="VB_line_009v_09"/>
+         <zone lrx="1109" lry="800" rend="visible" rendition="Line" ulx="320" uly="742" xml:id="VB_line_009v_10"/>
+         <zone lrx="1102" lry="854" rend="visible" rendition="Line" ulx="327" uly="797" xml:id="VB_line_009v_11"/>
+         <zone lrx="1107" lry="908" rend="visible" rendition="Line" ulx="327" uly="851" xml:id="VB_line_009v_12"/>
+         <zone lrx="1125" lry="964" rend="visible" rendition="Line" ulx="333" uly="905" xml:id="VB_line_009v_13"/>
+         <zone lrx="1099" lry="1020" rend="visible" rendition="Line" ulx="330" uly="961" xml:id="VB_line_009v_14"/>
+         <zone lrx="1063" lry="1071" rend="visible" rendition="Line" ulx="330" uly="1017" xml:id="VB_line_009v_15"/>
+         <zone lrx="1089" lry="1125" rend="visible" rendition="Line" ulx="330" uly="1068" xml:id="VB_line_009v_16"/>
+         <zone lrx="1112" lry="1178" rend="visible" rendition="Line" ulx="340" uly="1122" xml:id="VB_line_009v_17"/>
+         <zone lrx="1089" lry="1231" rend="visible" rendition="Line" ulx="339" uly="1175" xml:id="VB_line_009v_18"/>
+         <zone lrx="1101" lry="1289" rend="visible" rendition="Line" ulx="338" uly="1228" xml:id="VB_line_009v_19"/>
+         <zone lrx="1090" lry="1344" rend="visible" rendition="Line" ulx="337" uly="1286" xml:id="VB_line_009v_20"/>
+         <zone lrx="1089" lry="1402" rend="visible" rendition="Line" ulx="337" uly="1341" xml:id="VB_line_009v_21"/>
+         <zone lrx="1071" lry="1457" rend="visible" rendition="Line" ulx="337" uly="1399" xml:id="VB_line_009v_22"/>
+         <zone lrx="1071" lry="1521" rend="visible" rendition="Line" ulx="336" uly="1454" xml:id="VB_line_009v_23"/>
+      </surface>
+
+      <surface xml:id="VB_surf_10r" corresp="#VB_fol_10r">
+         <graphic height="1800px" url="immagini\Vercelli-Book_010R_S_300dpi.jpg" width="1200px"/>
+         <zone lrx="914" lry="249" rend="visible" rendition="Line" ulx="141" uly="181" xml:id="VB_line_010r_01"/>
+         <zone lrx="914" lry="309" rend="visible" rendition="Line" ulx="141" uly="246" xml:id="VB_line_010r_02"/>
+         <zone lrx="891" lry="359" rend="visible" rendition="Line" ulx="142" uly="306" xml:id="VB_line_010r_03"/>
+         <zone lrx="909" lry="416" rend="visible" rendition="Line" ulx="141" uly="356" xml:id="VB_line_010r_04"/>
+         <zone lrx="918" lry="472" rend="visible" rendition="Line" ulx="145" uly="413" xml:id="VB_line_010r_05"/>
+         <zone lrx="889" lry="527" rend="visible" rendition="Line" ulx="145" uly="469" xml:id="VB_line_010r_06"/>
+         <zone lrx="920" lry="585" rend="visible" rendition="Line" ulx="144" uly="524" xml:id="VB_line_010r_07"/>
+         <zone lrx="890" lry="636" rend="visible" rendition="Line" ulx="143" uly="582" xml:id="VB_line_010r_08"/>
+         <zone lrx="911" lry="692" rend="visible" rendition="Line" ulx="143" uly="633" xml:id="VB_line_010r_09"/>
+         <zone lrx="887" lry="744" rend="visible" rendition="Line" ulx="151" uly="689" xml:id="VB_line_010r_10"/>
+         <zone lrx="928" lry="799" rend="visible" rendition="Line" ulx="151" uly="741" xml:id="VB_line_010r_11"/>
+         <zone lrx="896" lry="853" rend="visible" rendition="Line" ulx="155" uly="796" xml:id="VB_line_010r_12"/>
+         <zone lrx="913" lry="905" rend="visible" rendition="Line" ulx="158" uly="850" xml:id="VB_line_010r_13"/>
+         <zone lrx="907" lry="958" rend="visible" rendition="Line" ulx="157" uly="902" xml:id="VB_line_010r_14"/>
+         <zone lrx="908" lry="1011" rend="visible" rendition="Line" ulx="156" uly="955" xml:id="VB_line_010r_15"/>
+         <zone lrx="922" lry="1067" rend="visible" rendition="Line" ulx="155" uly="1008" xml:id="VB_line_010r_16"/>
+         <zone lrx="909" lry="1127" rend="visible" rendition="Line" ulx="154" uly="1064" xml:id="VB_line_010r_17"/>
+         <zone lrx="909" lry="1181" rend="visible" rendition="Line" ulx="153" uly="1124" xml:id="VB_line_010r_18"/>
+         <zone lrx="910" lry="1232" rend="visible" rendition="Line" ulx="152" uly="1178" xml:id="VB_line_010r_19"/>
+         <zone lrx="911" lry="1287" rend="visible" rendition="Line" ulx="151" uly="1229" xml:id="VB_line_010r_20"/>
+         <zone lrx="910" lry="1348" rend="visible" rendition="Line" ulx="151" uly="1284" xml:id="VB_line_010r_21"/>
+         <zone lrx="911" lry="1408" rend="visible" rendition="Line" ulx="151" uly="1345" xml:id="VB_line_010r_22"/>
+         <zone lrx="889" lry="1470" rend="visible" rendition="Line" ulx="151" uly="1405" xml:id="VB_line_010r_23"/>
+         <zone lrx="920" lry="1534" rend="visible" rendition="Line" ulx="150" uly="1467" xml:id="VB_line_010r_24"/>
+      </surface>
+
+      <surface xml:id="VB_surf_10v" corresp="#VB_fol_10v">
+         <graphic height="1800px" url="immagini\Vercelli-Book_010V_S_300dpi.jpg" width="1200px"/>
+         <zone lrx="1083" lry="271" rend="visible" rendition="Line" ulx="291" uly="211" xml:id="VB_line_010v_01"/>
+         <zone lrx="1084" lry="328" rend="visible" rendition="Line" ulx="293" uly="268" xml:id="VB_line_010v_02"/>
+         <zone lrx="1071" lry="382" rend="visible" rendition="Line" ulx="294" uly="325" xml:id="VB_line_010v_03"/>
+         <zone lrx="1082" lry="435" rend="visible" rendition="Line" ulx="294" uly="379" xml:id="VB_line_010v_04"/>
+         <zone lrx="1082" lry="487" rend="visible" rendition="Line" ulx="285" uly="432" xml:id="VB_line_010v_05"/>
+         <zone lrx="1087" lry="543" rend="visible" rendition="Line" ulx="288" uly="484" xml:id="VB_line_010v_06"/>
+         <zone lrx="1087" lry="596" rend="visible" rendition="Line" ulx="295" uly="540" xml:id="VB_line_010v_07"/>
+         <zone lrx="1085" lry="649" rend="visible" rendition="Line" ulx="294" uly="593" xml:id="VB_line_010v_08"/>
+         <zone lrx="1102" lry="705" rend="visible" rendition="Line" ulx="293" uly="646" xml:id="VB_line_010v_09"/>
+         <zone lrx="1086" lry="762" rend="visible" rendition="Line" ulx="294" uly="702" xml:id="VB_line_010v_10"/>
+         <zone lrx="1085" lry="815" rend="visible" rendition="Line" ulx="293" uly="759" xml:id="VB_line_010v_11"/>
+         <zone lrx="1092" lry="865" rend="visible" rendition="Line" ulx="293" uly="812" xml:id="VB_line_010v_12"/>
+         <zone lrx="1071" lry="917" rend="visible" rendition="Line" ulx="287" uly="862" xml:id="VB_line_010v_13"/>
+         <zone lrx="1071" lry="978" rend="visible" rendition="Line" ulx="292" uly="914" xml:id="VB_line_010v_14"/>
+         <zone lrx="1070" lry="1032" rend="visible" rendition="Line" ulx="292" uly="975" xml:id="VB_line_010v_15"/>
+         <zone lrx="1035" lry="1091" rend="visible" rendition="Line" ulx="294" uly="1029" xml:id="VB_line_010v_16"/>
+         <zone lrx="1079" lry="1146" rend="visible" rendition="Line" ulx="293" uly="1088" xml:id="VB_line_010v_17"/>
+         <zone lrx="1043" lry="1203" rend="visible" rendition="Line" ulx="298" uly="1143" xml:id="VB_line_010v_18"/>
+         <zone lrx="1049" lry="1254" rend="visible" rendition="Line" ulx="298" uly="1200" xml:id="VB_line_010v_19"/>
+         <zone lrx="1059" lry="1311" rend="visible" rendition="Line" ulx="298" uly="1251" xml:id="VB_line_010v_20"/>
+         <zone lrx="1066" lry="1374" rend="visible" rendition="Line" ulx="298" uly="1308" xml:id="VB_line_010v_21"/>
+         <zone lrx="1059" lry="1433" rend="visible" rendition="Line" ulx="307" uly="1371" xml:id="VB_line_010v_22"/>
+         <zone lrx="1025" lry="1494" rend="visible" rendition="Line" ulx="307" uly="1430" xml:id="VB_line_010v_23"/>
+         <zone lrx="1033" lry="1569" rend="visible" rendition="Line" ulx="307" uly="1491" xml:id="VB_line_010v_24"/>
+      </surface>
+
+      <surface xml:id="VB_surf_11r" corresp="#VB_fol_11r">
+         <graphic height="1800px" url="immagini\Vercelli-Book_011R_S_300dpi.jpg" width="1200px"/>
+         <zone lrx="944" lry="265" rend="visible" rendition="Line" ulx="179" uly="197" xml:id="VB_line_011r_01"/>
+         <zone lrx="928" lry="325" rend="visible" rendition="Line" ulx="178" uly="262" xml:id="VB_line_011r_02"/>
+         <zone lrx="977" lry="379" rend="visible" rendition="Line" ulx="177" uly="322" xml:id="VB_line_011r_03"/>
+         <zone lrx="950" lry="434" rend="visible" rendition="Line" ulx="177" uly="376" xml:id="VB_line_011r_04"/>
+         <zone lrx="949" lry="486" rend="visible" rendition="Line" ulx="176" uly="431" xml:id="VB_line_011r_05"/>
+         <zone lrx="942" lry="541" rend="visible" rendition="Line" ulx="176" uly="483" xml:id="VB_line_011r_06"/>
+         <zone lrx="944" lry="599" rend="visible" rendition="Line" ulx="175" uly="538" xml:id="VB_line_011r_07"/>
+         <zone lrx="921" lry="651" rend="visible" rendition="Line" ulx="174" uly="596" xml:id="VB_line_011r_08"/>
+         <zone lrx="941" lry="707" rend="visible" rendition="Line" ulx="173" uly="648" xml:id="VB_line_011r_09"/>
+         <zone lrx="933" lry="759" rend="visible" rendition="Line" ulx="173" uly="704" xml:id="VB_line_011r_10"/>
+         <zone lrx="958" lry="814" rend="visible" rendition="Line" ulx="173" uly="756" xml:id="VB_line_011r_11"/>
+         <zone lrx="933" lry="867" rend="visible" rendition="Line" ulx="172" uly="811" xml:id="VB_line_011r_12"/>
+         <zone lrx="934" lry="920" rend="visible" rendition="Line" ulx="172" uly="864" xml:id="VB_line_011r_13"/>
+         <zone lrx="953" lry="977" rend="visible" rendition="Line" ulx="172" uly="917" xml:id="VB_line_011r_14"/>
+         <zone lrx="937" lry="1026" rend="visible" rendition="Line" ulx="172" uly="974" xml:id="VB_line_011r_15"/>
+         <zone lrx="913" lry="1082" rend="visible" rendition="Line" ulx="172" uly="1023" xml:id="VB_line_011r_16"/>
+         <zone lrx="951" lry="1139" rend="visible" rendition="Line" ulx="171" uly="1079" xml:id="VB_line_011r_17"/>
+         <zone lrx="937" lry="1196" rend="visible" rendition="Line" ulx="170" uly="1136" xml:id="VB_line_011r_18"/>
+         <zone lrx="943" lry="1250" rend="visible" rendition="Line" ulx="169" uly="1193" xml:id="VB_line_011r_19"/>
+         <zone lrx="917" lry="1305" rend="visible" rendition="Line" ulx="168" uly="1247" xml:id="VB_line_011r_20"/>
+         <zone lrx="917" lry="1366" rend="visible" rendition="Line" ulx="168" uly="1302" xml:id="VB_line_011r_21"/>
+         <zone lrx="947" lry="1426" rend="visible" rendition="Line" ulx="167" uly="1363" xml:id="VB_line_011r_22"/>
+         <zone lrx="935" lry="1482" rend="visible" rendition="Line" ulx="167" uly="1423" xml:id="VB_line_011r_23"/>
+         <zone lrx="946" lry="1540" rend="visible" rendition="Line" ulx="167" uly="1479" xml:id="VB_line_011r_24"/>
+      </surface>
+
+      <surface xml:id="VB_surf_11v" corresp="#VB_fol_11v">
+         <graphic height="1800px" url="immagini\Vercelli-Book_011V_S_300dpi.jpg" width="1200px"/>
+         <zone lrx="1083" lry="271" rend="visible" rendition="Line" ulx="291" uly="211" xml:id="VB_line_011v_01"/>
+         <zone lrx="1049" lry="328" rend="visible" rendition="Line" ulx="293" uly="268" xml:id="VB_line_011v_02"/>
+         <zone lrx="1071" lry="382" rend="visible" rendition="Line" ulx="294" uly="325" xml:id="VB_line_011v_03"/>
+         <zone lrx="1037" lry="435" rend="visible" rendition="Line" ulx="294" uly="379" xml:id="VB_line_011v_04"/>
+         <zone lrx="1073" lry="487" rend="visible" rendition="Line" ulx="285" uly="432" xml:id="VB_line_011v_05"/>
+         <zone lrx="1067" lry="547" rend="visible" rendition="Line" ulx="288" uly="484" xml:id="VB_line_011v_06"/>
+         <zone lrx="1087" lry="604" rend="visible" rendition="Line" ulx="295" uly="544" xml:id="VB_line_011v_07"/>
+         <zone lrx="1080" lry="659" rend="visible" rendition="Line" ulx="294" uly="601" xml:id="VB_line_011v_08"/>
+         <zone lrx="1077" lry="718" rend="visible" rendition="Line" ulx="293" uly="656" xml:id="VB_line_011v_09"/>
+         <zone lrx="1079" lry="770" rend="visible" rendition="Line" ulx="293" uly="715" xml:id="VB_line_011v_10"/>
+         <zone lrx="1086" lry="823" rend="visible" rendition="Line" ulx="294" uly="767" xml:id="VB_line_011v_11"/>
+         <zone lrx="1079" lry="880" rend="visible" rendition="Line" ulx="296" uly="820" xml:id="VB_line_011v_12"/>
+         <zone lrx="1075" lry="936" rend="visible" rendition="Line" ulx="296" uly="877" xml:id="VB_line_011v_13"/>
+         <zone lrx="1049" lry="990" rend="visible" rendition="Line" ulx="295" uly="933" xml:id="VB_line_011v_14"/>
+         <zone lrx="1057" lry="1044" rend="visible" rendition="Line" ulx="295" uly="987" xml:id="VB_line_011v_15"/>
+         <zone lrx="1057" lry="1103" rend="visible" rendition="Line" ulx="295" uly="1041" xml:id="VB_line_011v_16"/>
+         <zone lrx="1066" lry="1159" rend="visible" rendition="Line" ulx="295" uly="1100" xml:id="VB_line_011v_17"/>
+         <zone lrx="1108" lry="1212" rend="visible" rendition="Line" ulx="295" uly="1156" xml:id="VB_line_011v_18"/>
+         <zone lrx="1047" lry="1266" rend="visible" rendition="Line" ulx="294" uly="1209" xml:id="VB_line_011v_19"/>
+         <zone lrx="1082" lry="1323" rend="visible" rendition="Line" ulx="301" uly="1263" xml:id="VB_line_011v_20"/>
+         <zone lrx="1071" lry="1380" rend="visible" rendition="Line" ulx="303" uly="1320" xml:id="VB_line_011v_21"/>
+         <zone lrx="1047" lry="1425" rend="visible" rendition="Line" ulx="304" uly="1377" xml:id="VB_line_011v_22"/>
+         <zone lrx="1059" lry="1475" rend="visible" rendition="Line" ulx="304" uly="1422" xml:id="VB_line_011v_23"/>
+         <zone lrx="1086" lry="1517" rend="visible" rendition="Line" ulx="303" uly="1472" xml:id="VB_line_011v_24"/>
+         <zone lrx="1113" lry="1574" rend="visible" rendition="Line" ulx="303" uly="1514" xml:id="VB_line_011v_25"/>
+      </surface>
+
+      <surface xml:id="VB_surf_12r" corresp="#VB_fol_12r">
+         <graphic height="1800px" url="immagini\Vercelli-Book_012R_S_300dpi.jpg" width="1200px"/>
+         <zone lrx="925" lry="261" rend="visible" rendition="Line" ulx="169" uly="204" xml:id="VB_line_012r_01"/>
+         <zone lrx="920" lry="317" rend="visible" rendition="Line" ulx="161" uly="258" xml:id="VB_line_012r_02"/>
+         <zone lrx="925" lry="367" rend="visible" rendition="Line" ulx="166" uly="314" xml:id="VB_line_012r_03"/>
+         <zone lrx="919" lry="422" rend="visible" rendition="Line" ulx="172" uly="364" xml:id="VB_line_012r_04"/>
+         <zone lrx="920" lry="477" rend="visible" rendition="Line" ulx="168" uly="419" xml:id="VB_line_012r_05"/>
+         <zone lrx="961" lry="532" rend="visible" rendition="Line" ulx="168" uly="474" xml:id="VB_line_012r_06"/>
+         <zone lrx="943" lry="587" rend="visible" rendition="Line" ulx="174" uly="529" xml:id="VB_line_012r_07"/>
+         <zone lrx="921" lry="643" rend="visible" rendition="Line" ulx="174" uly="584" xml:id="VB_line_012r_08"/>
+         <zone lrx="942" lry="699" rend="visible" rendition="Line" ulx="174" uly="640" xml:id="VB_line_012r_09"/>
+         <zone lrx="934" lry="751" rend="visible" rendition="Line" ulx="174" uly="696" xml:id="VB_line_012r_10"/>
+         <zone lrx="946" lry="806" rend="visible" rendition="Line" ulx="174" uly="748" xml:id="VB_line_012r_11"/>
+         <zone lrx="961" lry="859" rend="visible" rendition="Line" ulx="174" uly="803" xml:id="VB_line_012r_12"/>
+         <zone lrx="931" lry="912" rend="visible" rendition="Line" ulx="173" uly="856" xml:id="VB_line_012r_13"/>
+         <zone lrx="925" lry="968" rend="visible" rendition="Line" ulx="168" uly="909" xml:id="VB_line_012r_14"/>
+         <zone lrx="931" lry="1026" rend="visible" rendition="Line" ulx="172" uly="965" xml:id="VB_line_012r_15"/>
+         <zone lrx="913" lry="1078" rend="visible" rendition="Line" ulx="172" uly="1023" xml:id="VB_line_012r_16"/>
+         <zone lrx="951" lry="1130" rend="visible" rendition="Line" ulx="173" uly="1075" xml:id="VB_line_012r_17"/>
+         <zone lrx="934" lry="1181" rend="visible" rendition="Line" ulx="174" uly="1127" xml:id="VB_line_012r_18"/>
+         <zone lrx="917" lry="1236" rend="visible" rendition="Line" ulx="173" uly="1178" xml:id="VB_line_012r_19"/>
+         <zone lrx="927" lry="1291" rend="visible" rendition="Line" ulx="173" uly="1233" xml:id="VB_line_012r_20"/>
+         <zone lrx="916" lry="1338" rend="visible" rendition="Line" ulx="177" uly="1288" xml:id="VB_line_012r_21"/>
+         <zone lrx="922" lry="1383" rend="visible" rendition="Line" ulx="177" uly="1335" xml:id="VB_line_012r_22"/>
+         <zone lrx="902" lry="1432" rend="visible" rendition="Line" ulx="178" uly="1380" xml:id="VB_line_012r_23"/>
+         <zone lrx="945" lry="1490" rend="visible" rendition="Line" ulx="179" uly="1429" xml:id="VB_line_012r_24"/>
+      </surface>
+
+   </facsimile>
+
+   <text n="Homily II" xml:id="VB_text_Hom02">
+          
+         <!-- TO FIX:
+            
+            + lettere accentate
+            + lettere con macron
+            - lettere con punto/punti
+            - tutte le (non) H
+            - nota tironiana in <am> -> global (= alltexts)?
+            
+         -->
+
+         <body>
+
+         <div n="Homily II" subtype="edition_text" type="prose" xml:id="Homily-2">
+
+           <!-- #######################################  folio 9v  ####################################### -->
+
+            <pb n="009v" xml:id="VB_fol_009v"/>
+
+            <head>Homily II</head>
+
+            <p>
+               <lb facs="#VB_line_009v_01" xml:id="VB_lb_009v_01" n="1"/><choice>
+                  <orig><hi rend="3init">M</hi><hi rend="cap 2.0">ENÐALEOFESTAN</hi><pc>.</pc></orig>
+                  <reg><hi rend="3init">M</hi><hi rend="cap 2.0">EN ÐA LEOFESTAN</hi></reg>
+                </choice>
+               <lb facs="#VB_line_009v_02" xml:id="VB_lb_009v_02" n="2"/>þæ<g ref="#sins"/> m<g
+                 ref="#yrgmainstrok"/>clan <choice>
+                   <orig>d<g ref="#oacute"/>m dæge<g ref="#sins"/></orig>
+                   <reg>d<g ref="#oacute"/>mdæges</reg>
+                 </choice> worc bið
+                 <g ref="#slong"/>wiðe <choice>
+                   <orig>ege<g ref="#sins"/> lic</orig>
+                   <reg>egeslic</reg>
+                 </choice>
+                 <choice>
+                   <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>andry<g ref="#sins"/><lb facs="#VB_line_009v_03" xml:id="VB_lb_009v_03_orig" n="3"/>lic</w></orig>
+                   <reg><expan><ex>and</ex></expan> <w>andry<g ref="#sins"/><lb facs="#VB_line_009v_03" xml:id="VB_lb_009v_03_reg" n="3"/>lic</w></reg>
+                 </choice> <choice>
+                     <abbr>eall<am><g ref="#umacr"/></am></abbr>
+                     <expan>eallu<ex>m</ex></expan>
+                  </choice>
+                  <choice>
+                     <abbr>ge <g ref="#slong"/>ceaft<am><g ref="#umacr"/></am></abbr>
+                     <expan>ge <g ref="#slong"/>ceaftu<ex>m</ex></expan>
+                  </choice><choice>
+                    <orig> <pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><hi rend="cap 1.0">I</hi><abbr>þ<am><g ref="#amacr"/></am></abbr></orig>
+                    <reg>In <expan>þa<ex>m</ex></expan></reg>
+                  </choice> dæge þa hleoðriendan ligea<g ref="#sins"/> <w>forbær
+               <lb facs="#VB_line_009v_04" xml:id="VB_lb_009v_04" n="4"/>naþ</w> þæne <choice>
+                      <orig>blod ge mengdan</orig>
+                      <reg>blodgemengdan</reg>
+                    </choice> geard<choice>
+                      <orig> <pc>.</pc></orig>
+                      <reg><pc>.</pc> </reg>
+                    </choice><choice>
+                      <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þaþe</orig>
+                      <reg><expan><ex>and</ex></expan> þa þe</reg>
+                    </choice> nu her <g ref="#sins"/>yndon on
+               <lb facs="#VB_line_009v_05" xml:id="VB_lb_009v_05" n="5"/><choice>
+                    <abbr><damage type="fuzzy">m<g ref="#yrgmainstrok"/></damage>cl<am><g ref="#umacr"/></am></abbr>
+                    <expan>myclu<ex>m</ex></expan>
+                  </choice>
+                  g<g ref="#ydot"/>lpe <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
+                    <reg><expan><ex>and</ex></expan> on</reg>
+                  </choice>
+                  unn<g ref="#yrgmainstrok"/><add>,</add><add place="sup">t</add>tre
+                  ge<g ref="#sins"/><g ref="#yrgmainstrok"/>hðe golde<g ref="#sins"/> <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>eolfre<g ref="#sins"/></orig>
+                    <reg><expan><ex>and</ex></expan> <g ref="#sins"/>eolfre<g ref="#sins"/></reg>
+                  </choice> <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>god
+               <lb facs="#VB_line_009v_06" xml:id="VB_lb_009v_06_orig" n="6"/><damage
+                 type="fuzzy">webbe</damage><g ref="#sins"/></w></orig>
+                    <reg><expan><ex>and</ex></expan> <w>god
+               <lb facs="#VB_line_009v_06" xml:id="VB_lb_009v_06_reg" n="6"/>webbe<g ref="#sins"/></w></reg>
+                  </choice> <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>wog ge<g ref="#slong"/>treona</orig>
+                    <reg><expan><ex>and</ex></expan> wogge<g ref="#slong"/>treona</reg>
+                  </choice> ac we
+                  <g ref="#sins"/>int nu <choice>
+                    <abbr>þ<am><g ref="#amacr"/></am></abbr>
+                    <expan>þa<ex>m</ex></expan>
+                  </choice> <choice>
+                    <orig>ge licco<g ref="#slong"/>t</orig>
+                    <reg>gelicco<g ref="#slong"/>t</reg>
+                  </choice> <w>for
+               <lb facs="#VB_line_009v_07" xml:id="VB_lb_009v_07" n="7"/><damage type="fuzzy">truwo</damage>de</w> þe he u<g ref="#sins"/>
+                  <choice>
+                    <orig>noto</orig>
+                    <reg>no to</reg>
+                  </choice> ne cyme<pc>.</pc> <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>onþam</orig>
+                    <reg><expan><ex>and</ex></expan> on þam</reg>
+                  </choice> dæge
+                  gewit <w><g ref="#sins"/>un
+               <lb facs="#VB_line_009v_08" xml:id="VB_lb_009v_08" n="8"/>nan</w>
+                  <damage type="fuzzy">leoh</damage>t <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>monan</orig>
+                    <reg><expan><ex>and</ex></expan> monan</reg>
+                  </choice>
+                  leoht <choice>
+                    <orig> <pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þaleoht</orig>
+                    <reg><expan><ex>and</ex></expan> þa leoht</reg>
+                  </choice> ealra
+                  tungla<choice>
+                    <orig><pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on<abbr><am>þ<g ref="#amacr"/></am></abbr></orig>
+                    <reg><expan><ex>and</ex></expan> on <expan>þa<ex>m</ex></expan></reg>
+                  </choice>
+               <lb facs="#VB_line_009v_09" xml:id="VB_lb_009v_09" n="9"/>dæge bið dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/> rod blode flowende betweox
+                  <choice>
+                    <abbr>wolcn<am><g ref="#umacr"/></am></abbr>
+                    <expan>wolcnu<ex>m</ex></expan>
+                  </choice><pc>.</pc>
+               <lb facs="#VB_line_009v_10" xml:id="VB_lb_009v_10" n="10"/><choice>
+                    <orig><abbr type="brev"><damage type="fuzzy"><am><g
+                     ref="#et"/></am></damage></abbr>in<abbr><damage type="fuzzy">þ</damage><am><g ref="#amacr"/></am></abbr></orig>
+                    <reg><expan><ex>and</ex></expan> in <expan>þa<ex>m</ex></expan></reg>
+                  </choice> dæge bið dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/> on<g ref="#sins"/><g
+                    ref="#yrgmainstrokdot"/>n
+                  <g ref="#sins"/>wiðe ege<g ref="#sins"/>licu<choice>
+                    <orig> <pc>.</pc> </orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>ondr<g ref="#windy"/><g ref="#sins"/><lb
+                      facs="#VB_line_009v_11" xml:id="VB_lb_009v_11_orig" n="11"/>licu</w></orig>
+                    <reg><expan><ex>and</ex></expan> <w>ondr<g ref="#windy"/><g ref="#sins"/><lb
+                      facs="#VB_line_009v_11" xml:id="VB_lb_009v_11_reg" n="11"/>licu</w></reg>
+                  </choice> <choice>
+                    <orig> <pc>.</pc> </orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>onþam</orig>
+                    <reg><expan><ex>and</ex></expan> on þam</reg>
+                  </choice> hiwe þe he wæ<g ref="#sins"/> þa hine <name><choice>
+                     <orig>iudea<g ref="#sins"/></orig>
+                     <reg>Iudeas</reg>
+                  </choice></name> <g ref="#slong"/>wungon <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w><g ref="#aacute"/><lb facs="#VB_line_009v_12"
+                      xml:id="VB_lb_009v_12_orig" n="12"/>hengon</w></orig>
+                    <reg><expan><ex>and</ex></expan><w><g ref="#aacute"/><lb facs="#VB_line_009v_12" xml:id="VB_lb_009v_12_reg"
+                      n="12"/>hengon</w></reg>
+                  </choice><choice>
+                    <orig> <pc>.</pc> </orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hiora</orig>
+                    <reg><expan><ex>and</ex></expan> hiora</reg>
+                  </choice> <choice>
+                    <abbr><g ref="#slong"/>patl<am><g ref="#umacr"/></am></abbr>
+                    <expan><g ref="#slong"/>patlu<ex>m</ex></expan>
+                  </choice> <choice>
+                    <orig>him<add place="CHECK">,</add><add place="sup"><abbr><am><g ref="#omacr"/></am></abbr></add></orig><!-- ??? -->
+                    <reg>him <expan>o<ex>n</ex></expan></reg>
+                  </choice> <g ref="#slong"/>piwon<pc>.</pc> <choice>
+                    <orig><hi rend="cap 1.0">I</hi>n<abbr>þ<am><g ref="#amacr"/></am></abbr></orig>
+                    <reg>In <expan>þa<ex>m</ex></expan></reg>
+                  </choice> dæge <choice>
+                    <orig>þa<g ref="#sins"/><g ref="#yrgmainstrokdot"/>nfullan</orig>
+                    <reg>þa <g ref="#sins"/><g ref="#yrgmainstrokdot"/>nfullan</reg>
+                  </choice>
+               <lb facs="#VB_line_009v_13" xml:id="VB_lb_009v_13" n="13"/>heofiaþ
+                  <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>wepaþ</orig>
+                    <reg><expan><ex>and</ex></expan> wepaþ</reg>
+                  </choice><choice>
+                    <orig>
+                      <pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig>forþan</orig>
+                    <reg>for þan</reg>
+                  </choice> hie ær noldon hira <g ref="#sins"/><g ref="#yrgmainstrok"/>nna betan<pc>.</pc>
+               <lb facs="#VB_line_009v_14" xml:id="VB_lb_009v_14" n="14"/><choice>
+                   <orig>achie</orig>
+                   <reg>ac hie</reg>
+                 </choice> <g ref="#sins"/>arige
+                  a<g ref="#slong"/>wæmaþ <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#inodotenl"/>n<g ref="#sins"/>u<g ref="#sins"/>le</orig>
+                    <reg><expan><ex>and</ex></expan> in susle</reg>
+                  </choice> afeallað<choice>
+                    <orig> <pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                     <orig><g ref="#inodotenl"/>nþam</orig>
+                     <reg><g ref="#inodotenl"/>n þam</reg>
+                   </choice> dæge
+               <lb facs="#VB_line_009v_15" xml:id="VB_lb_009v_15" n="15"/>beoð blaw<g ref="#eenl"/>nde þa b<g ref="#ydot"/>man
+                  <choice>
+                    <orig>of.IIII.<g ref="#sins"/>ceatt<abbr><am><g ref="#umacr"/></am></abbr></orig>
+                    <reg>of .<num value="4">IIII</num>. <expan>sceattu<ex>m</ex></expan></reg>
+                  </choice>
+                  <damage type="faded">þ<g ref="#yrgmainstrok"/></damage><damage type="fuzzy"><g ref="#sins"/></damage>e<g ref="#sins"/>
+                  <w>middan
+               <lb facs="#VB_line_009v_16" xml:id="VB_lb_009v_16" n="16"/>gearde<g ref="#sins"/></w>
+                  <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>þ<am><g ref="#omacr"/></am>n</abbr></orig>
+                    <reg><expan><ex>and</ex></expan> <expan>þon<ex>ne</ex></expan></reg>
+                  </choice> ealle
+                  ari<g ref="#sins"/>aþ  <g ref="#slong"/>wa hwæt  <g ref="#slong"/>wa eorþe for<g ref="#slong"/>wealh
+               <lb facs="#VB_line_009v_17" xml:id="VB_lb_009v_17" n="17"/><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>f<g ref="#yrgmainstrok"/>r</orig>
+                    <reg><expan><ex>and</ex></expan> fyr</reg>
+                  </choice> forbærnde<choice>
+                    <orig><pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>æ</orig>
+                    <reg><expan><ex>and</ex></expan> sæ</reg>
+                  </choice> <g ref="#sins"/>encte <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>wildeor</orig>
+                    <reg><expan><ex>and</ex></expan> wildeor</reg>
+                  </choice> fræton<choice>
+                    <orig><pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>fugla<g ref="#sins"/></orig>
+                    <reg><expan><ex>and</ex></expan> fuglas</reg>
+                  </choice>
+               <lb facs="#VB_line_009v_18" xml:id="VB_lb_009v_18" n="18"/>tobæron <choice>
+                    <orig>eall<abbr><g ref="#thornbarslash"/></abbr></orig>
+                    <reg>eall <expan>þ<ex>æt</ex></expan></reg>
+                  </choice> þ<g ref="#yrgmainstrok"/> dæge ari<g ref="#slong"/>eð<choice>
+                    <orig> <pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig>on<abbr>þ<am><g ref="#amacr"/></am></abbr></orig>
+                    <reg>on <expan>þa<ex>m</ex></expan></reg>
+                  </choice> dæge ure <choice>
+                    <abbr>dr<g ref="#windy"/><am><g ref="#hstrok"/></am></abbr>
+                    <expan>dryh<ex>ten</ex></expan>
+                  </choice>
+               <lb facs="#VB_line_009v_19" xml:id="VB_lb_009v_19" n="19"/><choice>
+                    <orig><g ref="#inodotenl"/>nhi<g ref="#sins"/></orig>
+                    <reg>in his</reg>
+                  </choice> þam m<g ref="#yrgmainstrok"/>clan <choice>
+                    <orig>mægen þr<g ref="#yrgmainstrok"/>mme</orig>
+                    <reg>mægenþrymme</reg>
+                  </choice>
+                  <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hi<g ref="#sins"/></orig>
+                    <reg><expan><ex>and</ex></expan> his</reg>
+                  </choice> on<g ref="#sins"/><g ref="#yrgmainstrokdot"/>ne <w>æt
+               <lb facs="#VB_line_009v_20" xml:id="VB_lb_009v_20" n="20"/><g ref="#windy"/>weð</w>
+                  <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hi<g ref="#sins"/></orig>
+                    <reg><expan><ex>and</ex></expan> his</reg>
+                  </choice> lichoman<choice>
+                    <orig> <pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                    <expan>þon<ex>ne</ex></expan>
+                  </choice> bið <g ref="#sins"/>eo wund <choice>
+                    <orig>ge <g ref="#sins"/>ewen</orig>
+                    <reg>gesewen</reg>
+                  </choice> <choice>
+                    <abbr>þ<am><g ref="#amacr"/></am></abbr>
+                    <expan>þa<ex>m</ex></expan>
+                  </choice> <w>firen
+               <lb facs="#VB_line_009v_21" xml:id="VB_lb_009v_21" n="21"/>fullum</w><choice>
+                    <orig> <pc>.</pc> </orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>þ<am><g ref="#amacr"/></am></abbr></orig>
+                    <reg><expan><ex>and</ex></expan> <expan>þa<ex>m</ex></expan></reg>
+                  </choice> <g ref="#sins"/>oðfæstan <choice>
+                    <orig>hebið</orig>
+                    <reg>he bið</reg>
+                  </choice> <choice>
+                    <orig>halge <g ref="#sins"/>ewen</orig>
+                    <reg>hal gesewen</reg>
+                  </choice><choice>
+                    <orig> <pc>.</pc> </orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                    <expan><ex>and</ex></expan>
+                    </choice> <choice><abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                      <expan>þon<ex>ne</ex></expan>
+                    </choice> <name type="people"><choice>
+                     <orig>iudea<g ref="#sins"/></orig>
+                     <reg>Iudeas</reg>
+                  </choice></name>
+               <lb facs="#VB_line_009v_22" xml:id="VB_lb_009v_22" n="22"/>magon <choice>
+                 <orig>ge <g ref="#sins"/>eon</orig>
+                 <reg>geseon</reg>
+               </choice> þone þe hie <choice>
+                 <orig><damage>æ</damage>rcwealdon</orig>
+                 <reg>ær cwealdon</reg>
+               </choice> <choice>
+                 <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hengon</orig>
+                 <reg><expan><ex>and</ex></expan> hengon</reg>
+               </choice><choice>
+                    <orig><pc>.</pc></orig>
+                    <reg><pc>.</pc> </reg>
+                  </choice><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>e</orig>
+                    <reg><expan><ex>and</ex></expan> se</reg>
+                  </choice>
+               <lb facs="#VB_line_009v_23" xml:id="VB_lb_009v_23" n="23"/><g ref="#sins"/>oðfæ<g ref="#sins"/>ta d<g ref="#eenl"/>ma <choice>
+                    <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                    <expan>þon<ex>ne</ex></expan>
+                  </choice> d<g ref="#eenl"/>með ealra manna <choice>
+                    <abbr>gehw<g ref="#yrgmainstrok"/>lc<am><g ref="#umacr"/></am></abbr>
+                    <expan>gehwylcu<ex>m</ex></expan>
+                  </choice> æfter
+
+              <add place="bottom">
+                <fw type="end_of_quire" rend="upsidedown">V</fw><!-- CHECK attribute value: create a <g/> ??? -->
+              </add>
+              
+              <!-- #######################################  folio 10r  ####################################### -->
+               
+              <gb n="2" xml:id="VB_gb_02"/> 
+              
+               <pb n="10r" xml:id="VB_fol_010r"/>
+
+               <add>
+                  <fw place="top-right" type="fol">10.</fw>
+               </add>
+
+               <lb facs="#VB_line_010r_01" xml:id="VB_lb_010r_01" n="1"/>hi<g ref="#sins"/>
+                  <g ref="#sins"/><g ref="#yrgmainstrok"/>lfes 
+                  <choice>
+                     <orig>ge <abbr>wyrht<am><g ref="#umacr"/></am></abbr></orig>
+                     <reg><expan>wyrhtu<ex>m</ex></expan></reg>
+                  </choice> . <hi rend="cap 1.0">H</hi>wæt 
+                  <choice>
+                     <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                     <expan>þon<ex>ne</ex></expan>
+                  </choice> þi<damage type="faded">nceð þam</damage>
+                  <g ref="#sins"/><g ref="#yrgmainstrok"/>nfullan þæt
+               <lb facs="#VB_line_010r_02" xml:id="VB_lb_010r_02" n="2"/>noht 
+               <choice>
+                  <orig>ne<g ref="#sins"/>ie</orig>
+                  <reg>ne sie</reg>
+               </choice>
+                  þæ<g ref="#sins"/> ha<damage type="faded">te<g ref="#sins"/> <choice>
+                     <orig>neþæ<g ref="#sins"/></orig>
+                     <reg>ne þæs</reg>
+                  </choice>
+                  ceal</damage>te<g ref="#sins"/>.<choice>
+                     <orig><damage type="faded">neþæ</damage><g ref="#sins"/></orig><!-- sembra più nS CHECK !!! -->
+                     <reg>ne þæs</reg>
+                  </choice>
+                  hearde<g ref="#sins"/>. <choice>
+                     <orig>n<damage type="faded">eþæ<g ref="#sins"/></damage></orig>
+                     <reg>ne þæs</reg>
+                  </choice>
+               <lb facs="#VB_line_010r_03" xml:id="VB_lb_010r_03"  n="3"/>hne<g ref="#sins"/>ce<g ref="#sins"/> .<choice>
+                     <orig>neþæ<g ref="#sins"/></orig>
+                     <reg>ne þæs</reg>
+                  </choice> leofe<g ref="#sins"/> <choice>
+                     <orig>neðæ<g ref="#sins"/> laðe<g ref="#sins"/></orig>
+                     <reg>ne þæs</reg>
+                  </choice>.<choice>
+                     <abbr><g ref="#thornbarslash"/></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice>
+                  hine <choice><abbr>þ<am><g ref="#omacr"/></am>n</abbr><expan>þon<ex>ne</ex></expan></choice>
+                  <damage type="faded">mæ</damage>ge fram
+               <lb facs="#VB_line_010r_04" xml:id="VB_lb_010r_04" n="4"/>dr<g ref="#yrgmainstrok"/>htnes lufan <g ref="#aacute"/>d<g ref="#oacute"/>n
+               <choice>
+                  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hi<g ref="#sins"/></orig>
+                  <reg><expan><ex>and</ex></expan> hi<g ref="#sins"/></reg>
+               </choice> willan
+                  a <g ref="#slong"/>cadan 
+               <choice>
+                  <orig><damage type="faded">.<abbr type="brev"><am><g ref="#et"/></am></abbr>nu</damage></orig>
+                  <reg><expan><ex>and</ex></expan> nu</reg>
+               </choice> nellaþ hi<g ref="#sins"/>
+               <lb facs="#VB_line_010r_05" xml:id="VB_lb_010r_05" n="5"/>willan wyrcean nu we eaðe magon .<hi rend="cap 1.0">H</hi>wæt
+                  la þæt i<g ref="#sins"/> <choice>
+                     <orig>ofereal</orig>
+                     <reg>ofer eal</reg>
+                  </choice>
+               <lb facs="#VB_line_010r_06" xml:id="VB_lb_010r_06" n="6"/><choice>
+                    <orig>ge met</orig>
+                    <reg>gemet</reg>
+                  </choice> to  <g ref="#slong"/>ceawigenne <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>to</orig>
+                    <reg><expan><ex>and</ex></expan> to</reg>
+                  </choice>  <g ref="#slong"/>mægenne
+                  <choice>
+                    <abbr><g ref="#thornbarslash"/></abbr>
+                    <expan>þ<ex>æt</ex></expan>
+                  </choice> þa earman <w>fyren
+               <lb facs="#VB_line_010r_07" xml:id="VB_lb_010r_07" n="7"/>fullan</w>
+                  <g ref="#slong"/>culon <g ref="#sins"/>arige a <g ref="#slong"/>wæman 
+                  <choice>
+                     <abbr>fr<am><g ref="#amacr"/></am></abbr>
+                     <expan>fra<ex>m</ex></expan>
+                  </choice>
+                  an<g ref="#sins"/><g ref="#ydot"/>ne <damage type="faded">ur</damage>e<g ref="#sins"/> drihtnes
+               <lb facs="#VB_line_010r_08" xml:id="VB_lb_010r_08" n="8"/><choice>
+                     <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                     <expan><ex>and</ex></expan>
+                  </choice> fram hi<g ref="#sins"/>
+                  hali<damage>gra</damage>.<choice>
+                     <orig><damage><abbr type="brev"><am><g ref="#et"/></am></abbr></damage><abbr><damage>fr</damage><am><g ref="#amacr"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>fra<ex>m</ex></expan></reg>
+                  </choice>
+                  þam wuldre heofona
+                  rice<g ref="#sins"/>.<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>þ<am><g ref="#omacr"/></am>n</abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>þon<ex>ne</ex></expan></reg>
+                  </choice>
+               <lb facs="#VB_line_010r_09" xml:id="VB_lb_010r_09" n="9"/>gewitaþ hie <choice>
+                  <orig>inþa</orig>
+                  <reg>in þa</reg>
+               </choice> t<damage type="fuzzy">int</damage>rego þære ecean helle.<hi rend="cap 1.0">E</hi>ala hwæt
+               <lb facs="#VB_line_010r_10" xml:id="VB_lb_010r_10" n="10"/>mod <g ref="#sins"/>yndon earmlice aþri <g ref="#slong"/>tode
+                  þæt hie æfre lætan
+               <lb facs="#VB_line_010r_11" xml:id="VB_lb_010r_11" n="11"/> <g ref="#slong"/>culon
+               <choice>
+                  <abbr><g ref="#thornbarslash"/></abbr>
+                  <expan>þ<ex>æt</ex></expan>
+               </choice> deaþb<damage type="fuzzy">er</damage>ende dioful hie on unn<g ref="#yrgmainstrok"/>ttre <w>ge <g ref="#slong"/>wipur
+               <lb facs="#VB_line_010r_12" xml:id="VB_lb_010r_12" n="12"/>ne<g ref="#sins"/><g ref="#sins"/>e</w> hie to þam gedwellan þæt hie
+                  <g ref="#sins"/><g ref="#ydot"/>nne fremmen .
+               <lb facs="#VB_line_010r_13" xml:id="VB_lb_010r_13" n="13"/><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæ<g ref="#sins"/></orig>
+                    <reg><expan><ex>and</ex></expan> þæs</reg>
+                  </choice> willan
+                  <choice>
+                     <orig>new<g ref="#yrgmainstrok"/>rceaþ</orig>
+                     <reg>newyrceaþ</reg>
+                  </choice> þe hie on eorþan <choice>
+                     <orig>ge <g ref="#slong"/>ceop</orig>
+                     <reg>gesceop</reg>
+                  </choice>.<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+                     <reg><expan><ex>and</ex></expan> mid</reg>
+                  </choice>
+               <lb facs="#VB_line_010r_14" xml:id="VB_lb_010r_14" n="14"/>hi<g ref="#sins"/> ga<g ref="#slong"/>te
+                  gelif<damage type="fuzzy">fæ<g ref="#sins"/></damage>te
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>h<am><g ref="#imacr"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>hi<ex>m</ex></expan></reg>
+                  </choice> ecce lif <choice>
+                     <orig>for geaf</orig>
+                     <reg>forgeaf</reg>
+                  </choice> .<hi rend="cap 1.0">L</hi>a<!-- non sembra proprio una L CHECK --> hwæt
+               <choice>
+                  <abbr><am><g ref="#mmacrmed"/></am></abbr>
+                  <expan>m<ex>en</ex></expan>
+               </choice>
+               <lb facs="#VB_line_010r_15" xml:id="VB_lb_010r_15" n="15"/>him eallinga <choice>
+                     <orig><damage type="fuzzy">neondr</damage>ædaþ</orig>
+                     <reg>ne ondrædaþ</reg>
+                  </choice>
+                  <choice>
+                     <orig>hu<abbr><g ref="#thornbarslash"/></abbr></orig>
+                     <reg>hu <expan>þ<ex>æt</ex></expan></reg>
+                  </choice> dioful him <choice>
+                     <orig>on <damage><g ref="#sins"/></damage>t<damage>æ</damage>leð</orig>
+                     <reg>onstæleð</reg>
+                  </choice>
+               <lb facs="#VB_line_010r_16" xml:id="VB_lb_010r_16" n="16"/>ealle þa <choice>
+                  <orig>un rihtan</orig>
+                  <reg>unrihtan</reg>
+               </choice> weorc þe her worhte bioð beforan
+               <lb facs="#VB_line_010r_17" xml:id="VB_lb_010r_17" n="17"/>þære <damage/><!-- rasura??? CHECK -->mengeo þæ<g ref="#sins"/>
+                  m<g ref="#yrgmainstrok"/>clan dome<g ref="#sins"/> . <hi rend="cap 1.0">L</hi>a<!-- non sembra proprio una L CHECK --> hwæt <choice>
+                     <abbr><g ref="#mmacrmed"/></abbr>
+                     <expan>m<ex>en</ex></expan>
+                  </choice> him ne ondrædaþ
+                  þæt m<g ref="#yrgmainstrok"/>cle dioful <name type="religion"><choice>
+                     <orig>ante crist</orig>
+                     <reg>Antecrist</reg>
+                  </choice></name> mid hi<g ref="#sins"/>
+               <lb facs="#VB_line_010r_18" xml:id="VB_lb_010r_18" n="18"/>helle witum <choice>
+                  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+                  <reg><expan><ex>and</ex></expan> mid</reg>
+               </choice>
+                  hi<g ref="#sins"/> 
+                  <choice>
+                     <abbr><g ref="#ydot"/>rmþ<am><g ref="#umacr"/></am></abbr>
+                     <expan><g ref="#ydot"/>rmþu<ex>m</ex></expan>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hi<g ref="#sins"/></orig>
+                     <reg><expan><ex>and</ex></expan> his</reg>
+                  </choice>
+                  <choice>
+                     <abbr>þ<am><g ref="#amacr"/></am></abbr>
+                     <expan>þa<ex>m</ex></expan>
+                  </choice>
+                  <g ref="#sins"/>aran <g ref="#sins"/>u <g ref="#slong"/>lum
+               <lb facs="#VB_line_010r_19" xml:id="VB_lb_010r_19" n="19"/>þe
+                  <choice>
+                    <abbr>h<am><g ref="#imacr"/></am></abbr>
+                    <expan>hi<ex>m</ex></expan>
+                  </choice> bi<damage type="faded">oþ to</damage> edleane hira firena golden .
+                  <hi rend="cap 1.0">L</hi>a<!-- CHECK L, vedi sopra --> hwæt we
+               <lb facs="#VB_line_010r_20" xml:id="VB_lb_010r_20" n="20"/>u<g ref="#sins"/> ne on<damage type="faded"
+                  >dræd</damage>aþ þone <choice>
+                     <orig>to weardan</orig>
+                     <reg>toweardan</reg>
+                  </choice> ege dome<g ref="#sins"/> dæge<g ref="#sins"/>
+               <lb facs="#VB_line_010r_21" xml:id="VB_lb_010r_21" n="21"/><g ref="#sins"/>e i<g ref="#sins"/> yrmþa dæg
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>earfoða</orig>
+                     <reg><expan><ex>and</ex></expan> earfoða</reg>
+                  </choice>
+                  dæg.<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>unrotne<g ref="#sins"/><g ref="#sins"/>e</orig>
+                     <reg><expan><ex>and</ex></expan> unrotnesse</reg>
+                  </choice> dæg
+               <lb facs="#VB_line_010r_22" xml:id="VB_lb_010r_22" n="22"/><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>cirme<g ref="#sins"/></orig>
+                     <reg><expan><ex>and</ex></expan> cirmes</reg>
+                  </choice> dag <!-- non dæg??? CHECK-->
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>wanunge</orig>
+                     <reg><expan><ex>and</ex></expan> wanunge</reg>
+                  </choice> dæg .
+                  <choice>
+                     <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                     <expan><ex>and</ex></expan>
+                  </choice>
+                  <g ref="#sins"/>are<g ref="#sins"/> dæg.<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>orge<g ref="#sins"/></orig>
+                     <reg><expan><ex>and</ex></expan> sorges</reg>
+                  </choice>
+               <lb facs="#VB_line_010r_23" xml:id="VB_lb_010r_23" n="23"/>dæg <choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>e</orig>
+                    <reg><expan><ex>and</ex></expan> se</reg>
+                  </choice>
+                  þy<g ref="#sins"/>tra dæg . <choice>
+                     <orig><hi rend="cap 1.0">O</hi>nþam</orig>
+                     <reg>On þam</reg>
+                  </choice> dæge <choice>
+                     <orig>u<g ref="#sins"/>bið</orig>
+                     <reg>us bið</reg>
+                  </choice> æteowed </p><!-- end of paragraph? no punctuation??? CHECK -->
+
+            <pb n="10v" xml:id="VB_fol_010v"/>
+
+            <ab><!-- verses not there for Scragg CHECK -->
+               <lb facs="#VB_line_010v_01" xml:id="VB_lb_010v_01" n="1"/>
+               <l n="1"><choice>
+                     <orig><g ref="#sins"/>eopena</orig>
+                     <reg>se opena</reg>
+                  </choice> heofon <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>engla</orig>
+                     <reg><expan><ex>and</ex></expan> engla</reg>
+                  </choice> þr<g ref="#ydot"/>m</l>
+               <l n="2"><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eall wihtna</orig>
+                    <reg><expan><ex>and</ex></expan> eallwihtna</reg>
+                  </choice> hr<g ref="#ydot"/>re <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eorþan</orig>
+                     <reg><expan><ex>and</ex></expan> eorþan</reg>
+                  </choice>
+               <lb facs="#VB_line_010v_02" xml:id="VB_lb_010v_02" n="2"/><choice>
+                    <orig>for w<g ref="#yrgmainstrokdot"/>rht</orig>
+                    <reg>forwyrht</reg>
+                  </choice> . </l>
+               <l n="3">treowlea<g ref="#sins"/>ra <choice>
+                    <orig>ge winn</orig>
+                    <reg>gewinn</reg>
+                  </choice> .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>tungla</orig>
+                     <reg><expan><ex>and</ex></expan> tungla</reg>
+                  </choice> gefeall</l>
+               <l n="4"><w>þunor
+               <lb facs="#VB_line_010v_03" xml:id="VB_lb_010v_03" n="3"/>rada</w> c<g ref="#yrgmainstrokacute"/>rm
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>eþ<g ref="#yrgmainstrok"/></orig>
+                     <reg><expan><ex>and</ex></expan> se þystra</reg>
+                  </choice> <g ref="#slong"/>torm .</l>
+               <l n="5"><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæra</orig>
+                     <reg><expan><ex>and</ex></expan> þæra</reg>
+                  </choice> liga blæstm.</l>
+               <l n="6"><choice>
+                     <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                     <expan><ex>and</ex></expan>
+                  </choice>
+               <lb facs="#VB_line_010v_04" xml:id="VB_lb_010v_04" n="4"/>graniendra ge<g ref="#slong"/>ceaft
+                  .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæra</orig>
+                     <reg><expan><ex>and</ex></expan> þæra</reg>
+                  </choice> ga <g ref="#slong"/>ta
+                  gefeoht.</l>
+               <l n="7"><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>io</orig>
+                     <reg><expan><ex>and</ex></expan> sio</reg>
+                  </choice>
+                  <choice>
+                     <abbr>gr<am><g ref="#imacr"/></am>me</abbr>
+                     <expan>gri<ex>m</ex>me</expan>
+                  </choice>
+               <lb facs="#VB_line_010v_05" xml:id="VB_lb_010v_05" n="5"/>
+                  <choice>
+                     <orig>ge <g ref="#sins"/><g ref="#yrgmainstrokdot"/>hð</orig>
+                     <reg>gesyhð</reg>
+                  </choice>
+                     .<choice>
+                        <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
+                        <reg><expan><ex>and</ex></expan> þa</reg>
+                     </choice> <choice>
+                        <orig>god cundan</orig>
+                        <reg>godcundan</reg>
+                     </choice> mi<damage type="fuzzy">ht</damage> .</l>
+               <l n="8"><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>e</orig>
+                    <reg><expan><ex>and</ex></expan> se</reg>
+                  </choice> hata
+                  <choice>
+                     <orig><g ref="#slong"/>c <g ref="#uacute"/>r</orig>
+                     <reg>scur</reg>
+                  </choice>.<choice>
+                     <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                     <expan><ex>and</ex></expan>
+                  </choice>
+               <w>hell<lb facs="#VB_line_010v_06" xml:id="VB_lb_010v_06" n="6"/>warena</w> dream .</l>
+               <l n="9"><choice>
+                  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þara</orig>
+                  <reg><expan><ex>and</ex></expan> þara</reg>
+               </choice> b<g ref="#windy"/>mena <g ref="#sins"/>ang . </l>
+               <l n="10"><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>ebrada</orig><!-- d or ð ??? -->
+                    <reg><expan><ex>and</ex></expan> se brada</reg>
+                  </choice> br<g ref="#yrgmainstrokdot"/>ne.
+               <lb facs="#VB_line_010v_07" xml:id="VB_lb_010v_07" n="7"/><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>ebitera</orig>
+                    <reg><expan><ex>and</ex></expan> se bitera</reg>
+                  </choice> dæg.</l>
+               <l n="11"><choice>
+                  <orig><damage type="fuzzy"><abbr type="brev"><am><g ref="#et"/></am></abbr></damage>þara</orig>
+                  <reg><expan><ex>and</ex></expan> þara</reg>
+               </choice>
+                  <g ref="#sins"/>awla gedal </l>
+               <l n="12"><damage type="faded">.</damage><choice>
+                  <orig><damage type="fuzzy"><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/></damage>edeað ber enda</orig>
+                  <reg><expan><ex>and</ex></expan> se deaðberenda</reg>
+               </choice>
+               <lb facs="#VB_line_010v_08" xml:id="VB_lb_010v_08" n="8"/>draca.<choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>diofla</orig>
+                    <reg><expan><ex>and</ex></expan> diofla</reg>
+                 </choice> forw<g ref="#yrgmainstrok"/>rd</l>
+               <l n="13"><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>enea<damage type="faded">r</damage>wa</orig>
+                    <reg><expan><ex>and</ex></expan> se nearwa</reg>
+                 </choice> <g ref="#sins"/>eaþ .<choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>e<g ref="#slong"/>wearta</orig>
+                    <reg><expan><ex>and</ex></expan> se swearta</reg>
+                 </choice>
+               <lb facs="#VB_line_010v_09" xml:id="VB_lb_010v_09" n="9"/>deaþ.</l>
+               <l n="14"><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>eb<g ref="#windy"/>rnendagrund.</orig>
+                     <reg><expan><ex>and</ex></expan> se byrnenda grund</reg>
+                  </choice>.<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>eblodiga</orig>
+                     <reg><expan><ex>and</ex></expan> se blodiga</reg>
+                  </choice> <choice>
+                     <abbr><g ref="#slong"/>tre<am><g ref="#amacr"/></am></abbr>
+                     <expan>strea<ex>m</ex></expan>
+                  </choice>.</l>
+               <l n="15"><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>m<g ref="#yrgmainstrok"/>cel</orig>
+                    <reg><expan><ex>and</ex></expan> mycel</reg>
+                 </choice> fionda
+               <lb facs="#VB_line_010v_10" xml:id="VB_lb_010v_10" n="10"/>f<g ref="#windy"/>rhto .
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>ef<g ref="#ydot"/>rena</orig>
+                     <reg><expan><ex>and</ex></expan> se fyrena</reg>
+                  </choice> r<g ref="#eacute"/>n . </l>
+               <l n="16"><choice>
+                  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hæðenra</orig>
+                  <reg><expan><ex>and</ex></expan> hæðenra</reg>
+               </choice> granung .
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hiraheriga</orig>
+                     <reg><expan><ex>and</ex></expan> hira heriga</reg>
+                  </choice>
+               <lb facs="#VB_line_010v_11" xml:id="VB_lb_010v_11" n="11"/>f<g ref="#yrgmainstrok"/>ll.</l>
+               <l n="17"><choice>
+                  <orig>heofon warena</orig>
+                  <reg>heofonwarena</reg>
+               </choice> mengo . <choice>
+                  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hiora</orig>
+                  <reg><expan><ex>and</ex></expan> hiora</reg>
+               </choice>
+                  hlaforde<g ref="#sins"/> miht.</l>
+               <l n="18"><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæt</orig>
+                    <reg><expan><ex>and</ex></expan> þæt</reg>
+                  </choice>
+               <lb facs="#VB_line_010v_12" xml:id="VB_lb_010v_12" n="12"/><choice>
+                     <orig>m<g ref="#yrgmainstrok"/>clegemot</orig>
+                     <reg>mycle gemot</reg>
+                  </choice></l>
+               <l n="19"><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>io</orig>
+                     <reg><expan><ex>and</ex></expan> sio</reg>
+                  </choice> reðe rod .
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>e</orig>
+                     <reg><expan><ex>and</ex></expan> se</reg>
+                  </choice> rihta d<g ref="#oacute"/>m .</l>
+               <l n="20"><choice>
+                  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þara</orig>
+                  <reg><expan><ex>and</ex></expan> þara</reg>
+               </choice> feonda
+               <lb facs="#VB_line_010v_13" xml:id="VB_lb_010v_13" n="13"/>ge <g ref="#slong"/>tal .</l>
+               <l n="21"><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
+                     <reg><expan><ex>and</ex></expan> þa</reg>
+                  </choice> bl<g ref="#aacute"/>can <choice>
+                     <abbr subtype="prefix" type="brev"><am><g ref="#et"/></am>wlitan</abbr>
+                     <expan><ex>ond</ex>wlitan</expan>
+                  </choice> . <choice>
+                  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><damage type="fuzzy">bifiend</damage>an</orig>
+                     <reg><expan><ex>and</ex></expan> bifiendan</reg>
+                  </choice><space/><!-- rasura ??? manca extent -->word .</l>
+               <l n="22"><choice>
+                      <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þara</orig>
+                      <reg><expan><ex>and</ex></expan> þara</reg>
+                   </choice>
+               <lb facs="#VB_line_010v_14" xml:id="VB_lb_010v_14" n="14"/>folca w<g ref="#oacute"/>p.</l>
+               <l n="23">ond <g ref="#sins"/>e  <g ref="#slong"/>camienda <damage type="fuzzy">here</damage>.</l>
+               <l n="24"><choice>
+                    <orig><damage type="fuzzy"><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>io</damage></orig>
+                    <reg><expan><ex>and</ex></expan> sio</reg>
+                  </choice> <choice>
+                    <orig>for glendrede</orig>
+                    <reg>forglendrede</reg>
+                  </choice>
+               <lb facs="#VB_line_010v_15" xml:id="VB_lb_010v_15" n="15"/>hell.</l>
+               <l n="25"><choice>
+                  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þara</orig>
+                  <reg><expan><ex>and</ex></expan> þara</reg>
+               </choice> w<g ref="#yrgmainstrokdot"/>rma gr<g ref="#ydot"/>re.</l>
+            </ab>
+            <p>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>þ<am><g ref="#omacr"/></am>n</abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>þon<ex>ne</ex></expan></reg>
+                  </choice>
+                  <damage type="fuzzy">bið u<g ref="#sins"/></damage> <damage type="fuzzy">ægh</damage>w<g ref="#yrgmainstrok"/>lc
+                  þ<g ref="#yrgmainstrok"/>llic
+               <lb facs="#VB_line_010v_16" xml:id="VB_lb_010v_16" n="16"/>ege<g ref="#sins"/>a <choice>
+                    <orig>æt eowed</orig>
+                    <reg>æteowed</reg>
+                  </choice> . <choice>
+                    <orig>þærþa</orig>
+                    <reg>þær þa</reg>
+                  </choice>
+                  <choice>
+                     <orig>f<g ref="#windy"/>ren fullan</orig>
+                     <reg>fyrenfullan</reg>
+                  </choice> <choice>
+                     <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                     <expan>þon<ex>ne</ex></expan>
+                  </choice> meahton <w>ge
+               <lb facs="#VB_line_010v_17" xml:id="VB_lb_010v_17" n="17"/>w<g ref="#iacute"/><g ref="#slong"/>can</w> þæt hie næfre 
+                  <choice>
+                     <orig>newæren</orig>
+                     <reg>ne wæren</reg>
+                  </choice> acennede <choice>
+                     <orig>fr am</orig><!-- interessante l'area in cui si trova la "am" -->
+                     <reg>fram</reg>
+                  </choice> hiora
+               <lb facs="#VB_line_010v_18" xml:id="VB_lb_010v_18" n="18"/>
+                 <choice>
+                    <abbr>fædr<am><g ref="#umacr"/></am></abbr>
+                    <expan>fædru<ex>m</ex></expan>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>modr<am><g ref="#umacr"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>modru<ex>m</ex></expan></reg>
+                  </choice>.
+                  <damage type="fuzzy">o</damage>ððe ælc hiora to 
+                  <choice>
+                     <abbr>d<am><g ref="#umacr"/></am>bum</abbr>
+                     <expan>du<ex>m</ex>bum</expan>
+                  </choice>
+                  n<g ref="#yrgmainstrok"/>tenum
+               <lb facs="#VB_line_010v_19" xml:id="VB_lb_010v_19" n="19"/> <choice>
+                     <orig>ge wurde</orig>
+                     <reg>gewurde</reg>
+                  </choice> .<hi rend="cap 1.0">H</hi><!-- CHECK -->wæt him
+                  <choice>
+                     <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                     <expan>þon<ex>ne</ex></expan>
+                  </choice> wære leofre 
+                  <choice>
+                     <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                     <expan>þon<ex>ne</ex></expan>
+                  </choice> <choice>
+                     <orig>eal<w>mid<lb facs="#VB_line_010v_20" xml:id="VB_lb_010v_20_orig" n="20"/>dan geard</w></orig>
+                     <reg>eal <w>mid<lb facs="#VB_line_010v_20" xml:id="VB_lb_010v_20_reg" n="20"/>dangeard</w></reg>
+                  </choice> . mid ge <g ref="#slong"/>treonum þe heofon behw<g ref="#yrgmainstrok"/>lfeð.
+               <lb facs="#VB_line_010v_21" xml:id="VB_lb_010v_21" n="21"/><choice>
+                    <orig>laþæt</orig>
+                    <reg>la þæt</reg>
+                  </choice> we u<g ref="#sins"/> <choice>
+                     <orig>neondrædaþ</orig>
+                     <reg>ne ondrædaþ</reg>
+                  </choice> þæt we <choice>
+                     <orig>dæg hwam lice</orig>
+                     <reg>dæghwamlice</reg>
+                  </choice> <w>ge
+               <lb facs="#VB_line_010v_22" xml:id="VB_lb_010v_22" n="22"/><g ref="#sins"/>eoð</w> beforan 
+                  <choice>
+                    <abbr>ur<am><g ref="#umacr"/></am></abbr>
+                    <expan>uru<ex>m</ex></expan>
+                  </choice> eagum .nu we þam
+                  <choice>
+                     <abbr>oðr<am><g ref="#umacr"/></am></abbr>
+                     <expan>oðru<ex>m</ex></expan>
+                  </choice> <choice>
+                     <orig>ne<w>ge<lb facs="#VB_line_010v_23" xml:id="VB_lb_010v_23_orig" n="23"/>l<g ref="#yrgmainstrok"/>faþ</w></orig>
+                     <reg>ne <w>ge<lb facs="#VB_line_010v_23" xml:id="VB_lb_010v_23_reg" n="23"/>lyfaþ</w></reg>
+                  </choice> ure þa neah<g ref="#slong"/>tan. <g ref="#slong"/>wel<damage type="fuzzy">taþ</damage>
+                  <choice>
+                     <orig><damage><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>þ<am><g ref="#omacr"/></am>n</abbr></damage></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>þon<ex>ne</ex></expan></reg>
+                  </choice>
+                  <choice>
+                     <orig>þa<w><damage type="fuzzy">lic</damage><lb facs="#VB_line_010v_24" xml:id="VB_lb_010v_24_orig" n="24"/>homan</w></orig>
+                     <reg>þa <w><damage type="fuzzy">lic</damage><lb facs="#VB_line_010v_24" xml:id="VB_lb_010v_24_reg" n="24"/>homan</w></reg>
+                  </choice> bið <choice>
+                     <orig>lað lic</orig>
+                     <reg>laðlic</reg>
+                  </choice> leger geg<g ref="#yrgmainstrok"/>rwed <choice>
+                     <orig><hi rend="cap 1.0">I</hi>nþærecealdan</orig>
+                     <reg>In þære cealdan</reg>
+                  </choice>
+
+               <pb n="11r" xml:id="VB_fol_011r"/>
+
+               <add>
+                  <fw place="top-right" type="fol">11</fw>
+               </add>
+
+               <lb facs="#VB_line_011r_01" xml:id="VB_lb_011r_01" n="1"/>c<damage type="faded">ea</damage>ldan foldan <choice>
+                    <orig>ge bro<g ref="#slong"/>nodon</orig>
+                    <reg>gebrosnodon</reg><!-- DOE gebrosnod CHECK Scragg -->
+                  </choice> . <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr><am><g ref="#thornbarslash"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>þ<ex>æt</ex></expan></reg>
+                  </choice> læne lic <choice>
+                     <orig>þærge rotaþ</orig>
+                     <reg>þær gerotaþ</reg>
+                  </choice> <choice>
+                     <orig>to<w>ful<lb facs="#VB_line_011r_02" xml:id="VB_lb_011r_02_orig" n="2"/>ne<g ref="#sins"/><g ref="#sins"/>e</w></orig>
+                     <reg>to <w>ful<lb facs="#VB_line_011r_02" xml:id="VB_lb_011r_02_reg" n="2"/>nesse</w></reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þam</orig>
+                     <reg><expan><ex>and</ex></expan> þam</reg>
+                  </choice> wæl<g ref="#sins"/>litendan
+                  <choice>
+                     <abbr>w<g ref="#yrgmainstrok"/>rm<am><g ref="#umacr"/></am></abbr>
+                     <expan>wyrmu<ex>m</ex></expan>
+                  </choice> to <g ref="aeligacute"/>te . <hi rend="cap 1.0">H</hi><!-- ??? -->wæt þæt
+                  <choice>
+                     <abbr>þo<am><g ref="nmacrmed"/></am>e</abbr><!-- correct <g/> ??? -->
+                     <expan>þon<ex>n</ex>e</expan>
+                  </choice>
+               <lb facs="#VB_line_011r_03" xml:id="VB_lb_011r_03" n="3"/><choice>
+                    <orig>labið</orig>
+                    <reg>la bið</reg>
+                  </choice> <g ref="#sins"/>arlic
+                  <g ref="#sins"/><g ref="#aacute"/>r.<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>earm lic</orig>
+                     <reg><expan><ex>and</ex></expan> earmlic</reg>
+                  </choice>
+                  <choice>
+                     <orig>ge dal</orig>
+                     <reg>gedal</reg>
+                  </choice> þæ<g ref="#sins"/> lichoman
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þære</orig>
+                     <reg><expan><ex>and</ex></expan> þære</reg>
+                  </choice> <g ref="#sins"/>awle.
+               <lb facs="#VB_line_011r_04" xml:id="VB_lb_011r_04" n="4"/><choice>
+                    <orig>gif<abbr>þ<am><g ref="#omacr"/></am>n</abbr></orig>
+                    <reg>gif <expan>þon<ex>ne</ex></expan></reg>
+                  </choice>
+                  <g ref="#sins"/>e earma innera man <choice>
+                     <abbr><am><g ref="#thornbarslash"/></am></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice>
+                  <choice>
+                     <orig>i<g ref="#sins"/><g ref="#sins"/>eo</orig>
+                     <reg>is seo</reg>
+                  </choice> werige <g ref="#sins"/>awl þe <choice>
+                     <orig>h<g ref="#eenl"/>r<w>for<lb facs="#VB_line_011r_05" xml:id="VB_lb_011r_05_orig" n="5"/>w<g ref="#yrgmainstrok"/>rht</w></orig>
+                     <reg>her <w>for<lb facs="#VB_line_011r_05" xml:id="VB_lb_011r_05_reg" n="5"/>wyrht</w></reg>
+                  </choice> bið .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>agimelea<g ref="#sins"/>edu</orig>
+                     <reg><expan><ex>and</ex></expan> agimelea<g ref="#sins"/>edu</reg>
+                  </choice> <name type="religion"><choice>
+                     <orig>gode<g ref="#sins"/></orig>
+                     <reg>Godes</reg>
+                  </choice></name> <choice>
+                     <orig>be boda</orig>
+                     <reg>beboda</reg>
+                  </choice> þæt hio 
+                  <choice>
+                    <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                    <expan>þon<ex>ne</ex></expan>
+                  </choice> æfter
+               <lb facs="#VB_line_011r_06" xml:id="VB_lb_011r_06" n="6"/>þan
+                  <choice>
+                     <orig>ge dale</orig>
+                     <reg>gedale</reg>
+                  </choice> a <g ref="#slong"/>lidan  <g ref="#slong"/>cile <choice>
+                     <orig><g ref="#inodotenl"/>nþa</orig>
+                     <reg>in þa</reg>
+                  </choice> ecean helle witu
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þær</orig>
+                     <reg><expan><ex>and</ex></expan> þær</reg>
+                  </choice> þonne
+               <lb facs="#VB_line_011r_07" xml:id="VB_lb_011r_07" n="7"/><choice>
+                     <orig>middioflum</orig>
+                     <reg>mid dioflum</reg>
+                  </choice>
+                  drohtigan .<choice>
+                     <orig><hi rend="cap 1.0">I</hi>nmorþre</orig><!-- ??? in che modo è diversa dalla inodotenl seguente? -->
+                     <reg>In morþre</reg>
+                  </choice> <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
+                     <reg><expan><ex>and</ex></expan> on</reg>
+                  </choice> mane
+                 <choice>
+                    <orig><g ref="#inodotenl"/>n<g ref="#sins"/>u<g ref="#sins"/>le</orig>
+                    <reg>in susle</reg>
+                 </choice>.<choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><expan><ex>and</ex></expan>on</orig>
+                    <reg><expan><ex>and</ex></expan> on</reg>
+                 </choice>
+               <lb facs="#VB_line_011r_08" xml:id="VB_lb_011r_08" n="8"/><g ref="#sins"/>are on wean <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
+                     <reg><expan><ex>and</ex></expan> on</reg>
+                  </choice> wurmum <choice>
+                     <orig>be tweox</orig>
+                     <reg>betweox</reg>
+                  </choice> deadum
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>diofl<am><g ref="#umacr"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>dioflu<ex>m</ex></expan></reg>
+                  </choice>
+                  <choice>
+                     <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                     <expan><ex>and</ex></expan>
+                  </choice>
+               <lb facs="#VB_line_011r_09" xml:id="VB_lb_011r_09" n="9"/>bryne.<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
+                     <reg><expan><ex>and</ex></expan> on</reg>
+                  </choice>
+                  biterne<g ref="#sins"/><g ref="#sins"/>e
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>onfulne<g ref="#sins"/><g ref="#sins"/>e</orig>
+                     <reg><expan><ex>and</ex></expan> on fulnesse</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
+                     <reg><expan><ex>and</ex></expan> on</reg>
+                  </choice> eallum þam
+                  <choice>
+                      <abbr>wit<am><g ref="#umacr"/></am></abbr>
+                      <expan>witu<ex>m</ex></expan>
+                  </choice>
+               <lb facs="#VB_line_011r_10" xml:id="VB_lb_011r_10" n="10"/>þ<g ref="#emacr"/><!-- ??? --> dioflu gearwedon 
+                  <choice>
+                     <abbr>fr<am><g ref="#amacr"/></am></abbr>
+                     <expan>fra<ex>m</ex></expan>
+                  </choice> þære fr<g ref="#yrgmainstrok"/>mþe þe hie to <w>ge
+               <lb facs="#VB_line_011r_11" xml:id="VB_lb_011r_11" n="11"/><g ref="#sins"/>ceawene</w> wæron .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
+                     <reg><expan><ex>and</ex></expan> hie</reg>
+                  </choice>
+                  <g ref="#sins"/><g ref="#yrgmainstrok"/>lfe <choice>
+                     <orig>ge earnedon</orig>
+                     <reg>geearnedon</reg>
+                  </choice> ;<!-- ??? --><choice>
+                     <orig><hi rend="cap 1.0">A</hi>cutanwe</orig>
+                     <reg>Ac utan we</reg>
+                  </choice>
+               <lb facs="#VB_line_011r_12" xml:id="VB_lb_011r_12" n="12"/>beon gemyndige u<g ref="#sins"/><g ref="#sins"/>a<!-- ligature??? --> <g ref="#sins"/>awla þearfe
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>w<g ref="#yrgmainstrokdot"/>rcen</orig>
+                     <reg><expan><ex>and</ex></expan> wyrcen</reg>
+                  </choice> we g<g ref="#oacute"/>d
+                  <choice>
+                     <orig>on<abbr>þ<am><g ref="#amacr"/></am></abbr></orig>
+                     <reg>on <expan>þa<ex>m</ex></expan></reg>
+                  </choice>
+               <lb facs="#VB_line_011r_13" xml:id="VB_lb_011r_13" n="13"/>dæge þe <choice>
+                     <orig>weðurhteon</orig>
+                     <reg>we ðurhteon</reg>
+                  </choice> mægen
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>forlætan</orig>
+                     <reg><expan><ex>and</ex></expan> forlætan</reg>
+                  </choice> we morþor
+                  <choice>
+                      <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                      <expan><ex>and</ex></expan>
+                  </choice>
+               <lb facs="#VB_line_011r_14" xml:id="VB_lb_011r_14" n="14"/>m<g ref="#aacute"/>n .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ofer h<g ref="#ydot"/>d<g ref="#ydot"/>g</orig>
+                     <reg><expan><ex>and</ex></expan> oferh<g ref="#ydot"/>d<g ref="#ydot"/>g</reg>
+                  </choice>
+                  .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>æfe<g ref="#sins"/>te</orig>
+                     <reg><expan><ex>and</ex></expan> æfeste</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>idel</orig>
+                     <reg><expan><ex>and</ex></expan> idel</reg>
+                  </choice> gilp
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>un riht wi<g ref="#sins"/>ne<g ref="#sins"/><g ref="#sins"/>a</orig>
+                     <reg><expan><ex>and</ex></expan> unrihtwisnessa</reg><!-- ligature??? -->
+                  </choice>.
+               <lb facs="#VB_line_011r_15" xml:id="VB_lb_011r_15" n="15"/><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>un riht hæmeda<g ref="#sins"/></orig>
+                     <reg><expan><ex>and</ex></expan> unrihthæmedas</reg>
+                  </choice> .<choice>
+                     <orig>ær æta<g ref="#sins"/></orig>
+                     <reg>ærætas</reg>
+                  </choice> .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ealo galne<g ref="#sins"/><g ref="#sins"/>e</orig>
+                     <reg><expan><ex>and</ex></expan> ealogalnesse</reg>
+                  </choice>
+                  d<g ref="#windy"/><g ref="#sins"/>ine<g ref="#sins"/><g ref="#sins"/>a.<choice><!-- choice complesso CHECK -->
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w><abbr><am><g ref="#ginsmacr"/></am></abbr>
+                        <lb facs="#VB_line_011r_16" xml:id="VB_lb_011r_16_orig" n="16"/>dwoll cræfta<g ref="#sins"/></w></orig>
+                     <reg><expan><ex>and</ex></expan> <w><expan>g<ex>e</ex></expan>
+                        <lb facs="#VB_line_011r_16" xml:id="VB_lb_011r_16_reg" n="16"/>dwollcræftas</w></reg>
+                  </choice> git<g ref="#sins"/>unga
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>giferne<g ref="#sins"/><g ref="#sins"/>a</orig>
+                     <reg><expan><ex>and</ex></expan> gifernessa</reg>
+                  </choice>
+                  lea<g ref="#sins"/>unga.<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>licet<lb facs="#VB_line_011r_17" xml:id="VB_lb_011r_17_orig" n="17"/>tunga</w></orig>
+                     <reg><expan><ex>and</ex></expan> <w>licet<lb facs="#VB_line_011r_17" xml:id="VB_lb_011r_17_reg" n="17"/>tunga</w></reg>
+                  </choice> .tælne<g ref="#sins"/><g ref="#sins"/>a
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>tw<g ref="#yrgmainstrok"/><g ref="#slong"/>præcne<g ref="#sins"/><g ref="#sins"/>a</orig>
+                     <reg><expan><ex>and</ex></expan> twyspræcnessa</reg>
+                  </choice> . niða<g ref="#sins"/>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>nearoþanca<g ref="#sins"/></orig>
+                     <reg><expan><ex>and</ex></expan> nearoþancas</reg>
+                  </choice>.
+               <lb facs="#VB_line_011r_18" xml:id="VB_lb_011r_18" n="18"/><choice>
+                    <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heamol <g ref="#slong"/>cipa<g ref="#sins"/></orig>
+                    <reg><expan><ex>and</ex></expan> heamolscipas</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eallra</orig>
+                     <reg><expan><ex>and</ex></expan> eallra</reg>
+                  </choice> þara þeawa<!-- emendare in þeawas??? CHECK Scragg  --> þe dioflu <choice>
+                     <orig>onhim</orig>
+                     <reg>on him</reg>
+                  </choice>
+               <lb facs="#VB_line_011r_19" xml:id="VB_lb_011r_19" n="19"/><g ref="#sins"/><g ref="#yrgmainstrok"/>lfum on <g ref="#slong"/>tealdon .<hi
+                  rend="cap 1.0">A</hi>c lufigen we urne dr<g ref="#windy"/>hten mid
+               <lb facs="#VB_line_011r_20" xml:id="VB_lb_011r_20"  n="20"/>ealle mode
+                  .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mæg<g ref="#eenl"/>ne</orig>
+                     <reg><expan><ex>and</ex></expan> mæg<g ref="#eenl"/>ne</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+                     <reg><expan><ex>and</ex></expan> mid</reg>
+                  </choice> eallre
+                  u<g ref="#sins"/><g ref="#sins"/>e heortan 
+                  <choice>
+                     <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                     <expan><ex>and</ex></expan>
+                  </choice>
+               <lb facs="#VB_line_011r_21" xml:id="VB_lb_011r_21" n="21"/>hygdo . <hi rend="cap1.0">M</hi><!-- ??? -->id ealre
+                  <g ref="#sins"/>oðfæ<g ref="#sins"/>tne<g ref="#sins"/><g ref="#sins"/>e
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>nyttro</orig>
+                     <reg><expan><ex>and</ex></expan> snyttro</reg>
+                  </choice> lufigen we
+               <lb facs="#VB_line_011r_22" xml:id="VB_lb_011r_22" n="22"/>u<g ref="#sins"/><g ref="#sins"/>e þa neh<g ref="#slong"/>tan
+                  <g ref="#slong"/>wa <g ref="#slong"/>wa u<g ref="#sins"/> <g ref="#sins"/>ylfe
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>inwe</orig>
+                     <reg><expan><ex>and</ex></expan> sin we</reg>
+                  </choice> mildheorte
+               <lb facs="#VB_line_011r_23" xml:id="VB_lb_011r_23" n="23"/>
+                  <choice>
+                      <abbr>earm<am><g ref="#umacr"/></am></abbr>
+                      <expan>earmu<ex>m</ex></expan>
+                  </choice> 
+                  <choice>
+                     <abbr>mann<am><g ref="#umacr"/></am></abbr>
+                     <expan>mannu<ex>m</ex></expan>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>elþeodeg<am><g ref="#umacr"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>elþeodegu<ex>m</ex></expan></reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>untrum<am><g ref="#umacr"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>untrumu<ex>m</ex></expan></reg>
+                  </choice>
+                  <choice>
+                     <abbr><g ref="#thornbarslash"/></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice> u<g ref="#sins"/> ure
+                  <choice><!-- check -->
+                    <abbr>dr<g ref="#windy"/><am><g ref="#hstrok"/></am>t</abbr>
+                    <expan>dryht<ex>en</ex></expan>
+                  </choice>
+               <lb facs="#VB_line_011r_24" xml:id="VB_lb_011r_24" n="24"/>þurh 
+                  <choice>
+                     <abbr><g ref="#thornbarslash"/></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice>milde weorþe .<hi rend="cap1.0">O</hi>nd þeah ure hw<g ref="#yrgmainstrok"/>lc wið oðerne
+
+               <pb n="11v" xml:id="VB_fol_011v"/>
+
+               <lb facs="#VB_line_011v_01" xml:id="VB_lb_011v_01" n="1"/><choice>
+                    <orig>ge g<g ref="#yrgmainstrok"/>lte</orig>
+                    <reg>gegylte</reg>
+                  </choice><choice>
+                     <orig>onworde</orig>
+                     <reg>on worde</reg>
+                  </choice> oððe <choice>
+                     <orig>onworce</orig>
+                     <reg>on worce</reg>
+                  </choice> forbere he
+                  <choice>
+                     <abbr>h<am><g ref="#imacr"/></am></abbr>
+                     <expan>hi<ex>m</ex></expan>
+                  </choice> þæt <w>liðe
+               <lb facs="#VB_line_011v_02" xml:id="VB_lb_011v_02" n="2"/>lice</w> þe læ<g ref="#sins"/>
+                  him <name type="religion"><choice>
+                     <orig>god</orig>
+                     <reg>God</reg>
+                  </choice></name>
+                  <choice>
+                     <abbr><g ref="#thornbarslash"/></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice> <g ref="#ydot"/>rre witnige  <g ref="#slong"/>wa
+                  <g ref="#sins"/><g ref="#yrgmainstrok"/>lfa cwæð. <!-- q or quote ??? --><q xml:lang="lat"><w><hi rend="cap1.0">D</hi>i
+               <lb facs="#VB_line_011v_03" xml:id="VB_lb_011v_03" n="3"/>mitte</w>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>dimitetur</orig>
+                     <reg><expan>et</expan> dimitetur</reg>
+                  </choice>
+                  <choice>
+                     <abbr>uo<g ref="#bovlmed"/></abbr>
+                     <expan>uob<ex>is</ex></expan>
+                  </choice></q> .<choice>
+                     <orig>ge þrowigen</orig>
+                     <reg>geþrowigen</reg>
+                  </choice> we for ure<g ref="#sins"/>
+               <w>dr<g ref="#windy"/>ht
+               <lb facs="#VB_line_011v_04" xml:id="VB_lb_011v_04" n="4"/>ne<g ref="#sins"/></w> lufan eall
+                  <choice>
+                      <abbr><g ref="#thornbarslash"/></abbr>
+                      <expan>þ<ex>æt</ex></expan>
+                  </choice> u<g ref="#sins"/> man to
+                  <choice>
+                      <abbr>earfeðne<g ref="#sins"/><g ref="#sins"/><am><g ref="#umacr"/></am></abbr>
+                      <expan>earfeðnessu<ex>m</ex></expan>
+                  </choice> ged<g ref="#oacute"/><g ref="#oacute"/>. her
+               <lb facs="#VB_line_011v_05" xml:id="VB_lb_011v_05" n="5"/><choice>
+                    <orig>onworulde</orig>
+                    <reg>on worulde</reg>
+                  </choice> . <hi rend="maiu 1.0">H</hi><!-- ??? -->wæt we <choice>
+                    <orig>be hofigað</orig>
+                    <reg>behofigað</reg>
+                  </choice>
+                  <choice>
+                    <abbr><g ref="#thornbarslash"/></abbr>
+                    <expan>þ<ex>æt</ex></expan>
+                  </choice> we <choice>
+                     <orig>ge munen</orig>
+                     <reg>gemunen</reg>
+                  </choice> <choice>
+                     <orig>hu<w>m<g ref="#yrgmainstrok"/><lb facs="#VB_line_011v_06" xml:id="VB_lb_011v_06_orig" n="6"/>cel</w></orig>
+                     <reg>hu <w>m<g ref="#yrgmainstrok"/><lb facs="#VB_line_011v_06" xml:id="VB_lb_011v_06_reg" n="6"/>cel</w></reg>
+                  </choice> <choice>
+                     <orig>hefor</orig>
+                     <reg>he for</reg>
+                  </choice> <choice>
+                     <orig>u<g ref="#sins"/>ge þrowode</orig>
+                     <reg>us geþrowode</reg>
+                  </choice> æfter þan þe he
+                  <choice>
+                     <abbr>menni<g ref="#sins"/>c<am><g ref="#umacr"/></am></abbr>
+                     <expan>menniscu<ex>m</ex></expan>
+                  </choice>
+               <lb facs="#VB_line_011v_07" xml:id="VB_lb_011v_07" n="7"/>lichoman onfeng <choice>
+                     <orig>man c<g ref="#windy"/>nne</orig>
+                     <reg>mancynne</reg>
+                  </choice> to ecre hælo
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>u<g ref="#sins"/>þurh</orig>
+                     <reg><expan><ex>and</ex></expan> us þurh</reg>
+                  </choice>
+               <lb facs="#VB_line_011v_08" xml:id="VB_lb_011v_08" n="8"/>þæt <choice>
+                    <orig>ge nerede</orig>
+                    <reg>generede</reg>
+                  </choice> of deofle<g ref="#sins"/> <choice>
+                     <orig>þeow dome</orig>
+                     <reg>þeowdome</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>u<g ref="#sins"/></orig>
+                     <reg><expan><ex>and</ex></expan> us</reg>
+                  </choice>
+                  edhw<g ref="#yrgmainstrok"/>rft <w>for
+               <lb facs="#VB_line_011v_09" xml:id="VB_lb_011v_09" n="9"/>geaf</w> to
+                  <choice>
+                     <abbr>þ<am><g ref="#amacr"/></am></abbr>
+                     <expan>þa<ex>m</ex></expan>
+                  </choice> ecean life <choice>
+                     <orig>þewe</orig>
+                     <reg>þe we</reg>
+                  </choice> ær forworthon.<choice>
+                     <orig>gifwe</orig>
+                     <reg>gif we</reg>
+                  </choice> hit
+               <lb facs="#VB_line_011v_10" xml:id="VB_lb_011v_10" n="10"/><choice>
+                  <orig>ge earnian</orig>
+                  <reg>geearnian</reg>
+               </choice> willaþ . <g ref="#slong"/>wa <g ref="#sins"/>e witiga cwæð.
+                  dr<g ref="#yrgmainstrok"/>hten <choice>
+                  <orig>þa<w>ge<lb facs="#VB_line_011v_11" xml:id="VB_lb_011v_11_orig" n="11"/>hæleð</w></orig>
+                     <reg>þa <w>ge<lb facs="#VB_line_011v_11" xml:id="VB_lb_011v_11_reg" n="11"/>hæleð</w></reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hafaþ</orig>
+                     <reg><expan><ex>and</ex></expan> hafaþ</reg>
+                  </choice> <choice>
+                     <orig>onheofona</orig>
+                     <reg>on heofona</reg>
+                  </choice> rice .<choice>
+                     <orig>þaþe</orig>
+                     <reg>þa þe</reg>
+                  </choice> her on worulde<!-- ??? -->
+               <lb facs="#VB_line_011v_12" xml:id="VB_lb_011v_12" n="12"/>beoð<space/><!-- CHECK 1. extent 2. rasure? --><choice>
+                      <orig>eað mode</orig>
+                      <reg>eaðmode</reg>
+                  </choice> <name type="religion"><choice>
+                     <orig>gode</orig>
+                     <reg>Gode</reg>
+                  </choice></name>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>mann<am><g ref="#umacr"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>mannu<ex>m</ex></expan></reg>
+                  </choice> .<hi rend="cap1.0">H</hi><!-- ??? -->wæt <choice>
+                     <orig>wege h<g ref="#yrgmainstrok"/>rað</orig>
+                     <reg>we geh<g ref="#yrgmainstrok"/>rað</reg>
+                  </choice>
+               <lb facs="#VB_line_011v_13" xml:id="VB_lb_011v_13" n="13"/>þæt þa beoð
+                  for <name type="religion"><choice>
+                     <orig>gode</orig>
+                     <reg>Gode</reg>
+                  </choice></name> eadige <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>welige</orig>
+                     <reg><expan><ex>and</ex></expan> welige</reg>
+                  </choice> þa þe <choice>
+                     <orig>onworulde</orig>
+                     <reg>on worulde</reg>
+                  </choice>
+               <lb facs="#VB_line_011v_14" xml:id="VB_lb_011v_14" n="14"/>bioð <choice>
+                    <orig>eað mode</orig>
+                    <reg>eaðmode</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>manþwære</orig>
+                     <reg><expan><ex>and</ex></expan> manþwære</reg>
+                  </choice> <hi rend="maiu 1.0">H</hi>wæt
+                  we <choice>
+                     <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                     <expan>þon<ex>ne</ex></expan>
+                  </choice> magon be
+               <lb facs="#VB_line_011v_15" xml:id="VB_lb_011v_15" n="15"/>þam witan
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ongitan</orig>
+                     <reg><expan><ex>and</ex></expan> ongitan</reg>
+                  </choice> þæt þa beoð for <name
+                  type="religion"><choice>
+                     <orig>gode</orig>
+                     <reg>Gode</reg>
+                  </choice></name> earme <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>un<lb facs="#VB_line_011v_16" xml:id="VB_lb_011v_16_orig" n="16"/>læde</w></orig>
+                     <reg><expan><ex>and</ex></expan> <w>un<lb facs="#VB_line_011v_16" xml:id="VB_lb_011v_16_reg" n="16"/>læde</w></reg>
+                  </choice> <choice>
+                     <orig>þaþe</orig>
+                     <reg>þa þe</reg>
+                  </choice> her <choice>
+                     <orig>onworulde</orig>
+                     <reg>on worulde</reg>
+                  </choice> bioð ofer
+                  <choice>
+                    <abbr>h<g ref="#ydot"/>di<g ref="#ginsmacr"/></abbr>
+                    <expan>hydig<ex>e</ex></expan>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>æfe<g ref="#sins"/>tige</orig>
+                     <reg><expan><ex>and</ex></expan> æfestige</reg>
+                  </choice>.
+               <lb facs="#VB_line_011v_17" xml:id="VB_lb_011v_17" n="17"/>eallra <g ref="#sins"/><g ref="#yrgmainstrokdot"/>nna <g ref="#sins"/>io
+                  <choice>
+                    <orig>i<g ref="#sins"/><name type="religion">gode</name></orig>
+                    <reg>i<g ref="#sins"/> <name type="religion">Gode</name></reg>
+                  </choice>
+                   laþo<g ref="#sins"/>t
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ungecwemo<g ref="#slong"/>t</orig>
+                     <reg><expan><ex>and</ex></expan> ungecwemo<g ref="#slong"/>t</reg>
+                  </choice> for
+               <lb facs="#VB_line_011v_18" xml:id="VB_lb_011v_18" n="18"/>þan <choice>
+                    <orig>þeman c<g ref="#windy"/>nn</orig>
+                    <reg>þe manc<g ref="#windy"/>nn</reg>
+                  </choice> ærest þurh þa æfe<g ref="#sins"/>te wæron <choice>
+                     <orig>onhelle</orig>
+                     <reg>on helle</reg>
+                  </choice>
+               <lb facs="#VB_line_011v_19" xml:id="VB_lb_011v_19" n="19"/>be<g ref="#sins"/>encte <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eft</orig>
+                     <reg><expan><ex>and</ex></expan> eft</reg>
+                  </choice>
+                  þurh <choice>
+                     <orig>mild heortne<g ref="#sins"/><g ref="#sins"/>e</orig>
+                     <reg>mildheortne<g ref="#sins"/><g ref="#sins"/>e</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eað mod ne<g ref="#sins"/><g ref="#sins"/>e</orig>
+                     <reg><expan><ex>and</ex></expan> eaðmodne<g ref="#sins"/><g ref="#sins"/>e</reg>
+                  </choice>
+               <lb facs="#VB_line_011v_20" xml:id="VB_lb_011v_20" n="20"/>hie wæron þanon al<g ref="#yrgmainstrok"/><g ref="#sins"/>de <choice>
+                     <orig>ofdiofle<g ref="#sins"/></orig>
+                     <reg>of diofle<g ref="#sins"/></reg>
+                  </choice>
+                  ðeowdome. <hi rend="cap 1.0">L</hi>a hwæt<!-- ??? -->
+               <lb facs="#VB_line_011v_21" xml:id="VB_lb_011v_21" n="21"/>we <choice>
+                     <orig>be hofigaþ</orig>
+                     <reg>behofigaþ</reg>
+                  </choice>
+                  <choice>
+                     <abbr><g ref="#thornbarslash"/></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice> we u<g ref="#sins"/><g ref="#sins"/>e earan ontyn<g ref="#eenl"/>n <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>u<g ref="#sins"/><g ref="#sins"/>e</orig>
+                     <reg><expan><ex>and</ex></expan> usse</reg>
+                  </choice>
+                  <w>heor
+               <lb facs="#VB_line_011v_22" xml:id="VB_lb_011v_22" n="22"/>tan</w> to þam god<g ref="#sins"/>pellican
+                  <choice>
+                     <abbr>lar<am><g ref="#umacr"/></am></abbr>
+                     <expan>laru<ex>m</ex></expan>
+                  </choice> þe u<g ref="#sins"/> man oft <w>be
+               <lb facs="#VB_line_011v_23" xml:id="VB_lb_011v_23" n="23"/>foran</w> <g ref="#sins"/>ægð
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>u<g ref="#sins"/><g ref="#sins"/>e</orig>
+                     <reg><expan><ex>and</ex></expan> usse</reg>
+                  </choice> lareowa<g ref="#sins"/> beodaþ
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>ecgaþ</orig>
+                     <reg><expan><ex>and</ex></expan> <g ref="#sins"/>ecgaþ</reg>
+                  </choice>. hwæt we
+               <lb facs="#VB_line_011v_24" xml:id="VB_lb_011v_24" n="24"/>nu on 
+                  <choice>
+                     <abbr>idl<am><g ref="#umacr"/></am></abbr>
+                     <expan>idlu<ex>m</ex></expan>
+                  </choice> gilpe u<g ref="#sins"/> mid golde
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+                     <reg><expan><ex>and</ex></expan> mid</reg>
+                  </choice>
+                  <choice>
+                     <abbr>gimm<am><g ref="#umacr"/></am></abbr>
+                     <expan>gimmu<ex>m</ex></expan>
+                  </choice> gearwiaþ
+               <lb facs="#VB_line_011v_25" xml:id="VB_lb_011v_25" n="25"/><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>bli<g ref="#sins"/><g ref="#sins"/>iaþ</orig>
+                     <reg><expan><ex>and</ex></expan> blissiaþ</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>glæd mode</orig>
+                     <reg><expan><ex>and</ex></expan> glædmode</reg>
+                  </choice> beoð <g ref="#slong"/>wa we wen<g ref="#eenl"/>n þæt we næfre <!-- ??? -->
+               
+               <pb n="12r" xml:id="VB_fol_012r"/>
+
+               <add>
+                  <fw place="top-right" type="fol">12</fw>
+               </add>
+
+              <lb facs="#VB_line_012r_1" xml:id="VB_lb_012r_1" n="1"/>hit forlætan <g ref="#sins"/>cylen .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>to</orig>
+                     <reg><expan><ex>and</ex></expan> to</reg>
+                  </choice> <g ref="#sins"/>eldan m<g ref="#yrgmainstrok"/>cle<g ref="#sins"/> urne drihten
+              <lb facs="#VB_line_012r_2" xml:id="VB_lb_012r_2" n="2"/><choice>
+                     <orig>ge munan</orig>
+                     <reg>gemunan</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ure</orig>
+                     <reg><expan><ex>and</ex></expan> ure</reg>
+                  </choice>  <g ref="#slong"/>awle þearfe .<choice>
+                     <orig>þaþe</orig>
+                     <reg>þa þe</reg>
+                  </choice> <g ref="#sins"/>culon bion on
+              <lb facs="#VB_line_012r_3" xml:id="VB_lb_012r_3" n="3"/>ecne<g ref="#sins"/><g ref="#sins"/>e æfter
+                  <choice>
+                    <abbr>þ<g ref="#yrgmainstrok"/><g ref="#sins"/><g ref="#sins"/><am><g ref="#umacr"/></am></abbr>
+                    <expan>þyssu<ex>m</ex></expan>
+                  </choice> life mid <g ref="#slong"/>awle <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>midlichoman></orig>
+                     <reg><expan><ex>and</ex></expan> mid lichoman></reg>
+                  </choice> <g ref="#inodotenl"/>n
+              <lb facs="#VB_line_012r_4" xml:id="VB_lb_012r_4" n="4"/><g ref="#slong"/>wa hwæðrum  <g ref="#slong"/>wa we h<g ref="#eenl"/>r <choice>
+                    <orig>nuge earniaþ</orig>
+                    <reg>nu geearniaþ</reg>
+                  </choice>.hæbben we
+              <lb facs="#VB_line_012r_5" xml:id="VB_lb_012r_5" n="5"/>gode hreowe ura <g ref="#sins"/><g ref="#windy"/>nna þeah þæt <choice>
+                     <orig>ge limpe</orig>
+                     <reg>gelimpe</reg>
+                  </choice>
+                  <choice>
+                     <abbr><g ref="#thornbarslash"/></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice> ure
+              <lb facs="#VB_line_012r_6" xml:id="VB_lb_012r_6" n="6"/>hw<g ref="#yrgmainstrok"/>lc
+                  wið oðerne ge<g ref="#sins"/><g ref="#windy"/>nnige <choice>
+                     <orig>onworde</orig>
+                     <reg>on worde</reg>
+                  </choice> oððe <choice>
+                     <orig>onworce</orig>
+                     <reg>on worce</reg>
+                  </choice>
+              <lb facs="#VB_line_012r_7" xml:id="VB_lb_012r_7" n="7"/>þæ<g ref="#sins"/> 
+                  <choice>
+                     <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                     <expan>þon<ex>ne</ex></expan>
+                  </choice> bot bið bet<g ref="#slong"/>t.<choice>
+                     <orig>forþan</orig>
+                     <reg>for þan</reg>
+                  </choice> <choice>
+                     <orig>nebið</orig>
+                     <reg>ne bið</reg>
+                  </choice> næfre <choice>
+                     <orig><g ref="#sins"/>eman</orig>
+                     <reg>se man</reg>
+                  </choice>
+              <lb facs="#VB_line_012r_8" xml:id="VB_lb_012r_8" n="8"/>to þan <g ref="#slong"/>wiðe <g ref="#sins"/><g ref="#yrgmainstrok"/>nful
+                  <choice>
+                     <abbr><g ref="#thornbarslash"/></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice> him <g ref="#sins"/><g ref="#yrgmainstrokdot"/>mle ne <g ref="#sins"/>ie  <g ref="#slong"/>ie bot <w>al<g ref="#ydot"/>
+              <lb facs="#VB_line_012r_9" xml:id="VB_lb_012r_9" n="9"/>fedu</w> . <hi rend="cap 1.0">U</hi>tan we nu <choice>
+                     <orig>forþan</orig>
+                     <reg>for þan</reg>
+                  </choice> efstan to <name type="religion"><choice>
+                     <orig>gode</orig>
+                     <reg>Gode</reg>
+                  </choice></name> <choice>
+                     <orig>ærþan</orig>
+                     <reg>ær þan</reg>
+                  </choice> u<g ref="#sins"/>
+              <lb facs="#VB_line_012r_10" xml:id="VB_lb_012r_10" n="10"/><g ref="#sins"/>e deað gegripe <choice>
+                     <orig>forþan</orig>
+                     <reg>for þan</reg>
+                  </choice> he u<g ref="#sins"/> <g ref="#slong"/>wiðe to nealæceð
+              <lb facs="#VB_line_012r_11" xml:id="VB_lb_012r_11" n="11"/><choice>
+                 <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>ien</orig>
+                 <reg><expan><ex>and</ex></expan> <g ref="#sins"/>ien</reg>
+              </choice> we
+                   <g ref="#slong"/>notre
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>oð fæste</orig>
+                     <reg><expan><ex>and</ex></expan> <g ref="#sins"/>oðfæste</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mild heorte</orig>
+                     <reg><expan><ex>and</ex></expan> mildheorte</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>rummode</orig>
+                     <reg><expan><ex>and</ex></expan> rummode</reg>
+                  </choice>
+              <lb facs="#VB_line_012r_12" xml:id="VB_lb_012r_12" n="12"/><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>riht wi<g ref="#sins"/>e</orig>
+                     <reg><expan><ex>and</ex></expan> rihtwi<g ref="#sins"/>e</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ælme<g ref="#sins"/> georne</orig>
+                     <reg><expan><ex>and</ex></expan> ælme<g ref="#sins"/>georne</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>clæn heorte</orig>
+                     <reg><expan><ex>and</ex></expan> clænheorte</reg>
+                  </choice> .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>frem<g ref="#sins"/>ume</orig>
+                     <reg><expan><ex>and</ex></expan> frem<g ref="#sins"/>ume</reg>
+                  </choice>
+              <lb facs="#VB_line_012r_13" xml:id="VB_lb_012r_13" n="13"/><choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>godf<g ref="#yrgmainstrok"/>rhte</orig>
+                     <reg><expan><ex>and</ex></expan> godf<g ref="#yrgmainstrok"/>rhte</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>lar<g ref="#sins"/>ume</orig>
+                     <reg><expan><ex>and</ex></expan> lar<g ref="#sins"/>ume</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þeowfæste</orig>
+                     <reg><expan><ex>and</ex></expan> þeowfæste</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr><g ref="#ginsmacr"/></abbr> hyr<g ref="#sins"/>ume</orig>
+                     <reg><expan><ex>and</ex></expan> <expan>g<ex>e</ex>hyr<g ref="#sins"/>ume</expan></reg>
+                  </choice>
+              <lb facs="#VB_line_012r_14" xml:id="VB_lb_012r_14" n="14"/><name type="religion"><choice>
+                     <orig>gode</orig>
+                     <reg>Gode</reg>
+                  </choice></name>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr><am>ur<g ref="#umacr"/></am></abbr></orig>
+                     <reg><expan><ex>and</ex></expan> <expan>uru<ex>m</ex></expan></reg>
+                  </choice>
+                  <choice>
+                     <abbr>hlaford<am><g ref="#umacr"/></am></abbr>
+                     <expan>hlafordu<ex>m</ex></expan>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>geþ<g ref="#yrgmainstrok"/>ldige</orig>
+                     <reg><expan><ex>and</ex></expan> geþ<g ref="#yrgmainstrok"/>ldige</reg>
+                  </choice> <name type="religion"><choice>
+                     <orig>godes</orig>
+                     <reg>Godes</reg>
+                  </choice></name> willan .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heu<g ref="#sins"/></orig>
+                     <reg><expan><ex>and</ex></expan> he u<g ref="#sins"/></reg>
+                  </choice>
+              <lb facs="#VB_line_012r_15" xml:id="VB_lb_012r_15" n="15"/><choice>
+                     <abbr>þ<am><g ref="#omacr"/></am>n</abbr>
+                     <expan>þon<ex>ne</ex></expan>
+                  </choice> þæ<g ref="#sins"/> to leane forgifeð þæt <g ref="#eacute"/>ce
+                  <choice>
+                     <abbr><g ref="#thornbarslash"/></abbr>
+                     <expan>þ<ex>æt</ex></expan>
+                  </choice> u<g ref="#sins"/>
+                  æt <choice>
+                     <orig><abbr>fr<g ref="#yrgmainstrokmacr"/></abbr> þe</orig>
+                     <reg><expan>fry<ex>m</ex>þe</expan></reg>
+                  </choice> <choice>
+                     <orig><w>ge<lb facs="#VB_line_012r_16" xml:id="VB_lb_012r_16_orig" n="16"/>teohod</w>wæ<g ref="#sins"/></orig>
+                     <reg><w>ge<lb facs="#VB_line_012r_16" xml:id="VB_lb_012r_16_reg" n="16"/>teohod</w> wæ<g ref="#sins"/></reg>
+                  </choice> . <hi rend="cap 1.0">U</hi>tan <choice>
+                     <orig>wenu</orig>
+                     <reg>we nu</reg>
+                  </choice> ef<g ref="#slong"/>tan <choice>
+                     <orig>toþan</orig>
+                     <reg>to þan</reg>
+                  </choice> þa hwile <choice>
+                     <orig>þewe</orig>
+                     <reg>þe we</reg>
+                  </choice>
+              <lb facs="#VB_line_012r_17" xml:id="VB_lb_012r_17" n="17"/><choice>
+                     <orig>urawega</orig>
+                     <reg>ura wega</reg>
+                  </choice> wealdan moton.þær hie næfre leofe gedalaþ
+              <lb facs="#VB_line_012r_18" xml:id="VB_lb_012r_18" n="18"/><choice>
+                     <orig>nelaþe</orig>
+                     <reg>ne laþe</reg>
+                  </choice> ge<g ref="#sins"/>amniaþ ne næfre dæg ne
+                  c<g ref="#windy"/>með æfter
+              <lb facs="#VB_line_012r_19" xml:id="VB_lb_012r_19" n="19"/><choice>
+                     <abbr>dæ<g ref="#ginsmacr"/></abbr>
+                     <expan>dæg<ex>e</ex></expan>
+                  </choice> .ne niht
+                  æfter nihte .<choice>
+                     <orig><hi rend="cap1.0">A</hi>cþær</orig><!-- ??? not an A -->
+                     <reg>Ac þær</reg>
+                  </choice> bið ece leoht.
+                  <choice>
+                     <abbr type="brev"><am><g ref="#et"/></am></abbr>
+                     <expan><ex>and</ex></expan>
+                  </choice>
+              <lb facs="#VB_line_012r_20" xml:id="VB_lb_012r_20" n="20"/>bli<g ref="#sins"/> .<choice>
+                 <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ece</orig>
+                 <reg><expan><ex>and</ex></expan> ece</reg>
+              </choice>
+                  wuldor .<choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ece</orig>
+                     <reg><expan><ex>and</ex></expan> ece</reg>
+                  </choice> gefea.mid
+                  <choice>
+                     <abbr>ur<am><g ref="#umacr"/></am></abbr>
+                     <expan>uru<ex>m</ex></expan>
+                  </choice> dr<g ref="#yrgmainstrok"/>htne
+              <lb facs="#VB_line_012r_21" xml:id="VB_lb_012r_21" n="21"/><choice>
+                     <orig>middan gearde<g ref="#sins"/></orig>
+                     <reg>middangearde<g ref="#sins"/></reg>
+                  </choice> al<g ref="#yrgmainstrokdot"/> <g ref="#slong"/>ende .þæt i<g ref="#sins"/>
+                  efne <g ref="#sins"/>e ilca <name type="religion"><choice>
+                     <orig>god</orig>
+                     <reg>God</reg>
+                  </choice></name>
+              <lb facs="#VB_line_012r_22" xml:id="VB_lb_012r_22" n="22"/><choice>
+                     <orig><g ref="#sins"/>eðe</orig>
+                     <reg>se ðe</reg>
+                  </choice> leofaþ
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ric<g ref="#sins"/>aþ</orig>
+                     <reg><expan><ex>and</ex></expan> ric<g ref="#sins"/>aþ</reg>
+                  </choice> mid fæder
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid<g ref="#sins"/>una</orig>
+                     <reg><expan><ex>and</ex></expan> mid <g ref="#sins"/>una</reg>
+                  </choice>
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+                     <reg><expan><ex>and</ex></expan> mid</reg>
+                  </choice>
+              <lb facs="#VB_line_012r_23" xml:id="VB_lb_012r_23" n="23"/>þam halgan
+                  ga <g ref="#slong"/>te þam i<g ref="#sins"/> wuldor
+                  <choice>
+                     <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>w<g ref="#yrgmainstrok"/>rð mynd</orig>
+                     <reg><expan><ex>and</ex></expan> w<g ref="#yrgmainstrok"/>rðmynd</reg>
+                  </choice>
+              <lb facs="#VB_line_012r_24" xml:id="VB_lb_012r_24" n="24"/>þurh ealra <choice>
+                     <orig>woruld aworuld</orig>
+                     <reg>worulda woruld</reg>
+                  </choice> <choice>
+                     <orig>aabutan</orig>
+                     <reg>aa butan</reg>
+                  </choice> ende
+                  <choice>
+                    <abbr>a<am><g ref="#mmacrmed"/></am></abbr>
+                    <expan>am<ex>en</ex></expan>
+                  </choice><g ref="#punctelev"/><!-- CHECK --></p>
+
+         </div>
+      </body>
+
+      </text>
+   
+</TEI>
