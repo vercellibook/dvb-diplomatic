@@ -12,7 +12,7 @@
     <fileDesc>
 
       <titleStmt>
-        <title>The Vercelli Book: a diplomatic/interpretative transcription with digital facsimile</title>
+        <title>The Vercelli Book: a diplomatic/interpretative edition with digital facsimile</title>
         <title>Homily II</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
@@ -557,20 +557,24 @@
                     <abbr>gehw<g ref="#yrgmainstrok"/>lc<am><g ref="#umacr"/></am></abbr>
                     <expan>gehwylcu<ex>m</ex></expan>
                   </choice> æfter
+              
+              <lb/>
+              <lb/>
 
               <add place="bottom">
-                <fw type="end_of_quire" rend="upsidedown">V</fw><!-- CHECK attribute value: create a <g/> ??? -->
+                <fw type="end_of_quire" rend="align-center">Ʌ</fw><!-- CHECK attribute value: create a <g/> ??? -->
               </add>
               
               <!-- #######################################  folio 10r  ####################################### -->
                
               <gb n="2" xml:id="VB_gb_02"/> 
               
-               <pb n="10r" xml:id="VB_fol_010r"/>
+              <pb n="10r" xml:id="VB_fol_010r"/>
 
-               <add>
-                  <fw place="top-right" type="fol">10.</fw>
-               </add>
+              <fw place="top-right" type="fol"><add>10.</add></fw>
+              
+              <lb/>
+               
 
                <lb facs="#VB_line_010r_01" xml:id="VB_lb_010r_01" n="1"/>hi<g ref="#sins"/>
                   <g ref="#sins"/><g ref="#yrgmainstrok"/>lfes 

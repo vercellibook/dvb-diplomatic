@@ -12,7 +12,7 @@
     <fileDesc>
 
       <titleStmt>
-        <title>The Vercelli Book: a diplomatic/interpretative transcription with digital facsimile</title>
+        <title>The Vercelli Book: a diplomatic/interpretative edition with digital facsimile</title>
         <title>Homily XV</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
@@ -73,7 +73,7 @@
 
 <div type="prose">
 
-<head><lb n="8"/><foreign xml:lang="lat"><hi rend="special">A</hi><hi rend="cap2.0">LI</hi><hi rend="special">A</hi> 
+<head><lb n="8" xml:id="VB_lb_080v_08"/><foreign xml:lang="lat"><hi rend="special">A</hi><hi rend="cap2.0">LI</hi><hi rend="special">A</hi> 
 	<choice>
 		<orig><hi rend="cap2.0">O</hi><hi rend="special">ME</hi><hi rend="cap2.0">LI</hi><hi rend="special">A</hi><hi rend="cap2.0">DEDI E</hi></orig>
 		<reg><hi rend="cap2.0">O</hi><hi rend="special">ME</hi><hi rend="cap2.0">LI</hi><hi rend="special">A</hi> <hi rend="cap2.0">DE DIE</hi></reg>	
@@ -81,9 +81,9 @@
 
 <p>
 
-<lb n="9"/>
+<lb n="9" xml:id="VB_lb_080v_09"/>
 	<choice>
-		<abbr type="brevigraph"><am><g ref="#Mmacrhigh"></g></am></abbr>
+		<abbr type="brevigraph"><am><g ref="#Mmacrhigh"/></am></abbr>
 		<expan>M<ex>en þa leofestan</ex></expan>
 	</choice> <hi rend="double">s</hi>ægð us 
 	<choice>
@@ -106,12 +106,12 @@
 		<orig><abbr type="contr">aps<am><g ref="#lbar"/></am></abbr></orig>
 		<reg><expan>ap<ex>o</ex>s<ex>tol</ex></expan></reg>
 	</choice>
-<lb n="10"/><damage type="faded" agent="water">acsode</damage> urne dryhten hwænne 
+<lb n="10" xml:id="VB_lb_080v_10"/><damage type="faded" agent="water">acsode</damage> urne dryhten hwænne 
 	<name type="religion"><choice>
 		<orig><damage type="faded">ante cr</damage>iste<g ref="#sins"/></orig>
 		<reg>Antecristes</reg>
 	</choice></name> cyme wære.</p>
-<lb n="11"/><p><hi rend="double">ð</hi>a wæs dryhten s<damage type="faded" agent="water">precende</damage> 
+<lb n="11" xml:id="VB_lb_080v_11"/><p><hi rend="double">ð</hi>a wæs dryhten s<damage type="faded" agent="water">precende</damage> 
 	<choice>
 		<orig>tohim</orig>
 		<reg>to him</reg>
@@ -120,7 +120,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ðus</orig>
 		<reg><expan><ex>and</ex></expan> ðus</reg>
 	</choice> cwæð. <quote><q who="Christ"><hi rend="double"><g ref="#hrdes"/></hi>it geda<damage type="fuzzy">f</damage>enað
-<lb n="12"/>
+<lb n="12" xml:id="VB_lb_080v_12"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr></orig>
 		<reg><expan>þ<ex>æt</ex></expan></reg>
@@ -129,7 +129,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>weorda</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>weorda</reg>
 	</choice>
-<lb n="13"/>gefeoht bið. 
+<lb n="13" xml:id="VB_lb_080v_13"/>gefeoht bið. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mycel</orig>
 		<reg><expan><ex>and</ex></expan> mycel</reg>
@@ -142,7 +142,7 @@
 		<orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr>man</damage>igra</orig>
 		<reg><damage type="faded"><expan><ex>and</ex></expan> man</damage>igra</reg>
 	</choice>folca
-<lb n="14"/>
+<lb n="14" xml:id="VB_lb_080v_14"/>
 	<choice>
 		<orig>ge fehta</orig>
 		<reg>gefehta</reg>
@@ -155,7 +155,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>un riht wi<g ref="#sins"/>ne<g ref="#sins"/><g ref="#sins"/>e</orig>
 		<reg><expan><ex>and</ex></expan> unrihwi<g ref="#sins"/>ne<g ref="#sins"/><g ref="#sins"/>e</reg>
 	</choice>.
-<lb n="15"/>
+<lb n="15" xml:id="VB_lb_080v_15"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>niða<g ref="#sins"/></orig>
 		<reg><expan><ex>and</ex></expan> niða<g ref="#sins"/></reg>
@@ -172,7 +172,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
 		<reg><expan><ex>and</ex></expan> on</reg>
 	</choice> iunge cyningas.
-<lb n="16"/>
+<lb n="16" xml:id="VB_lb_080v_16"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
 		<reg><expan><ex>and</ex></expan> on</reg>
@@ -184,7 +184,7 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
 		<reg><expan><ex>and</ex></expan> on</reg>
-	</choice>	iungum <w>ealdor<lb n="17"/>mannum</w>. 
+	</choice>	iungum <w>ealdor<lb n="17" xml:id="VB_lb_080v_17"/>mannum</w>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
 		<reg><expan><ex>and</ex></expan> þurh</reg>
@@ -192,7 +192,7 @@
 	<choice>
 		<orig>un seht nesse</orig>
 		<reg>unsehtnesse</reg>
-	</choice> <w>be<lb n="18"/>tweoh</w> twam cyningum. 
+	</choice> <w>be<lb n="18" xml:id="VB_lb_080v_18"/>tweoh</w> twam cyningum. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>twam</orig>
 		<reg><expan><ex>and</ex></expan> twam</reg>
@@ -205,7 +205,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæt</orig>
 		<reg><expan><ex>and</ex></expan> þæt</reg>
 	</choice> gewyrðeð
-<lb n="19"/>
+<lb n="19" xml:id="VB_lb_080v_19"/>
 	<choice>
 		<orig>onþam</orig>
 		<reg>on þam</reg>
@@ -214,7 +214,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæt</orig>
 		<reg><expan><ex>and</ex></expan> þæt</reg>
 	</choice> eac þæt minra
-<lb n="20"/>
+<lb n="20" xml:id="VB_lb_080v_20"/>
 	<choice>
 		<orig>mæ<g ref="#sins"/><g ref="#sins"/>e preo<g ref="#slong"/>ta</orig>
 		<reg>mæ<g ref="#sins"/><g ref="#sins"/>epreo<g ref="#slong"/>ta</reg>
@@ -223,7 +223,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
 		<reg><expan><ex>and</ex></expan> hie</reg>
 	</choice>
-<lb n="21"/>þonne nabbað sybbe him 
+<lb n="21" xml:id="VB_lb_080v_21"/>þonne nabbað sybbe him 
 	<choice>
 		<orig>be tweonum</orig>
 		<reg>betweonum</reg>
@@ -232,7 +232,7 @@
 		<orig>achie</orig>
 		<reg>ac hie</reg>
 	</choice> me ðonne
-<lb n="22"/>
+<lb n="22" xml:id="VB_lb_080v_22"/>
 	<choice>
 		<sic>onsacað</sic>
 		<corr resp="scragg szarmach">onsæcgað</corr>
@@ -241,7 +241,7 @@
 		<orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr>þ</damage>onne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> gesyhð
-<lb n="23"/>
+<lb n="23" xml:id="VB_lb_080v_23"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr></orig>
 		<reg><expan>þ<ex>æt</ex></expan></reg>
@@ -254,7 +254,7 @@
 		<orig>un riht</orig>
 		<reg>unriht</reg>
 	</choice> gefyllede
-<lb n="24"/><damage type="faded">ymbe h</damage>iora welan. 
+<lb n="24" xml:id="VB_lb_080v_24"/><damage type="faded">ymbe h</damage>iora welan. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
 		<reg><expan><ex>and</ex></expan> hie</reg>
@@ -262,8 +262,8 @@
 	<choice>
 		<orig>onhiora</orig>
 		<reg>on hiora</reg>
-	</choice> ce<add place="sub">.</add><add place="sup">a</add>strum <w>under<pb n="81r" xml:id="VB_fol_081r"/><add hand="unknown"><fw type="fol" place="top-right">81</fw></add><lb n="1"/>ðeodde</w>. <g ref="#slong"/>wa hie ær wæron.</q></quote></p> <p><quote><q who="Christ"><hi rend="double">ð</hi>æt bið <damage type="faded" agent="water"><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> hie <g ref="#sins"/></damage>ettaþ g<g ref="#yrgmainstrok"/>ldene
-<lb n="2"/>he<damage type="faded">afda</damage> 
+	</choice> ce<add place="sub">.</add><add place="sup">a</add>strum <w>under<pb n="81r" xml:id="VB_fol_081r"/><add hand="unknown"><fw type="fol" place="top-right">81</fw></add><lb n="1" xml:id="VB_lb_081r_01"/>ðeodde</w>. <g ref="#slong"/>wa hie ær wæron.</q></quote></p> <p><quote><q who="Christ"><hi rend="double">ð</hi>æt bið <damage type="faded" agent="water"><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> hie <g ref="#sins"/></damage>ettaþ g<g ref="#yrgmainstrok"/>ldene
+<lb n="2" xml:id="VB_lb_081r_02"/>he<damage type="faded">afda</damage> 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>eolfrene</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>eolfrene</reg>
@@ -272,7 +272,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>manige</orig>
 		<reg><expan><ex>and</ex></expan> manige</reg>
 	</choice> men bioð
-<lb n="3"/>þonne þurh þa þincg 
+<lb n="3" xml:id="VB_lb_081r_03"/>þonne þurh þa þincg 
 	<choice>
 		<orig>ge niðrade</orig>
 		<reg>geniðrade</reg>
@@ -281,7 +281,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>gold hord</orig>
 		<reg><expan><ex>and</ex></expan> goldhord</reg>
 	</choice> bioð þonne
-<lb n="4"/>
+<lb n="4" xml:id="VB_lb_081r_04"/>
 	<choice>
 		<orig>ge openode</orig>
 		<reg>geopenode</reg>
@@ -294,7 +294,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><name type="religion">gode<g ref="#sins"/></name></orig>
 		<reg><expan><ex>and</ex></expan> <name type="religion">Godes</name></reg>
 	</choice> æwe
-<lb n="5"/>beoð 
+<lb n="5" xml:id="VB_lb_081r_05"/>beoð 
 	<choice>
 		<orig>ge fylde</orig>
 		<reg>gefylde</reg>
@@ -311,7 +311,7 @@
 		<orig>biððonne</orig>
 		<reg>bið ðonne</reg>
 	</choice>
-<lb n="6"/>
+<lb n="6" xml:id="VB_lb_081r_06"/>
 	<choice>
 		<orig>ær<name type="religion">dome<g ref="#sins"/> dæge</name></orig>
 		<reg>ær <name type="religion">Domesdæge</name></reg>
@@ -324,7 +324,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
 		<reg><expan><ex>and</ex></expan> þa</reg>
 	</choice> weofodu beoð
-<lb n="7"/>to þan <g ref="#slong"/>wiðe 
+<lb n="7" xml:id="VB_lb_081r_07"/>to þan <g ref="#slong"/>wiðe 
 	<choice>
 		<orig>for lætene</orig>
 		<reg>forlætene</reg>
@@ -337,7 +337,7 @@
 		<orig>attor coppan</orig>
 		<reg>attorcoppan</reg>
 	</choice> habbað
-<lb n="8"/>
+<lb n="8" xml:id="VB_lb_081r_08"/>
 	<choice>
 		<orig><g ref="#inodotenl"/>n nan</orig>
 		<reg><g ref="#inodotenl"/>nnan</reg>
@@ -354,7 +354,7 @@
 		<orig>for mol<g ref="#sins"/>node</orig>
 		<reg>formol<g ref="#sins"/>node</reg>
 	</choice>
-<lb n="9"/>
+<lb n="9" xml:id="VB_lb_081r_09"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
 		<reg><expan><ex>and</ex></expan> þa</reg>
@@ -371,7 +371,7 @@
 		<abbr type="brev">fr<am><g ref="#amacr"/></am></abbr>
 		<expan>fra<ex>m</ex></expan>
 	</choice>	
-<lb n="10"/>
+<lb n="10" xml:id="VB_lb_081r_10"/>
 	<name type="religion"><choice>
 		<orig>gode</orig>
 		<reg>Gode</reg>
@@ -392,7 +392,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heora</orig>
 		<reg><expan><ex>and</ex></expan> heora</reg>
 	</choice>
-<lb n="11"/>lar bið eall to tælnesse geþeoded. 
+<lb n="11" xml:id="VB_lb_081r_11"/>lar bið eall to tælnesse geþeoded. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heora</orig>
 		<reg><expan><ex>and</ex></expan> heora</reg>
@@ -401,7 +401,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr></orig>
 		<reg><expan><ex>and</ex></expan></reg>
 	</choice>
-<lb n="12"/>
+<lb n="12" xml:id="VB_lb_081r_12"/>
 	<choice>
 		<orig>for wyrðeð</orig>
 		<reg>forwyrðeð</reg>
@@ -411,8 +411,8 @@
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> bið eac on ðam dagum. <g ref="#yrgmainstrokdot"/>fele<g ref="#sins"/> 
 	<choice>
-		<orig><w>niht<lb n="13"/><g ref="#sins"/>um ne<g ref="#sins"/><g ref="#sins"/>e</w></orig>
-		<reg><w>niht<lb n="13"/><g ref="#sins"/>umne<g ref="#sins"/><g ref="#sins"/>e</w></reg>
+	  <orig><w>niht<lb n="13" xml:id="VB_lb_081r_13_orig"/><g ref="#sins"/>um ne<g ref="#sins"/><g ref="#sins"/>e</w></orig>
+		<reg><w>niht<lb n="13" xml:id="VB_lb_081r_13_reg"/><g ref="#sins"/>umne<g ref="#sins"/><g ref="#sins"/>e</w></reg>
 	</choice>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>æfen <g ref="#sins"/>anga<g ref="#sins"/></orig>
@@ -430,7 +430,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>of togene</orig>
 		<reg><expan><ex>and</ex></expan> oftogene</reg>
 	</choice>
-<lb n="14"/>of 
+<lb n="14" xml:id="VB_lb_081r_14"/>of 
 	<name type="religion"><choice>
 		<orig>gode<g ref="#sins"/></orig>
 		<reg>Godes</reg>
@@ -447,7 +447,7 @@
 		<orig>onblun nen</orig>
 		<reg>onblunnen</reg>
 	</choice>.
-<lb n="15"/>
+<lb n="15" xml:id="VB_lb_081r_15"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>lea<g ref="#sins"/>unga</orig>
 		<reg><expan><ex>and</ex></expan> lea<g ref="#sins"/>unga</reg>
@@ -468,7 +468,7 @@
 		<orig>þon ne</orig>
 		<reg>þonne</reg>
 	</choice> <damage type="faded">g</damage>emeted
-<lb n="16"/>
+<lb n="16" xml:id="VB_lb_081r_16"/>
 	<choice>
 		<orig>onðam</orig>
 		<reg>on ðam</reg>
@@ -480,8 +480,8 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þo<damage type="faded">n n</damage>e</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>	
-	</choice> arisað twegen <w>ealdor<lb n="17"/>men</w>. to þeoda werigum on heora dagum. þonne bið hungere<g ref="#sins"/>
-<lb n="18"/>
+	</choice> arisað twegen <w>ealdor<lb n="17" xml:id="VB_lb_081r_17"/>men</w>. to þeoda werigum on heora dagum. þonne bið hungere<g ref="#sins"/>
+<lb n="18" xml:id="VB_lb_081r_18"/>
 	<choice>
 		<orig>ge niht <g ref="#sins"/>um ne<g ref="#sins"/><g ref="#sins"/>e</orig>
 		<reg>geniht<g ref="#sins"/>umne<g ref="#sins"/><g ref="#sins"/>e</reg>
@@ -490,7 +490,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
 		<reg><expan><ex>and</ex></expan> hie</reg>
 	</choice> bioð
-<lb n="19"/>
+<lb n="19" xml:id="VB_lb_081r_19"/>
 	<choice>
 		<orig>þon ne</orig>
 		<reg>þonne</reg>
@@ -503,7 +503,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> ariseð <g ref="#sins"/>um
-<lb n="20"/><g ref="#slong"/>wiðe 
+<lb n="20" xml:id="VB_lb_081r_20"/><g ref="#slong"/>wiðe 
 	<choice>
 		<sic>weorð</sic>
 		<corr resp="scragg">þweorh</corr>
@@ -520,12 +520,12 @@
 		<orig>man ncynne</orig>
 		<reg>manncynne</reg>
 	</choice> þæt
-<lb n="21"/>man wyrce gyldene anlicne<g ref="#sins"/><g ref="#sins"/>e 
+<lb n="21" xml:id="VB_lb_081r_21"/>man wyrce gyldene anlicne<g ref="#sins"/><g ref="#sins"/>e 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hateð</orig>
 		<reg><expan><ex>and</ex></expan> hateð</reg>
 	</choice> þæt <g ref="#sins"/>ettan <g ref="#inodotenl"/>n
-<lb n="22"/>
+<lb n="22" xml:id="VB_lb_081r_22"/>
 	<name type="religion"><choice>
 		<orig>gode<g ref="#sins"/></orig>
 		<reg>Godes</reg>
@@ -538,7 +538,7 @@
 		<orig>ge biddan</orig>
 		<reg>gebiddan</reg>
 	</choice>. bið þonne on þa tid
-<lb n="23"/><damage type="faded">m</damage>artyra 
+<lb n="23" xml:id="VB_lb_081r_23"/><damage type="faded">m</damage>artyra 
 	<choice>
 		<orig>ge niht <g ref="#sins"/>umne<g ref="#sins"/><g ref="#sins"/>e</orig>
 		<reg>geniht<g ref="#sins"/>umne<g ref="#sins"/><g ref="#sins"/>e</reg>
@@ -546,7 +546,7 @@
 	<choice>
 		<orig>forðam</orig>
 		<reg>for ðam</reg>
-	</choice> þingum þæt man <w>cwel<lb n="24"/>með</w> 
+	</choice> þingum þæt man <w>cwel<lb n="24" xml:id="VB_lb_081r_24"/>með</w> 
 	<choice>
 		<orig><damage type="faded">þa</damage>mæran</orig>
 		<reg>þa mæran</reg>
@@ -554,7 +554,7 @@
 	<choice>
 		<orig>þenellað</orig>
 		<reg>þe nellað</reg>
-	</choice> gebi<damage type="faded">dda</damage>n to ðam hæðenan <w>on<pb n="81v" xml:id="VB_fol_081v"/><lb n="1"/>licnesse</w>. 
+	</choice> gebi<damage type="faded">dda</damage>n to ðam hæðenan <w>on<pb n="81v" xml:id="VB_fol_081v"/><lb n="1" xml:id="VB_lb_081v_01"/>licnesse</w>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>æfter</orig>
 		<reg><expan><ex>and</ex></expan> æfter</reg>
@@ -563,7 +563,7 @@
 		<sic>geleafan</sic>
 		<corr resp="scragg">geleafa</corr>
 	</choice> to
-<lb n="2"/>
+<lb n="2" xml:id="VB_lb_081v_02"/>
 	<name type="religion"><choice>
 		<orig>gode</orig>
 		<reg>Gode</reg>
@@ -585,18 +585,18 @@
 		<reg>halignessa</reg>
 	</choice> gebled<g ref="#sins"/>od. 
 	<choice>
-		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>un<lb n="3"/>rím</w></orig>
-		<reg><expan><ex>and</ex></expan> <w>un<lb n="3"/>rím</w></reg>
+	  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>un<lb n="3" xml:id="VB_lb_081v_03_orig"/>rím</w></orig>
+		<reg><expan><ex>and</ex></expan> <w>un<lb n="3" xml:id="VB_lb_081v_03_reg"/>rím</w></reg>
 	</choice> haligra beoð gefylled mid þy 
 	<choice>
 		<orig>ge wuldredan</orig>
 		<reg>gewuldredan</reg>
-	</choice> <w>wuldor<lb n="4"/>helme</w>. 
+	</choice> <w>wuldor<lb n="4" xml:id="VB_lb_081v_04"/>helme</w>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> æfter fean tidum ariseð <g ref="#sins"/>um <g ref="#slong"/>wiðe mære
-<lb n="5"/>cynin<damage type="faded">g</damage> fram 
+<lb n="5" xml:id="VB_lb_081v_05"/>cynin<damage type="faded">g</damage> fram 
 	<choice>
 		<orig>ea<g ref="#slong"/>t dæle</orig>
 		<reg>ea<g ref="#slong"/>tdæle</reg>
@@ -613,7 +613,7 @@
 		<orig>gode<g ref="#sins"/></orig>
 		<reg>Godes</reg>
 	</choice></name> ǽ
-<lb n="6"/>
+<lb n="6" xml:id="VB_lb_081v_06"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>him</orig>
 		<reg><expan><ex>and</ex></expan> him</reg>
@@ -623,8 +623,8 @@
 		<reg><expan><ex>and</ex></expan> bið</reg>
 	</choice> þonne mycel 
 	<choice>
-		<orig><w>ge<lb n="7"/>niht<g ref="#sins"/>um nesse</w></orig>
-		<reg><w>ge<lb n="7"/>niht<g ref="#sins"/>umnesse</w></reg>
+	  <orig><w>ge<lb n="7" xml:id="VB_lb_081v_07_orig"/>niht<g ref="#sins"/>um nesse</w></orig>
+		<reg><w>ge<lb n="7" xml:id="VB_lb_081v_07_reg"/>niht<g ref="#sins"/>umnesse</w></reg>
 	</choice> 
 	<choice>
 		<orig>onhis</orig>
@@ -634,7 +634,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr type="brev">þo<am><g ref="#omacr"/></am></abbr></orig>
 		<reg><expan><ex>and</ex></expan> <expan>þon<ex>ne</ex></expan></reg>
 	</choice> æfter him ari<g ref="#sins"/>eð eft
-<lb n="8"/><g ref="#sins"/>um oðer cyning fram 
+<lb n="8" xml:id="VB_lb_081v_08"/><g ref="#sins"/>um oðer cyning fram 
 	<choice>
 		<orig>suð dæle</orig>
 		<reg>suðdæle</reg>
@@ -643,7 +643,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>se</orig>
 		<reg><expan><ex>and</ex></expan> se</reg>
 	</choice> hafað swiðe mycel on
-<lb n="9"/>hi<g ref="#sins"/> 
+<lb n="9" xml:id="VB_lb_081v_09"/>hi<g ref="#sins"/> 
 	<choice>
 		<orig>ge wealdum</orig>
 		<reg>gewealdum</reg>
@@ -660,7 +660,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>gold hord</orig>
 		<reg><expan><ex>and</ex></expan> goldhord</reg>
 	</choice>
-<lb n="10"/>bioð 
+<lb n="10" xml:id="VB_lb_081v_10"/>bioð 
 	<choice>
 		<orig>a<g ref="#slong"/>prungen ne</orig>
 		<reg>a<g ref="#slong"/>prungenne</reg>
@@ -668,12 +668,12 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
-	</choice> <w>bebeo<lb n="11"/>deð</w> <g ref="#sins"/>e ilca cyning þæt hi<g ref="#sins"/> mycla gestreon man 
+	</choice> <w>bebeo<lb n="11" xml:id="VB_lb_081v_11"/>deð</w> <g ref="#sins"/>e ilca cyning þæt hi<g ref="#sins"/> mycla gestreon man 
 	<choice>
 		<orig>to dæle</orig>
 		<reg>todæle</reg>
 	</choice>
-<lb n="12"/>wið 
+<lb n="12" xml:id="VB_lb_081v_12"/>wið 
 	<choice>
 		<orig>hwæt e<g ref="#sins"/></orig>
 		<reg>hwæte<g ref="#sins"/></reg>
@@ -690,7 +690,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>for</orig>
 		<reg><expan><ex>and</ex></expan> for</reg>
 	</choice> ele<g ref="#sins"/>. lufan. for
-<lb n="13"/>þy bið heora gold a<g ref="#slong"/>prungen. 
+<lb n="13" xml:id="VB_lb_081v_13"/>þy bið heora gold a<g ref="#slong"/>prungen. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wa</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wa</reg>
@@ -699,7 +699,7 @@
 		<orig>ðeah hwæðere</orig>
 		<reg>ðeahhwæðere</reg>
 	</choice> ðær bið
-<lb n="14"/>ceape<g ref="#sins"/> 
+<lb n="14" xml:id="VB_lb_081v_14"/>ceape<g ref="#sins"/> 
 	<choice>
 		<orig>ge niht <g ref="#sins"/>um ne<g ref="#sins"/><g ref="#sins"/>e</orig>
 		<reg>geniht<g ref="#sins"/>umne<g ref="#sins"/><g ref="#sins"/>e</reg>
@@ -708,7 +708,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heora</orig>
 		<reg><expan><ex>and</ex></expan> heora</reg>
 	</choice> golde<g ref="#sins"/> ontimbernesse
-<lb n="15"/>
+<lb n="15" xml:id="VB_lb_081v_15"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hiora</orig>
 		<reg><expan><ex>and</ex></expan> hiora</reg>
@@ -717,12 +717,12 @@
 		<orig><hi rend="smallcap">F</hi>orðan</orig>
 		<reg><hi rend="smallcap">F</hi>or ðan</reg>
 	</choice> on
-<lb n="16"/><g ref="#sins"/>ǽ bið þæt 
+<lb n="16" xml:id="VB_lb_081v_16"/><g ref="#sins"/>ǽ bið þæt 
 	<choice>
 		<orig><g ref="#slong"/>cip lið endra</orig>
 		<reg><g ref="#slong"/>cipliðendra</reg>
 	</choice> cwalm. swa mycel þæt nænig
-<lb n="17"/>man ne wat to 
+<lb n="17" xml:id="VB_lb_081v_17"/>man ne wat to 
 	<choice>
 		<orig><g ref="#sins"/>ecgan e</orig>
 		<reg><g ref="#sins"/>ecganne</reg>
@@ -731,7 +731,7 @@
 		<orig>eorð cyninge</orig>
 		<reg>eorðcyninge</reg>
 	</choice>
-<lb n="18"/>
+<lb n="18" xml:id="VB_lb_081v_18"/>
 	<choice>
 		<orig>beðam</orig>
 		<reg>be ðam</reg>
@@ -740,7 +740,7 @@
 		<orig><g ref="#slong"/>cip liðendum</orig>
 		<reg><g ref="#slong"/>cipliðendum</reg>
 	</choice>. <hi rend="double">æ</hi>fter þan ariseð oðer cynning.
-<lb n="19"/><g ref="#slong"/>wiðe þweorh 
+<lb n="19" xml:id="VB_lb_081v_19"/><g ref="#slong"/>wiðe þweorh 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>e</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#sins"/>e</reg>
@@ -753,7 +753,7 @@
 		<orig>middan geard</orig>
 		<reg>middangeard</reg>
 	</choice>.
-<lb n="20"/>
+<lb n="20" xml:id="VB_lb_081v_20"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>fea</orig>
 		<reg><expan><ex>and</ex></expan> fea</reg>
@@ -762,7 +762,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæt</orig>
 		<reg><expan><ex>and</ex></expan> þæt</reg>
 	</choice> mennisce cynn
-<lb n="21"/>bið 
+<lb n="21" xml:id="VB_lb_081v_21"/>bið 
 	<choice>
 		<orig>ayfeled</orig>
 		<reg>a yfeled</reg>
@@ -782,7 +782,7 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
-	</choice> æfter þan. <w>á<lb n="22"/>riseð</w> fram 
+	</choice> æfter þan. <w>á<lb n="22" xml:id="VB_lb_081v_22"/>riseð</w> fram 
 	<choice>
 		<orig>ea<g ref="#sins"/>t dæle</orig>
 		<reg>ea<g ref="#sins"/>tdæle</reg>
@@ -795,7 +795,7 @@
 		<orig>babilonia</orig>
 		<reg>Babilonia</reg>
 	</choice></name> cea<g ref="#slong"/>tre.
-<lb n="23"/><g ref="#slong"/>wiðe mycel hungor 
+<lb n="23" xml:id="VB_lb_081v_23"/><g ref="#slong"/>wiðe mycel hungor 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>weorda</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>weorda</reg>
@@ -804,7 +804,7 @@
 		<orig>suð dæle</orig>
 		<reg>suðdæle</reg>
 	</choice>.</q></quote></p>
-<lb n="24"/><p><quote><q who="Christ"><hi rend="double">o</hi>n 
+<lb n="24" xml:id="VB_lb_081v_24"/><p><quote><q who="Christ"><hi rend="double">o</hi>n 
 	<name type="place"><choice>
 		<orig>cana nea</orig>
 		<reg>Cananea</reg>
@@ -820,7 +820,7 @@
  <fw type="fol" place="top-right">82</fw>
 </add>
   
-<lb n="1"/>
+<lb n="1" xml:id="VB_lb_082r_01"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ealle</orig>
 		<reg><expan><ex>and</ex></expan> ealle</reg>
@@ -829,7 +829,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>teorran</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>teorran</reg>
 	</choice> feallað of heofenum on
-<lb n="2"/>eorðan. 
+<lb n="2" xml:id="VB_lb_082r_02"/>eorðan. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>unne</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>unne</reg>
@@ -846,7 +846,7 @@
 		<orig>ne<g ref="#sins"/>yleð</orig>
 		<reg>ne <g ref="#sins"/>yleð</reg>
 	</choice>.
-<lb n="3"/>
+<lb n="3" xml:id="VB_lb_082r_03"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eall</orig>
 		<reg><expan><ex>and</ex></expan> eall</reg>
@@ -858,7 +858,7 @@
 	<choice>
 		<orig>ge cy<damage type="faded">r</damage>red</orig>
 		<reg>gecyrred</reg>
-	</choice>. <hi rend="double">ð</hi>is sindon þa <w>fore<lb n="4"/>tacnu</w> 
+	</choice>. <hi rend="double">ð</hi>is sindon þa <w>fore<lb n="4" xml:id="VB_lb_082r_04"/>tacnu</w> 
 	<choice>
 		<orig>toþam</orig>
 		<reg>to þam</reg>
@@ -867,12 +867,12 @@
 		<orig>ante criste<g ref="#sins"/></orig>
 		<reg>Antecristes</reg>
 	</choice></name> cyme.
-<lb n="5"/><hi rend="smallcap">Ƿ</hi>a ðam mannum þe 
+<lb n="5" xml:id="VB_lb_082r_05"/><hi rend="smallcap">Ƿ</hi>a ðam mannum þe 
 	<choice>
 		<orig><g ref="#inodotenl"/>nðam</orig>
 		<reg><g ref="#inodotenl"/>n ðam</reg>
 	</choice> dagum eardiað ofer eorðan
-<lb n="6"/>
+<lb n="6" xml:id="VB_lb_082r_06"/>
 	<choice>
 		<orig>forðam</orig>
 		<reg>for ðam</reg>
@@ -881,13 +881,13 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>cuman</orig>
 		<reg><expan><ex>and</ex></expan> cuman</reg>
 	</choice> <g ref="#slong"/>ceolon
-<lb n="7"/>ofer eorðan. <hi rend="smallcap">Ƿ</hi>a ðam mannum þe þonne hu<g ref="#sins"/> timbriað
-<lb n="8"/>
+<lb n="7" xml:id="VB_lb_082r_07"/>ofer eorðan. <hi rend="smallcap">Ƿ</hi>a ðam mannum þe þonne hu<g ref="#sins"/> timbriað
+<lb n="8" xml:id="VB_lb_082r_08"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>bearn</orig>
 		<reg><expan><ex>and</ex></expan> bearn</reg>
 	</choice> gestrynað. <hi rend="smallcap">Ƿ</hi>a ðam mannum þe þonne wifiað
-<lb n="9"/>
+<lb n="9" xml:id="VB_lb_082r_09"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eorðlicum</orig>
 		<reg><expan><ex>and</ex></expan> eorðlicum</reg>
@@ -900,7 +900,7 @@
 		<orig>forþan</orig>
 		<reg>for þan</reg>
 	</choice> hie ealinga
-<lb n="10"/>on wog winnað 
+<lb n="10" xml:id="VB_lb_082r_10"/>on wog winnað 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wincað</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wincað</reg>
@@ -913,7 +913,7 @@
 		<orig>þegeþeodeð</orig>
 		<reg>þe geþeodeð</reg>
 	</choice>
-<lb n="11"/>hus to hu<g ref="#sins"/>e. 
+<lb n="11" xml:id="VB_lb_082r_11"/>hus to hu<g ref="#sins"/>e. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>land</orig>
 		<reg><expan><ex>and</ex></expan> land</reg>
@@ -926,7 +926,7 @@
 		<orig>fo<damage type="faded">rþan</damage></orig>
 		<reg>for þan</reg>
 	</choice> <damage>h</damage>it eall mid fyre
-<lb n="12"/>
+<lb n="12" xml:id="VB_lb_082r_12"/>
 	<choice>
 		<orig>for bærneð</orig>
 		<reg>forbærneð</reg>
@@ -943,38 +943,38 @@
 		<orig><abbr type="brev">mann<am><g ref="#umacr"/></am></abbr></orig>
 		<reg><expan>mannu<ex>m</ex></expan></reg>
 	</choice>
-<lb n="13"/>þonne þe hie <g ref="#sins"/>ylfe ne woldon 
+<lb n="13" xml:id="VB_lb_082r_13"/>þonne þe hie <g ref="#sins"/>ylfe ne woldon 
 	<choice>
 		<orig>ærbe healdan</orig>
 		<reg>ær behealdan</reg>
 	</choice> for heora
-<lb n="14"/><g ref="#sins"/>ynna þe hie ær worhton 
+<lb n="14" xml:id="VB_lb_082r_14"/><g ref="#sins"/>ynna þe hie ær worhton 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
 		<reg><expan><ex>and</ex></expan> hie</reg>
 	</choice> gebetan noldon þa hwile
-<lb n="15"/>þe hie þæt weorð hæfdon. 
+<lb n="15" xml:id="VB_lb_082r_15"/>þe hie þæt weorð hæfdon. 
 	<choice>
 		<orig>forþan</orig>
 		<reg>for þan</reg>
-	</choice> hie þonne bioð <w>forlæ<lb n="16"/>tene</w>. þonne <g ref="#sins"/>io tid cymeð. 
+	</choice> hie þonne bioð <w>forlæ<lb n="16" xml:id="VB_lb_082r_16"/>tene</w>. þonne <g ref="#sins"/>io tid cymeð. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
 		<reg><expan><ex>and</ex></expan> hie</reg>
 	</choice> þonne æfre bioð 
 	<choice>
-		<orig><w>ge<lb n="17"/>nið rade</w></orig>
-		<reg><w>ge<lb n="17"/>niðrade</w></reg>
+	  <orig><w>ge<lb n="17" xml:id="VB_lb_082r_17_orig"/>nið rade</w></orig>
+		<reg><w>ge<lb n="17" xml:id="VB_lb_082r_17_reg"/>niðrade</w></reg>
 	</choice> á 
 	<choice>
 		<orig>inecnesse</orig>
 		<reg>in ecnesse</reg>
-	</choice></q></quote> þi<g ref="#sins"/> i<g ref="#sins"/> þonne þæ<g ref="#sins"/> ælmihtigan <w>dryht<lb n="18"/>ne<g ref="#sins"/></w> sylfe<g ref="#sins"/> muðe<g ref="#sins"/> cwide. 
+	</choice></q></quote> þi<g ref="#sins"/> i<g ref="#sins"/> þonne þæ<g ref="#sins"/> ælmihtigan <w>dryht<lb n="18" xml:id="VB_lb_082r_18"/>ne<g ref="#sins"/></w> sylfe<g ref="#sins"/> muðe<g ref="#sins"/> cwide. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
 		<reg><expan><ex>and</ex></expan> he</reg>
-	</choice> ðu<g ref="#sins"/> wæ<g ref="#sins"/> cweðende<del type="erasure"></del> <quote><q who="Christ"><hi rend="smallcap">I</hi>c eom <g ref="#sins"/>e
-<lb n="19"/>ælmihtiga dryhten 
+	</choice> ðu<g ref="#sins"/> wæ<g ref="#sins"/> cweðende<del rend="erasure"><!-- CHECK --></del> <quote><q who="Christ"><hi rend="smallcap">I</hi>c eom <g ref="#sins"/>e
+<lb n="19" xml:id="VB_lb_082r_19"/>ælmihtiga dryhten 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eall<add place="sub">,</add><add place="sup">r</add>a</orig>
 		<reg><expan><ex>and</ex></expan> eall<add place="sup">r</add>a</reg>
@@ -983,8 +983,8 @@
 		<orig><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr></orig>
 		<reg><expan>þ<ex>æt</ex></expan></reg>
 	</choice> ðæt i<g ref="#sins"/> <g ref="#sins"/>oð
-<lb n="20"/>þæt ic <g ref="#sins"/>ecge þæt ealle þa<g ref="#sins"/> tacenu bioð æt þy<g ref="#sins"/><g ref="#sins"/>e worulde
-<lb n="21"/>ende. 
+<lb n="20" xml:id="VB_lb_082r_20"/>þæt ic <g ref="#sins"/>ecge þæt ealle þa<g ref="#sins"/> tacenu bioð æt þy<g ref="#sins"/><g ref="#sins"/>e worulde
+<lb n="21" xml:id="VB_lb_082r_21"/>ende. 
 	<choice>
 		<orig>ge æt ywde</orig>
 		<reg>geætywde</reg>
@@ -997,12 +997,12 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wiðe</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wiðe</reg>
 	</choice> micle
-<lb n="22"/>adle of<damage type="faded">er ea</damage>lle eorðan. 
+<lb n="22" xml:id="VB_lb_082r_22"/>adle of<damage type="faded">er ea</damage>lle eorðan. 
 	<choice>
 		<orig><hi rend="double">f</hi>orðan</orig>
 		<reg><hi rend="double">f</hi>or ðan</reg>
 	</choice> manegum men bið
-<lb n="23"/><g ref="#slong"/>wiðe mycel 
+<lb n="23" xml:id="VB_lb_082r_23"/><g ref="#slong"/>wiðe mycel 
 	<choice>
 		<orig>n<g ref="#ydot"/>d þearf</orig>
 		<reg>n<g ref="#ydot"/>dþearf</reg>
@@ -1015,7 +1015,7 @@
 		<orig>to<name type="religion">gode</name></orig>
 		<reg>to <name type="religion">Gode</name></reg>
 	</choice>
-<lb n="24"/>
+<lb n="24" xml:id="VB_lb_082r_24"/>
 	<choice>
 		<orig>ge hwyrfen</orig>
 		<reg>gehwyrfen</reg>
@@ -1031,7 +1031,7 @@
  
 	  <pb n="82v" xml:id="VB_fol_082v"/>
       
-<lb n="1"/><damage type="faded" agent="water">þu</damage>r<damage type="faded" agent="water">h</damage> ealle <damage type="faded" agent="water">þe</damage>ode, 
+<lb n="1" xml:id="VB_lb_082v_01"/><damage type="faded" agent="water">þu</damage>r<damage type="faded" agent="water">h</damage> ealle <damage type="faded" agent="water">þe</damage>ode, 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
 		<reg><expan><ex>and</ex></expan> hie</reg>
@@ -1044,7 +1044,7 @@
 		<orig><abbr type="brev">ecg<am><g ref="#umacr"/></am></abbr></orig>
 		<reg><reg><expan>ecgu<ex>m</ex></expan></reg></reg>
 	</choice>
-<lb n="2"/>
+<lb n="2" xml:id="VB_lb_082v_02"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæt</orig>
 		<reg><expan><ex>and</ex></expan> þæt</reg>
@@ -1061,7 +1061,7 @@
 		<orig>fore tacn</orig>
 		<reg>foretacn</reg>
 	</choice>
-<lb n="3"/>
+<lb n="3" xml:id="VB_lb_082v_03"/>
 	<choice>
 		<orig>ærð<damage type="faded" agent="water">am</damage></orig>
 		<reg>ær ðam</reg>
@@ -1070,7 +1070,7 @@
 		<orig>dome<g ref="#sins"/> dæge</orig>
 		<reg>Domesdæge</reg>
 	</choice></name>. þæt is þæt þær bið æt ðære þriddan
-<lb n="4"/>tide dæges.</q></quote></p> <p><quote><q who="Christ">on 
+<lb n="4" xml:id="VB_lb_082v_04"/>tide dæges.</q></quote></p> <p><quote><q who="Christ">on 
 	<name type="abstract"><choice>
 		<orig>monan dæge</orig>
 		<reg>Monandæge</reg>
@@ -1079,7 +1079,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þær</orig>
 		<reg><expan><ex>and</ex></expan> þær</reg>
 	</choice>
-<lb n="5"/>bið mycel wanung. 
+<lb n="5" xml:id="VB_lb_082v_05"/>bið mycel wanung. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>granun<damage type="faded">g</damage></orig>
 		<reg><expan><ex>and</ex></expan> granun<damage type="faded">g</damage></reg>
@@ -1092,7 +1092,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>woretung</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>woretung</reg>
 	</choice>.
-<lb n="6"/>
+<lb n="6" xml:id="VB_lb_082v_06"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wiðe</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wiðe</reg>
@@ -1105,12 +1105,12 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wið e</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wiðe</reg>
 	</choice>
-<lb n="7"/>mycel blodig wolcn a<g ref="#slong"/>tigeð. fram 
+<lb n="7" xml:id="VB_lb_082v_07"/>mycel blodig wolcn a<g ref="#slong"/>tigeð. fram 
 	<choice>
 		<orig>norð wearðum</orig>
 		<reg>norðwearðum</reg>
 	</choice> of
-<lb n="8"/>heofone. 
+<lb n="8" xml:id="VB_lb_082v_08"/>heofone. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>bioð</orig>
 		<reg><expan><ex>and</ex></expan> bioð</reg>
@@ -1123,7 +1123,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mycle</orig>
 		<reg><expan><ex>and</ex></expan> mycle</reg>
 	</choice>
-<lb n="9"/>ligitta 
+<lb n="9" xml:id="VB_lb_082v_09"/>ligitta 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þam</orig>
 		<reg><expan><ex>and</ex></expan> þam</reg>
@@ -1136,7 +1136,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæt</orig>
 		<reg><expan><ex>and</ex></expan> þæt</reg>
 	</choice>
-<lb n="10"/>wolcen 
+<lb n="10" xml:id="VB_lb_082v_10"/>wolcen 
 	<choice>
 		<orig>be wyrgð</orig>
 		<reg>bewyrgð</reg>
@@ -1145,7 +1145,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þanon</orig>
 		<reg><expan><ex>and</ex></expan> þanon</reg>
 	</choice> cymeð <g ref="#slong"/>wiðe
-<lb n="11"/>mycel blodig regn. 
+<lb n="11" xml:id="VB_lb_082v_11"/>mycel blodig regn. 
 	<choice>
 		<orig>ofðam</orig>
 		<reg>of ðam</reg>
@@ -1154,7 +1154,7 @@
 		<orig>of er</orig>
 		<reg>ofer</reg>
 	</choice> ealle eorðan.
-<lb n="12"/><hi rend="double">þ</hi>is syndon þæs 
+<lb n="12" xml:id="VB_lb_082v_12"/><hi rend="double">þ</hi>is syndon þæs 
 	<name type="abstract"><choice>
 		<orig>monan dæge<g ref="#sins"/></orig>
 		<reg>Monandæges</reg>
@@ -1167,7 +1167,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><hi rend="double">þ</hi>onnebið</orig>
 		<reg><expan><ex>and</ex></expan> <hi rend="double">þ</hi>onne bið</reg>
 	</choice>
-<lb n="13"/>on 
+<lb n="13" xml:id="VB_lb_082v_13"/>on 
 	<name type="abstract"><choice>
 		<orig>tiwe<g ref="#sins"/> dæge</orig>
 		<reg>Tiwesdæge</reg>
@@ -1180,7 +1180,7 @@
 		<orig>one<damage type="smudge" agent="water">a</damage><g ref="#slong"/>t weardum</orig>
 		<reg>on ea<g ref="#slong"/>tweardum</reg>
 	</choice>
-<lb n="14"/>heofones roderum. 
+<lb n="14" xml:id="VB_lb_082v_14"/>heofones roderum. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wiðe</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wiðe</reg>
@@ -1193,7 +1193,7 @@
 		<orig>ut eðmiaþ</orig>
 		<reg>uteðmiaþ</reg>
 	</choice>
-<lb n="15"/>þurh þa heofona<g ref="#sins"/> geatu. 
+<lb n="15" xml:id="VB_lb_082v_15"/>þurh þa heofona<g ref="#sins"/> geatu. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þo<abbr type="contr">ñ</abbr></orig>
 		<reg><expan><ex>and</ex></expan> þo<expan>nn</expan>e</reg>
@@ -1202,7 +1202,7 @@
 		<orig>midmicle</orig>
 		<reg>mid micle</reg>
 	</choice>
-<lb n="16"/>wolcne 
+<lb n="16" xml:id="VB_lb_082v_16"/>wolcne 
 	<choice>
 		<orig>be wrigen</orig>
 		<reg>bewrigen</reg>
@@ -1215,7 +1215,7 @@
 		<orig><hi rend="double">þ</hi>i<g ref="#sins"/><g ref="#sins"/>yndon</orig>
 		<reg><hi rend="double">þ</hi>i<g ref="#sins"/> <g ref="#sins"/>yndon</reg>
 	</choice>
-<lb n="17"/>þæ<g ref="#sins"/> 
+<lb n="17" xml:id="VB_lb_082v_17"/>þæ<g ref="#sins"/> 
 	<name type="abstract"><choice>
 		<orig>tiwe<g ref="#sins"/> dæge<g ref="#sins"/></orig>
 		<reg>Tiwesdæges</reg>
@@ -1224,12 +1224,12 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> þy þriddan dæge þæt bið
-<lb n="18"/>
+<lb n="18" xml:id="VB_lb_082v_18"/>
 	<choice>
 		<orig>on<name type="abstract">wodne<g ref="#sins"/> dæg</name></orig>
 		<reg>on <name type="abstract">Wodnesdæg</name></reg>
 	</choice> æt þære æfteran tide þæ<g ref="#sins"/> dæges þonne cymeð
-<lb n="19"/>
+<lb n="19" xml:id="VB_lb_082v_19"/>
 	<choice>
 		<orig><g ref="#sins"/>ige beacen</orig>
 		<reg><g ref="#sins"/>igebeacen</reg>
@@ -1249,7 +1249,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eorðan</orig>
 		<reg><expan><ex>and</ex></expan> eorðan</reg>
 	</choice>
-<lb n="20"/>grun<damage type="faded" agent="water">da<g ref="#sins"/></damage>. of feower 
+<lb n="20" xml:id="VB_lb_082v_20"/>grun<damage type="faded" agent="water">da<g ref="#sins"/></damage>. of feower 
 	<choice>
 		<orig><abbr type="brev">hwomm<am><g ref="#umacr"/></am></abbr></orig>
 		<reg><expan>hwommu<ex>m</ex></expan></reg>
@@ -1262,7 +1262,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>e</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#sins"/>e</reg>
 	</choice>
-<lb n="21"/>æresta heofon bið 
+<lb n="21" xml:id="VB_lb_082v_21"/>æresta heofon bið 
 	<choice>
 		<orig>ge fealden</orig>
 		<reg>gefealden</reg>
@@ -1271,7 +1271,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>tolesen</orig>
 		<reg><expan><ex>and</ex></expan> tolesen</reg>
 	</choice>. <g ref="#slong"/>wa <g ref="#slong"/>wa boca leaf
-<lb n="22"/>beoð 
+<lb n="22" xml:id="VB_lb_082v_22"/>beoð 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þæt</orig>
 		<reg><expan><ex>and</ex></expan> þæt</reg>
@@ -1284,7 +1284,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> æfter þam <g ref="#slong"/>wiðe
-<lb n="23"/>raðe bið. þæt <g ref="#sins"/>eo 
+<lb n="23" xml:id="VB_lb_082v_23"/>raðe bið. þæt <g ref="#sins"/>eo 
 	<choice>
 		<orig><g ref="#slong"/>weof lennesse</orig>
 		<reg><g ref="#slong"/>weoflennesse</reg>
@@ -1297,7 +1297,7 @@
 		<orig>ge openade</orig>
 		<reg>geopenade</reg>
 	</choice>
-<lb n="24"/>
+<lb n="24" xml:id="VB_lb_082v_24"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>grunda<g ref="#sins"/></orig>
 		<reg><expan><ex>and</ex></expan> grunda<g ref="#sins"/></reg>
@@ -1317,17 +1317,17 @@
 <fw type="fol" place="top-right">83.</fw>
 </add>
 
-<lb n="1"/>cweðað ealle men. <q who="wretched crowd"><hi rend="double">w</hi>á us nu ea<damage type="faded">rminga<g ref="#sins"/>. 
+<lb n="1" xml:id="VB_lb_083r_01"/>cweðað ealle men. <q who="wretched crowd"><hi rend="double">w</hi>á us nu ea<damage type="faded">rminga<g ref="#sins"/>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wa</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wa</reg>
 	</choice> <g ref="#sins"/>ynf</damage>ullan
-<lb n="2"/>þæt we æfre þis <damage type="faded"><g ref="#sins"/></damage>ceoldon 
+<lb n="2" xml:id="VB_lb_083r_02"/>þæt we æfre þis <damage type="faded"><g ref="#sins"/></damage>ceoldon 
 	<choice>
 		<orig>ge bidan</orig>
 		<reg>gebidan</reg>
 	</choice>. <hi rend="double">w</hi>a us þæs þæt we
-<lb n="3"/>æfre gestrynde wæron oððe 
+<lb n="3" xml:id="VB_lb_083r_03"/>æfre gestrynde wæron oððe 
 	<choice>
 		<orig>ge borene</orig>
 		<reg>geborene</reg>
@@ -1335,7 +1335,7 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>nu</orig>
 		<reg><expan><ex>and</ex></expan> nu</reg>
-	</choice> we magon <w>ge<lb n="4"/><g ref="#sins"/>eon</w>. 
+	</choice> we magon <w>ge<lb n="4" xml:id="VB_lb_083r_04"/><g ref="#sins"/>eon</w>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>witan</orig>
 		<reg><expan><ex>and</ex></expan> witan</reg>
@@ -1344,7 +1344,7 @@
 		<orig>ende dæge</orig>
 		<reg>endedæge</reg>
 	</choice>.
-<lb n="5"/>swa u<g ref="#sins"/> of<damage type="faded">t</damage> sægdon. 
+<lb n="5" xml:id="VB_lb_083r_05"/>swa u<g ref="#sins"/> of<damage type="faded">t</damage> sægdon. 
 	<choice>
 		<orig>ðaðe</orig>
 		<reg>ða ðe</reg>
@@ -1353,7 +1353,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ure</orig>
 		<reg><expan><ex>and</ex></expan> ure</reg>
 	</choice> boceras wæron.
-<lb n="6"/>þæt ða<g ref="#sins"/> tacno sceoldon cuman. þe we 
+<lb n="6" xml:id="VB_lb_083r_06"/>þæt ða<g ref="#sins"/> tacno sceoldon cuman. þe we 
 	<choice>
 		<orig>nuge seoð</orig>
 		<reg>nu geseoð</reg>
@@ -1362,7 +1362,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>gyt</orig>
 		<reg><expan><ex>and</ex></expan> gyt</reg>
 	</choice> <g ref="#sins"/>ceolon.
-<lb n="7"/>
+<lb n="7" xml:id="VB_lb_083r_07"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>we</orig>
 		<reg><expan><ex>and</ex></expan> we</reg>
@@ -1371,12 +1371,12 @@
 		<orig><hi rend="double">w</hi>aus</orig>
 		<reg><hi rend="double">w</hi>a us</reg>
 	</choice>
-<lb n="8"/><damage type="faded">nu</damage> earmingas þæt we nu lifiað to lange 
+<lb n="8" xml:id="VB_lb_083r_08"/><damage type="faded">nu</damage> earmingas þæt we nu lifiað to lange 
 	<choice>
 		<orig>on<g ref="#slong"/>wylcum</orig>
 		<reg>on <g ref="#slong"/>wylcum</reg>
 	</choice> ege
-<lb n="9"/>þæs we næfre 
+<lb n="9" xml:id="VB_lb_083r_09"/>þæs we næfre 
 	<choice>
 		<orig>newendon</orig>
 		<reg>ne wendon</reg>
@@ -1385,7 +1385,7 @@
 		<abbr>þ<am><g ref="#omacr"/></am>n</abbr>
 		<expan>þon<ex>ne</ex></expan>
 	</choice> man ú<g ref="#sins"/> oft þyllic toweard
-<lb n="10"/><g ref="#sins"/>ægde 
+<lb n="10" xml:id="VB_lb_083r_10"/><g ref="#sins"/>ægde 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>lærde</orig>
 		<reg><expan><ex>and</ex></expan> lærde</reg>
@@ -1401,8 +1401,8 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ure</orig>
 		<reg><expan><ex>and</ex></expan> ure</reg>
-	</choice> <w>ear<lb n="11"/>man</w> <g ref="#sins"/>awle al<g ref="#ydot"/>san of helle wite. ac we his ne rohton.
-<lb n="12"/>
+	</choice> <w>ear<lb n="11" xml:id="VB_lb_083r_11"/>man</w> <g ref="#sins"/>awle al<g ref="#ydot"/>san of helle wite. ac we his ne rohton.
+<lb n="12" xml:id="VB_lb_083r_12"/>
 	<choice>
 		<orig>acwe</orig>
 		<reg>ac we</reg>
@@ -1411,7 +1411,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
 		<reg><expan><ex>and</ex></expan> on</reg>
 	</choice>
-<lb n="13"/>ure gold 
+<lb n="13" xml:id="VB_lb_083r_13"/>ure gold 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><hi rend="double">o</hi>nu<damage type="faded" agent="water">re</damage></orig>
 		<reg><expan><ex>and</ex></expan> <hi rend="double">o</hi>n ure</reg>
@@ -1424,7 +1424,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
 		<reg><expan><ex>and</ex></expan> on</reg>
 	</choice> ure myclan gestreone
-<lb n="14"/><damage type="faded" agent="water">
+<lb n="14" xml:id="VB_lb_083r_14"/><damage type="faded" agent="water">
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
 		<reg><expan><ex>and</ex></expan> on</reg>
@@ -1437,7 +1437,7 @@
 		<abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr>
 		<expan>þon<ex>ne</ex></expan>
 	</choice>
-<lb n="15"/>we dydon 
+<lb n="15" xml:id="VB_lb_083r_15"/>we dydon 
 	<name type="religion"><choice>
 		<orig>gode<g ref="#sins"/></orig>
 		<reg>Godes</reg>
@@ -1454,7 +1454,7 @@
 		<orig>nuge seoð</orig>
 		<reg>nu geseoð</reg>
 	</choice></q>. <hi rend="double">w</hi>a ðam
-<lb n="16"/>þe ðis eal sceal 
+<lb n="16" xml:id="VB_lb_083r_16"/>þe ðis eal sceal 
 	<choice>
 		<orig>ge bidan</orig>
 		<reg>gebidan</reg>
@@ -1467,7 +1467,7 @@
 		<orig>wodne<g ref="#sins"/> dæges</orig>
 		<reg>Wodnesdæges</reg>
 	</choice></name>
-<lb n="17"/>tacnu.</q></quote></p> <p><quote><q who="Christ">
+<lb n="17" xml:id="VB_lb_083r_17"/>tacnu.</q></quote></p> <p><quote><q who="Christ">
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
@@ -1476,7 +1476,7 @@
 		<orig>þurre<g ref="#sins"/> dæge</orig>
 		<reg>Þurresdæge</reg>
 	</choice></name> þæt<space quantity="2" unit="char"/>bið þ<damage type="faded">æt</damage> þonne
-<lb n="18"/>ariseð eorðan frymðe fram 
+<lb n="18" xml:id="VB_lb_083r_18"/>ariseð eorðan frymðe fram 
 	<choice>
 		<orig>norð dæle</orig>
 		<reg>norðdæle</reg>
@@ -1484,7 +1484,7 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>fram</orig>
 		<reg><expan><ex>and</ex></expan> fram</reg>
-	</choice> <w>east<lb n="19"/>dæle</w>. 
+	</choice> <w>east<lb n="19" xml:id="VB_lb_083r_19"/>dæle</w>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eorðan</orig>
 		<reg><expan><ex>and</ex></expan> eorðan</reg>
@@ -1493,7 +1493,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ealle</orig>
 		<reg><expan><ex>and</ex></expan> ealle</reg>
 	</choice> eorðan
-<lb n="20"/>mægen 
+<lb n="20" xml:id="VB_lb_083r_20"/>mægen 
 	<choice>
 		<orig>on hrered</orig>
 		<reg>onhrered</reg>
@@ -1506,7 +1506,7 @@
 		<abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr>
 		<expan>þon<ex>ne</ex></expan>
 	</choice> tobrocen.
-<lb n="21"/>
+<lb n="21" xml:id="VB_lb_083r_21"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ealle</orig>
 		<reg><expan><ex>and</ex></expan> ealle</reg>
@@ -1523,7 +1523,7 @@
 		<orig>onðam</orig>
 		<reg>on ðam</reg>
 	</choice> dæge.
-<lb n="22"/><hi rend="double">ð</hi>is <g ref="#sins"/>indon þæ<g ref="#sins"/> feorðan dæges tacnu.</q></quote></p> <p><quote><q who="Christ">
+<lb n="22" xml:id="VB_lb_083r_22"/><hi rend="double">ð</hi>is <g ref="#sins"/>indon þæ<g ref="#sins"/> feorðan dæges tacnu.</q></quote></p> <p><quote><q who="Christ">
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr type="brev">ð<am><g ref="#omacr"/></am>n</abbr></orig>			
 		<reg><expan><ex>and</ex></expan> <expan>ðon<ex>ne</ex></expan></reg>
@@ -1532,12 +1532,12 @@
 		<orig>on<name type="abstract">frige dæge</name></orig>
 		<reg>on <name type="abstract">Frigedæge</name></reg>
 	</choice>
-<lb n="23"/>
+<lb n="23" xml:id="VB_lb_083r_23"/>
 	<choice>
 		<orig>ætþær<damage type="faded">e</damage></orig>
 		<reg>æt þære</reg>
 	</choice> syxtan tide þonne breceð heofone<g ref="#sins"/> rodor
-<lb n="24"/>fram 
+<lb n="24" xml:id="VB_lb_083r_24"/>fram 
 	<choice>
 		<orig>east dæle</orig>
 		<reg>eastdæle</reg>
@@ -1557,7 +1557,7 @@
 
   <pb n="83v" xml:id="VB_fol_083v"/> 
 
-<lb n="1"/>lociende dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/> engla<g ref="#sins"/> ufan 
+<lb n="1" xml:id="VB_lb_083v_01"/>lociende dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/> engla<g ref="#sins"/> ufan 
 	<choice>
 		<orig>onþa<g ref="#sins"/></orig>
 		<reg>on þa<g ref="#sins"/></reg>
@@ -1565,7 +1565,7 @@
 	<choice>
 		<orig>eorð lican</orig>
 		<reg>eorðlican></reg>
-	</choice> <w>ge<g ref="#sins"/>ceaf<lb n="2"/>ta</w> þ
+	</choice> <w>ge<g ref="#sins"/>ceaf<lb n="2" xml:id="VB_lb_083v_02"/>ta</w> þ
 	<choice>
 		<orig>urhþa</orig>
 		<reg>urh þa</reg>
@@ -1578,12 +1578,12 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> ealle men
-<lb n="3"/>æfter þan <g ref="#sins"/>ona mid mycle ege<g ref="#sins"/>an <g ref="#slong"/>wiðe 
+<lb n="3" xml:id="VB_lb_083v_03"/>æfter þan <g ref="#sins"/>ona mid mycle ege<g ref="#sins"/>an <g ref="#slong"/>wiðe 
 	<choice>
 		<orig>ge þreade</orig>
 		<reg>geþreade</reg>
 	</choice> beoð.
-<lb n="4"/>
+<lb n="4" xml:id="VB_lb_083v_04"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
 		<reg><expan><ex>and</ex></expan> hie</reg>
@@ -1593,8 +1593,8 @@
 		<reg><expan><ex>and</ex></expan> to denum</reg>
 	</choice>. hie 
 	<choice>
-		<orig>to<w>be hyd<lb n="5"/>anne</w></orig>
-		<reg>to <w>behyd<lb n="5"/>anne</w></reg>
+	  <orig>to<w>be hyd<lb n="5" xml:id="VB_lb_083v_05_orig"/>anne</w></orig>
+		<reg>to <w>behyd<lb n="5" xml:id="VB_lb_083v_05_reg"/>anne</w></reg>
 	</choice> 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
@@ -1604,7 +1604,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>dena</orig>
 		<reg><expan><ex>and</ex></expan> dena</reg>
 	</choice>
-<lb n="6"/>þæt ge us 
+<lb n="6" xml:id="VB_lb_083v_06"/>þæt ge us 
 	<choice>
 		<orig>ofer feallen</orig>
 		<reg>oferfeallen</reg>
@@ -1613,7 +1613,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>be wrigen</orig>
 		<reg><expan><ex>and</ex></expan> bewrigen</reg>
 	</choice> þæt we næfre eft cwice
-<lb n="7"/><g ref="#sins"/>ien. 
+<lb n="7" xml:id="VB_lb_083v_07"/><g ref="#sins"/>ien. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>u<g ref="#sins"/></orig>
 		<reg><expan><ex>and</ex></expan> u<g ref="#sins"/></reg>
@@ -1626,11 +1626,11 @@
 		<orig>ge gripe</orig>
 		<reg>gegripe</reg>
 	</choice>. þæt
-<lb n="8"/>we næfre eft cwice arisan. 
+<lb n="8" xml:id="VB_lb_083v_08"/>we næfre eft cwice arisan. 
 	<choice>
 		<orig><hi rend="double">f</hi>orðan</orig>
 		<reg><hi rend="double">f</hi>or ðan</reg>
-	</choice> þe we næfre <w>ge<lb n="9"/>ah<g ref="#sins"/>odon</w> þyllic weorc 
+	</choice> þe we næfre <w>ge<lb n="9" xml:id="VB_lb_083v_09"/>ah<g ref="#sins"/>odon</w> þyllic weorc 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þyllic</orig>
 		<reg><expan><ex>and</ex></expan> þyllic</reg>
@@ -1639,7 +1639,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þyllic</orig>
 		<reg><expan><ex>and</ex></expan> þyllic</reg>
 	</choice> wite. <hi rend="double">s</hi>yððan
-<lb n="10"/>we 
+<lb n="10" xml:id="VB_lb_083v_10"/>we 
 	<choice>
 		<orig>ge borene</orig>
 		<reg>geborene</reg>
@@ -1653,8 +1653,8 @@
 		<reg>gesceapen</reg>
 	</choice> wæs. 
 	<choice>
-		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>ge<lb n="11"/>worden</w></orig>
-		<reg><expan><ex>and</ex></expan> <w>ge<lb n="11"/>worden</w></reg>
+	  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><w>ge<lb n="11" xml:id="VB_lb_083v_11_orig"/>worden</w></orig>
+		<reg><expan><ex>and</ex></expan> <w>ge<lb n="11" xml:id="VB_lb_083v_11_reg"/>worden</w></reg>
 	</choice></q>. 
 	<choice>
 		<orig><hi rend="double">W</hi>aðam</orig>
@@ -1664,17 +1664,17 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ðonne</orig>
 		<reg><expan><ex>and</ex></expan> ðonne</reg>
 	</choice> is
-<lb n="12"/>þæ<g ref="#sins"/> 
+<lb n="12" xml:id="VB_lb_083v_12"/>þæ<g ref="#sins"/> 
 	<name type="abstract"><choice>
 		<orig>sæterne<g ref="#sins"/> dæge<g ref="#sins"/></orig>
 		<reg>Sæternesdæges</reg>
 	</choice></name> tacenu þæt fram þam feower
-<lb n="13"/><g ref="#sins"/>ceatum 
+<lb n="13" xml:id="VB_lb_083v_13"/><g ref="#sins"/>ceatum 
 	<choice>
 		<orig>middan gearde<g ref="#sins"/></orig>
 		<reg>middangearde<g ref="#sins"/></reg>
 	</choice> bið. gefylled on heofone<g ref="#sins"/>
-<lb n="14"/>rodor mid 
+<lb n="14" xml:id="VB_lb_083v_14"/>rodor mid 
 	<choice>
 		<orig>helle ga<g ref="#sins"/>tum</orig>
 		<reg>hellega<g ref="#sins"/>tum</reg>
@@ -1690,7 +1690,7 @@
 		</choice></sic>
 		<corr resp="scragg">campwerode</corr>
 	</choice>.
-<lb n="15"/>þære engelican
+<lb n="15" xml:id="VB_lb_083v_15"/>þære engelican
 	<choice>
 		<sic><choice>
 			<orig>ge sceaft</orig>
@@ -1702,7 +1702,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> þær bið micel gefeoht
-<lb n="16"/>betweoh 
+<lb n="16" xml:id="VB_lb_083v_16"/>betweoh 
 	<choice>
 		<sic>engla</sic>
 		<corr resp="scragg">englas</corr>
@@ -1723,7 +1723,7 @@
 		<orig><abbr type="brev">betweon<am><g ref="#umacr"/></am></abbr></orig>
 		<reg><expan>betweonu<ex>m</ex></expan></reg>
 	</choice>
-		<lb n="17"/>wið ðam unclænum <space quantity="2" unit="char"/> ga<g ref="#slong"/>tum 
+		<lb n="17" xml:id="VB_lb_083v_17"/>wið ðam unclænum <space quantity="2" unit="char"/> ga<g ref="#slong"/>tum 
 	<choice>
 		<orig>for<name type="religion">gode<g ref="#sins"/></name></orig>
 		<reg>for <name type="religion">Godes</name></reg>
@@ -1732,7 +1732,7 @@
 		<orig>ge corenum</orig>
 		<reg>gecorenum</reg>
 	</choice>
-<lb n="18"/>
+<lb n="18" xml:id="VB_lb_083v_18"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>his</orig>
 		<reg><expan><ex>and</ex></expan> his</reg>
@@ -1745,7 +1745,7 @@
 		<orig>ofer <g ref="#slong"/>wiðað</orig>
 		<reg>ofer<g ref="#slong"/>wiðað</reg>
 	</choice> ða
-<lb n="19"/>
+<lb n="19" xml:id="VB_lb_083v_19"/>
 	<choice>
 		<orig>werig<add place="sub">,</add><add place="sup">.d.</add>an</orig>
 		<reg>werig><add place="sup">.d.</add>an</reg>
@@ -1758,12 +1758,12 @@
 		<orig>ofer cumað</orig>
 		<reg>ofercumað</reg>
 	</choice>.
-<lb n="20"/><hi rend="double">b</hi>roðor mine þi<g ref="#sins"/> <g ref="#sins"/>indon þæs 
+<lb n="20" xml:id="VB_lb_083v_20"/><hi rend="double">b</hi>roðor mine þi<g ref="#sins"/> <g ref="#sins"/>indon þæs 
 	<name type="abstract"><choice>
 		<orig>sæternes dæge<g ref="#sins"/></orig>
 		<reg>Sæternesdæges</reg>
 	</choice></name> tacno.
-<lb n="21"/>
+<lb n="21" xml:id="VB_lb_083v_21"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
 		<reg><expan><ex>and</ex></expan> þa</reg>
@@ -1779,7 +1779,7 @@
 	<choice>
 		<orig>ærðam</orig>
 		<reg>ær ðam</reg>
-	</choice> myclan <w>dryht<lb n="22"/>ne<g ref="#sins"/></w> 
+	</choice> myclan <w>dryht<lb n="22" xml:id="VB_lb_083v_22"/>ne<g ref="#sins"/></w> 
 	<name type="religion"><choice>
 		<orig>dome<g ref="#sins"/> dæge</orig>
 		<reg>Domesdæge</reg>
@@ -1796,7 +1796,7 @@
 		<orig>soð lice</orig>
 		<reg>soðlice</reg>
 	</choice>
-<lb n="23"/>
+<lb n="23" xml:id="VB_lb_083v_23"/>
 	<choice>
 		<orig><g ref="#inodotenl"/>nðam</orig>
 		<reg><g ref="#inodotenl"/>n ðam</reg>
@@ -1805,7 +1805,7 @@
 		<orig>on <g ref="#sins"/>yn</orig>
 		<reg>on<g ref="#sins"/>yn</reg>
 	</choice> bið <g ref="#slong"/>wiðe reðe
-<lb n="24"/>
+<lb n="24" xml:id="VB_lb_083v_24"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wiðe</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wiðe</reg>
@@ -1829,12 +1829,12 @@
 <fw type="fol" place="top-right">84.</fw>
 </add>
 
-<lb n="1"/>borene sceoldon bion 
+<lb n="1" xml:id="VB_lb_084r_01"/>borene sceoldon bion 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>to</orig>
 		<reg><expan><ex>and</ex></expan> to</reg>
 	</choice> swylcum wund<damage type="faded">r</damage>e sceoldon
-<lb n="2"/>æfre 
+<lb n="2" xml:id="VB_lb_084r_02"/>æfre 
 	<choice>
 		<orig>ge weorðan</orig>
 		<reg>ge weorðan</reg>
@@ -1842,7 +1842,7 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
-	</choice> gesyhð <space quantity="5" unit="char"/> ure leofe <w>hlæf<lb n="3"/>die</w> 
+	</choice> gesyhð <space quantity="5" unit="char"/> ure leofe <w>hlæf<lb n="3" xml:id="VB_lb_084r_03"/>die</w> 
 	<choice>
 		<abbr type="brev">s<am><g ref="#cmacr"/></am>a</abbr>
 		<expan>s<ex>an</ex>c<ex>t</ex>a</expan>
@@ -1855,7 +1855,7 @@
 		<orig>cristes</orig>
 		<reg>Cristes</reg>
 	</choice></name> moder þone earman <damage type="faded">heap</damage>
-<lb n="4"/>
+<lb n="4" xml:id="VB_lb_084r_04"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þone</orig>
 		<reg><expan><ex>and</ex></expan> þone</reg>
@@ -1868,7 +1868,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> ariseð heo.
-<lb n="5"/>mid wependre stefne. 
+<lb n="5" xml:id="VB_lb_084r_05"/>mid wependre stefne. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ge fealleð<add place="sub">,</add><add place="to">to</add></orig>
 		<reg><expan><ex>and</ex></expan> gefealleð<add place="to">to</add></reg>
@@ -1885,7 +1885,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>to</orig>
 		<reg><expan><ex>and</ex></expan> to</reg>
 	</choice>
-<lb n="6"/>his fotum. 
+<lb n="6" xml:id="VB_lb_084r_06"/>his fotum. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heo</orig>
 		<reg><expan><ex>and</ex></expan> heo</reg>
@@ -1894,7 +1894,7 @@
 		<orig>crist</orig>
 		<reg>Crist</reg>
 	</choice></name>
-<lb n="7"/>
+<lb n="7" xml:id="VB_lb_084r_07"/>
 	<choice>
 		<orig>ðuþe</orig>
 		<reg>ðu þe</reg>
@@ -1907,7 +1907,7 @@
 		<orig>in noðe</orig>
 		<reg>innoðe</reg>
 	</choice>
-<lb n="8"/>eardiende 
+<lb n="8" xml:id="VB_lb_084r_08"/>eardiende 
 	<choice>
 		<orig>nefor læt</orig>
 		<reg>ne forlæt</reg>
@@ -1916,13 +1916,13 @@
 		<orig>ge weald</orig>
 		<reg>geweald</reg>
 	</choice> agan
-<lb n="9"/>ðus myclan heape<g ref="#sins"/> þines 
+<lb n="9" xml:id="VB_lb_084r_09"/>ðus myclan heape<g ref="#sins"/> þines 
 	<choice>
 		<orig>hand<del type="erasure">e<g ref="#slong"/></del><space quantity="1" unit="char"/>ge worces</orig>
 		<reg>handgeworces</reg>
 	</choice></q>.</p> <p><hi rend="double">ð</hi>onne forgifeð
-<lb n="10"/>ure dryhten þryddan dæl þæs <g ref="#sins"/>ynfullan heape<g ref="#sins"/>. þære
-<lb n="11"/>halgan 
+<lb n="10" xml:id="VB_lb_084r_10"/>ure dryhten þryddan dæl þæs <g ref="#sins"/>ynfullan heape<g ref="#sins"/>. þære
+<lb n="11" xml:id="VB_lb_084r_11"/>halgan 
 	<choice>
     <orig><abbr type="brev">s<am><g ref="#cmacr"/></am>a</abbr></orig>
     <reg><expan>s<ex>an</ex>c<ex>t</ex>a</expan></reg>
@@ -1939,7 +1939,7 @@
 		<orig>be hindan</orig>
 		<reg>behindan</reg>
 	</choice>. <g ref="#slong"/>wiðe
-<lb n="12"/><damage type="faded">myc</damage>el heap 
+<lb n="12" xml:id="VB_lb_084r_12"/><damage type="faded">myc</damage>el heap 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wiðe</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wiðe</reg>
@@ -1952,12 +1952,12 @@
 		<orig>þæsðe</orig>
 		<reg>þæs ðe</reg>
 	</choice> hie <damage type="faded" agent="chemical">æfre</damage>
-<lb n="13"/>gewurdon gestrynde. 
+<lb n="13" xml:id="VB_lb_084r_13"/>gewurdon gestrynde. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> ariseð se halga <gap reason="illegible" agent="chemical"/><supplied resp="maier">Michael</supplied>
-<lb n="14"/>
+<lb n="14" xml:id="VB_lb_084r_14"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>crypð</orig>
 		<reg><expan><ex>and</ex></expan> crypð</reg>
@@ -1974,7 +1974,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>feala</orig>
 		<reg><expan><ex>and</ex></expan> feala</reg>
 	</choice></supplied>
-<lb n="15"/>teara 
+<lb n="15" xml:id="VB_lb_084r_15"/>teara 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>luteð</orig>
 		<reg><expan><ex>and</ex></expan> luteð</reg>
@@ -1987,7 +1987,7 @@
 		<orig>todry<damage type="stain" agent="chemical">htn<unclear>e</unclear></damage><gap reason="lost" agent="chemical"/><supplied resp="sisam">s</supplied></orig>
 		<reg>to dryhtnes</reg>
 	</choice> <supplied>fotu<unclear agent="chemical">m</unclear></supplied>.
-<lb n="16"/>
+<lb n="16" xml:id="VB_lb_084r_16"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>to</orig>
 		<reg><expan><ex>and</ex></expan> to</reg>
@@ -2000,18 +2000,18 @@
 		<orig>mindri<damage type="stain" agent="chemical">h</damage><unclear>te</unclear><gap reason="illegible" agent="chemical"/><supplied resp="sisam">n</supplied></orig>
 		<reg>min drihten</reg>	
 	</choice> <supplied>ælmihti</supplied><unclear agent="chemical">g</unclear>. <damage type="stain" agent="chemical">ð</damage>u
-<lb n="17"/>me sealdest 
+<lb n="17" xml:id="VB_lb_084r_17"/>me sealdest 
 	<choice>
 		<orig>ealdor dom</orig>
 		<reg>ealdordom</reg>
 	</choice> unde<damage type="stain" agent="chemical">r ðe</damage> <gap reason="illegible" agent="chemical"/><supplied resp="sisam">ofer eall</supplied> <damage type="stain" agent="chemical">he</damage>ofena
-<lb n="18"/>rice. þæt ic moste bion þin 
+<lb n="18" xml:id="VB_lb_084r_18"/>rice. þæt ic moste bion þin 
 	<choice>
 		<orig>ge <unclear agent="chemical">w</unclear><gap reason="illegible" agent="chemical"/><supplied resp="sisam">itten</supplied></orig>
 		<reg>gewitten</reg>
 	</choice> <supplied>eall</supplied><unclear agent="chemical">ra</unclear> sawla 
 	<choice>
-		<orig><w><abbr type="pref"><am><g ref="#et"/></am></abbr><lb n="19"/>feng</w></orig>
+		<orig><w><abbr type="pref"><am><g ref="#et"/></am></abbr><lb n="19" xml:id="VB_lb_084r_19"/>feng</w></orig>
 		<reg><w><expan><ex>and</ex></expan>feng</w></reg>
 	</choice>
 	<choice>
@@ -2021,12 +2021,12 @@
 	<choice>
 		<orig>icðe</orig>
 		<reg>ic ðe</reg>
-	</choice> bidde min d<damage type="smudge" agent="chemical">rih</damage><gap reason="illegible" agent="chemical"/><supplied resp="sisam">ten þæt ðu</supplied> <damage type="smudge" agent="chemical">næ</damage>fre <w>for<lb n="20"/><damage type="faded">læte</damage></w> ðus myclan heape<g ref="#sins"/> 
+	</choice> bidde min d<damage type="smudge" agent="chemical">rih</damage><gap reason="illegible" agent="chemical"/><supplied resp="sisam">ten þæt ðu</supplied> <damage type="smudge" agent="chemical">næ</damage>fre <w>for<lb n="20" xml:id="VB_lb_084r_20"/><damage type="faded">læte</damage></w> ðus myclan heape<g ref="#sins"/> 
 	<choice>
 		<orig><damage type="smudge" agent="chemical">ge</damage> <gap reason="illegible" agent="chemical"/><supplied resp="sisam">weald</supplied></orig>
 		<reg>geweald</reg>
 	</choice> <supplied>dio</supplied><unclear agent="chemical">fl</unclear><damage type="smudge" agent="chemical">u</damage> <damage type="faded">a</damage>gan þines
-<lb n="21"/>
+<lb n="21" xml:id="VB_lb_084r_21"/>
 	<choice>
 		<orig>hand ge weorce<g ref="#sins"/></orig>
 		<reg>handgeweorce<g ref="#sins"/></reg>
@@ -2035,7 +2035,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þo</orig>
 		<reg><expan><ex>and</ex></expan> þo</reg>
 	</choice></damage><gap reason="illegible" agent="chemical"/><supplied resp="sisam">nne fo</supplied><unclear agent="chemical">r</unclear><damage type="smudge" agent="chemical">gife</damage>ð ure dr<g ref="#windy"/>hten
-<lb n="22"/>þam halgan 
+<lb n="22" xml:id="VB_lb_084r_22"/>þam halgan 
 	<choice>
     <abbr type="brev">s<am><g ref="#cmacr"/></am>e</abbr>
     <expan>s<ex>an</ex>c<ex>t</ex>e</expan>
@@ -2045,14 +2045,14 @@
 		<reg>Michael</reg>
 	</choice></name> <gap reason="illegible" agent="chemical"/><supplied resp="sisam">þo</supplied><unclear agent="chemical">n</unclear><damage type="smudge" agent="chemical">e</damage> þriddan dæl 
 	<choice>
-		<orig><damage type="faded">ð</damage>æs<w>syn<lb n="23"/>fullan</w></orig>
-		<reg>ðæs<w>syn<lb n="23"/>fullan</w></reg>
+	  <orig><damage type="faded">ð</damage>æs<w>syn<lb n="23" xml:id="VB_lb_084r_23_orig"/>fullan</w></orig>
+		<reg>ðæs<w>syn<lb n="23" xml:id="VB_lb_084r_23_reg"/>fullan</w></reg>
 	</choice> heapes. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þo<damage type="smudge" agent="chemical">nn</damage><unclear agent="chemical">e</unclear></orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> <gap reason="illegible" agent="chemical"/><supplied resp="sisam">bið</supplied> <damage type="smudge" agent="chemical">ðæ</damage>r gyt <g ref="#slong"/>wiðe mycel werod
-<lb n="24"/>
+<lb n="24" xml:id="VB_lb_084r_24"/>
 	<choice>
 		<orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/></damage>wiðe</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wiðe</reg>
@@ -2068,7 +2068,7 @@
 	  
 	  <pb n="84v" xml:id="VB_fol_084v"/>
 	  
-	<lb n="1"/><choice>
+	<lb n="1" xml:id="VB_lb_084v_01"/><choice>
 	  <orig><g ref="#sins"/>lra</orig>
 	  <reg><g ref="#sins"/>ynfullra</reg>
 	</choice> sawla. 
@@ -2084,7 +2084,7 @@
 		<orig>petrus</orig>
 		<reg>Petrus</reg>
 	</choice></name>. hi<g ref="#sins"/>
-<lb n="2"/>
+<lb n="2" xml:id="VB_lb_084v_02"/>
 	<choice>
 		<orig>ealdor þegn</orig>
 		<reg>ealdorþegn</reg>
@@ -2094,8 +2094,8 @@
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wiðe</reg>
 	</choice> dreorig. 
 	<choice>
-		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid<w>mic<lb n="3"/>lan</w></orig>
-		<reg><expan><ex>and</ex></expan> mid <w>mic<lb n="3"/>lan</w></reg>
+	  <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid<w>mic<lb n="3" xml:id="VB_lb_084v_03_orig"/>lan</w></orig>
+		<reg><expan><ex>and</ex></expan> mid <w>mic<lb n="3" xml:id="VB_lb_084v_03_reg"/>lan</w></reg>
 	</choice>	sarigan tearum. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
@@ -2105,7 +2105,7 @@
 		<orig><abbr type="brev">ead med<am><g ref="#umacr"/></am></abbr></orig>
 		<reg><expan>eadmedmedu<ex>m</ex></expan></reg>
 	</choice>
-<lb n="4"/>fealleð 
+<lb n="4" xml:id="VB_lb_084v_04"/>fealleð 
 	<choice>
 		<orig>toðæs</orig>
 		<reg>to ðæs</reg>
@@ -2122,12 +2122,12 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he<abbr type="brev">ð<am><g ref="#omacr"/></am>n</abbr></orig>
 		<reg><expan><ex>and</ex></expan> he <expan>ðon<ex>ne</ex></expan></reg>
 	</choice>
-<lb n="5"/>cweð. <q who="Sanctus Petrus">min dryhten. 
+<lb n="5" xml:id="VB_lb_084v_05"/>cweð. <q who="Sanctus Petrus">min dryhten. 
 	<choice>
 		<orig>mindrihten</orig>
 		<reg>min drihten</reg>
 	</choice> ælmihtig ðu me <g ref="#sins"/>ealdest
-<lb n="6"/>
+<lb n="6" xml:id="VB_lb_084v_06"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mege uðest</orig>
 		<reg><expan><ex>and</ex></expan> me geuðest</reg>
@@ -2136,12 +2136,12 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>eac</orig>
 		<reg><expan><ex>and</ex></expan> eac</reg>
 	</choice> helle wita
-<lb n="7"/>þæt ic moste <g ref="#slong"/>wylcne 
+<lb n="7" xml:id="VB_lb_084v_07"/>þæt ic moste <g ref="#slong"/>wylcne 
 	<choice>
 		<orig>ge bindan</orig>
 		<reg>gebindan</reg>
 	</choice> on eorðan <g ref="#slong"/>wylcne ic
-<lb n="8"/>þonne wolde. 
+<lb n="8" xml:id="VB_lb_084v_08"/>þonne wolde. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>wylcne</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#slong"/>wylcne</reg>
@@ -2154,7 +2154,7 @@
 		<orig><hi rend="smallcap">I</hi>cbidde</orig>
 		<reg><hi rend="smallcap">I</hi>c bidde</reg>
 	</choice>
-<lb n="9"/>þe min dryhten 
+<lb n="9" xml:id="VB_lb_084v_09"/>þe min dryhten 
 	<choice>
 		<orig>forþinum</orig>
 		<reg>for þinum</reg>
@@ -2167,7 +2167,7 @@
 		<orig> <abbr type="brev"><am><g ref="#et"/></am></abbr>forþinum</orig>
 		<reg><expan><ex>and</ex></expan> for þinum</reg>
 	</choice>
-<lb n="10"/>þrymme. 
+<lb n="10" xml:id="VB_lb_084v_10"/>þrymme. 
 	<choice>
 		<orig>ðætðu</orig>
 		<reg>ðæt ðu</reg>
@@ -2176,7 +2176,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ðysse<g ref="#sins"/></orig>
 		<reg><expan><ex>and</ex></expan> ðysse<g ref="#sins"/></reg>
 	</choice>
-<lb n="11"/>synfullan heape<g ref="#sins"/> þriddan dæl</q>. 
+<lb n="11" xml:id="VB_lb_084v_11"/>synfullan heape<g ref="#sins"/> þriddan dæl</q>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr></orig>
 		<reg><expan><ex>and</ex></expan> <expan>þon<ex>ne</ex></expan></reg>
@@ -2185,7 +2185,7 @@
 		<orig>for gifeð</orig>
 		<reg>forgifeð</reg>
 	</choice> ure
-<lb n="12"/>dryhten ðam halgan 
+<lb n="12" xml:id="VB_lb_084v_12"/>dryhten ðam halgan 
 	<choice>
     <abbr>s<am><g ref="#cmacr"/></am>e</abbr>
     <expan>s<ex>an</ex>c<ex>t</ex>e</expan>
@@ -2194,12 +2194,12 @@
 		<orig>petre</orig>
 		<reg>Petre</reg>
 	</choice></name> ðone ðriddan dæl þæ<g ref="#sins"/>
-<lb n="13"/><g ref="#sins"/>ynfullan heape<g ref="#sins"/>. 
+<lb n="13" xml:id="VB_lb_084v_13"/><g ref="#sins"/>ynfullan heape<g ref="#sins"/>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> bið þær gyt <g ref="#slong"/>wiðe mycel
-<lb n="14"/>werod 
+<lb n="14" xml:id="VB_lb_084v_14"/>werod 
 	<choice>
 		<orig>be hindan</orig>
 		<reg>behindan</reg>
@@ -2212,7 +2212,7 @@
 		<orig>gode</orig>
 		<reg>Gode</reg>
 	</choice></name> <g ref="#slong"/>wiðe lað. <hi rend="double">ð</hi>onne besyhð se
-<lb n="15"/>
+<lb n="15" xml:id="VB_lb_084v_15"/>
 	<choice>
 		<orig>soð fæsta</orig>
 		<reg>soðfæsta</reg>
@@ -2224,7 +2224,7 @@
 	<choice>
 		<orig>tohis</orig>
 		<reg>to his</reg>
-	</choice> ðam <w>gecore<lb n="16"/>num</w> 
+	</choice> ðam <w>gecore<lb n="16" xml:id="VB_lb_084v_16"/>num</w> 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>tohi<g ref="#sins"/><abbr type="abbr">ð<am><g ref="#amacr"/></am></abbr></orig>
 		<reg><expan><ex>and</ex></expan> to hi<g ref="#sins"/> <expan>ða<ex>m</ex></expan></reg>
@@ -2233,7 +2233,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
 		<reg><expan><ex>and</ex></expan> he</reg>
 	</choice> ðus cweð. <quote><q who="Christ"> <foreign xml:lang="lat"><hi rend="double">u</hi>enite benedicti
-<lb n="17"/>patris mei 
+<lb n="17" xml:id="VB_lb_084v_17"/>patris mei 
 	<choice>
 		<orig><abbr type="contr"><am><g ref="#pbardes"/></am></abbr> cipite</orig>
 		<reg><expan>p<ex>er</ex></expan>cipite</reg>
@@ -2242,12 +2242,12 @@
 		<orig><sic>ad</sic><abbr type="contr">uo<am><g ref="#bovlmed"/></am></abbr></orig>
 		<reg><corr resp="scragg szarmach">quod</corr> <expan>uob<ex>is</ex></expan></reg> 
 	</choice>	paratum est
-<lb n="18"/>ab origine mundi</foreign></q></quote> he swa cwæð <quote><q who="Christ"><hi rend="double">c</hi>umað ge nu <w>gebled<lb n="19"/><g ref="#sins"/>ode</w> 
+<lb n="18" xml:id="VB_lb_084v_18"/>ab origine mundi</foreign></q></quote> he swa cwæð <quote><q who="Christ"><hi rend="double">c</hi>umað ge nu <w>gebled<lb n="19" xml:id="VB_lb_084v_19"/><g ref="#sins"/>ode</w> 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>onfoð</orig>
 		<reg><expan><ex>and</ex></expan> onfoð</reg>
 	</choice> mine<g ref="#sins"/> fæder rice þæt eow wæs gee<damage type="faded">a</damage>ruwad
-<lb n="20"/>fram fruman 
+<lb n="20" xml:id="VB_lb_084v_20"/>fram fruman 
 	<choice>
 		<orig>middan gearde<g ref="#sins"/></orig>
 		<reg>middangearde<g ref="#sins"/></reg>
@@ -2256,12 +2256,12 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
 	</choice> gyt besyhð ure
-		<lb n="21"/>dr<g ref="#windy"/>hten on þa wynstran hand.  <space quantity="3" unit="char"/>
+		<lb n="21" xml:id="VB_lb_084v_21"/>dr<g ref="#windy"/>hten on þa wynstran hand.  <space quantity="3" unit="char"/>
 	<choice>
 		<orig>toðam</orig>
 		<reg>to ðam</reg>
 	</choice> synfullan
-<lb n="22"/>heape 
+<lb n="22" xml:id="VB_lb_084v_22"/>heape 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>heðus</orig>
 		<reg><expan><ex>and</ex></expan> he ðus</reg>
@@ -2274,12 +2274,12 @@
 		<orig>male dicti</orig>
 		<reg>maledicti</reg>
 	</choice> <g ref="#inodotenl"/>n
-<lb n="23"/>ignem æternum qui 		
+<lb n="23" xml:id="VB_lb_084v_23"/>ignem æternum qui 		
 	<choice>
 		<abbr type="brev"><am><g ref="#pmacr"/></am> paratus</abbr>
 		<expan>p<ex>re</ex>paratus</expan>
 	</choice> est <name type="religion">diabulo</name> et angelis
-<lb n="24"/>eius</foreign></q></quote>. <hi rend="double"><g ref="#hrdes"/></hi>e swa cwæð <quote><q who="Christ">gewitað ge awyrigde, fram me
+<lb n="24" xml:id="VB_lb_084v_24"/>eius</foreign></q></quote>. <hi rend="double"><g ref="#hrdes"/></hi>e swa cwæð <quote><q who="Christ">gewitað ge awyrigde, fram me
 
   <pb n="85r" xml:id="VB_fol_085r"/>
   
@@ -2287,7 +2287,7 @@
 <fw type="fol" place="top-right">85.</fw>
 </add>
 
-<lb n="1"/>
+<lb n="1" xml:id="VB_lb_085r_01"/>
 	<choice>
 		<orig><g ref="#inodotenl"/>nða</orig>
 		<reg><g ref="#inodotenl"/>n ða</reg>
@@ -2296,7 +2296,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#inodotenl"/>n</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#inodotenl"/>n</reg>
 	</choice> ðæt ece fyr.
-<lb n="2"/>ðe ðam <name type="religion">diofle</name> wæs 
+<lb n="2" xml:id="VB_lb_085r_02"/>ðe ðam <name type="religion">diofle</name> wæs 
 	<choice>
 		<orig>ge earwod</orig>
 		<reg>geearwod</reg>
@@ -2313,7 +2313,7 @@
 		<orig>himhyrdon</orig>
 		<reg>him hyrdon</reg>
 	</choice></q></quote>.
-<lb n="3"/>
+<lb n="3" xml:id="VB_lb_085r_03"/>
 	<choice>
 		<orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr>þ</damage>onne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
@@ -2326,7 +2326,7 @@
 		<abbr type="brev">ð<am><g ref="#omacr"/></am>n</abbr>
 		<expan>ðon<ex>ne</ex></expan>
 	</choice>
-<lb n="4"/>drifað þa synfullan 
+<lb n="4" xml:id="VB_lb_085r_04"/>drifað þa synfullan 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
 		<reg><expan><ex>and</ex></expan> þa</reg>
@@ -2339,7 +2339,7 @@
 		<orig>tohelle</orig>
 		<reg>to helle</reg>
 	</choice>
-<lb n="5"/>
+<lb n="5" xml:id="VB_lb_085r_05"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#sins"/>e</orig>
 		<reg><expan><ex>and</ex></expan> <g ref="#sins"/>e</reg>
@@ -2360,12 +2360,12 @@
 		<orig>onhanda</orig>
 		<reg>on handa</reg>
 	</choice>:
-<lb n="6"/>eala broðor mine hwæt ðær mæg 
+<lb n="6" xml:id="VB_lb_085r_06"/>eala broðor mine hwæt ðær mæg 
 	<choice>
 		<orig>ge hyran</orig>
 		<reg>gehyran</reg>
 	</choice> micel sorh
-<lb n="7"/>
+<lb n="7" xml:id="VB_lb_085r_07"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mycel</orig>
 		<reg><expan><ex>and</ex></expan> mycel</reg>
@@ -2382,7 +2382,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>toða</orig>
 		<reg><expan><ex>and</ex></expan> toða</reg>
 	</choice>
-<lb n="8"/>
+<lb n="8" xml:id="VB_lb_085r_08"/>
 	<choice>
 		<orig>grist bitung</orig>
 		<reg>gristbitung</reg>
@@ -2398,7 +2398,7 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þone</orig>
 		<reg>><expan><ex>and</ex></expan> þone</reg>
-	</choice> <w>sari<lb n="9"/>gestan</w> stefn. 
+	</choice> <w>sari<lb n="9" xml:id="VB_lb_085r_09"/>gestan</w> stefn. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þone</orig>
 		<reg>><expan><ex>and</ex></expan> þone</reg>
@@ -2407,7 +2407,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>granunge</orig>
 		<reg>><expan><ex>and</ex></expan> granunge</reg>
 	</choice>.
-<lb n="10"/>
+<lb n="10" xml:id="VB_lb_085r_10"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg>><expan><ex>and</ex></expan> þonne</reg>
@@ -2415,7 +2415,7 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
 		<reg><expan><ex>and</ex></expan> þa</reg>
-	</choice> <w>dreori<lb n="11"/>gan</w> 
+	</choice> <w>dreori<lb n="11" xml:id="VB_lb_085r_11"/>gan</w> 
 	<choice>
 		<orig><g ref="#inodotenl"/>nhelle</orig>
 		<reg><g ref="#inodotenl"/>n helle</reg>
@@ -2432,7 +2432,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr></orig>
 		<reg><expan><ex>and</ex></expan> <expan>þon<ex>ne</ex></expan></reg>
 	</choice>
-<lb n="12"/>wendeð 
+<lb n="12" xml:id="VB_lb_085r_12"/>wendeð 
 	<choice>
 		<abbr type="brev">s<am><g ref="#cmacr"/></am>s</abbr>
 		<expan>s<ex>an</ex>c<ex>tu</ex>s</expan>
@@ -2441,7 +2441,7 @@
 		<orig>petrus</orig>
 		<reg>Petrus</reg>
 	</choice></name> þanon fram þære helle dura
-<lb n="13"/>
+<lb n="13" xml:id="VB_lb_085r_13"/>
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
 		<reg><expan><ex>and</ex></expan> he</reg>
@@ -2454,7 +2454,7 @@
 		<orig>syð þan</orig>
 		<reg>syðþan</reg>
 	</choice>. þa earman sawla
-<lb n="14"/>bioð 
+<lb n="14" xml:id="VB_lb_085r_14"/>bioð 
 	<choice>
 		<orig><g ref="#inodotenl"/>nða</orig>
 		<reg><g ref="#inodotenl"/>n ða</reg>
@@ -2466,7 +2466,7 @@
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ða</orig>
 		<reg><expan><ex>and</ex></expan> ða</reg>
-	</choice> <name type="religion"><w>deof<lb n="15"/>la</w></name> mid him. 
+	</choice> <name type="religion"><w>deof<lb n="15" xml:id="VB_lb_085r_15"/>la</w></name> mid him. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
@@ -2479,11 +2479,11 @@
 		<orig>petrus</orig>
 		<reg>Petrus</reg>
 	</choice></name> þanon
-<lb n="16"/>fram þære helle dura. 
+<lb n="16" xml:id="VB_lb_085r_16"/>fram þære helle dura. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
 		<reg><expan><ex>and</ex></expan> he</reg>
-	</choice> ðonne weorpeð ða <w>cearful<lb n="17"/>lan</w> cæge ofer bæc <g ref="#inodotenl"/>n 
+	</choice> ðonne weorpeð ða <w>cearful<lb n="17" xml:id="VB_lb_085r_17"/>lan</w> cæge ofer bæc <g ref="#inodotenl"/>n 
 	<choice>
 		<orig>onþa</orig>
 		<reg>on þa</reg>
@@ -2492,32 +2492,32 @@
 		<orig>forðam</orig>
 		<reg>for ðam</reg>
 	</choice> 
-<lb n="18"/>þe he ne mæg locian on ðæt mycle sár 
+<lb n="18" xml:id="VB_lb_085r_18"/>þe he ne mæg locian on ðæt mycle sár 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>onðam</orig>
 		<reg><expan><ex>and</ex></expan> on ðam</reg>
 	</choice> myclan
-<lb n="19"/>wanunge
+<lb n="19" xml:id="VB_lb_085r_19"/>wanunge
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>onðam</orig>
 		<reg><expan><ex>and</ex></expan> on ðam</reg>
 	</choice> myclan wope. þe þa earman <g ref="#sins"/>awla
-<lb n="20"/>dreogað mid ðam <name type="religion">deoflum</name> in <name type="religion">helle</name> tintrego. <hi rend="double">e</hi>ala
-<lb n="21"/>broðor mine, hu mycel 
+<lb n="20" xml:id="VB_lb_085r_20"/>dreogað mid ðam <name type="religion">deoflum</name> in <name type="religion">helle</name> tintrego. <hi rend="double">e</hi>ala
+<lb n="21" xml:id="VB_lb_085r_21"/>broðor mine, hu mycel 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hu</orig>
 		<reg><expan><ex>and</ex></expan> hu</reg>
 	</choice> hlud bið se cnyll<space quantity="6" unit="char"/>
-<lb n="22"/>þonne seo cæge fealleð 
+<lb n="22" xml:id="VB_lb_085r_22"/>þonne seo cæge fealleð 
 	<choice>
 		<orig><g ref="#inodotenl"/>nða</orig>
 		<reg><g ref="#inodotenl"/>n ða</reg>
 	</choice> <name type="religion">helle</name></p> <p>. 
 	<choice>
-		<abbr type="brevigraph"><am><g ref="#muncmacr"></g></am></abbr>
+		<abbr type="brevigraph"><am><g ref="#muncmacr"/></am></abbr>
 		<expan>M<ex>en þa leofestan</ex></expan>
 	</choice>. siððan <space quantity="3" unit="char"/>ne
-<lb n="23"/>ðurfan þa <g ref="#sins"/>ynfullan 
+<lb n="23" xml:id="VB_lb_085r_23"/>ðurfan þa <g ref="#sins"/>ynfullan 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ða</orig>
 		<reg><expan><ex>and</ex></expan> ða</reg>
@@ -2526,7 +2526,7 @@
 		<orig><g ref="#sins"/>orh fullan</orig>
 		<reg><g ref="#sins"/>orhfullan</reg>
 	</choice> sawla wenan
-<lb n="24"/>
+<lb n="24" xml:id="VB_lb_085r_24"/>
 	<choice>
 		<orig>neða</orig>
 		<reg>ne ða</reg>
@@ -2538,7 +2538,7 @@
  
 	  <pb n="85v" xml:id="VB_fol_085v"/>  
 
-<lb n="1"/>reste. 
+<lb n="1" xml:id="VB_lb_085v_01"/>reste. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þonne</orig>
 		<reg><expan><ex>and</ex></expan> þonne</reg>
@@ -2551,7 +2551,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid hi<g ref="#sins"/></orig>
 		<reg><expan><ex>and</ex></expan> mid hi<g ref="#sins"/></reg>
 	</choice>
-<lb n="2"/>apostolum 
+<lb n="2" xml:id="VB_lb_085v_02"/>apostolum 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
 		<reg><expan><ex>and</ex></expan> mid</reg>
@@ -2560,11 +2560,11 @@
 		<sic>werod</sic>
 		<corr resp="scragg">werode</corr>
 	</choice> to heofena rice
-<lb n="3"/>mid myclan þrymme 
+<lb n="3" xml:id="VB_lb_085v_03"/>mid myclan þrymme 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þær</orig>
 		<reg><expan><ex>and</ex></expan> þær</reg>
-	</choice> syððan wuniað <g ref="#inodotenl"/>n ecum <w>wul<lb n="4"/>dre</w>. 
+	</choice> syððan wuniað <g ref="#inodotenl"/>n ecum <w>wul<lb n="4" xml:id="VB_lb_085v_04"/>dre</w>. 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr><damage type="faded">hi</damage>e</orig>
 		<reg><expan><ex>and</ex></expan> hie</reg>
@@ -2577,7 +2577,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>blisse</orig>
 		<reg><expan><ex>and</ex></expan> blisse</reg>
 	</choice> mid
-<lb n="5"/>urum dryhtne ðam <g ref="#sins"/>ie symble wuldor 
+<lb n="5" xml:id="VB_lb_085v_05"/>urum dryhtne ðam <g ref="#sins"/>ie symble wuldor 
 	<choice>
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr>wyrð mynd</orig>
 		<reg><expan><ex>and</ex></expan> wyrðynd</reg>
@@ -2586,7 +2586,7 @@
 		<orig><abbr type="brev"><am><g ref="#et"/></am></abbr></orig>
 		<reg><expan><ex>and</ex></expan></reg>
 	</choice>
-<lb n="6"/>ece gefean 
+<lb n="6" xml:id="VB_lb_085v_06"/>ece gefean 
 	<choice>
 		<orig>abutan</orig>
 		<reg>a butan</reg>

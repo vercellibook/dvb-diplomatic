@@ -3260,7 +3260,7 @@
 									
 										{ 
 											"line" : "23|line 23",
-											"text" : "ꞅoðfæꞅta dma þonneþōn dmeð ealra manna gehwylcumgehwlcū æfter  V ",
+											"text" : "ꞅoðfæꞅta dma þonneþōn dmeð ealra manna gehwylcumgehwlcū æfter      Ʌ ",
 											"tags" : "VB_text_Hom02|Homily II",
 											"loc" : "VB_fol_009v|009v",
 											"inFront": "false"
@@ -3268,7 +3268,7 @@
 									
 										{ 
 											"line" : "no line info|no line info",
-											"text" : " 10. ",
+											"text" : "10.  ",
 											"tags" : "VB_text_Hom02|Homily II",
 											"loc" : "VB_fol_010r|10r",
 											"inFront": "false"
@@ -4132,7 +4132,7 @@
 									
 										{ 
 											"line" : "no line info|no line info",
-											"text" : " 112 ",
+											"text" : " 12 ",
 											"tags" : "VB_text_Hom02|Homily II",
 											"loc" : "VB_fol_012r|12r",
 											"inFront": "false"
@@ -4667,7 +4667,7 @@
 										},
 									
 										{ 
-											"line" : "14|line 14",
+											"line" : "14_orig|line 14_orig",
 											"text" : "ſacerd",
 											"tags" : "VB_text_Hom03|Homily III",
 											"loc" : "VB_fol_013r|013r",
@@ -4732,7 +4732,7 @@
 									
 										{ 
 											"line" : "20|line 20",
-											"text" : ". onþære andet neꞅꞅe for ſtnt. sio an detnes an",
+											"text" : ". onþære andet neꞅꞅe for ſtnt. sio andetnes an",
 											"tags" : "VB_text_Hom03|Homily III",
 											"loc" : "VB_fol_013r|013r",
 											"inFront": "false"
@@ -9556,7 +9556,7 @@
 									
 										{ 
 											"line" : "no line info|no line info",
-											"text" : "IIII 25  to middan wintra · Oſtnde no dominede ",
+											"text" : "IIII 25  to middan wintra · Oſtnde no dominede   ",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_025r|25r",
 											"inFront": "false"
@@ -9636,7 +9636,7 @@
 									
 										{ 
 											"line" : "10|line 10",
-											"text" : "wold alꞅan of þære heardan hæft ⁊ . ⁊of doflꞅ þeow",
+											"text" : "wold alꞅan of þære heardan hæft and⁊ . ⁊of doflꞅ þeow",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_025r|25r",
 											"inFront": "false"
@@ -9644,7 +9644,7 @@
 									
 										{ 
 											"line" : "11|line 11",
-											"text" : "dome . ſwa sanctussc̄s lucaꞅ ꞅe god ꞅpllr be þan wrat ⁊",
+											"text" : "dome . ſwa sanctussc̄s lucaꞅ ꞅe god ꞅpllr be þan wrat and⁊",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_025r|25r",
 											"inFront": "false"
@@ -10540,7 +10540,7 @@
 									
 										{ 
 											"line" : "4|line 4",
-											"text" : "lẏfn ⁊þone ge lafan mid godum [weorcum] gefẏlln · ⁊ mid muþe ondttan .",
+											"text" : "lẏfn ⁊þone ge lafan mid godum [weorcum] gefẏlln · and⁊ mid muþe ondttan .",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_027r|27r",
 											"inFront": "false"
@@ -10620,7 +10620,7 @@
 									
 										{ 
 											"line" : "13|line 13",
-											"text" : "ge ht ⁊ſwa cwæð . gaudte t xultat quia nomina urauestra",
+											"text" : "ge ht ⁊ſwa cwæð . gaudte t xultat quia nomina uestraura",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_027r|27r",
 											"inFront": "false"
@@ -10628,7 +10628,7 @@
 									
 										{ 
 											"line" : "14|line 14",
-											"text" : "ꞅcripta sunt n cęliꞅ . Geblissiað ⁊ gefægniað forðanðe eowre naman synt awritene on heofonum c̇rinuꞅ wæꞅ [þæs] caꞅrꞅ grfa n",
+											"text" : "ꞅcripta sunt n cęliꞅ . Geblissiað and⁊ gefægniað forðanðe eowre naman synt awritene on heofonum c̇rinuꞅ wæꞅ [þæs] caꞅrꞅ grfa n",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_027r|27r",
 											"inFront": "false"
@@ -10684,7 +10684,7 @@
 									
 										{ 
 											"line" : "21|line 21",
-											"text" : "worde þ h to criꞅte cwæð .  tus xꞅchristus filiuꞅ deidi uiui.",
+											"text" : "worde þ h to criꞅte cwæð .  tus christusxꞅ filiuꞅ deidi uiui.",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_027r|27r",
 											"inFront": "false"
@@ -10764,7 +10764,7 @@
 									
 										{ 
 											"line" : "2|line 2",
-											"text" : "he behim ꞅylfum cwæð go ꞅum paniꞅ uiuuꞅ qiqui decęlo de",
+											"text" : "he behim ꞅylfum cwæð go ꞅum paniꞅ uiuuꞅ quiqi decęlo de",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_027v|27v",
 											"inFront": "false"
@@ -10980,7 +10980,7 @@
 									
 										{ 
 											"line" : "28|line 28",
-											"text" : "me manet t ego n um . Sð teð min ne lichoman ⁊",
+											"text" : "me manet t ego n um . Sð teð min ne lichoman and⁊",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_027v|27v",
 											"inFront": "false"
@@ -11012,7 +11012,7 @@
 									
 										{ 
 											"line" : "2|line 2",
-											"text" : "þam halgan g ryne criꞅtꞅ lichoman . ⁊ hiꞅ blodꞅ . ac we ſculon",
+											"text" : "þam halgan g ryne criꞅtꞅ lichoman . and⁊ hiꞅ blodꞅ . ac we ſculon",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_028r|28r",
 											"inFront": "false"
@@ -11020,7 +11020,7 @@
 									
 										{ 
 											"line" : "3|line 3",
-											"text" : "uꞅ ꞅlfe ær clænꞅian ⁊gedafnlice⁊ libban ⁊ þonne clænlice ðicgan þæt halige ge",
+											"text" : "uꞅ ꞅlfe ær clænꞅian ⁊gedafnlice⁊ libban and⁊ þonne clænlice ðicgan þæt halige ge",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_028r|28r",
 											"inFront": "false"
@@ -11220,7 +11220,7 @@
 									
 										{ 
 											"line" : "28|line 28",
-											"text" : "⁊w wæron aworpne ⁊aſcadne frā hiora borhte ⁊",
+											"text" : "⁊w wæron aworpne ⁊aſcadne frā hiora borhte and⁊",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_028r|28r",
 											"inFront": "false"
@@ -11284,7 +11284,7 @@
 									
 										{ 
 											"line" : "7|line 7",
-											"text" : "ꞅẏbbe ⁊ſwa cwædon · pax b;hominibus bon uoluntatiꞅ ·",
+											"text" : "ꞅẏbbe ⁊ſwa cwædon · pax hominibusb; bon uoluntatiꞅ ·",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_028v|28v",
 											"inFront": "false"
@@ -11524,7 +11524,7 @@
 									
 										{ 
 											"line" : "4|line 4",
-											"text" : "willað rice butan nde . ⁊ bliꞅꞅe butan gnornung",
+											"text" : "willað rice butan nde . and⁊ bliꞅꞅe butan gnornung",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_029r|29r",
 											"inFront": "false"
@@ -11532,7 +11532,7 @@
 									
 										{ 
 											"line" : "5|line 5",
-											"text" : "⁊ſmẏlt nꞅꞅ butan gedrfdnꞅꞅe . ⁊ loht butan þeoꞅtrū",
+											"text" : "⁊ſmẏlt nꞅꞅ butan gedrfdnꞅꞅe . and⁊ loht butan þeoꞅtrū",
 											"tags" : "VB_text_Hom05|Homily V",
 											"loc" : "VB_fol_029r|29r",
 											"inFront": "false"
@@ -21331,7 +21331,7 @@
 										},
 									
 										{ 
-											"line" : "23|line 23",
+											"line" : "24|line 24",
 											"text" : "gecas 20 langsumre líf. loht un hwiln 21 sẏþþan",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_052v|52v",
@@ -21339,7 +21339,7 @@
 										},
 									
 										{ 
-											"line" : "24|line 24",
+											"line" : "25|line 25",
 											"text" : "hilde heard. hrigꞅ byrhtme 22 æftr guð plgan",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_052v|52v",
@@ -21372,7 +21372,7 @@
 									
 										{ 
 											"line" : "3|line 3",
-											"text" : "frge. 26 þurh cnoriꞅꞅe criꞅteCriꞅte leofaſt 27 on wres hade",
+											"text" : "frge. 26 þurh cnoriꞅꞅe criꞅte leofaſt 27 on wres hade",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053r|53r",
 											"inFront": "false"
@@ -21596,7 +21596,7 @@
 									
 										{ 
 											"line" : "6|line 6",
-											"text" : "ge fælꞅod. 67 þurh mathuꞅ mære lar. 68 þone het ir",
+											"text" : "ge fælꞅod. 67 þurh mathuꞅ mære lar. 68 þone het  Irtacus ir",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
 											"inFront": "false"
@@ -21604,7 +21604,7 @@
 									
 										{ 
 											"line" : "7|line 7",
-											"text" : "tacuꞅIr",
+											"text" : "tacuꞅ",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
 											"inFront": "false"
@@ -21612,7 +21612,7 @@
 									
 										{ 
 											"line" : "7|line 7",
-											"text" : "tacuꞅ. ðurh ẏrne hyge. 69 wæl row cyning wæpnum",
+											"text" : ". ðurh ẏrne hyge. 69 wæl row cyning wæpnum",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
 											"inFront": "false"
@@ -21636,14 +21636,22 @@
 									
 										{ 
 											"line" : "10|line 10",
-											"text" : "mod ge crang. 73 adig for æfꞅtum hafað nu célíf 74 mid wuldor cining wigꞅ to leane. 75 Næron ða twgen",
+											"text" : "mod ge crang. 73 adig for æfꞅtum hafað nu célíf 74 mid",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
 											"inFront": "false"
 										},
 									
 										{ 
-											"line" : "no line info|no line info",
+											"line" : "11|line 11",
+											"text" : "wuldor cining wigꞅ to leane. 75 Næron ða twgen",
+											"tags" : "VB_text_Fates|The Fates of the Apostles",
+											"loc" : "VB_fol_053v|53v",
+											"inFront": "false"
+										},
+									
+										{ 
+											"line" : "12|line 12",
 											"text" : "tohtan ꞅæne 76 lind ge lacꞅ land prꞅea 77 sohton siðfrome ꞅið fro",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21651,7 +21659,7 @@
 										},
 									
 										{ 
-											"line" : "12|line 12",
+											"line" : "13|line 13",
 											"text" : "me",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21659,7 +21667,7 @@
 										},
 									
 										{ 
-											"line" : "12|line 12",
+											"line" : "13|line 13",
 											"text" : ". simon ⁊t,hadduꞅ. 78 beornaꞅ beado rofe him wearð",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21667,7 +21675,7 @@
 										},
 									
 										{ 
-											"line" : "13|line 13",
+											"line" : "14|line 14",
 											"text" : "bam ꞅamod. 79 an nde dæg. æðele ſceoldon. 80 ðurh wæpn",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21675,7 +21683,7 @@
 										},
 									
 										{ 
-											"line" : "14|line 14",
+											"line" : "15|line 15",
 											"text" : "hete weorc þrowigan. 81 ꞅige lean ꞅcan. ⁊þone ꞅoðan",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21683,7 +21691,7 @@
 										},
 									
 										{ 
-											"line" : "15|line 15",
+											"line" : "16|line 16",
 											"text" : "gefan 82 dream æfter deaðe. þa gedæled wearð. 83 lif wið",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21691,7 +21699,7 @@
 										},
 									
 										{ 
-											"line" : "16|line 16",
+											"line" : "17|line 17",
 											"text" : "lice· ⁊þaꞅ ge ſtron. 84 dle æht welan alnefor",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21699,7 +21707,7 @@
 										},
 									
 										{ 
-											"line" : "17|line 17",
+											"line" : "18|line 18",
 											"text" : ". 85 Đuꞅ ða æðelingaꞅ nde ge ꞅaldon. 86 .XII,",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21707,7 +21715,7 @@
 										},
 									
 										{ 
-											"line" : "18|line 18",
+											"line" : "19|line 19",
 											"text" : "til modige. tír unbræcne. 87 wgan onge witte wuld",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21715,7 +21723,7 @@
 										},
 									
 										{ 
-											"line" : "19|line 19",
+											"line" : "20|line 20",
 											"text" : "rꞅ þgnaꞅ. 88 Nu ic þonneþōn bidde born ꞅeðe lufige",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21723,7 +21731,7 @@
 										},
 									
 										{ 
-											"line" : "20|line 20",
+											"line" : "21|line 21",
 											"text" : "89 þyꞅꞅes giddꞅ begang. þæt he geomrū me 90 þone",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21731,7 +21739,7 @@
 										},
 									
 										{ 
-											"line" : "21|line 21",
+											"line" : "22|line 22",
 											"text" : "halga hap hlpe bidde. 91 friðꞅ ⁊fultomnꞅ hu ic fronda",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21739,7 +21747,7 @@
 										},
 									
 										{ 
-											"line" : "22|line 22",
+											"line" : "23|line 23",
 											"text" : "beþarf. 92 liðra onlad. þonne ic ꞅceal langn ham.",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21747,7 +21755,7 @@
 										},
 									
 										{ 
-											"line" : "23|line 23",
+											"line" : "24|line 24",
 											"text" : "93 ard wíc uncuð. ana ge ꞅce. 94 læt me onlaꞅte. lic",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21755,7 +21763,7 @@
 										},
 									
 										{ 
-											"line" : "24|line 24",
+											"line" : "25|line 25",
 											"text" : "eorðan dæl. 95 wæl raf wunigean weormū tohroðr",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_053v|53v",
@@ -21764,7 +21772,15 @@
 									
 										{ 
 											"line" : "no line info|no line info",
-											"text" : "54. 96 r mæg findan forþancs glaw 97 ꞅðe hine lſteð leoðgid",
+											"text" : "54.",
+											"tags" : "VB_text_Fates|The Fates of the Apostles",
+											"loc" : "VB_fol_054r|54r",
+											"inFront": "false"
+										},
+									
+										{ 
+											"line" : "1|line 1",
+											"text" : "96 r mæg findan forþancs glaw 97 ꞅðe hine lſteð leoðgid",
 											"tags" : "VB_text_Fates|The Fates of the Apostles",
 											"loc" : "VB_fol_054r|54r",
 											"inFront": "false"
@@ -21916,7 +21932,7 @@
 									
 										{ 
 											"line" : "no line info|no line info",
-											"text" : ".xvi.",
+											"text" : ".xvi.  ",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -21924,7 +21940,7 @@
 									
 										{ 
 											"line" : "1|line 1",
-											"text" : "INcipit narrare miracula quefactaque facta fuerant ante aduentum",
+											"text" : "INcipit narrare miracula quefacta fuerant ante aduentum",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -21932,7 +21948,7 @@
 									
 										{ 
 											"line" : "2|line 2",
-											"text" : "saluatoris . dominidi nostrinr̄i ihuiesu xicristi;",
+											"text" : "saluatoris . dominidi nostrinr̄i  iu xi; ",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -21940,7 +21956,7 @@
 									
 										{ 
 											"line" : "4|line 4",
-											"text" : "HER sagað ymb ðaꞅ mæran ge wyrdgewyrd þetoþe to þyꞅꞅum dæge g",
+											"text" : "HER sagað ymb ðaꞅ mæran ge wyrd þeto þyꞅꞅum dæge g",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -21948,7 +21964,7 @@
 									
 										{ 
 											"line" : "5|line 5",
-											"text" : "warð þæt te ælmihtig dryhtnDryhtn sylfa þaꞅ world gesohte ⁊þurh",
+											"text" : "warð þæt te ælmihtig  dryhtn sylfa þaꞅ world gesohte ⁊þurh",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -21988,7 +22004,7 @@
 									
 										{ 
 											"line" : "10|line 10",
-											"text" : "hiꞅ tocymes hegefyldehe gefylde And be þyꞅꞅe gewyrde þe we to dægtodæg weor",
+											"text" : "hiꞅ tocymes hegefylde And be þyꞅꞅe gewyrde þe we to dæg weor",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -21996,7 +22012,7 @@
 									
 										{ 
 											"line" : "11|line 11",
-											"text" : "ðiað fram worulde fruman ealle godꞅGodꞅ halige sædon hie",
+											"text" : "ðiað fram worulde fruman ealle godꞅ  halige sædon hie",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -22036,7 +22052,7 @@
 									
 										{ 
 											"line" : "16|line 16",
-											"text" : "dæge ealra cynínga cẏning· ⁊ ealra⁊ ealra wealddra waldnd. þſne",
+											"text" : "dæge ealra cynínga cẏning· ⁊ ealra wealddra waldnd. þſne",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -22108,7 +22124,7 @@
 									
 										{ 
 											"line" : "25|line 25",
-											"text" : "⁊hira handa him ge lugon. ⁊hie⁊ hie sylfe wæron tosybbe geliðe",
+											"text" : "⁊hira handa him ge lugon.  ⁊hie sylfe wæron tosybbe geliðe",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_054v|54v",
 											"inFront": "false"
@@ -22220,7 +22236,7 @@
 									
 										{ 
 											"line" : "13|line 13",
-											"text" : "þegyrꞅandæg wæꞅ þæꞅðe drhtnDrhtn on niht geborn wæs ær morgen steorra ærmorgen",
+											"text" : "þegyrꞅandæg wæꞅ þæꞅðe drhtnDrhtn on niht geborn wæs ær morgensteorra ærmorgen",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055r|55r",
 											"inFront": "false"
@@ -22404,7 +22420,7 @@
 									
 										{ 
 											"line" : "9|line 9",
-											"text" : "wſan acwealde þæt þam allū wære hira forh gifn ⁊þæt eallū",
+											"text" : "wſan acwealde þæt þam allū wære hira forh gifn ⁊ þæt eallū",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22412,7 +22428,7 @@
 									
 										{ 
 											"line" : "10|line 10",
-											"text" : "ſcyldgum wæron hira ſcylda forgifne. ⁊þa to þære ꞅylfan",
+											"text" : "ſcyldgum wæron hira ſcylda forgifne.  ⁊þa to þære ꞅylfan",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22420,7 +22436,7 @@
 									
 										{ 
 											"line" : "11|line 11",
-											"text" : "niht ær morgn ſtorra up ode dryhten wæꞅ ge born. ON",
+											"text" : "niht ær morgn ſtorra up ode  dryhten wæꞅ ge born. ON",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22444,7 +22460,7 @@
 									
 										{ 
 											"line" : "14|line 14",
-											"text" : "on hanneꞅꞅe gode ⁊onorðan ꞅib mannū ðæꞅ godan willan;",
+											"text" : "on hanneꞅꞅe  gode ⁊onorðan ꞅib mannū ðæꞅ godan willan;",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22452,7 +22468,7 @@
 									
 										{ 
 											"line" : "15|line 15",
-											"text" : "Mitteðe herodꞅHerodꞅ ꞅe cyning ge aſcode þæt criſt wæꞅ geborn",
+											"text" : " Mitteðe herodꞅHerodꞅ ꞅe cyning ge aſcode þæt  criſt wæꞅ geborn",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22476,7 +22492,7 @@
 									
 										{ 
 											"line" : "18|line 18",
-											"text" : "hete þa cild cwellan drhtnꞅ ngel æt ywde ioꞅp ongeſyhðe",
+											"text" : "hete þa cild cwellan drhtnꞅ ngel æt ywde  ioꞅp ongeſyhðe",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22484,7 +22500,7 @@
 									
 										{ 
 											"line" : "19|line 19",
-											"text" : "⁊cwæð ge nim marian ⁊hælend þæt cild ⁊fr þurh þæt wſtn",
+											"text" : "⁊cwæð ge nim  marian ⁊hælend þæt cild ⁊fr þurh þæt wſtn",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22492,7 +22508,7 @@
 									
 										{ 
 											"line" : "20|line 20",
-											"text" : "to egyptum. ioꞅp þa dyde ſwa him be bodn wæs ⁊mit",
+											"text" : "to  egyptum.  ioꞅp þa dyde ſwa him be bodn wæs ⁊mit",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22516,7 +22532,7 @@
 									
 										{ 
 											"line" : "23|line 23",
-											"text" : "þæt cild onhire fæðme. þær wæron þry cnihtaꞅ mid ioꞅepe",
+											"text" : "þæt cild onhire fæðme. þær wæron þry cnihtaꞅ mid  ioꞅepe",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22524,7 +22540,7 @@
 									
 										{ 
 											"line" : "24|line 24",
-											"text" : "⁊mid marian þære fæm nan samod ꞅiðiende ꞅemninga",
+											"text" : "⁊mid  marian þære fæm nan samod ꞅiðiende ꞅemninga",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_055v|55v",
 											"inFront": "false"
@@ -22572,7 +22588,7 @@
 									
 										{ 
 											"line" : "4|line 4",
-											"text" : "tmple ⁊mitte þe hio node maria hæbbnde hælnd þæt",
+											"text" : "tmple ⁊mitte þe hio node  maria hæbbnde  hælnd þæt",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_056r|56r",
 											"inFront": "false"
@@ -22644,7 +22660,7 @@
 									
 										{ 
 											"line" : "13|line 13",
-											"text" : "⁊daðꞅ frcnꞅ ofr uꞅ cume; Æftr þan ða dryhtnꞅ ngl",
+											"text" : "⁊daðꞅ frcnꞅ ofr uꞅ cume; Æftr þan ða  dryhtnꞅ ngl",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_056r|56r",
 											"inFront": "false"
@@ -22652,7 +22668,7 @@
 									
 										{ 
 											"line" : "14|line 14",
-											"text" : "æt owde oſpe ⁊marian ⁊him to cwæð Hwyrfað ft to iuda",
+											"text" : "æt owde  oſpe ⁊marian ⁊him to cwæð Hwyrfað ft to  iuda",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_056r|56r",
 											"inFront": "false"
@@ -22668,7 +22684,7 @@
 									
 										{ 
 											"line" : "16|line 16",
-											"text" : "ælnd þa wox ⁊hwæꞅ geꞅtrangod gaſte ⁊mægne ⁊ſnytro hewæꞅ",
+											"text" : " ælnd þa wox ⁊hwæꞅ geꞅtrangod gaſte ⁊mægne ⁊ſnytro hewæꞅ",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_056r|56r",
 											"inFront": "false"
@@ -22676,7 +22692,7 @@
 									
 										{ 
 											"line" : "17|line 17",
-											"text" : "gefylled mid gode ⁊mid mannum him anum is wuldor ⁊weorð mynd on",
+											"text" : "gefylled mid  gode ⁊mid mannum him anum is wuldor ⁊weorð mynd on",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_056r|56r",
 											"inFront": "false"
@@ -22692,7 +22708,7 @@
 									
 										{ 
 											"line" : "19|line 19",
-											"text" : "ymb uꞅꞅeꞅ drhtnꞅ gebyrd ſwylce ac ymb þawun þe he on his cild hade onhiꞅcild",
+											"text" : "ymb uꞅꞅeꞅ  drhtnꞅ gebyrd ſwylce ac ymb þawun þe he on his cild hade onhiꞅcild",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_056r|56r",
 											"inFront": "false"
@@ -22708,7 +22724,7 @@
 									
 										{ 
 											"line" : "21|line 21",
-											"text" : "leca byꞅna uꞅꞅꞅ dryhtnꞅ bforanr uꞅ rccan  rædan gegehyrað ⁊rædang",
+											"text" : "leca byꞅna uꞅꞅꞅ  dryhtnꞅ bforanr uꞅ rccan and rædan gegehyrað ⁊rædang",
 											"tags" : "VB_text_Hom06|Homily VI",
 											"loc" : "VB_fol_056r|56r",
 											"inFront": "false"
@@ -22732,7 +22748,7 @@
 									
 										{ 
 											"line" : "23|line 23",
-											"text" : "gyldeð uꞅ god ece med æt uꞅꞅum nde; .II.  ",
+											"text" : "gyldeð uꞅ  god ece med æt uꞅꞅum nde; .II.  ",
 											"tags" : "VB_text_Hom06 VB_text_Hom07|Homily VI Homily VII",
 											"loc" : "VB_fol_056r|56r",
 											"inFront": "false"
@@ -23740,7 +23756,7 @@
 									
 										{ 
 											"line" : "4|line 4",
-											"text" : "sanctussc̄s gregoriuꞅ ꞅe halega writre ꞅeðiꞅ ge writ ꞅtte ⁊wrat.",
+											"text" : "sanctussc̄s  gregoriuꞅ ꞅe halega writre ꞅeðiꞅ ge writ ꞅtte ⁊wrat.",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059r|59r",
 											"inFront": "false"
@@ -23756,7 +23772,7 @@
 									
 										{ 
 											"line" : "6|line 6",
-											"text" : "þara worda þe dryhtn ꞅæde on hiꞅ bocum. ðæt þiꞅ woruld lic",
+											"text" : "þara worda þe  dryhtn ꞅæde on hiꞅ bocum. ðæt þiꞅ woruld lic",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059r|59r",
 											"inFront": "false"
@@ -23788,7 +23804,7 @@
 									
 										{ 
 											"line" : "10|line 10",
-											"text" : "garwe þænne he þis lif ndod. mnða lofꞅtan, ne lætn",
+											"text" : "garwe þænne he þis lif ndod.  mnða lofꞅtan, ne lætn",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059r|59r",
 											"inFront": "false"
@@ -23820,7 +23836,7 @@
 									
 										{ 
 											"line" : "14|line 14",
-											"text" : "ſcamige þonne he scamige ft ondomꞅ dæge beforan gode ꞅylfum",
+											"text" : "ſcamige þonne he scamige ft ondomꞅ dæge beforan  gode ꞅylfum",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059r|59r",
 											"inFront": "false"
@@ -23836,7 +23852,7 @@
 									
 										{ 
 											"line" : "16|line 16",
-											"text" : "e ðonne ꞅe æðela lareow. sanctussc̄s pauluꞅ se apoſtol ſpræc ⁊þuꞅ",
+											"text" : "e ðonne ꞅe æðela lareow. sanctussc̄s  pauluꞅ se apoſtol ſpræc ⁊þuꞅ",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059r|59r",
 											"inFront": "false"
@@ -23844,7 +23860,7 @@
 									
 										{ 
 											"line" : "17|line 17",
-											"text" : "cwæð mn þa leofꞅtan uꞅge dafnað. þætwe ꞅyn ætywde alle on",
+											"text" : "cwæð mn þa leofꞅtan uꞅge dafnað.  þætwe ꞅyn ætywde alle on",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059r|59r",
 											"inFront": "false"
@@ -23852,7 +23868,7 @@
 									
 										{ 
 											"line" : "18|line 18",
-											"text" : "domꞅ dæge beforan godꞅ heah ꞅtl. ⁊þonne þær nænig man hiꞅ",
+											"text" : "domꞅ dæge beforan  godꞅ heah ꞅtl. ⁊þonne þær nænig man hiꞅ",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059r|59r",
 											"inFront": "false"
@@ -23876,7 +23892,7 @@
 									
 										{ 
 											"line" : "21|line 21",
-											"text" : "beðam ꞅe ælmihtega god ꞅæde ⁊þuꞅ cwæð. Filioꞅ hominiꞅ untu",
+											"text" : "beðam ꞅe ælmihtega  god ꞅæde ⁊þuꞅ cwæð. Filioꞅ hominiꞅ untu",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059r|59r",
 											"inFront": "false"
@@ -23908,7 +23924,7 @@
 									
 										{ 
 											"line" : "1|line 1",
-											"text" : "⁊mid eall þy hofon cundan mægne. ⁊þonneþōn dmeð anra gehwylcū",
+											"text" : "⁊mid eall þy hofon cundan mægne. ⁊ þonneþōn dmeð anra gehwylcū",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059v|59v",
 											"inFront": "false"
@@ -23932,7 +23948,7 @@
 									
 										{ 
 											"line" : "4|line 4",
-											"text" : "hie nu hr ge arnod hæfdon þndn hiene god wile nþaꞅ woruld",
+											"text" : "hie nu hr ge arnod hæfdon þndn hiene  god wile  nþaꞅ woruld",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059v|59v",
 											"inFront": "false"
@@ -23940,7 +23956,7 @@
 									
 										{ 
 											"line" : "5|line 5",
-											"text" : "lætan. utonw nugorne þncan mn þa leofstan hu ar",
+											"text" : "lætan.  utonw nugorne þncan mn þa leofstan hu ar",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059v|59v",
 											"inFront": "false"
@@ -23964,7 +23980,7 @@
 									
 										{ 
 											"line" : "8|line 8",
-											"text" : "we ꞅiððan ne magon nane lade g don. acwe ꞅculon g hwyl",
+											"text" : "we ꞅiððan ne magon nane lade g don. acwe ꞅculon  g hwyl",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059v|59v",
 											"inFront": "false"
@@ -23980,7 +23996,7 @@
 									
 										{ 
 											"line" : "9|line 9",
-											"text" : "þinga god riht on gyldan onurū ꞅylfra ꞅawlum allꞅ",
+											"text" : "þinga  god riht on gyldan onurū ꞅylfra ꞅawlum allꞅ",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059v|59v",
 											"inFront": "false"
@@ -23996,7 +24012,7 @@
 									
 										{ 
 											"line" : "11|line 11",
-											"text" : "modlice btn ⁊we uꞅ urne dryhtn ondrædan þænn we",
+											"text" : "modlice btn ⁊we uꞅ urne  dryhtn ondrædan þænn we",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059v|59v",
 											"inFront": "false"
@@ -24100,7 +24116,7 @@
 									
 										{ 
 											"line" : "24|line 24",
-											"text" : "drædað ⁊hie þonne ꞅe ælmigtiga god onginneð þragan",
+											"text" : "drædað ⁊hie þonne ꞅe ælmigtiga  god onginneð þragan",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_059v|59v",
 											"inFront": "false"
@@ -24124,7 +24140,7 @@
 									
 										{ 
 											"line" : "2|line 2",
-											"text" : "þ he toanum mn ſprce. ala man hwæt ic þe geworhte of",
+											"text" : "þ he  toanum mn ſprce. ala man hwæt ic þe geworhte of",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_060r|60r",
 											"inFront": "false"
@@ -24324,7 +24340,7 @@
 									
 										{ 
 											"line" : "3|line 3",
-											"text" : "yrfꞅ· cwæꞅ þin fædr ⁊inþ dryhtn ⁊mne allinga þin frond",
+											"text" : "yrfꞅ· cwæꞅ þin fædr ⁊inþ  dryhtn ⁊mne allinga þin frond",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_060v|60v",
 											"inFront": "false"
@@ -24380,7 +24396,7 @@
 									
 										{ 
 											"line" : "10|line 10",
-											"text" : "can forwyrd þgefyrn ærest wæꞅ ðam diofle ꞅatane  his ge ferum ⁊hiꞅge",
+											"text" : "can forwyrd þgefyrn ærest wæꞅ ðam diofle  ꞅatane and his ge ferum ⁊hiꞅge",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_060v|60v",
 											"inFront": "false"
@@ -24468,7 +24484,7 @@
 									
 										{ 
 											"line" : "21|line 21",
-											"text" : "wop ⁊ancnꞅꞅ clnꞅ. enþa lofstan uton w uꞅ giorne",
+											"text" : "wop ⁊ancnꞅꞅ clnꞅ.  enþa lofstan uton w uꞅ giorne",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_060v|60v",
 											"inFront": "false"
@@ -24524,7 +24540,7 @@
 									
 										{ 
 											"line" : "3|line 3",
-											"text" : "bliꞅ ⁊ꞅoð ꞅyb ⁊gfa ⁊þær iꞅ ꞅingalic godꞅ lof g hyrd ⁊þær",
+											"text" : "bliꞅ ⁊ꞅoð ꞅyb ⁊gfa ⁊þær iꞅ ꞅingalic  godꞅ lof g hyrd ⁊þær",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_061r|61r",
 											"inFront": "false"
@@ -24548,7 +24564,7 @@
 									
 										{ 
 											"line" : "6|line 6",
-											"text" : "wile ꞅe ælmihtiga dryhtn lætan hrfor worulde. ⁊ſwa uꞅ",
+											"text" : "wile ꞅe ælmihtiga  dryhtn lætan hrfor worulde. ⁊ſwa uꞅ",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_061r|61r",
 											"inFront": "false"
@@ -24580,7 +24596,7 @@
 									
 										{ 
 											"line" : "10|line 10",
-											"text" : "ꞅoðum godꞅ þrowrum ⁊mid allum ꞅoðfæstum ⁊ g cornum",
+											"text" : "ꞅoðum  godꞅ þrowrum ⁊mid allum ꞅoðfæstum ⁊ g cornum",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_061r|61r",
 											"inFront": "false"
@@ -24588,7 +24604,7 @@
 									
 										{ 
 											"line" : "11|line 11",
-											"text" : "⁊ mid ðam godꞅ ꞅuna ðam þe aliofað ⁊rixaþ mid fædrFædr ⁊mid ꞅuna",
+											"text" : "⁊ mid ðam  godꞅ ꞅuna ðam þe aliofað ⁊rixaþ mid fædrFædr ⁊mid  ꞅuna",
 											"tags" : "VB_text_Hom08|Homily VIII",
 											"loc" : "VB_fol_061r|61r",
 											"inFront": "false"
@@ -24676,7 +24692,7 @@
 									
 										{ 
 											"line" : "22|line 22",
-											"text" : "be hydan ⁊be hlian ura dæda . ac hie bioð þonne opena  un wrigena ⁊un",
+											"text" : "be hydan ⁊be hlian ura dæda . ac hie bioð þonne opena and unwrigena ⁊un",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_061r|61r",
 											"inFront": "false"
@@ -24972,7 +24988,7 @@
 									
 										{ 
 											"line" : "8|line 8",
-											"text" : "allum halgum. ⁊ꞅe deað iꞅ þænne forþan to ond rædanne",
+											"text" : "allum halgum.  ⁊ꞅe deað iꞅ þænne forþan to ond rædanne",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_062r|62r",
 											"inFront": "false"
@@ -25076,7 +25092,7 @@
 									
 										{ 
 											"line" : "21|line 21",
-											"text" : "forðan þe cild cwellað ⁊unmagan. ⁊ꞅedeað iꞅ freolic ⁊deop",
+											"text" : "forðan þe cild cwellað ⁊unmagan. ⁊ꞅedeað iꞅ freolic  ⁊deop",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_062r|62r",
 											"inFront": "false"
@@ -25092,7 +25108,7 @@
 									
 										{ 
 											"line" : "22|line 22",
-											"text" : "forþan cyningaꞅ ſweltaþ ⁊ac þeowe mn. ⁊ꞅedeað iꞅþiꞅ",
+											"text" : "forþan cyningaꞅ ſweltaþ ⁊ac þeowe mn. ⁊ꞅedeað  iꞅþiꞅ",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_062r|62r",
 											"inFront": "false"
@@ -25124,7 +25140,7 @@
 									
 										{ 
 											"line" : "1|line 1",
-											"text" : "⁊ ac halige. þy byð wel wyrð þæt ꞅedeað ꞅy un rotlic fyrn fullū",
+											"text" : "⁊ ac halige. þy byð wel wyrð þæt ꞅedeað ꞅy  un rotlic fyrn fullū",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_062v|62v",
 											"inFront": "false"
@@ -25140,7 +25156,7 @@
 									
 										{ 
 											"line" : "3|line 3",
-											"text" : "neð gongum ne ealdum . forðan weſculon ure ꞅawle georn tilian ⁊hy",
+											"text" : "neð gongum ne ealdum .  forðan weſculon ure ꞅawle georn tilian ⁊hy",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_062v|62v",
 											"inFront": "false"
@@ -25236,7 +25252,7 @@
 									
 										{ 
 											"line" : "15|line 15",
-											"text" : "ge worhte. þonne hroweð hyre ſwiðe þa yfelan dæda ⁊þonneþōn",
+											"text" : "ge worhte. þonne hroweð hyre ſwiðe þa yfelan dæda ⁊ þonneþōn",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_062v|62v",
 											"inFront": "false"
@@ -25340,7 +25356,7 @@
 									
 										{ 
 											"line" : "3|line 3",
-											"text" : "Ðonne æftr þon be tyneð heða ſcyldgan onhelle waðam. þæt",
+											"text" : "Ðonne æftr þon be tyneð heða ſcyldgan onhelle  waðam. þæt",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_063r|63r",
 											"inFront": "false"
@@ -25364,7 +25380,7 @@
 									
 										{ 
 											"line" : "6|line 6",
-											"text" : "gryre. ꞅio ærste onlicnꞅ. iꞅ nmned wræc. forðan ꞅe wræc",
+											"text" : "gryre. ꞅio ærste onlicnꞅ. iꞅ nmned wræc.  forðan ꞅe wræc",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_063r|63r",
 											"inFront": "false"
@@ -25452,7 +25468,7 @@
 									
 										{ 
 											"line" : "17|line 17",
-											"text" : "fingraꞅ . ⁊þæt feax afulað þe ær wæꞅ onfullre wæꞅtme. ⁊þa teð",
+											"text" : "fingraꞅ . ⁊ þæt feax afulað þe ær wæꞅ onfullre wæꞅtme. ⁊þa teð",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_063r|63r",
 											"inFront": "false"
@@ -25460,7 +25476,7 @@
 									
 										{ 
 											"line" : "18|line 18",
-											"text" : "ageolewiað þaþe ær wæron hwite onhywe.⁊þæt oroð afulað þewæꞅ ær",
+											"text" : "ageolewiað þaþe ær wæron hwite onhywe. ⁊ þæt oroð afulað þewæꞅ ær",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_063r|63r",
 											"inFront": "false"
@@ -25523,14 +25539,6 @@
 										},
 									
 										{ 
-											"line" : "no line info|no line info",
-											"text" : "writ þuꞅ",
-											"tags" : "VB_text_Hom09|Homily IX",
-											"loc" : "VB_fol_063v|63v",
-											"inFront": "false"
-										},
-									
-										{ 
 											"line" : "1|line 1",
 											"text" : "nmned. Forþan þæꞅ huꞅꞅ hrof bið nm ned þe him on ufan ðam",
 											"tags" : "VB_text_Hom09|Homily IX",
@@ -25540,7 +25548,7 @@
 									
 										{ 
 											"line" : "2|line 2",
-											"text" : "broſtum ꞅiteð. ⁊him mon þonne deð hiꞅ geſtreona þone wiꞅꞅ",
+											"text" : "broſtum ꞅiteð. ⁊him mon þonne deð hiꞅ geſtreona þone  wiꞅꞅ",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_063v|63v",
 											"inFront": "false"
@@ -25628,7 +25636,7 @@
 									
 										{ 
 											"line" : "12|line 12",
-											"text" : "hwæðre nemagon þa ealle ariman helle witu. ⁊mne ſwa mycel",
+											"text" : "hwæðre nemagon þa ealle ariman helle witu.  ⁊mne ſwa mycel",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_063v|63v",
 											"inFront": "false"
@@ -25676,7 +25684,7 @@
 									
 										{ 
 											"line" : "18|line 18",
-											"text" : "forþy niꞅ nan man þæt he þonneþōn aweg hine aſtyrian mæge .",
+											"text" : "forþy niꞅ nan man þæt he  þonneþōn aweg hine aſtyrian mæge .",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_063v|63v",
 											"inFront": "false"
@@ -25724,7 +25732,7 @@
 									
 										{ 
 											"line" : "24|line 24",
-											"text" : "ufe wardum. þe ofer ꞅæ standeð on þam hyhſtan ꞅæ clife ",
+											"text" : "ufe wardum. þe ofer ꞅæ standeð on þam hyhſtan ꞅæ clife  writ þuꞅ ",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_063v|63v",
 											"inFront": "false"
@@ -25740,7 +25748,7 @@
 									
 										{ 
 											"line" : "1|line 1",
-											"text" : "be flion þa helle wita. forþan hit iꞅ ðær inne ꞅwiðe ꞅarlic",
+											"text" : "be flion þa helle wita.  forþan hit iꞅ ðær inne ꞅwiðe ꞅarlic",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064r|64r",
 											"inFront": "false"
@@ -25836,7 +25844,7 @@
 									
 										{ 
 											"line" : "13|line 13",
-											"text" : "gað ða wuldor lican dramaꞅ . ⁊þa þrymlican ꞅangaꞅ ðamðe",
+											"text" : "gað ða wuldor lican dramaꞅ .  ⁊þa þrymlican ꞅangaꞅ ðamðe",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064r|64r",
 											"inFront": "false"
@@ -25844,7 +25852,7 @@
 									
 										{ 
 											"line" : "14|line 14",
-											"text" : "onhyra midlne wiorðan mot þær bið ꞅeꞅweta ſtnc ⁊ꞅio ꞅyn",
+											"text" : "onhyra midlne wiorðan mot þær bið ꞅeꞅweta ſtnc  ⁊ꞅio ꞅyn",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064r|64r",
 											"inFront": "false"
@@ -25924,7 +25932,7 @@
 									
 										{ 
 											"line" : "24|line 24",
-											"text" : "midðam geſtronum . þe gond ealne middan ꞅyndon . ⁊him",
+											"text" : "midðam geſtronum . þe gond ealne middan ꞅyndon .  ⁊him",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064r|64r",
 											"inFront": "false"
@@ -25948,7 +25956,7 @@
 									
 										{ 
 											"line" : "3|line 3",
-											"text" : "flown . ⁊him þonne ne ꞅie ofer orðan nænig wiðr breca. ⁊þeah",
+											"text" : "flown . ⁊him þonne ne ꞅie ofer orðan nænig wiðr breca.  ⁊þeah",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064v|64v",
 											"inFront": "false"
@@ -25988,7 +25996,7 @@
 									
 										{ 
 											"line" : "7|line 7",
-											"text" : "ꞅumor butan ælcre onwndedneꞅ ⁊he mote alybban butan sare . ⁊þonneþōn",
+											"text" : "ꞅumor butan ælcre onwndedneꞅ ⁊he mote alybban butan sare . ⁊ þonneþōn",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064v|64v",
 											"inFront": "false"
@@ -26052,7 +26060,7 @@
 									
 										{ 
 											"line" : "15|line 15",
-											"text" : "alif ſceapn be tweox nglum ⁊heah nglum ⁊heah fædrum",
+											"text" : "alif ſceapn be tweox nglum ⁊heah nglum  ⁊heah fædrum",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064v|64v",
 											"inFront": "false"
@@ -26060,7 +26068,7 @@
 									
 										{ 
 											"line" : "16|line 16",
-											"text" : "⁊witegum ⁊apoſtolū ⁊mid martyrū . ⁊þncn we to geanꞅ hiꞅ",
+											"text" : "⁊witegum ⁊apoſtolū ⁊mid martyrū .  ⁊þncn we to geanꞅ hiꞅ",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064v|64v",
 											"inFront": "false"
@@ -26100,7 +26108,7 @@
 									
 										{ 
 											"line" : "21|line 21",
-											"text" : "geſwican ſculon . ⁊þa betan dægeꞅ ⁊nihtꞅ . ⁊þurhþa ylcan",
+											"text" : "geſwican ſculon . ⁊þa betan dægeꞅ ⁊nihtꞅ .  ⁊þurhþa ylcan",
 											"tags" : "VB_text_Hom09|Homily IX",
 											"loc" : "VB_fol_064v|64v",
 											"inFront": "false"
@@ -26340,7 +26348,7 @@
 									
 										{ 
 											"line" : "1|line 1",
-											"text" : "na forgifena--> þe ðæt god ſpel segð. ⁊ge cwið. ⁊ꞅynna þam bioð",
+											"text" : "na forgifena þe ðæt god ſpel segð. ⁊ge cwið. ⁊ꞅynna þam bioð",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_065v|65v",
 											"inFront": "false"
@@ -26396,7 +26404,7 @@
 									
 										{ 
 											"line" : "8|line 8",
-											"text" : "witegedon. ⁊heredon þæt ꞅealm ſcopaꞅ ꞅungon and sædonþæt þþæt ⁊ꞅædonþæt",
+											"text" : "witegedon. ⁊heredon þæt ꞅealm ſcopaꞅ ꞅungon and sædonþætþþæt ⁊ꞅædonþæt",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_065v|65v",
 											"inFront": "false"
@@ -26564,7 +26572,7 @@
 									
 										{ 
 											"line" : "3|line 3",
-											"text" : "afyrde him þæt un rihte wrigelꞅ ofhyra heortan. and on byrhte ⁊on",
+											"text" : "afyrde him þæt un rihte wrigelꞅ ofhyra heortan. and onbyrhte ⁊on",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_066r|66r",
 											"inFront": "false"
@@ -26580,7 +26588,7 @@
 									
 										{ 
 											"line" : "4|line 4",
-											"text" : "hie mid leohte ⁊gyte. þa hie þæt ongeaton and on cnawan ⁊on",
+											"text" : "hie mid leohte ⁊gyte. þa hie þæt ongeaton and oncnawan ⁊on",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_066r|66r",
 											"inFront": "false"
@@ -26796,7 +26804,7 @@
 									
 										{ 
 											"line" : "5|line 5",
-											"text" : "bion ymb hydige ure ꞅawle rædeꞅ. ⁊ure hiortan reccend andge staðeligen ⁊ge",
+											"text" : "bion ymb hydige ure ꞅawle rædeꞅ. ⁊ure hiortan reccend andgestaðeligen ⁊ge",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_066v|66v",
 											"inFront": "false"
@@ -26812,7 +26820,7 @@
 									
 										{ 
 											"line" : "6|line 6",
-											"text" : " gode  to willan. ⁊ge þencen þæne dom þewe to gelaðo de  ge laðo",
+											"text" : " gode  to willan. ⁊ge þencen þæne dom þewe to gelaðode  ge laðo",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_066v|66v",
 											"inFront": "false"
@@ -26868,7 +26876,7 @@
 									
 										{ 
 											"line" : "12|line 12",
-											"text" : "manneꞅ ꞅawl. hio bið forð lædende ealle þa wiorc þe hio gefreme de hiogefreme",
+											"text" : "manneꞅ ꞅawl. hio bið forð lædende ealle þa wiorc þe hio gefremede hiogefreme",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_066v|66v",
 											"inFront": "false"
@@ -26948,7 +26956,7 @@
 									
 										{ 
 											"line" : "21|line 21",
-											"text" : "þan þæt hie woldon þine domaꞅ ge hyran. huþu þam forwor htum for wor",
+											"text" : "þan þæt hie woldon þine domaꞅ ge hyran. huþu þam forworhtum for wor",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_066v|66v",
 											"inFront": "false"
@@ -26972,7 +26980,7 @@
 									
 										{ 
 											"line" : "23|line 23",
-											"text" : "com þæt heah ꞅetl iꞅ þrymmeꞅ aneꞅ eall afylled. ⁊mid soðfæst nesse soð fæst",
+											"text" : "com þæt heah ꞅetl iꞅ þrymmeꞅ aneꞅ eall afylled. ⁊mid soðfæstnesse soð fæst",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_066v|66v",
 											"inFront": "false"
@@ -27092,7 +27100,7 @@
 									
 										{ 
 											"line" : "12|line 12",
-											"text" : "chwætwoldonhie nminon hord cofan ⁊þin cyne rice eal for geaton ealfor",
+											"text" : "chwætwoldonhie nminon hord cofan ⁊þin cyne rice eal forgeaton ealfor",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_067r|67r",
 											"inFront": "false"
@@ -27316,7 +27324,7 @@
 									
 										{ 
 											"line" : "15|line 15",
-											"text" : "þæt we ꞅcoldon his willan wyrcan ⁊his be bodu healdan. and rum mode  ⁊rum",
+											"text" : "þæt we ꞅcoldon his willan wyrcan ⁊his be bodu healdan. and rummode  ⁊rum",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_067v|67v",
 											"inFront": "false"
@@ -27420,7 +27428,7 @@
 									
 										{ 
 											"line" : "2|line 2",
-											"text" : "achyne ꞅe hælend eft þara leana myndgode. ða he cwæð ne ge mundest  nege",
+											"text" : "achyne ꞅe hælend eft þara leana myndgode. ða he cwæð ne gemundest nege",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_068r|68r",
 											"inFront": "false"
@@ -27500,7 +27508,7 @@
 									
 										{ 
 											"line" : "11|line 11",
-											"text" : "hiꞅ giomrunga gehyrde. ⁊ge ꞅeah hwæt ðudydeꞅt minum þear fan  minumþear",
+											"text" : "hiꞅ giomrunga gehyrde. ⁊ge ꞅeah hwæt ðudydeꞅt minum þearfan  minumþear",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_068r|68r",
 											"inFront": "false"
@@ -27564,7 +27572,7 @@
 									
 										{ 
 											"line" : "18|line 18",
-											"text" : "þe ic þe geaf icþe nu afyrre fram mine ꞅylene þe icþe ær for geafþonne  ærfor",
+											"text" : "þe ic þe geaf icþe nu afyrre fram mine ꞅylene þe icþe ær forgeafþonne  ærfor",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_068r|68r",
 											"inFront": "false"
@@ -27660,7 +27668,7 @@
 									
 										{ 
 											"line" : "5|line 5",
-											"text" : "ꞅeðe weligne ge dyde. ⁊þearfendan icge worhte mid minum han dum minumhan",
+											"text" : "ꞅeðe weligne ge dyde. ⁊þearfendan icge worhte mid minum handum minumhan",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_068v|68v",
 											"inFront": "false"
@@ -27788,7 +27796,7 @@
 									
 										{ 
 											"line" : "20|line 20",
-											"text" : "ge cyðed ⁊æt iewed þinra yrmða dæl gif ðu wene þæt hit þin boc land  þinboc",
+											"text" : "ge cyðed ⁊æt iewed þinra yrmða dæl gif ðu wene þæt hit þin bocland þinboc",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_068v|68v",
 											"inFront": "false"
@@ -28036,7 +28044,7 @@
 									
 										{ 
 											"line" : "1|line 1",
-											"text" : "sona þa on þone welegan man non onþære ilcan nihte. dæþ on be cwom  onbe",
+											"text" : "sona þa on þone welegan man non onþære ilcan nihte. dæþ on becwom  onbe",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_069v|69v",
 											"inFront": "false"
@@ -28244,7 +28252,7 @@
 									
 										{ 
 											"line" : "1|line 1",
-											"text" : "ſwiðe ⁊þeah we uꞅ ſcyrpen midþam readdeꞅtan gode webbe. and ge frætewigen ⁊ge",
+											"text" : "ſwiðe ⁊þeah we uꞅ ſcyrpen midþam readdeꞅtan gode webbe. and gefrætewigen ⁊ge",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_070r|70r",
 											"inFront": "false"
@@ -28644,7 +28652,7 @@
 									
 										{ 
 											"line" : "1|line 1",
-											"text" : "⁊ þær iꞅ ar ⁊fæger neꞅ werum  ⁊wifum ⁊ge ſwæꞅ ſcipe engla and ge feræden ⁊ge",
+											"text" : "⁊ þær iꞅ ar ⁊fæger neꞅ werum  ⁊wifum ⁊ge ſwæꞅ ſcipe engla and geferæden ⁊ge",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_071r|71r",
 											"inFront": "false"
@@ -28700,7 +28708,7 @@
 									
 										{ 
 											"line" : "7|line 7",
-											"text" : "englaꞅ onheofenū ⁊we ꞅyndon þyder ge laðode  ge hatene ⁊ge",
+											"text" : "englaꞅ onheofenū ⁊we ꞅyndon þyder ge laðode  gehatene ⁊ge",
 											"tags" : "VB_text_Hom10|Homily X",
 											"loc" : "VB_fol_071r|71r",
 											"inFront": "false"
@@ -39318,7 +39326,7 @@
 											"line" : "1|line 1",
 											"text" : "sanctussc̄s  martinuꞅ  sum mynſter him ge timbrade. ⁊he on",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39326,7 +39334,7 @@
 											"line" : "2|line 2",
 											"text" : "ðam manigra  godeꞅ  þeowa gaſtlice fæder ge wearð gewearð.",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39334,7 +39342,7 @@
 											"line" : "3|line 3",
 											"text" : "⁊þa ge lamp ꞅume ꞅiðe þæt þær cw,om ꞅum gecristnod",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39342,7 +39350,7 @@
 											"line" : "4|line 4",
 											"text" : "man to him. þæt he wolde mid hiꞅ lare. ⁊mid hiꞅ",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39350,7 +39358,7 @@
 											"line" : "5|line 5",
 											"text" : "byꞅnum beon ontimbred ⁊þahe ða þær wæꞅ wel",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39358,7 +39366,7 @@
 											"line" : "6|line 6",
 											"text" : "manige dagaꞅ þa wearð he un trum seman nþære",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39366,7 +39374,7 @@
 											"line" : "7|line 7",
 											"text" : "fefer adle. ⁊þa ge lamp nða tid. þæt he sanctussc̄s  Martinus mar",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39374,7 +39382,7 @@
 											"line" : "8|line 8",
 											"text" : "tinuꞅ",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39382,7 +39390,7 @@
 											"line" : "8|line 8",
 											"text" : " wæꞅ n ꞅumre fore ealle dogor þa he ða",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39390,7 +39398,7 @@
 											"line" : "9|line 9",
 											"text" : "eft ham cwom þamette he þone man forð feredne",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39398,7 +39406,7 @@
 											"line" : "10|line 10",
 											"text" : "þe þær untrum wæꞅ ⁊hine efne ſwa færlice deað",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39406,7 +39414,7 @@
 											"line" : "11|line 11",
 											"text" : "for nam þæt he unge fulwad forð gewát; ðahe ða sanctussc̄s",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39414,7 +39422,7 @@
 											"line" : "12|line 12",
 											"text" : " martinuꞅ  þæt ge ꞅeah þæt þa oðre broðor ealle ſwa",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39422,7 +39430,7 @@
 											"line" : "13|line 13",
 											"text" : "un rote leton mbe þæt lic. ⁊hie utan ſtodon þa weop",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39430,7 +39438,7 @@
 											"line" : "14|line 14",
 											"text" : "he ⁊eode to him; wæꞅhim þæt ſwiðe mcle weorce.",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39438,7 +39446,7 @@
 											"line" : "15|line 15",
 											"text" : "þæt he ꞅwa ungefullad forð feran ſceolde. Ge treowde",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39446,7 +39454,7 @@
 											"line" : "16|line 16",
 											"text" : "hine ða hwæðre on þone ælmihtigan  gode  mid ealle",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39454,7 +39462,7 @@
 											"line" : "17|line 17",
 											"text" : "mode ⁊onhi mild heortneꞅꞅe. ode he ða hwæðre n",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39462,7 +39470,7 @@
 											"line" : "18|line 18",
 											"text" : "þæt huꞅ þær ꞅe lichama n ne læg. ⁊het þá oðre en",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39470,7 +39478,7 @@
 											"line" : "19|line 19",
 											"text" : "ealle ut gangan. ⁊he ða ða duru be leac æfter him",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39478,7 +39486,7 @@
 											"line" : "20|line 20",
 											"text" : "⁊he hine þa on ge bed aſtreahte ofer þæſ aſwolteneꞅ",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39486,7 +39494,7 @@
 											"line" : "21|line 21",
 											"text" : "manneꞅ leoma. ða he ða lange hwile. ſwa in þam gebede ge",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39494,7 +39502,7 @@
 											"line" : "22|line 22",
 											"text" : "bede",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39502,7 +39510,7 @@
 											"line" : "22|line 22",
 											"text" : "wæꞅ ða ongeat he þæt þær wæꞅ god cund mægn andweard ⁊",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39510,7 +39518,7 @@
 											"line" : "23|line 23",
 											"text" : "weard",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39518,7 +39526,7 @@
 											"line" : "23|line 23",
 											"text" : ". ⁊he þara drhtneꞅ mild heort neꞅꞅe unforhtlice un",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39526,7 +39534,7 @@
 											"line" : "24|line 24",
 											"text" : "forhtlice",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -39534,7 +39542,7 @@
 											"line" : "24|line 24",
 											"text" : "on bad. þa wæꞅ mbe hwile. þá geflde he ",
 											"tags" : "VB_text_Hom18|Homily XVIII",
-											"loc" : "no_page_info|97v",
+											"loc" : "VB_fol_097v|97v",
 											"inFront": "false"
 										},
 									
@@ -42892,7 +42900,7 @@
 									
 										{ 
 											"line" : "6|line 6",
-											"text" : "naman deaðeꞅ  wo,lde 114 bitereꞅ onbyrigan ſwa he ær on",
+											"text" : "naman deaðeꞅ þrowo,lde 114 bitereꞅ onbyrigan ſwa he ær on",
 											"tags" : "VB_text_DOTR|The Dream of the Rood",
 											"loc" : "VB_fol_106r|106r",
 											"inFront": "false"
@@ -51363,7 +51371,7 @@
 										},
 									
 										{ 
-											"line" : "25|line 25",
+											"line" : "26|line 26",
 											"text" : "onfæsten ⁊feore burgon 135 æfter ſtan clifū ſtede wearde",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_122r|122r",
@@ -51371,7 +51379,7 @@
 										},
 									
 										{ 
-											"line" : "26|line 26",
+											"line" : "27|line 27",
 											"text" : "don 136 mb danubie sume drenc for nam 137 onlago streame",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_122r|122r",
@@ -51379,7 +51387,7 @@
 										},
 									
 										{ 
-											"line" : "27|line 27",
+											"line" : "28|line 28",
 											"text" : "lifeꞅ æt ende. 138 ða wæꞅ modigra mægen on luſte 139 ehton",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_122r|122r",
@@ -51387,7 +51395,7 @@
 										},
 									
 										{ 
-											"line" : "28|line 28",
+											"line" : "29|line 29",
 											"text" : "elþeoda oðþæt æfen forð 140 fram dægeꞅ orde daroðæs daroð",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_122r|122r",
@@ -51395,7 +51403,7 @@
 										},
 									
 										{ 
-											"line" : "29|line 29",
+											"line" : "30|line 30",
 											"text" : "æsc",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_122r|122r",
@@ -51403,7 +51411,7 @@
 										},
 									
 										{ 
-											"line" : "29|line 29",
+											"line" : "30|line 30",
 											"text" : "flugon 141 hilde nædran heap wæꞅ ge ꞅcyrded 142 laðra",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_122r|122r",
@@ -51411,7 +51419,7 @@
 										},
 									
 										{ 
-											"line" : "30|line 30",
+											"line" : "31|line 31",
 											"text" : "lind wered lýt hwon be cwom 143 huna hergeꞅ hamhā eftþanon",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_122r|122r",
@@ -51419,7 +51427,7 @@
 										},
 									
 										{ 
-											"line" : "31|line 31",
+											"line" : "32|line 32",
 											"text" : "144 Þa wæꞅ ge ꞅyne þæt ꞅige for geaf 145 Conſtantino",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_122r|122r",
@@ -54611,7 +54619,7 @@
 										},
 									
 										{ 
-											"line" : "31|line 31",
+											"line" : "32|line 32",
 											"text" : "naman hateð heſceal neorx nawang 756 ⁊lifes treo legene",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_128r|128r",
@@ -54851,7 +54859,7 @@
 										},
 									
 										{ 
-											"line" : "28|line 28",
+											"line" : "29|line 29",
 											"text" : "802 ÐA ofðære ſtowe ſteam úp araꞅ 803 ſwylce réc under",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_128v|128v",
@@ -54859,7 +54867,7 @@
 										},
 									
 										{ 
-											"line" : "29|line 29",
+											"line" : "30|line 30",
 											"text" : "radorum þær aræred wearð 804 beorneꞅ breoꞅt ꞅefa he",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_128v|128v",
@@ -54867,7 +54875,7 @@
 										},
 									
 										{ 
-											"line" : "30|line 30",
+											"line" : "31|line 31",
 											"text" : "mid bæm handum 805 eadig ⁊ǽ gleaw up weard plegade. 806 Iudaꞅ ma",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_128v|128v",
@@ -54875,7 +54883,7 @@
 										},
 									
 										{ 
-											"line" : "31|line 31",
+											"line" : "32|line 32",
 											"text" : "þelode gleaw ngeþance 807 nu ic þurh ꞅoð hafu ꞅeolfgecnawen",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_128v|128v",
@@ -55715,7 +55723,7 @@
 										},
 									
 										{ 
-											"line" : "31|line 31",
+											"line" : "32|line 32",
 											"text" : "wereꞅ breoꞅtum",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_130r|130r",
@@ -56083,7 +56091,7 @@
 										},
 									
 										{ 
-											"line" : "11|line 11",
+											"line" : "12|line 12",
 											"text" : "1042 meotud milde god mihta wealdend",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56091,7 +56099,7 @@
 										},
 									
 										{ 
-											"line" : "12|line 12",
+											"line" : "13|line 13",
 											"text" : ".XIII.",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56099,7 +56107,7 @@
 										},
 									
 										{ 
-											"line" : "13|line 13",
+											"line" : "14|line 14",
 											"text" : "1043 ÞA wæꞅ gefulwad seðe ær feala tida 1044 leoht gearu 1045 nbrrded",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56107,7 +56115,7 @@
 										},
 									
 										{ 
-											"line" : "14|line 14",
+											"line" : "15|line 15",
 											"text" : "breoꞅt ꞅefa onþæt betere lif 1046 ge wended to wuldre huru",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56115,7 +56123,7 @@
 										},
 									
 										{ 
-											"line" : "15|line 15",
+											"line" : "16|line 16",
 											"text" : "wyrd geſcreaf 1047 þæt he ſwa ge leaffull ⁊ſwa leof gode 1048 in worldbxrice world",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56123,7 +56131,7 @@
 										},
 									
 										{ 
-											"line" : "16|line 16",
+											"line" : "17|line 17",
 											"text" : "rice",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56131,7 +56139,7 @@
 										},
 									
 										{ 
-											"line" : "16|line 16",
+											"line" : "17|line 17",
 											"text" : "weorðan ꞅceolde 1049 criſte gecweme þæt gecyðed wearð.",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56139,7 +56147,7 @@
 										},
 									
 										{ 
-											"line" : "17|line 17",
+											"line" : "18|line 18",
 											"text" : "1050 Siððan elene heht euꞅebium 1051 onræd geþeaht rome biꞅceop",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56147,7 +56155,7 @@
 										},
 									
 										{ 
-											"line" : "18|line 18",
+											"line" : "19|line 19",
 											"text" : "1052 gefetian onfultum forð ſnoterne 1053 hæleða gerædū toþære",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56155,7 +56163,7 @@
 										},
 									
 										{ 
-											"line" : "19|line 19",
+											"line" : "20|line 20",
 											"text" : "halgan byrig, 1054 Þæt he geſette onsacerd hád 1055 n ieruꞅalem",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56163,7 +56171,7 @@
 										},
 									
 										{ 
-											"line" : "20|line 20",
+											"line" : "21|line 21",
 											"text" : "iudaꞅ þam folce 1056 to bisceope burgū on innan 1057 þurh gaſteꞅ",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56171,7 +56179,7 @@
 										},
 									
 										{ 
-											"line" : "21|line 21",
+											"line" : "22|line 22",
 											"text" : "gife togodeꞅ temple 1058 cræftū gecorene ⁊ hine Cyriacus",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56179,7 +56187,7 @@
 										},
 									
 										{ 
-											"line" : "22|line 22",
+											"line" : "23|line 23",
 											"text" : "1059 þurh ſn̇ttro geþeaht ꞅyððan nemde 1060 niwan ſtefne nama",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56187,7 +56195,7 @@
 										},
 									
 										{ 
-											"line" : "23|line 23",
+											"line" : "24|line 24",
 											"text" : "wæꞅ gecyrred 1061 beorneꞅ nburgum onþæt betere forð 1062 ǽ",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56195,7 +56203,7 @@
 										},
 									
 										{ 
-											"line" : "24|line 24",
+											"line" : "25|line 25",
 											"text" : "hælendeꞅ, Þagen elenan wæꞅ 1063 mód ge mynde ́mb þa mæran",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56203,7 +56211,7 @@
 										},
 									
 										{ 
-											"line" : "25|line 25",
+											"line" : "26|line 26",
 											"text" : "wyrd 1064 geneahhe forþam næglum þeðæs nergendeꞅ 1065 fét þurh",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56211,7 +56219,7 @@
 										},
 									
 										{ 
-											"line" : "26|line 26",
+											"line" : "27|line 27",
 											"text" : "wodon ⁊hiꞅ folme ſwa ꞅome 1066 midþam on rode wæꞅ rodera",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56219,7 +56227,7 @@
 										},
 									
 										{ 
-											"line" : "27|line 27",
+											"line" : "28|line 28",
 											"text" : "wealdend 1067 gefæstnod frea mihtig beðam frignan ongan",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56227,7 +56235,7 @@
 										},
 									
 										{ 
-											"line" : "28|line 28",
+											"line" : "29|line 29",
 											"text" : "1068 criſtenra cwen, Cyriacuꞅ bæd 1069 þæt hire þagina gaꞅtes",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56235,7 +56243,7 @@
 										},
 									
 										{ 
-											"line" : "29|line 29",
+											"line" : "30|line 30",
 											"text" : "mihtū 1070 mb wundor wyrd willan ge flde 1071 onwrige wuldor",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56243,7 +56251,7 @@
 										},
 									
 										{ 
-											"line" : "30|line 30",
+											"line" : "31|line 31",
 											"text" : "gifū ⁊þæt word ácwæð 1072 to þam biꞅceope bald reordode,",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",
@@ -56251,7 +56259,7 @@
 										},
 									
 										{ 
-											"line" : "31|line 31",
+											"line" : "32|line 32",
 											"text" : "1073 Þu me eorla hleo þone æðelan beam 1074 róde rodera cining",
 											"tags" : "VB_text_Elene|Elene",
 											"loc" : "VB_fol_131r|131r",

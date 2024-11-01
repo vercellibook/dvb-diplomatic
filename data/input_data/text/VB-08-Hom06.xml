@@ -12,7 +12,7 @@
     <fileDesc>
 
       <titleStmt>
-        <title>The Vercelli Book: a diplomatic/interpretative transcription with digital facsimile</title>
+        <title>The Vercelli Book: a diplomatic/interpretative edition with digital facsimile</title>
         <title>Homily VI</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
@@ -66,10 +66,10 @@
 
   </teiHeader>
 
- <text n="Homily VI" xml:id="VB_text_Hom06">
-  
-  <!--TODO -->
-  <!--
+  <text n="Homily VI" xml:id="VB_text_Hom06">
+
+    <!--TODO -->
+    <!--
       
       - controllare tutti gli <am> perché spesso sono sbagliati
       - controllare che tutti i <corr> abbiano dei resp
@@ -80,75 +80,196 @@
       
       -->
 
-<body>
+    <body>
 
-<div type="prose" n="" xml:id="Homily-VI">
+      <div n="Homily VI" type="prose" xml:id="Homily-VI">
 
-  <pb n="54v" xml:id="VB_fol_054v"/>
+        <pb n="54v" xml:id="VB_fol_054v"/>
 
-  <fw type="fol" place="top-center"><add hand="unknown"><num value="16">.xvi.</num></add></fw>
- 
-<lb n="1"/><head><foreign xml:lang="latin"><hi rend="init1.0">IN</hi><damage type="faded">cipit narrare miracula <orig>quefacta</orig><reg>que facta</reg> fuerant ante</damage> <gap reason="illegible" extent=""/><supplied resp="scragg">aduentum</supplied>
-<lb n="2"/><damage type="faded">saluato</damage>ris <g ref="#punctmet"/> <choice><abbr type="brev">d<am><g ref="#nmacrmed"/><!-- CHECK on ms image --></am>i</abbr><expan>d<ex>omi</ex>ni</expan></choice> <choice><abbr>n<am><g ref="#rmacr"/></am>i</abbr><expan>n<ex>ost</ex>ri</expan></choice> <name type="Christ"><abbr>ih<am>u</am></abbr><expan>i<ex>es</ex>u</expan> <abbr><am>x<g ref="#pmacr"/><!-- CHECK abbr/am to be added -->i</am></abbr><expan><ex>crist</ex>i</expan></name>;</foreign></head>
-<lb n="4"/><p><hi rend="init2.0">H</hi><hi rend="cap1.0">ER</hi> <damage type="faded">sagað ymb ð</damage>a<g ref="#sins"/> mæran <orig>ge wyrd</orig><reg>gewyrd</reg> <orig>þeto</orig><reg>þe to</reg> þy<g ref="#sins"/><g ref="#sins"/>um dæge <w><damage type="faded">g<g ref="#eenl"/></damage>
-<lb n="5"/><damage type="faded">w<g ref="#eenl"/></damage>arð</w> <choice><orig><damage type="faded">þæt</damage> te</orig><reg><damage type="faded">þæt</damage>te</reg></choice> <damage type="faded">ælmihtig</damage> <name type="God"><orig>dryht<g ref="#eenl"/>n</orig><reg>Dryht<g ref="#eenl"/>n</reg></name> sylfa þa<g ref="#sins"/> world gesohte <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->þurh</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> þurh</reg></choice>
-<lb n="6"/>unwemme fæ<damage type="faded">mn</damage>an <damage type="faded"><orig>onþa<g ref="#sins"/></orig><reg>on þa<g ref="#sins"/></reg></damage> world <damage type="faded">a</damage>c<g ref="#eenl"/>nned w<damage type="faded">æ<g ref="#sins"/></damage> to þan þæt <damage type="faded">he</damage>
-<lb n="7"/><damage type="faded"><g ref="#eenl"/>all manna cyn</damage> fram <choice><orig><unclear reason="damaged" agent="water">he</unclear>ll wara</orig><reg><unclear reason="damaged" agent="water">he</unclear>llwara</reg></choice> <damage type="faded">wite</damage> aly<g ref="#sins"/>de <g ref="#punctmet"/> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->toh<g ref="#eenl"/>ofona <damage type="faded">ric<g ref="#eenl"/><g ref="#sins"/></damage></orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> to h<g ref="#eenl"/>ofona <damage type="faded">ric<g ref="#eenl"/><g ref="#sins"/></damage></reg></choice><g ref="#middot"/>
-<lb n="8"/><damage type="faded">wuldre <orig>gefr<g ref="#eenl"/>me<space extent=""/>de</orig><reg>gefr<g ref="#eenl"/>mede</reg><g ref="#middot"/> <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --></damage> <choice><orig><damage type="faded">t</damage>oþy<g ref="#sins"/><g ref="#sins"/>um</orig><reg><damage type="faded">t</damage>o þy<g ref="#sins"/><g ref="#sins"/>um</reg></choice> dæge þe dæg <damage type="faded">i</damage><g ref="#sins"/> æ<damage type="faded">lmihtig<g ref="#eenl"/><g ref="#sins"/></damage>
-<lb n="9"/><damage type="faded">dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/> <choice><orig>gebyrd tid</orig><reg>gebyrdtid</reg></choice> ea</damage>lne <damage type="faded">þ</damage><gap reason="illegible" extent=""/><supplied resp="scragg">y</supplied><g ref="#slong"/>ne <choice><orig>middan geard</orig><reg>middangeard</reg></choice> mid niwan <damage type="faded">l<g ref="#eenl"/>ohte</damage>
-<lb n="10"/><damage type="faded">h</damage>i<g ref="#sins"/> tocymes <orig>hegefyld<gap reason="illegible" extent=""/><supplied resp="scragg">e</supplied></orig><reg>he gefyld<gap reason="illegible" extent=""/><supplied resp="scragg">e</supplied></reg> <hi rend="cap1.0">A</hi><damage type="faded">nd</damage> be þy<g ref="#sins"/><g ref="#sins"/>e gewyrde þe we <orig>to <damage type="faded">d</damage>æg</orig><reg>to<damage type="faded">d</damage>æg</reg> <w><damage type="faded">weor</damage>
-<lb n="11"/>ðiað</w> <damage type="faded">f</damage>ram worulde <damage type="faded">fr</damage>uman ealle <name type="God"><orig>god<g ref="#eenl"/><g ref="#sins"/></orig><reg>God<g ref="#eenl"/><g ref="#sins"/></reg></name> halige sæd<damage type="faded">on</damage> hie
-<lb n="12"/><damage type="faded">þæt on boc<g ref="#umacr"/><!-- CHECK abbr/am to be added --> 
-              <choice>
-                <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->on</orig>
-                <reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> on</reg>
-              </choice></damage> halegum leoð<g ref="#umacr"/><!-- CHECK abbr/am to be added --> <damage type="faded"><g ref="#sins"/>ungo</damage>n 
+        <fw place="top-center" type="fol"><add hand="unknown"><num value="16">.xvi.</num></add></fw>
+        
+        <lb/>
+
+        <lb n="1" xml:id="VB_lb_054v_01"/>
+        <head><foreign xml:lang="latin"><hi rend="init1.0">IN</hi><damage type="faded">cipit narrare miracula <choice>
+                <orig>quefacta</orig>
+                <reg>que facta</reg>
+              </choice> fuerant ante</damage>
+            <gap extent="" reason="illegible"/><supplied resp="scragg">aduentum</supplied>
+            <lb n="2" xml:id="VB_lb_054v_02"/><damage type="faded">saluato</damage>ris <g ref="#punctmet"/>
             <choice>
-              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->þeahðe</orig>
-              <reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> þeah eð</reg>
-            </choice> hit ealle <g ref="#sins"/><damage type="faded">ædon</damage>
-<lb n="13"/><choice>
+              <abbr type="brev">d<am><g ref="#nmacrmed"/><!-- CHECK on ms image --></am>i</abbr>
+              <expan>d<ex>omi</ex>ni</expan>
+            </choice>
+            <choice>
+              <abbr>n<am><g ref="#rmacr"/></am>i</abbr>
+              <expan>n<ex>ost</ex>ri</expan>
+            </choice>
+            <name type="Christ">
+              <choice>
+                <orig><abbr>i<am><g ref="#hovlmed"/></am>u</abbr></orig>
+                <reg><expan>I<ex>es</ex>u</expan></reg>
+              </choice>
+              <choice>
+                <orig><abbr><am>x<g ref="#pmacr"/>i</am></abbr></orig>
+                <reg><expan><ex>Christ</ex>i</expan></reg>
+              </choice></name>;</foreign></head>
+
+        <p>
+          <lb n="4" xml:id="VB_lb_054v_04"/><hi rend="init2.0">H</hi><hi rend="cap1.0">ER</hi>
+          <damage type="faded">sagað ymb ð</damage>a<g ref="#sins"/> mæran 
+          <choice>
+            <orig>ge wyrd</orig>
+            <reg>gewyrd</reg>
+          </choice>
+          <choice>
+            <orig>þeto</orig>
+            <reg>þe to</reg>
+          </choice> þy<g ref="#sins"/><g ref="#sins"/>um dæge <w><damage type="faded">g<g
+                ref="#eenl"/></damage>
+          <lb n="5" xml:id="VB_lb_054v_05"/><damage type="faded">w<g ref="#eenl"/></damage>arð</w>
+          <choice>
+            <orig><damage type="faded">þæt</damage> te</orig>
+            <reg><damage type="faded">þæt</damage>te</reg>
+          </choice>
+          <damage type="faded">ælmihtig</damage>
+          <name type="God">
+            <choice>
+              <orig>dryht<g ref="#eenl"/>n</orig>
+              <reg>Dryht<g ref="#eenl"/>n</reg>
+            </choice></name> sylfa þa<g ref="#sins"/> world gesohte 
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þurh</orig>
+            <reg><expan><ex>and</ex></expan> þurh</reg>
+          </choice>
+          <lb n="6" xml:id="VB_lb_054v_06"/>unwemme fæ<damage type="faded">mn</damage>an <damage type="faded"
+                ><orig>onþa<g ref="#sins"/></orig><reg>on þa<g ref="#sins"/></reg></damage> world <damage type="faded"
+            >a</damage>c<g ref="#eenl"/>nned w<damage type="faded">æ<g ref="#sins"/></damage> to þan þæt <damage
+            type="faded">he</damage>
+          <lb n="7" xml:id="VB_lb_054v_07"/><damage type="faded"><g ref="#eenl"/>all manna cyn</damage> fram 
+          <choice>
+            <orig><unclear agent="water" reason="damaged">he</unclear>ll wara</orig>
+            <reg><unclear agent="water" reason="damaged">he</unclear>llwara</reg>
+          </choice>
+          <damage type="faded">wite</damage> aly<g ref="#sins"/>de <g ref="#punctmet"/>
+          <choice><!-- CHECK -->
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>toh<g ref="#eenl"
+              />ofona <damage type="faded">ric<g ref="#eenl"/><g ref="#sins"/></damage></orig>
+            <reg><expan><ex>and</ex></expan> to h<g ref="#eenl"
+              />ofona <damage type="faded">ric<g ref="#eenl"/><g ref="#sins"/></damage></reg>
+          </choice><g ref="#middot"/>
+          <lb n="8" xml:id="VB_lb_054v_08"/><damage type="faded">wuldre <orig>gefr<g ref="#eenl"/>me<space extent=""
+              />de</orig><reg>gefr<g ref="#eenl"/>mede</reg><g ref="#middot"/><!-- CHECK -->
+            <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --></damage>
+          <choice>
+            <orig><damage type="faded">t</damage>oþy<g ref="#sins"/><g ref="#sins"/>um</orig>
+            <reg><damage type="faded">t</damage>o þy<g ref="#sins"/><g ref="#sins"/>um</reg>
+          </choice> dæge þe dæg <damage type="faded">i</damage><g ref="#sins"/> æ<damage type="faded">lmihtig<g
+              ref="#eenl"/><g ref="#sins"/></damage>
+          <lb n="9" xml:id="VB_lb_054v_09"/><damage type="faded">dr<g ref="#yrgmainstrok"/>htne<g ref="#sins"/>
+            <choice>
+              <orig>gebyrd tid</orig>
+              <reg>gebyrdtid</reg>
+            </choice> ea</damage>lne <damage type="faded">þ</damage><gap extent="" reason="illegible"/><supplied
+            resp="scragg">y</supplied><g ref="#slong"/>ne 
+          <choice>
+            <orig>middan geard</orig>
+            <reg>middangeard</reg>
+          </choice> mid niwan <damage type="faded">l<g ref="#eenl"/>ohte</damage>
+          <lb n="10" xml:id="VB_lb_054v_10"/><damage type="faded">h</damage>i<g ref="#sins"/> tocymes 
+          <choice>
+            <orig>hegefyld<gap extent="" reason="illegible"/><supplied resp="scragg">e</supplied></orig>
+            <reg>he gefyld<gap extent="" reason="illegible"/><supplied resp="scragg">e</supplied></reg>
+          </choice>
+          <hi rend="cap1.0">A</hi><damage type="faded">nd</damage> be þy<g ref="#sins"/><g ref="#sins"/>e gewyrde þe we
+          <choice>
+            <orig>to <damage type="faded">d</damage>æg</orig>
+            <reg>to<damage type="faded">d</damage>æg</reg>
+          </choice>
+          <w><damage type="faded">weor</damage>
+            <lb n="11" xml:id="VB_lb_054v_11"/>ðiað</w>
+          <damage type="faded">f</damage>ram worulde <damage type="faded">fr</damage>uman ealle <name type="God"
+                ><choice>
+                  <orig>god<g ref="#eenl"/><g ref="#sins"/></orig>
+                  <reg>God<g ref="#eenl"/><g ref="#sins"/></reg>
+                </choice>
+          </name>
+              halige sæd<damage type="faded">on</damage> hie <lb n="12" xml:id="VB_lb_054v_12"/><damage type="faded">þæt on
+              boc<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+            <choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on</orig>
+              <reg><expan><ex>and</ex></expan> on</reg>
+            </choice></damage> halegum leoð<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+          <damage type="faded"><g ref="#sins"/>ungo</damage>n 
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þeahðe</orig>
+            <reg><expan><ex>and</ex></expan> þeah eð</reg><!-- CHECK -->
+          </choice> hit ealle <g ref="#sins"/><damage type="faded">ædon</damage>
+          <lb n="13" xml:id="VB_lb_054v_13"/>
+          <choice>
+            <orig><damage type="faded"><abbr type="brev"><am><g ref="#et"
+                /></am></abbr>bod</damage>edon</orig>
+            <reg><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr>
+                bod</damage>edon</reg>
+          </choice> h<damage type="faded">wæðre</damage>
+          <choice>
+            <orig>ango<damage type="faded">de</damage>s</orig>
+            <reg>an <name type="God">Go<damage type="faded">de</damage>s</name></reg>
+          </choice> þæra <damage type="faded">halg<g ref="#eenl"/>na</damage>
+          <choice>
+            <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
+            <expan>þ<ex>æt</ex></expan>
+          </choice>
+          <choice>
+            <sic><g ref="#slong"/>wio<damage type="faded">tel</damage>ecot</sic>
+            <corr resp="scragg">swiotelecost</corr>
+          </choice>
+          <w>ge <lb n="14" xml:id="VB_lb_054v_14"/><g ref="#slong"/>ang</w>
+          <choice>
+            <orig>beðy<g ref="#sins"/><g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/></orig>
+            <reg>be ðy<g ref="#sins"/><g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/></reg>
+          </choice> dæg<g ref="#eenl"/><g ref="#sins"/> we<damage type="faded">orðu</damage>ga 
+          <choice>
+            <orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><g
+                  ref="#slong"/></damage>wa</orig>
+            <reg><damage type="faded"><expan><ex>and</ex></expan>
+                <g ref="#slong"/></damage>wa</reg>
+          </choice> cwæð <quote><damage type="faded">þ</damage>i<g ref="#sins"/>
+            <supplied resp="scragg">is</supplied>
+            <g ref="#sins"/>e dæg þane <name type="God"><orig>dr<g ref="#yrgmainstrok"/>ht<damage type="faded"><g
+                    ref="#eenl"/>n</damage></orig><reg>Dr<g ref="#yrgmainstrok"/>ht<damage type="faded"><g ref="#eenl"
+                  />n</damage></reg></name>
+            <lb n="15" xml:id="VB_lb_054v_15"/><damage type="faded">geworhte</damage><damage type="faded">utan w<g
+                ref="#eenl"/> bli<g ref="#sins"/><g ref="#sins"/>ian</damage>
+            <choice>
               <orig><damage type="faded"><abbr type="brev"><am><g ref="#et"
-                  /></am></abbr><!-- CHECK expan/ex missing -->bod</damage>edon</orig>
-              <reg><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->
-                  bod</damage>edon</reg>
-            </choice> h<damage type="faded">wæðre</damage> 
+                  /></am></abbr></damage>gef<g ref="#eenl"/>on</orig>
+              <reg><expan><ex>and</ex></expan> gef<g ref="#eenl"/>on</reg>
+            </choice>
             <choice>
-              <orig>ango<damage type="faded">de</damage>s</orig>
-              <reg>an <name type="God">Go<damage type="faded">de</damage>s</name></reg>
-            </choice> þæra <damage type="faded">halg<g ref="#eenl"/>na</damage> 
-            <choice>
-              <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
-              <expan>þ<ex>æt</ex></expan>
-            </choice> <sic><g ref="#slong"/>wio<damage type="faded">tel</damage>ecot</sic><corr resp="scragg">swiotelecost</corr> <w>ge
-<lb n="14"/><g ref="#slong"/>ang</w> 
-            <choice>
-              <orig>beðy<g ref="#sins"/><g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/></orig>
-              <reg>be ðy<g ref="#sins"/><g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/></reg>
-            </choice> dæg<g ref="#eenl"/><g ref="#sins"/> we<damage type="faded">orðu</damage>ga 
-            <choice>
-              <orig><damage type="faded"><abbr type="brev"><am><g ref="#et"
-                    /></am></abbr><!-- CHECK expan/ex missing --><g ref="#slong"/></damage>wa</orig>
-              <reg><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->
-                  <g ref="#slong"/></damage>wa</reg>
-            </choice> cwæð <quote><damage type="faded">þ</damage>i<g ref="#sins"/> <supplied resp="scragg">is</supplied> <g ref="#sins"/>e dæg þane <name type="God"><orig>dr<g ref="#yrgmainstrok"/>ht<damage type="faded"><g ref="#eenl"/>n</damage></orig><reg>Dr<g ref="#yrgmainstrok"/>ht<damage type="faded"><g ref="#eenl"/>n</damage></reg></name>
-<lb n="15"/><damage type="faded">geworhte</damage><damage type="faded">utan w<g ref="#eenl"/> bli<g ref="#sins"/><g ref="#sins"/>ian</damage> 
-              <choice>
-                <orig><damage type="faded"><abbr type="brev"><am><g ref="#et"
-                    /></am></abbr><!-- CHECK expan/ex missing --></damage>gef<g ref="#eenl"/>on</orig>
-                <reg><damage type="faded"><abbr type="brev"><am><g ref="#et"
-                    /></am></abbr><!-- CHECK expan/ex missing --></damage> gef<g ref="#eenl"/>on</reg>
-              </choice> 
-              <choice>
-                <orig>onhim</orig>
-                <reg>on him</reg>
-              </choice><g ref="#punctmet"/></quote> 
+              <orig>onhim</orig>
+              <reg>on him</reg>
+            </choice><g ref="#punctmet"/></quote>
           <choice>
             <orig><hi rend="cap1.0">F</hi>orðan</orig>
             <reg><hi rend="cap1.0">F</hi>or ðan</reg>
-          </choice> ðe <sic>onþissu</sic><corr resp="scragg">on þissum</corr>
-<lb n="16"/>dæge ealra <damage type="faded">cy</damage>n<g ref="#iacute"/>nga c<g ref="#ydot"/>ning<g ref="#middot"/> <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> ealra</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> ealra</reg> <sic>weald<g ref="#eenl"/><damage type="faded">dra</damage></sic><corr resp="scragg">wealdendra</corr> wald<g ref="#eenl"/>nd<g ref="#punctmet"/> þ<g ref="#yrgmainstrok"/><g ref="#slong"/>n<damage type="faded">e</damage>
-<lb n="17"/>
+          </choice> ðe 
+          <choice>
+            <sic>onþissu</sic>
+            <corr resp="scragg">on þissum</corr>
+          </choice>
+          <lb n="16" xml:id="VB_lb_054v_16"/>dæge ealra <damage type="faded">cy</damage>n<g ref="#iacute"/>nga c<g
+            ref="#ydot"/>ning<g ref="#middot"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr> ealra</orig>
+            <reg><expan><ex>and</ex></expan> ealra</reg>
+          </choice>
+          <choice>
+            <sic>weald<g ref="#eenl"/><damage type="faded">dra</damage></sic>
+            <corr resp="scragg">wealdendra</corr></choice> wald<g
+            ref="#eenl"/>nd<g ref="#punctmet"/> þ<g ref="#yrgmainstrok"/><g ref="#slong"/>n<damage type="faded"
+            >e</damage>
+          <lb n="17" xml:id="VB_lb_054v_17"/>
           <choice>
             <orig>middan gea<damage type="faded">r</damage>d</orig>
             <reg>middangea<damage type="faded">r</damage>d</reg>
@@ -156,115 +277,878 @@
           <choice>
             <orig>of<damage type="faded">ða</damage>m</orig>
             <reg>of <damage type="faded">ða</damage>m</reg>
-          </choice> <damage type="faded">h</damage>ean <w>heof<g ref="#eenl"/>na
-<lb n="18"/>rice</w> 
+          </choice>
+          <damage type="faded">h</damage>ean <w>heof<g ref="#eenl"/>na <lb n="18" xml:id="VB_lb_054v_18"/>rice</w>
           <choice>
             <orig>fo<space extent=""/>rðam</orig>
             <reg>fo<space extent=""/>r ðam</reg>
-          </choice> þe ða up<damage type="faded">li</damage>can <choice><orig>midþy<g ref="#sins"/><g ref="#sins"/>e</orig><reg>mid þy<g ref="#sins"/><g ref="#sins"/>e</reg></choice> eo<damage type="faded">r</damage>ðlican <choice><orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --></damage>mid</orig><reg><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --></damage> mid</reg></choice> þy<damage type="faded"><g ref="#sins"/><g ref="#sins"/>e</damage>
-<lb n="19"/>neowolan ge<damage type="faded"><g ref="#sins"/>cea</damage>fte him <choice><orig>wun dorlice</orig><reg>wundorlice</reg></choice> <damage type="faded">þ<g ref="#eenl"/>ow</damage>ia<damage type="faded">ð</damage><g ref="#punctmet"/></p> <p><g ref="#munc"/>itte <damage type="faded">þ</damage>e hit
-<lb n="20"/>þa <damage type="faded">þære</damage> ead<damage type="faded"><g ref="#eenl"/>gan tide</damage> nea<damage type="faded">læh</damage>te <choice><orig>þæt<space extent=""/>te</orig><reg>þætte</reg></choice> <name type="God"><orig>dryht<g ref="#eenl"/>n</orig><reg>Dryht<g ref="#eenl"/>n</reg></name> lichoml<damage type="faded">ice</damage>
-<lb n="21"/>wol<damage type="faded">de w<g ref="#eenl"/></damage><g ref="#sins"/>an <choice><orig>ge <damage type="faded">bor<g ref="#eenl"/>n</damage></orig><reg>ge<damage type="faded">bor<g ref="#eenl"/>n</damage></reg></choice> <g ref="#slong"/>w<g ref="#iacute"/>ðe <choice><orig>cyne þrymlica</orig><reg>cyneþrimlica</reg></choice> tacen<space extent=""/> <choice><orig>h<g ref="#imacr"/>befor<damage type="faded">an</damage></orig><reg>h<g ref="#imacr"/> befor<damage type="faded">an</damage></reg></choice>
-<lb n="22"/><damage type="faded"><g ref="#sins"/>amod</damage> <g ref="#sins"/>iðedon <damage type="faded">ær<g ref="#eenl"/><g ref="#sins"/>t <choice><orig>ge <g ref="#eenl"/>ode</orig><reg>ge<g ref="#eenl"/>ode</reg></choice> t</damage>o þam <sic>ge</sic><corr resp="scragg">dæge</corr> þe he <choice><orig>onge bor<g ref="#eenl"/>n</orig><reg>on gebor<g ref="#eenl"/>n</reg></choice> wæ<g ref="#sins"/>
-<lb n="23"/>þæt nænige <damage type="faded">m</damage><g ref="#eenl"/>n mid wæpnum gefeohtan <damage type="faded">n</damage>e meahton <choice><orig>achraðe</orig><reg>ac hraðe</reg></choice>
-<lb n="24"/><damage type="faded">þæ<g ref="#sins"/> h</damage>ie mid <damage type="faded">wæpn</damage>u<damage type="faded">m</damage> feohtan woldon <damage type="faded">hiora</damage> earma<damage type="faded"><g ref="#sins"/></damage> agal<damage type="faded">eodo</damage>n
-<lb n="25"/><choice><orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hir</damage>a</orig><reg><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hir</damage>a</reg></choice> handa <choice><orig>hi<damage type="faded">m ge l</damage>ugon</orig><reg>hi<damage type="faded">m gel</damage>ugon</reg></choice><g ref="#punctmet"/> <damage type="faded"><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hie</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hie</reg></damage> sylfe wæ<damage type="faded">r</damage>on <choice><orig>tos<damage type="faded">ybbe</damage></orig><reg>to s<damage type="faded">ybbe</damage></reg></choice> <w><damage type="faded">geliðe</damage>
+          </choice> þe ða up<damage type="faded">li</damage>can 
+          <choice>
+            <orig>midþy<g ref="#sins"/><g ref="#sins"/>e</orig>
+            <reg>mid þy<g ref="#sins"/><g ref="#sins"/>e</reg>
+          </choice> eo<damage type="faded">r</damage>ðlican 
+          <choice>
+            <orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr></damage>mid</orig>
+            <reg><expan><ex>and</ex></expan> mid</reg>
+          </choice> þy<damage type="faded"><g ref="#sins"/><g ref="#sins"/>e</damage>
+          <lb n="19" xml:id="VB_lb_054v_19"/>neowolan ge<damage type="faded"><g ref="#sins"/>cea</damage>fte him 
+          <choice>
+            <orig>wun dorlice</orig>
+            <reg>wundorlice</reg>
+          </choice>
+          <damage type="faded">þ<g ref="#eenl"/>ow</damage>ia<damage type="faded">ð</damage><g ref="#punctmet"/></p>
+        <p><g ref="#munc"/>itte <damage type="faded">þ</damage>e hit <lb n="20" xml:id="VB_lb_054v_20"/>þa <damage
+            type="faded">þære</damage> ead<damage type="faded"><g ref="#eenl"/>gan tide</damage> nea<damage type="faded"
+            >læh</damage>te 
+          <choice>
+            <orig>þæt<space extent=""/>te</orig>
+            <reg>þætte</reg>
+          </choice>
+          <name type="God"><orig>dryht<g ref="#eenl"/>n</orig><reg>Dryht<g ref="#eenl"/>n</reg></name> lichoml<damage
+            type="faded">ice</damage>
+          <lb n="21" xml:id="VB_lb_054v_21"/>wol<damage type="faded">de w<g ref="#eenl"/></damage><g ref="#sins"/>an 
+          <choice>
+            <orig>ge <damage type="faded">bor<g ref="#eenl"/>n</damage></orig>
+            <reg>ge<damage type="faded">bor<g ref="#eenl"/>n</damage></reg>
+          </choice>
+          <g ref="#slong"/>w<g ref="#iacute"/>ðe 
+          <choice>
+            <orig>cyne þrymlica</orig>
+            <reg>cyneþrimlica</reg>
+          </choice> tacen<space extent=""/>
+          <choice>
+            <orig>h<g ref="#imacr"/>befor<damage type="faded">an</damage></orig>
+            <reg>h<g ref="#imacr"/> befor<damage type="faded">an</damage></reg>
+          </choice>
+          <lb n="22" xml:id="VB_lb_054v_22"/><damage type="faded"><g ref="#sins"/>amod</damage>
+          <g ref="#sins"/>iðedon <damage type="faded">ær<g ref="#eenl"/><g ref="#sins"/>t 
+            <choice>
+              <orig>ge <g ref="#eenl"/>ode</orig>
+              <reg>ge<g ref="#eenl"/>ode</reg>
+            </choice> t</damage>o þam 
+          <choice>
+            <sic>ge</sic>
+            <corr resp="scragg">dæge</corr>
+          </choice> þe he 
+          <choice>
+            <orig>onge bor<g ref="#eenl"/>n</orig>
+            <reg>on gebor<g ref="#eenl"/>n</reg>
+          </choice> wæ<g ref="#sins"/>
+          <lb n="23" xml:id="VB_lb_054v_23"/>þæt nænige <damage type="faded">m</damage><g ref="#eenl"/>n mid wæpnum
+          gefeohtan <damage type="faded">n</damage>e meahton 
+          <choice>
+            <orig>achraðe</orig>
+            <reg>ac hraðe</reg>
+          </choice>
+          <lb n="24" xml:id="VB_lb_054v_24"/><damage type="faded">þæ<g ref="#sins"/> h</damage>ie mid <damage
+            type="faded">wæpn</damage>u<damage type="faded">m</damage> feohtan woldon <damage type="faded"
+            >hiora</damage> earma<damage type="faded"><g ref="#sins"/></damage> agal<damage type="faded">eodo</damage>n
+            <lb n="25" xml:id="VB_lb_054v_25"/>
+          <choice>
+            <orig><damage type="faded"><abbr type="brev"><am><g ref="#et"
+                /></am></abbr>hir</damage>a</orig>
+            <reg><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr>
+                hir</damage>a</reg>
+          </choice> handa 
+          <choice>
+            <orig>hi<damage type="faded">m ge l</damage>ugon</orig>
+            <reg>hi<damage type="faded">m gel</damage>ugon</reg>
+          </choice><g ref="#punctmet"/>
+          <damage type="faded">
+            <choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
+              <reg><expan><ex>and</ex></expan> hie</reg>
+            </choice></damage> sylfe wæ<damage type="faded">r</damage>on 
+          <choice>
+            <orig>tos<damage type="faded">ybbe</damage></orig>
+            <reg>to s<damage type="faded">ybbe</damage></reg>
+          </choice>
+          <w><damage type="faded">geliðe</damage>
 
+            <pb n="55r" xml:id="VB_fol_055r"/>
 
-  <pb n="55r" xml:id="VB_fol_055r"/>
- 
-  <fw type="fol" place="top-right"><add hand="unknown">55.</add></fw>
+            <fw place="top-right" type="fol"><add hand="unknown">55.</add></fw>
 
+            <lb n="1" xml:id="VB_lb_055r_01"/>wacede<del type="erasure">n</del></w>
+          <choice>
+            <orig><damage type="faded"><abbr type="brev"><am><g ref="#et"
+                /></am></abbr></damage>gefeohtan</orig>
+            <reg><expan><ex>and</ex></expan> gefeohtan</reg>
+          </choice> ne meahton <g ref="#slong"/>wyl<damage type="faded">ce þ</damage>æt eac 
+          <choice>
+            <orig>ge eode</orig>
+            <reg>geeode</reg>
+          </choice>
+          <choice>
+            <orig>þæt t<g ref="#eenl"/><g ref="#slong"/>iofon</orig>
+            <reg>þætte <g ref="#slong"/>iofon</reg>
+          </choice>
+          <lb n="2" xml:id="VB_lb_055r_02"/>nihtum ær <name type="Christ"><orig>cri<g ref="#slong"/>t</orig><reg>Cri<g
+                ref="#slong"/>t</reg></name>
+          <choice>
+            <orig>ge <damage type="faded">boren</damage></orig>
+            <reg>ge<damage type="faded">boren</damage></reg>
+          </choice> wære<g ref="#punctmet"/>
+          <damage type="faded">þæt <g ref="#sins"/>io</damage>
+          <g ref="#sins"/>unne æt midre nihte <lb n="3" xml:id="VB_lb_055r_03"/>ongan <g ref="#slong"/>ci<damage
+            type="faded">nan</damage>
+          <choice>
+            <orig><damage type="faded"><g ref="#slong"/>w</damage>a<g ref="#slong"/>wa</orig>
+            <reg><damage type="faded"><g ref="#slong"/>w</damage>a <g ref="#slong"/>wa</reg>
+          </choice>
+          <choice>
+            <orig>on<g ref="#slong"/>umera</orig>
+            <reg>on <g ref="#slong"/>umera</reg>
+          </choice> þon<damage type="faded">ne hi</damage>o hatto<g ref="#slong"/>t 
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>b<g ref="#eenl"/>orhto<g ref="#slong"/>t</orig>
+            <reg><expan><ex>and</ex></expan> b<g ref="#eenl"/>orhto<g ref="#slong"/>t</reg>
+          </choice>
+          <lb n="4" xml:id="VB_lb_055r_04"/><g ref="#sins"/>cinð <damage type="faded">þ</damage>æt tacnode þæt he þa<g
+            ref="#sins"/> eor<damage type="faded">ðl</damage>ican <damage type="faded"><g ref="#sins"/></damage>unnan
+            niht<damage type="faded"><g ref="#eenl"/><g ref="#sins"/></damage>
+          <w><damage type="faded"><g ref="#slong"/>ci</damage>
+            <lb n="5" xml:id="VB_lb_055r_05"/>n<g ref="#eenl"/>nde</w> him to gi<g ref="#slong"/>le b<g ref="#eenl"
+          />foran <g ref="#sins"/>end<damage type="faded">e</damage>
+          <damage type="faded"><sic><g ref="#slong"/>wylc</sic><corr resp="scragg"><g ref="#slong"
+            />wylce</corr></damage> þæt eac 
+          <choice>
+            <orig>ge <g ref="#eenl"/>ode</orig>
+            <reg>ge<g ref="#eenl"/>ode</reg>
+          </choice>
+          <w>un <lb n="6" xml:id="VB_lb_055r_06"/>man<g ref="#eenl"/>gum</w> nihtum ær <name type="Christ"><orig>cri<g
+                ref="#sins"/>t</orig><reg>Cri<g ref="#sins"/>t</reg></name> ge<damage type="faded">bor<g ref="#eenl"/>n
+            wæ</damage><g ref="#sins"/> onspr<damage type="faded">ung</damage>on þry <lb n="7" xml:id="VB_lb_055r_07"
+            />wylla<g ref="#sins"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ofþara</orig>
+            <reg><expan><ex>and</ex></expan> of þara</reg>
+          </choice>
+          <damage type="faded">anra</damage>
+          <choice>
+            <orig>ge hwylcum</orig>
+            <reg>gehwylcum</reg>
+          </choice> el<g ref="#eenl"/> fl<g ref="#eenl"/>ow fr<damage type="faded">am ær</damage>m<g ref="#eenl"/>rg<g
+            ref="#eenl"/>n <lb n="8" xml:id="VB_lb_055r_08"/>oð æf<g ref="#eenl"/>n<g ref="#punctmet"/>
+          <g ref="#aenl"/>nd manna 
+          <choice>
+            <orig>ge hw<g ref="#yrgmainstrok"/>lcum</orig>
+            <reg>gehw<g ref="#yrgmainstrok"/>lcum</reg>
+          </choice> w<damage type="faded">æ</damage><g ref="#sins"/> forgif<g ref="#eenl"/>n þ<damage type="faded"
+            >æ</damage>t 
+          <choice>
+            <orig>hemo<g ref="#slong"/>te</orig>
+            <reg>he mo<g ref="#slong"/>te</reg>
+          </choice>
+          <w>ni <lb n="9" xml:id="VB_lb_055r_09"/>man</w>
+          <g ref="#slong"/>wa he <g ref="#slong"/>ylf wolde þara þe 
+          <choice>
+            <orig>þær tocwomon</orig>
+            <reg>þærto cwomon</reg>
+          </choice><g ref="#punctmet"/>
+          <g ref="#slong"/>wylc<g ref="#eenl"/> man<g ref="#eenl"/><damage type="faded">ga</damage>
+          <lb n="10" xml:id="VB_lb_055r_10"/>oðeru wundor þær wæron 
+          <choice>
+            <orig>ge word<g ref="#eenl"/>ne</orig>
+            <reg>geword<g ref="#eenl"/>ne</reg>
+          </choice> ær þære<gap extent="" reason="illegible"/> tide þe he on <lb n="11" xml:id="VB_lb_055r_11"/>
+          <choice>
+            <orig>ge bor<g ref="#eenl"/>n</orig>
+            <reg>gebor<g ref="#eenl"/>n</reg>
+          </choice> wæ<g ref="#sins"/> ða nu 
+          <choice>
+            <orig>un eað<g ref="#eenl"/></orig>
+            <reg>uneað<g ref="#eenl"/></reg>
+          </choice> magon <damage type="faded">w</damage><g ref="#eenl"/><g ref="#sins"/><damage type="faded"
+            >an</damage> ari<damage type="faded">m</damage>ede 
+          <choice>
+            <orig>to<g ref="#eenl"/>acan</orig>
+            <reg>to <g ref="#eenl"/>acan</reg>
+          </choice> þam <lb n="12" xml:id="VB_lb_055r_12"/>þe hie nænig man a<g ref="#slong"/>ecgan 
+          <choice>
+            <orig>nemæg</orig>
+            <reg>ne mæg</reg>
+          </choice></p>
+        <p><hi rend="double">ð</hi>a þæt 
+          <choice>
+            <orig>ge <g ref="#eenl"/>ode</orig>
+            <reg>ge<g ref="#eenl"/>ode</reg>
+          </choice>
+          <choice>
+            <orig>þy<g ref="#sins"/>ylfandæge</orig>
+            <reg>þy <g ref="#sins"/>ylfan dæge</reg>
+          </choice>
+          <lb n="13" xml:id="VB_lb_055r_13"/>
+          <choice>
+            <orig>þegyr<g ref="#sins"/>andæg</orig>
+            <reg>þe gyr<g ref="#sins"/>andæg</reg>
+          </choice> wæ<g ref="#sins"/>
+          <choice>
+            <orig>þæ<g ref="#sins"/>ðe</orig>
+            <reg>þæ<g ref="#sins"/> ðe</reg>
+          </choice>
+          <name type="God"><orig>dr<g ref="#yrgmainstrok"/>ht<g ref="#eenl"/>n</orig><reg>Dr<g ref="#yrgmainstrok"/>ht<g
+                ref="#eenl"/>n</reg></name> on<space extent=""/> niht gebor<g ref="#eenl"/>n wæs 
+          <choice>
+            <orig><w>ærmorgen<lb n="14" xml:id="VB_lb_055r_14_orig"/><g ref="#slong"/>t<g ref="#eenl"/>orra</w></orig>
+            <reg>ær <w>morgen<lb n="14" xml:id="VB_lb_055r_14_reg"/><g ref="#slong"/>t<g ref="#eenl"/>orra</w></reg>
+          </choice> <damage type="faded">up</damage>eode<g ref="#punctmet"/> <hi rend="double">ð</hi>æt 
+          <choice>
+            <orig><g ref="#sins"/><g ref="#eenl"/>ca<g ref="#slong"/>ere</orig>
+            <reg><g ref="#sins"/><g ref="#eenl"/> ca<g ref="#slong"/>ere</reg>
+          </choice><space extent=""/> ferde mid ealle hi<g ref="#sins"/>
+          <w>man <lb n="15" xml:id="VB_lb_055r_15"/>þrymme</w>
+          <choice>
+            <orig>tobethl<g ref="#eenl"/>m</orig>
+            <reg>to <name type="place">Beth<g ref="#eenl"/>m</name></reg>
+          </choice> þære byrig þe <name type="God"><orig>dryht<g ref="#eenl"/>n</orig><reg>Dryht<g ref="#eenl"
+            />n</reg></name>
+          <choice>
+            <orig>onge bor<g ref="#eenl"/>n</orig>
+            <reg>on gebor<g ref="#eenl"/>n</reg>
+          </choice> wæ<g ref="#sins"/>
+          <lb n="16" xml:id="VB_lb_055r_16"/>mitte þe hit <add place="sup">þa</add> wæ<g ref="#sins"/>
+          <g ref="#sins"/>io þridde tid þæ<g ref="#sins"/> dæges 
+          <choice>
+            <sic>þæ</sic>
+            <corr resp="scragg">þe</corr>
+          </choice>
+          <choice>
+            <orig>gyr<g ref="#sins"/>an dæg</orig>
+            <reg>gyr<g ref="#sins"/>andæg</reg>
+          </choice> wæ<g ref="#sins"/>
+          <choice>
+            <orig>heða</orig>
+            <reg>he ða</reg>
+          </choice>
+          <lb n="17" xml:id="VB_lb_055r_17"/>b<g ref="#eenl"/>seah 
+          <choice>
+            <orig>onþa</orig>
+            <reg>on þa</reg>
+          </choice> lyft ongean þa <g ref="#sins"/>unnan 
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hege <g ref="#sins"/><g ref="#eenl"/>ah</orig>
+            <reg><expan><ex>and</ex></expan> he ge<g ref="#sins"/><g ref="#eenl"/>ah</reg>
+          </choice> mid ealle hi<g ref="#sins"/>
+          <lb n="18" xml:id="VB_lb_055r_18"/>w<g ref="#eenl"/>rede 
+          <choice>
+            <orig>þemid</orig>
+            <reg>þe mid</reg>
+          </choice> him wæ<g ref="#sins"/> þæt <g ref="#sins"/>io <g ref="#sins"/>unne beorhtor <g ref="#slong"/>can
+          þonne <lb n="19" xml:id="VB_lb_055r_19"/>hio æfre ær <g ref="#slong"/>cine<g ref="#punctmet"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hio</orig>
+            <reg><expan><ex>and</ex></expan> hio</reg>
+          </choice> wæ<g ref="#sins"/>
+          <g ref="#eenl"/>all utan <choice>
+            <orig><g ref="#windy"/>mb worp<g ref="#eenl"/>nu</orig>
+            <reg><g ref="#windy"/>mbworp<g ref="#eenl"/>nu</reg>
+          </choice>
+          <choice>
+            <orig><w>midþry<lb n="20" xml:id="VB_lb_055r_20_orig"/>fealde</w></orig>
+            <reg>mid <w>þry <lb n="20" xml:id="VB_lb_055r_20_reg"/>fealde</w></reg>
+          </choice> gyld<g ref="#eenl"/>ne hringe<g ref="#punctmet"/><space extent=""/>
+          <hi rend="cap1.0">M</hi>itte ðe <name type="person"><choice>
+              <orig>agu<g ref="#slong"/>tu<g ref="#sins"/></orig>
+              <reg>Augu<g ref="#slong"/>tu<g ref="#sins"/></reg>
+            </choice></name>
+          <choice>
+            <orig><g ref="#sins"/>eca<g ref="#sins"/>ere</orig>
+            <reg><g ref="#sins"/>e ca<g ref="#sins"/>ere</reg>
+          </choice> þæt <lb n="21" xml:id="VB_lb_055r_21"/>ge<g ref="#sins"/><g ref="#eenl"/>ah he c<damage type="faded"
+            >ig</damage>de ofer eall þ<damage type="faded">æt</damage> w<g ref="#eenl"/>rud <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>cwæð</orig>
+            <reg><expan><ex>and</ex></expan> cwæð</reg>
+          </choice>
+          <quote>þæt is <choice>
+              <orig>ge <g ref="#sins"/>yne</orig>
+              <reg>ge<g ref="#sins"/>yne</reg>
+            </choice> þæt <lb n="22" xml:id="VB_lb_055r_22"/>þi<g ref="#sins"/> i<g ref="#sins"/> hiofona cyning<g
+              ref="#eenl"/><g ref="#sins"/> tac<g ref="#eenl"/>n þe<space extent=""/> he him beforan <choice>
+              <orig>on <g ref="#sins"/><g ref="#eenl"/>nde</orig>
+              <reg>on<g ref="#sins"/><g ref="#eenl"/>nde</reg>
+            </choice>
+            <lb n="23" xml:id="VB_lb_055r_23"/><choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>ic</orig>
+              <reg><expan><ex>and</ex></expan> ic</reg>
+            </choice> wat <choice>
+              <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
+              <expan>þ<ex>æt</ex></expan>
+            </choice>
+            <g ref="#sins"/>io tid nu <choice>
+              <orig>æti<g ref="#sins"/></orig>
+              <reg>æti<g ref="#sins"/></reg>
+            </choice> þæt he u<damage type="faded"><g ref="#sins"/> w</damage>ille on þa<g ref="#sins"/> wor<damage
+              type="faded">ld</damage>
+            <w><unclear>g</unclear>e <lb n="24" xml:id="VB_lb_055r_24"/>secan</w><g ref="#punctmet"/>
+            <choice>
+              <orig>forðam</orig>
+              <reg>for ðam</reg>
+            </choice>
+            <sic>he</sic><corr resp="scragg">þe</corr> fram fruman <choice>
+              <orig>middan g<g ref="#eenl"/>ard<g ref="#eenl"/><g ref="#sins"/></orig>
+              <reg>middang<g ref="#eenl"/>ard<g ref="#eenl"/><g ref="#sins"/></reg>
+            </choice>
+            <g ref="#sins"/>æd wæ<g ref="#sins"/>
+            <lb n="25" xml:id="VB_lb_055r_25"/><gap extent="" reason="illegible"/><supplied resp="scragg"
+              >toeacan</supplied> oðr<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+            <choice>
+              <orig>wund rum</orig>
+              <reg>wundrum</reg>
+            </choice> þa ymb hi<g ref="#sins"/>
+            <choice>
+              <orig>ge byrd</orig>
+              <reg>gebyrd</reg>
+            </choice> acwed<g ref="#eenl"/>n wæron <pb n="55v" xml:id="VB_fol_055v"/>
+            <lb n="1" xml:id="VB_lb_055v_01"/>þæt þi<g ref="#sins"/> wære yt<g ref="#eenl"/>me<g ref="#sins"/>t þara
+            tacna <choice>
+              <orig>þe<damage type="faded"><g ref="#slong"/>c<g ref="#eenl"/>oldon</damage></orig>
+              <reg>þe <damage type="faded"><g ref="#slong"/>c<g ref="#eenl"/>oldon</damage></reg>
+            </choice>
+            <damage type="faded">we<g ref="#sins"/>a</damage>n <choice>
+              <orig>ge <g ref="#slong"/>c<g ref="#eenl"/>p<g ref="#eenl"/>n</orig>
+              <reg>ge<g ref="#slong"/>c<g ref="#eenl"/>p<g ref="#eenl"/>n</reg>
+            </choice> ær <lb n="2" xml:id="VB_lb_055v_02"/>þan þe he <choice>
+              <orig>onþy<g ref="#sins"/>n<g ref="#eenl"/></orig>
+              <reg>on þy<g ref="#sins"/>n<g ref="#eenl"/></reg>
+            </choice>
+            <choice>
+              <orig>middan <damage type="faded">gea</damage>rd</orig>
+              <reg>middan<damage type="faded">gea</damage>rd</reg>
+            </choice> ac<g ref="#eenl"/>nned wære us ðonne nu <lb n="3" xml:id="VB_lb_055v_03"/>
+            <choice>
+              <orig>ge daf<g ref="#eenl"/>nað</orig>
+              <reg>gedaf<g ref="#eenl"/>nað</reg>
+            </choice> þæt we <supplied resp="scragg">weorðien</supplied> þone <choice>
+              <orig>wuldor fæstan</orig>
+              <reg>wuldorfæstan</reg>
+            </choice> cyning<g ref="#punctmet"/>
+            <hi rend="double">s</hi>e u<g ref="#sins"/> his tacn <lb n="4" xml:id="VB_lb_055v_04"/><g ref="#slong"/>wa
+              <g ref="#slong"/>wio<damage type="faded">tolice</damage> befor<damage type="faded">an him <g ref="#sins"
+              /></damage><g ref="#eenl"/>nde</quote>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
+            <reg><expan><ex>and</ex></expan> þa</reg>
+          </choice> hraðe he ab<g ref="#eenl"/>ad <damage type="faded">þæ</damage>t <lb n="5" xml:id="VB_lb_055v_05"/><g
+            ref="#sins"/><g ref="#eenl"/>nded wære to <g ref="#slong"/>towa <choice>
+            <orig>ge hw<g ref="#yrgmainstrok"/>lcre</orig>
+            <reg>gehw<g ref="#yrgmainstrok"/>lcre</reg>
+          </choice> þara <choice>
+            <orig>þeto</orig>
+            <reg>þe to</reg>
+          </choice> hi<g ref="#sins"/> rice <choice>
+            <orig>be lumpe</orig>
+            <reg>belumpe</reg>
+          </choice><g ref="#punctmet"/>
+          <lb n="6" xml:id="VB_lb_055v_06"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>abeod<damage
+                type="faded">an</damage></orig>
+            <reg><expan><ex>and</ex></expan> abeodan</reg>
+          </choice> het ðætte anra <choice>
+            <orig>ge hwylc</orig>
+            <reg>gehwylc</reg>
+          </choice> þara þe <choice>
+            <orig>oncarc<g ref="#eenl"/>rnwære</orig>
+            <reg>on carc<g ref="#eenl"/>rn wære</reg>
+          </choice>
+          <lb n="7" xml:id="VB_lb_055v_07"/>þæt <g ref="#sins"/>e wære ut forlæt<g ref="#eenl"/>n<g ref="#punctmet"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
+            <reg><expan><ex>and</ex></expan> þa</reg>
+          </choice> þe <choice>
+            <orig>onb<g ref="#eenl"/>ndum</orig>
+            <reg>on b<g ref="#eenl"/>ndum</reg>
+          </choice> g<g ref="#eenl"/><g ref="#slong"/><g ref="#eenl"/>tte wæron <lb n="8" xml:id="VB_lb_055v_08"/>
+          <choice>
+            <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
+            <expan>þ<ex>æt</ex></expan>
+          </choice> ða wæron ealle on<damage type="faded">ly</damage><g ref="#sins"/>ede<g ref="#punctmet"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þaðe</orig>
+            <reg><expan><ex>and</ex></expan> þa ðe</reg>
+          </choice> for hiora m<g ref="#aacute"/>n<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+          <g ref="#slong"/>ceoldon <lb n="9" xml:id="VB_lb_055v_09"/>w<damage type="smudge"><g ref="#eenl"/><g
+              ref="#slong"/></damage>an acwealde <choice>
+            <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
+            <expan>þ<ex>æt</ex></expan>
+          </choice> þam <g ref="#eenl"/>all<g ref="#umacr"/><!-- CHECK abbr/am to be added --> wære
+            h<unclear>i</unclear>ra f<g ref="#eenl"/>orh gif<g ref="#eenl"/>n <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK everything -->
+              <choice><!-- CHECK needed? -->
+                <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
+                <expan>þ<ex>æt</ex></expan>
+              </choice></orig>
+            <reg><expan><ex>and</ex></expan>
+              <choice><!-- CHECK needed? -->
+                <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
+                <expan>þ<ex>æt</ex></expan>
+              </choice></reg>
+          </choice> eall<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+          <lb n="10" xml:id="VB_lb_055v_10"/><g ref="#slong"/>cyldgum wæron hira <g ref="#slong"/>cylda forgif<g
+            ref="#eenl"/>ne<g ref="#punctmet"/></p>
+        <p>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>þa</orig>
+            <reg><expan><ex>and</ex></expan> þa</reg>
+          </choice> to þære <g ref="#sins"/>ylfan <lb n="11" xml:id="VB_lb_055v_11"/>niht ær <choice>
+            <orig>morg<g ref="#eenl"/>n <g ref="#slong"/>t<g ref="#eenl"/>orra</orig>
+            <reg>morg<g ref="#eenl"/>n<g ref="#slong"/>t<g ref="#eenl"/>orra</reg>
+          </choice>
+          <choice>
+            <orig>up <g ref="#eenl"/>ode</orig>
+            <reg>up<g ref="#eenl"/>ode</reg>
+          </choice>
+          <name type="God">
+            <choice>
+              <orig>dryhten</orig>
+              <reg>Dryhten</reg>
+            </choice></name> wæ<g ref="#sins"/>
+          <choice>
+            <orig>ge bor<g ref="#eenl"/>n</orig>
+            <reg>gebor<g ref="#eenl"/>n</reg>
+          </choice><g ref="#punctmet"/>
+          <hi rend="cap1.0">ON</hi>
+          <lb n="12" xml:id="VB_lb_055v_12"/>ðy<g ref="#slong"/>ne <choice>
+            <orig>middan g<g ref="#eenl"/>ard</orig>
+            <reg>middang<g ref="#eenl"/>ard</reg>
+          </choice>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><damage type="faded">hi</damage>ne</orig>
+            <reg><expan><ex>and</ex></expan> hine</reg>
+          </choice>
+          <choice>
+            <orig>ge bor<g ref="#eenl"/>ne</orig>
+            <reg>gebor<g ref="#eenl"/>ne</reg>
+          </choice>
+          <g ref="#eenl"/>nglas onf<g ref="#eenl"/>ngon <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hine</orig>
+            <reg><expan><ex>and</ex></expan> hine</reg>
+          </choice>
+          <lb n="13" xml:id="VB_lb_055v_13"/>
+          <choice>
+            <orig>ge bædon</orig>
+            <reg>gebædon</reg>
+          </choice>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>him</orig>
+            <reg><expan><ex>and</ex></expan> him</reg>
+          </choice> wundo<damage type="faded">rlico</damage><space extent=""/>
+          <damage type="faded">lof</damage>
+          <g ref="#sins"/>ungon <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"
+              />wa</orig>
+            <reg><expan><ex>and</ex></expan>
+              <g ref="#slong"/>wa</reg>
+          </choice> cwædon <q who="angels">wuldor <lb n="14" xml:id="VB_lb_055v_14"/>on h<damage type="faded"><g
+                ref="#eenl"/></damage>anne<g ref="#sins"/><g ref="#sins"/>e <name type="God">
+              <choice>
+                <orig>gode</orig>
+                <reg>Gode</reg>
+              </choice></name>
+            <choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>on<g ref="#eenl"
+                  />or<space extent=""/><damage type="faded">ð</damage>an</orig>
+              <reg><expan><ex>and</ex></expan> on <g ref="#eenl"
+                  />or<damage type="faded">ð</damage>an</reg>
+            </choice>
+            <g ref="#sins"/>ib mann<g ref="#umacr"/><!-- CHECK abbr/am to be added --> ðæ<g ref="#sins"/> godan
+            willan;</q></p>
+        <lb n="15" xml:id="VB_lb_055v_15"/>
+        <p>
+          <choice>
+            <orig><hi rend="cap1.0">M</hi>itteðe</orig>
+            <reg><hi rend="cap1.0">M</hi>itte ðe</reg>
+          </choice>
+          <name type="person"><orig>herod<g ref="#eenl"/><g ref="#sins"/></orig><reg>Herod<g ref="#eenl"/><g ref="#sins"
+              /></reg></name>
+          <g ref="#sins"/>e cyning <choice>
+            <orig>ge a<g ref="#slong"/>code</orig>
+            <reg>gea<g ref="#slong"/>code</reg>
+          </choice> þæt <name type="Christ">
+            <choice>
+              <orig>cri<g ref="#slong"/>t</orig>
+              <reg>Cri<g ref="#slong"/>t</reg>
+            </choice></name> wæ<g ref="#sins"/> gebor<g ref="#eenl"/>n <lb n="16" xml:id="VB_lb_055v_16"/>
+          <choice>
+            <orig>onbethl<g ref="#eenl"/>m</orig>
+            <reg><name type="place">Bethl<g ref="#eenl"/>m</name></reg>
+          </choice>
+          <name type="place"><orig>iud<damage type="faded">ea</damage></orig><reg>Iud<damage type="faded"
+              >ea</damage></reg></name> byrig he hine het <g ref="#sins"/>ecan þurh ealle þa mægða <lb n="17"
+            xml:id="VB_lb_055v_17"/>þæt he wære acweald<g ref="#punctmet"/>
+          <hi rend="double">a</hi>ne dæge <choice>
+            <orig>ærþan</orig>
+            <reg>ær þan</reg>
+          </choice> þe he <name type="person"><orig>erod<g ref="#eenl"/><g ref="#sins"/></orig><reg>Herod<g ref="#eenl"
+                /><g ref="#sins"/></reg></name>
+          <choice>
+            <orig><g ref="#sins"/>ecyning</orig>
+            <reg><g ref="#sins"/>e cyning</reg>
+          </choice>
+          <lb n="18" xml:id="VB_lb_055v_18"/>hete þa cild cwellan dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g
+            ref="#sins"/>
+          <g ref="#eenl"/>ngel <choice>
+            <orig>æt ywde</orig>
+            <reg>ætywde</reg>
+          </choice>
+          <name type="person">
+            <choice>
+              <orig>io<g ref="#sins"/><g ref="#eenl"/>p<g ref="#eenl"/></orig>
+              <reg>Io<g ref="#sins"/><g ref="#eenl"/>p<g ref="#eenl"/></reg>
+            </choice></name>
+          <choice>
+            <orig>onge<g ref="#slong"/>yhðe</orig>
+            <reg>on ge<g ref="#slong"/>yhðe</reg>
+          </choice>
+          <lb n="19" xml:id="VB_lb_055v_19"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>cwæð</orig>
+            <reg><expan><ex>and</ex></expan> cwæð</reg>
+          </choice>
+          <q who="angel">
+            <choice>
+              <orig>ge nim</orig>
+              <reg>genim</reg>
+            </choice>
+            <name type="person">
+              <choice>
+                <orig>marian</orig>
+                <reg>Marian</reg>
+              </choice></name>
+            <choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hælend</orig>
+              <reg><expan><ex>and</ex></expan> hælend</reg>
+            </choice> þæt cild <choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>f<g ref="#eenl"/>r</orig>
+              <reg><expan><ex>and</ex></expan> f<g ref="#eenl"/>r</reg>
+            </choice> þurh þæt w<g ref="#eenl"/><g ref="#slong"/>t<g ref="#eenl"/>n
+          <lb n="20" xml:id="VB_lb_055v_20"/>to <name type="place">
+              <choice>
+                <orig>egyptum</orig>
+                <reg>Egyptum</reg>
+              </choice></name><g ref="#punctmet"/></q>
+          <name type="person">
+            <choice>
+              <orig><hi rend="double">i</hi>o<g ref="#sins"/><g ref="#eenl"/>p</orig>
+              <reg>Io<g ref="#sins"/><g ref="#eenl"/>p</reg>
+            </choice></name> þa dyde <g ref="#slong"/>wa<space extent=""/> him <choice>
+            <orig>be bod<g ref="#eenl"/>n</orig>
+            <reg>bebod<g ref="#eenl"/>n</reg>
+          </choice> wæs <choice>
+            <orig><unclear><abbr type="brev"><am><g ref="#et"
+              /></am></abbr>mit</unclear></orig>
+            <reg><expan><ex>and</ex></expan> mitte</reg>
+          </choice>
+          <lb n="21" xml:id="VB_lb_055v_21"/>þe <choice>
+            <orig>hyf<g ref="#eenl"/>rdon</orig>
+            <reg>hy f<g ref="#eenl"/>rdon</reg>
+          </choice>
+          <choice>
+            <orig>hycwomon</orig>
+            <reg>hy cwomon</reg>
+          </choice> to <g ref="#slong"/>umum <g ref="#slong"/>crafe <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
+            <reg><expan><ex>and</ex></expan> hie</reg>
+          </choice> w<gap extent="" reason="illegible"/><supplied resp="scragg">oldon</supplied> r<g ref="#eenl"/><g
+            ref="#sins"/>tan <lb n="22" xml:id="VB_lb_055v_22"/>on him<g ref="#punctmet"/>
+          <name type="person"><orig><g ref="#munc"/>aria</orig><reg>Maria</reg></name> þa a<g ref="#slong"/>tag of ðam
+            <damage type="faded">ny</damage>t<damage type="faded"><g ref="#eenl"/>ne</damage>
+          <choice>
+            <orig>hæb b<g ref="#eenl"/>n<unclear>de</unclear></orig>
+            <reg>hæbb<g ref="#eenl"/>n<unclear>de</unclear></reg>
+          </choice>
+          <name type="God"><orig><unclear>hæl</unclear><g ref="#eenl"
+            />nd</orig><reg><unclear>Hæl</unclear>end</reg></name>
+          <lb n="23" xml:id="VB_lb_055v_23"/>þæt cild <choice>
+            <orig>onhire</orig>
+            <reg>on hire</reg>
+          </choice> fæðme<g ref="#punctmet"/> þær wæron þry cnihta<g ref="#sins"/> mid <name type="person">
+            <choice>
+              <orig>io<g ref="#sins"/>epe</orig>
+              <reg>Io<g ref="#sins"/>epe</reg>
+            </choice></name>
+          <lb n="24" xml:id="VB_lb_055v_24"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+            <reg><expan><ex>and</ex></expan> mid</reg>
+          </choice>
+          <name type="person">
+            <choice>
+              <orig>marian</orig>
+              <reg>Marian</reg>
+            </choice></name> þære <choice>
+            <orig>fæm na<unclear>n</unclear></orig>
+            <reg>fæmna<unclear>n</unclear></reg>
+          </choice>
+          <gap extent="" reason="illegible"/><supplied resp="scragg">samod</supplied>
+          <g ref="#sins"/>iðiende <g ref="#sins"/>emninga <lb n="25" xml:id="VB_lb_055v_25"/>þa <choice>
+            <orig>ut <g ref="#eenl"/>odon</orig>
+            <reg>ut<g ref="#eenl"/>odon</reg>
+          </choice> of ðam <g ref="#sins"/>crafe manige dracan þæt m<gap extent="" reason="illegible"/><supplied
+            resp="scragg">itte ðe</supplied></p>
 
- <lb n="1"/>wacede<del type="erasure">n</del></w> <choice><orig><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --></damage>gefeohtan</orig><reg><damage type="faded"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --></damage> gefeohtan</reg></choice> ne meahton <g ref="#slong"/>wyl<damage type="faded">ce þ</damage>æt eac <choice><orig>ge eode</orig><reg>geeode</reg></choice> <choice><orig>þæt t<g ref="#eenl"/><g ref="#slong"/>iofon</orig><reg>þætte <g ref="#slong"/>iofon</reg></choice>
- <lb n="2"/>nihtum ær <name type="Christ"><orig>cri<g ref="#slong"/>t</orig><reg>Cri<g ref="#slong"/>t</reg></name> <choice><orig>ge <damage type="faded">boren</damage></orig><reg>ge<damage type="faded">boren</damage></reg></choice> wære<g ref="#punctmet"/> <damage type="faded">þæt <g ref="#sins"/>io</damage> <g ref="#sins"/>unne æt midre nihte
- <lb n="3"/>ongan <g ref="#slong"/>ci<damage type="faded">nan</damage> <choice><orig><damage type="faded"><g ref="#slong"/>w</damage>a<g ref="#slong"/>wa</orig><reg><damage type="faded"><g ref="#slong"/>w</damage>a <g ref="#slong"/>wa</reg></choice> <choice><orig>on<g ref="#slong"/>umera</orig><reg>on <g ref="#slong"/>umera</reg></choice> þon<damage type="faded">ne hi</damage>o hatto<g ref="#slong"/>t <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->b<g ref="#eenl"/>orhto<g ref="#slong"/>t</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> b<g ref="#eenl"/>orhto<g ref="#slong"/>t</reg></choice>
- <lb n="4"/><g ref="#sins"/>cinð <damage type="faded">þ</damage>æt tacnode þæt he þa<g ref="#sins"/> eor<damage type="faded">ðl</damage>ican <damage type="faded"><g ref="#sins"/></damage>unnan niht<damage type="faded"><g ref="#eenl"/><g ref="#sins"/></damage> <w><damage type="faded"><g ref="#slong"/>ci</damage>
- <lb n="5"/>n<g ref="#eenl"/>nde</w> him to gi<g ref="#slong"/>le b<g ref="#eenl"/>foran <g ref="#sins"/>end<damage type="faded">e</damage> <damage type="faded"><sic><g ref="#slong"/>wylc</sic><corr resp="scragg"><g ref="#slong"/>wylce</corr></damage> þæt eac <choice><orig>ge <g ref="#eenl"/>ode</orig><reg>ge<g ref="#eenl"/>ode</reg></choice> <w>un
- <lb n="6"/>man<g ref="#eenl"/>gum</w> nihtum ær <name type="Christ"><orig>cri<g ref="#sins"/>t</orig><reg>Cri<g ref="#sins"/>t</reg></name> ge<damage type="faded">bor<g ref="#eenl"/>n wæ</damage><g ref="#sins"/> onspr<damage type="faded">ung</damage>on þry
- <lb n="7"/>wylla<g ref="#sins"/> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->ofþara</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> of þara</reg></choice> <damage type="faded">anra</damage> <choice><orig>ge hwylcum</orig><reg>gehwylcum</reg></choice> el<g ref="#eenl"/> fl<g ref="#eenl"/>ow fr<damage type="faded">am ær</damage>m<g ref="#eenl"/>rg<g ref="#eenl"/>n
- <lb n="8"/>oð æf<g ref="#eenl"/>n<g ref="#punctmet"/> <g ref="#aenl"/>nd manna <choice><orig>ge hw<g ref="#yrgmainstrok"/>lcum</orig><reg>gehw<g ref="#yrgmainstrok"/>lcum</reg></choice> w<damage type="faded">æ</damage><g ref="#sins"/> forgif<g ref="#eenl"/>n þ<damage type="faded">æ</damage>t <choice><orig>hemo<g ref="#slong"/>te</orig><reg>he mo<g ref="#slong"/>te</reg></choice> <w>ni
- <lb n="9"/>man</w> <g ref="#slong"/>wa he <g ref="#slong"/>ylf wolde þara þe <choice><orig>þær tocwomon</orig><reg>þærto cwomon</reg></choice><g ref="#punctmet"/> <g ref="#slong"/>wylc<g ref="#eenl"/> man<g ref="#eenl"/><damage type="faded">ga</damage>
- <lb n="10"/>oðeru wundor þær wæron <choice><orig>ge word<g ref="#eenl"/>ne</orig><reg>geword<g ref="#eenl"/>ne</reg></choice> ær þære<gap reason="illegible" extent=""/> tide þe he on
- <lb n="11"/><choice><orig>ge bor<g ref="#eenl"/>n</orig><reg>gebor<g ref="#eenl"/>n</reg></choice> wæ<g ref="#sins"/> ða nu <choice><orig>un eað<g ref="#eenl"/></orig><reg>uneað<g ref="#eenl"/></reg></choice> magon <damage type="faded">w</damage><g ref="#eenl"/><g ref="#sins"/><damage type="faded">an</damage> ari<damage type="faded">m</damage>ede <choice><orig>to<g ref="#eenl"/>acan</orig><reg>to <g ref="#eenl"/>acan</reg></choice> þam
- <lb n="12"/>þe hie nænig man a<g ref="#slong"/>ecgan <choice><orig>nemæg</orig><reg>ne mæg</reg></choice></p> <p><hi rend="double">ð</hi>a þæt <choice><orig>ge <g ref="#eenl"/>ode</orig><reg>ge<g ref="#eenl"/>ode</reg></choice> <choice><orig>þy<g ref="#sins"/>ylfandæge</orig><reg>þy <g ref="#sins"/>ylfan dæge</reg></choice>
- <lb n="13"/><choice><orig>þegyr<g ref="#sins"/>andæg</orig><reg>þe gyr<g ref="#sins"/>andæg</reg></choice> wæ<g ref="#sins"/> <choice><orig>þæ<g ref="#sins"/>ðe</orig><reg>þæ<g ref="#sins"/> ðe</reg></choice> <name type="God"><orig>dr<g ref="#yrgmainstrok"/>ht<g ref="#eenl"/>n</orig><reg>Dr<g ref="#yrgmainstrok"/>ht<g ref="#eenl"/>n</reg></name> on<space extent=""/> niht gebor<g ref="#eenl"/>n wæs <choice><orig><w>ærmorgen<lb n="14"/><g ref="#slong"/>t<g ref="#eenl"/>orra</w></orig><reg>ær <w>morgen
- <lb n="14"/><g ref="#slong"/>t<g ref="#eenl"/>orra</w></reg></choice> <damage type="faded">up</damage>eode<g ref="#punctmet"/> <hi rend="double">ð</hi>æt <choice><orig><g ref="#sins"/><g ref="#eenl"/>ca<g ref="#slong"/>ere</orig><reg><g ref="#sins"/><g ref="#eenl"/> ca<g ref="#slong"/>ere</reg></choice><space extent=""/> ferde mid ealle hi<g ref="#sins"/> <w>man
- <lb n="15"/>þrymme</w> <choice><orig>tobethl<g ref="#eenl"/>m</orig><reg>to <name type="place">Beth<g ref="#eenl"/>m</name></reg></choice> þære byrig þe <name type="God"><orig>dryht<g ref="#eenl"/>n</orig><reg>Dryht<g ref="#eenl"/>n</reg></name> <choice><orig>onge bor<g ref="#eenl"/>n</orig><reg>on gebor<g ref="#eenl"/>n</reg></choice> wæ<g ref="#sins"/>
- <lb n="16"/>mitte þe hit <add place="sup">þa</add> wæ<g ref="#sins"/> <g ref="#sins"/>io þridde tid þæ<g ref="#sins"/> dæges <sic>þæ</sic><corr resp="scragg">þe</corr> <choice><orig>gyr<g ref="#sins"/>an dæg</orig><reg>gyr<g ref="#sins"/>andæg</reg></choice> wæ<g ref="#sins"/> <choice><orig>heða</orig><reg>he ða</reg></choice>
- <lb n="17"/>b<g ref="#eenl"/>seah <choice><orig>onþa</orig><reg>on þa</reg></choice> lyft ongean þa <g ref="#sins"/>unnan <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hege <g ref="#sins"/><g ref="#eenl"/>ah</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->he ge<g ref="#sins"/><g ref="#eenl"/>ah</reg></choice> mid ealle hi<g ref="#sins"/>
- <lb n="18"/>w<g ref="#eenl"/>rede <choice><orig>þemid</orig><reg>þe mid</reg></choice> him wæ<g ref="#sins"/> þæt <g ref="#sins"/>io <g ref="#sins"/>unne beorhtor <g ref="#slong"/>can þonne
- <lb n="19"/>hio æfre ær <g ref="#slong"/>cine<g ref="#punctmet"/> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hio</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hio</reg></choice> wæ<g ref="#sins"/> <g ref="#eenl"/>all utan <choice><orig><g ref="#windy"/>mb worp<g ref="#eenl"/>nu</orig><reg><g ref="#windy"/>mbworp<g ref="#eenl"/>nu</reg></choice> <choice><orig><w>midþry<lb n="20"/>fealde</w></orig><reg>mid <w>þry
- <lb n="20"/>fealde</w></reg></choice> gyld<g ref="#eenl"/>ne hringe<g ref="#punctmet"/><space extent=""/> <hi rend="cap1.0">M</hi>itte ðe <name type="person"><choice><orig>agu<g ref="#slong"/>tu<g ref="#sins"/></orig><reg>Augu<g ref="#slong"/>tu<g ref="#sins"/></reg></choice></name> <choice><orig><g ref="#sins"/>eca<g ref="#sins"/>ere</orig><reg><g ref="#sins"/>e ca<g ref="#sins"/>ere</reg></choice> þæt
- <lb n="21"/>ge<g ref="#sins"/><g ref="#eenl"/>ah he c<damage type="faded">ig</damage>de ofer eall þ<damage type="faded">æt</damage> w<g ref="#eenl"/>rud <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->cwæð</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> cwæð</reg></choice> <quote>þæt is <choice><orig>ge <g ref="#sins"/>yne</orig><reg>ge<g ref="#sins"/>yne</reg></choice> þæt
- <lb n="22"/>þi<g ref="#sins"/> i<g ref="#sins"/> hiofona cyning<g ref="#eenl"/><g ref="#sins"/> tac<g ref="#eenl"/>n þe<space extent=""/> he him beforan <choice><orig>on <g ref="#sins"/><g ref="#eenl"/>nde</orig><reg>on<g ref="#sins"/><g ref="#eenl"/>nde</reg></choice>
- <lb n="23"/><choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->ic</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> ic</reg></choice> wat <choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> <g ref="#sins"/>io tid nu <choice><orig>æti<g ref="#sins"/></orig><reg>æti<g ref="#sins"/></reg></choice> þæt he u<damage type="faded"><g ref="#sins"/> w</damage>ille on þa<g ref="#sins"/> wor<damage type="faded">ld</damage> <w><unclear>g</unclear>e
- <lb n="24"/>secan</w><g ref="#punctmet"/> <choice><orig>forðam</orig><reg>for ðam</reg></choice> <sic>he</sic><corr resp="scragg">þe</corr> fram fruman <choice><orig>middan g<g ref="#eenl"/>ard<g ref="#eenl"/><g ref="#sins"/></orig><reg>middang<g ref="#eenl"/>ard<g ref="#eenl"/><g ref="#sins"/></reg></choice> <g ref="#sins"/>æd wæ<g ref="#sins"/>
- <lb n="25"/><gap reason="illegible" extent=""/><supplied resp="scragg">toeacan</supplied> oðr<g ref="#umacr"/><!-- CHECK abbr/am to be added --> <choice><orig>wund rum</orig><reg>wundrum</reg></choice> þa ymb hi<g ref="#sins"/> <choice><orig>ge byrd</orig><reg>gebyrd</reg></choice> acwed<g ref="#eenl"/>n wæron
-  
-   <pb n="55v" xml:id="VB_fol_055v"/>  
-  
-<lb n="1"/>þæt þi<g ref="#sins"/> wære yt<g ref="#eenl"/>me<g ref="#sins"/>t þara tacna <choice><orig>þe<damage type="faded"><g ref="#slong"/>c<g ref="#eenl"/>oldon</damage></orig><reg>þe <damage type="faded"><g ref="#slong"/>c<g ref="#eenl"/>oldon</damage></reg></choice> <damage type="faded">we<g ref="#sins"/>a</damage>n <choice><orig>ge <g ref="#slong"/>c<g ref="#eenl"/>p<g ref="#eenl"/>n</orig><reg>ge<g ref="#slong"/>c<g ref="#eenl"/>p<g ref="#eenl"/>n</reg></choice> ær
-<lb n="2"/>þan þe he <choice><orig>onþy<g ref="#sins"/>n<g ref="#eenl"/></orig><reg>on þy<g ref="#sins"/>n<g ref="#eenl"/></reg></choice> <choice><orig>middan <damage type="faded">gea</damage>rd</orig><reg>middan<damage type="faded">gea</damage>rd</reg></choice> ac<g ref="#eenl"/>nned wære us ðonne nu
-<lb n="3"/><choice><orig>ge daf<g ref="#eenl"/>nað</orig><reg>gedaf<g ref="#eenl"/>nað</reg></choice> þæt we <supplied resp="scragg">weorðien</supplied> þone <choice><orig>wuldor fæstan</orig><reg>wuldorfæstan</reg></choice> cyning<g ref="#punctmet"/> <hi rend="double">s</hi>e u<g ref="#sins"/> his tacn
-<lb n="4"/><g ref="#slong"/>wa <g ref="#slong"/>wio<damage type="faded">tolice</damage> befor<damage type="faded">an him <g ref="#sins"/></damage><g ref="#eenl"/>nde</quote> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->þa</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> þa</reg></choice> hraðe he ab<g ref="#eenl"/>ad <damage type="faded">þæ</damage>t
-<lb n="5"/><g ref="#sins"/><g ref="#eenl"/>nded wære to <g ref="#slong"/>towa <choice><orig>ge hw<g ref="#yrgmainstrok"/>lcre</orig><reg>gehw<g ref="#yrgmainstrok"/>lcre</reg></choice> þara <choice><orig>þeto</orig><reg>þe to</reg></choice> hi<g ref="#sins"/> rice <choice><orig>be lumpe</orig><reg>belumpe</reg></choice><g ref="#punctmet"/>
-<lb n="6"/><choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->abeod<damage type="faded">an</damage></orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> abeod<damage type="faded">an</damage></reg></choice> het ðætte anra <choice><orig>ge hwylc</orig><reg>gehwylc</reg></choice> þara þe <choice><orig>oncarc<g ref="#eenl"/>rnwære</orig><reg>on carc<g ref="#eenl"/>rn wære</reg></choice>
-<lb n="7"/>þæt <g ref="#sins"/>e wære ut forlæt<g ref="#eenl"/>n<g ref="#punctmet"/> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->þa</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> þa</reg></choice> þe <choice><orig>onb<g ref="#eenl"/>ndum</orig><reg>on b<g ref="#eenl"/>ndum</reg></choice> g<g ref="#eenl"/><g ref="#slong"/><g ref="#eenl"/>tte wæron
-<lb n="8"/><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> ða wæron ealle on<damage type="faded">ly</damage><g ref="#sins"/>ede<g ref="#punctmet"/> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->þaðe</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> þa ðe</reg></choice> for hiora m<g ref="#aacute"/>n<g ref="#umacr"/><!-- CHECK abbr/am to be added --> <g ref="#slong"/>ceoldon
-<lb n="9"/>w<damage type="smudge"><g ref="#eenl"/><g ref="#slong"/></damage>an acwealde <choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> þam <g ref="#eenl"/>all<g ref="#umacr"/><!-- CHECK abbr/am to be added --> wære h<unclear>i</unclear>ra f<g ref="#eenl"/>orh gif<g ref="#eenl"/>n <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice></orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> <choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice></reg></choice> eall<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
-<lb n="10"/><g ref="#slong"/>cyldgum wæron hira <g ref="#slong"/>cylda forgif<g ref="#eenl"/>ne<g ref="#punctmet"/></p> <p><choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->þa</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> þa</reg></choice> to þære <g ref="#sins"/>ylfan
-<lb n="11"/>niht ær <choice><orig>morg<g ref="#eenl"/>n <g ref="#slong"/>t<g ref="#eenl"/>orra</orig><reg>morg<g ref="#eenl"/>n<g ref="#slong"/>t<g ref="#eenl"/>orra</reg></choice> <choice><orig>up <g ref="#eenl"/>ode</orig><reg>up<g ref="#eenl"/>ode</reg></choice> <name type="God"><choice><orig>dryhten</orig><reg>Dryhten</reg></choice></name> wæ<g ref="#sins"/> <choice><orig>ge bor<g ref="#eenl"/>n</orig><reg>gebor<g ref="#eenl"/>n</reg></choice><g ref="#punctmet"/> <hi rend="cap1.0">ON</hi>
-<lb n="12"/>ðy<g ref="#slong"/>ne <choice><orig>middan g<g ref="#eenl"/>ard</orig><reg>middang<g ref="#eenl"/>ard</reg></choice> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><damage type="faded">hi</damage>ne</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> <damage type="faded">hi</damage>ne</reg></choice> <choice><orig>ge bor<g ref="#eenl"/>ne</orig><reg>gebor<g ref="#eenl"/>ne</reg></choice> <g ref="#eenl"/>nglas onf<g ref="#eenl"/>ngon <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hine</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hine</reg></choice>
-<lb n="13"/><choice><orig>ge bædon</orig><reg>gebædon</reg></choice> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->him</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> him</reg></choice> wundo<damage type="faded">rlico</damage><space extent=""/> <damage type="faded">lof</damage> <g ref="#sins"/>ungon <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><g ref="#slong"/>wa</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> <g ref="#slong"/>wa</reg></choice> cwædon <q who="angels">wuldor
-<lb n="14"/>on h<damage type="faded"><g ref="#eenl"/></damage>anne<g ref="#sins"/><g ref="#sins"/>e <name type="God"><choice><orig>gode</orig><reg>Gode</reg></choice></name> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->on<g ref="#eenl"/>or<space extent=""/><damage type="faded">ð</damage>an</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> on <g ref="#eenl"/>or<damage type="faded">ð</damage>an</reg></choice> <g ref="#sins"/>ib mann<g ref="#umacr"/><!-- CHECK abbr/am to be added --> ðæ<g ref="#sins"/> godan willan;</q></p>
-<lb n="15"/><p><choice><orig><hi rend="cap1.0">M</hi>itteðe</orig><reg><hi rend="cap1.0">M</hi>itte ðe</reg></choice> <name type="person"><orig>herod<g ref="#eenl"/><g ref="#sins"/></orig><reg>Herod<g ref="#eenl"/><g ref="#sins"/></reg></name> <g ref="#sins"/>e cyning <choice><orig>ge a<g ref="#slong"/>code</orig><reg>gea<g ref="#slong"/>code</reg></choice> þæt <name type="Christ"><choice><orig>cri<g ref="#slong"/>t</orig><reg>Cri<g ref="#slong"/>t</reg></choice></name> wæ<g ref="#sins"/> gebor<g ref="#eenl"/>n
-<lb n="16"/><choice><orig>onbethl<g ref="#eenl"/>m</orig><reg><name type="place">Bethl<g ref="#eenl"/>m</name></reg></choice> <name type="place"><orig>iud<damage type="faded">ea</damage></orig><reg>Iud<damage type="faded">ea</damage></reg></name> byrig he hine het <g ref="#sins"/>ecan þurh ealle þa mægða
-<lb n="17"/>þæt he wære acweald<g ref="#punctmet"/> <hi rend="double">a</hi>ne dæge <choice><orig>ærþan</orig><reg>ær þan</reg></choice> þe he <name type="person"><orig>erod<g ref="#eenl"/><g ref="#sins"/></orig><reg>Herod<g ref="#eenl"/><g ref="#sins"/></reg></name> <choice><orig><g ref="#sins"/>ecyning</orig><reg><g ref="#sins"/>e cyning</reg></choice>
-<lb n="18"/>hete þa cild cwellan dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/> <g ref="#eenl"/>ngel <choice><orig>æt ywde</orig><reg>ætywde</reg></choice> <name type="person"><choice><orig>io<g ref="#sins"/><g ref="#eenl"/>p<g ref="#eenl"/></orig><reg>Io<g ref="#sins"/><g ref="#eenl"/>p<g ref="#eenl"/></reg></choice></name> <choice><orig>onge<g ref="#slong"/>yhðe</orig><reg>on ge<g ref="#slong"/>yhðe</reg></choice>
-<lb n="19"/><choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->cwæð</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> cwæð</reg></choice> <q who="angel"><choice><orig>ge nim</orig><reg>genim</reg></choice> <name type="person"><choice><orig>marian</orig><reg>Marian</reg></choice></name> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hælend</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hælend</reg></choice> þæt cild <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->f<g ref="#eenl"/>r</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> f<g ref="#eenl"/>r</reg></choice> þurh þæt w<g ref="#eenl"/><g ref="#slong"/>t<g ref="#eenl"/>n
-<lb n="20"/>to <name type="place"><choice><orig>egyptum</orig><reg>Egyptum</reg></choice></name><g ref="#punctmet"/></q> <name type="person"><choice><orig><hi rend="double">i</hi>o<g ref="#sins"/><g ref="#eenl"/>p</orig><reg>Io<g ref="#sins"/><g ref="#eenl"/>p</reg></choice></name> þa dyde <g ref="#slong"/>wa<space extent=""/> him <choice><orig>be bod<g ref="#eenl"/>n</orig><reg>bebod<g ref="#eenl"/>n</reg></choice> wæs <choice><orig><unclear><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->mit</unclear></orig><reg><unclear><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> mit</unclear>te</reg></choice>
-<lb n="21"/>þe <choice><orig>hyf<g ref="#eenl"/>rdon</orig><reg>hy f<g ref="#eenl"/>rdon</reg></choice> <choice><orig>hycwomon</orig><reg>hy cwomon</reg></choice> to <g ref="#slong"/>umum <g ref="#slong"/>crafe <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hie</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hie</reg></choice> w<gap reason="illegible" extent=""/><supplied resp="scragg">oldon</supplied> r<g ref="#eenl"/><g ref="#sins"/>tan
-<lb n="22"/>on him<g ref="#punctmet"/> <name type="person"><orig><g ref="#munc"/>aria</orig><reg>Maria</reg></name> þa a<g ref="#slong"/>tag of ðam <damage type="faded">ny</damage>t<damage type="faded"><g ref="#eenl"/>ne</damage> <choice><orig>hæb b<g ref="#eenl"/>n<unclear>de</unclear></orig><reg>hæbb<g ref="#eenl"/>n<unclear>de</unclear></reg></choice> <name type="God"><orig><unclear>hæl</unclear><g ref="#eenl"/>nd</orig><reg><unclear>Hæl</unclear>end</reg></name>
-<lb n="23"/>þæt cild <choice><orig>onhire</orig><reg>on hire</reg></choice> fæðme<g ref="#punctmet"/> þær wæron þry cnihta<g ref="#sins"/> mid <name type="person"><choice><orig>io<g ref="#sins"/>epe</orig><reg>Io<g ref="#sins"/>epe</reg></choice></name>
-<lb n="24"/><choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->mid</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> mid</reg></choice> <name type="person"><choice><orig>marian</orig><reg>Marian</reg></choice></name> þære <choice><orig>fæm na<unclear>n</unclear></orig><reg>fæmna<unclear>n</unclear></reg></choice> <gap reason="illegible" extent=""/><supplied resp="scragg">samod</supplied> <g ref="#sins"/>iðiende <g ref="#sins"/>emninga
-<lb n="25"/>þa <choice><orig>ut <g ref="#eenl"/>odon</orig><reg>ut<g ref="#eenl"/>odon</reg></choice> of ðam <g ref="#sins"/>crafe manige dracan þæt m<gap reason="illegible" extent=""/><supplied resp="scragg">itte ðe</supplied></p>
+        <fw place="bottom-middle" type="cw"><add hand="unknown">G</add></fw>
 
-  <fw type="cw" place="bottom-middle"><add hand="unknown">G</add></fw> 
+        <gb n="8" xml:id="VB_gb_08"/>
 
-  <gb n="8" xml:id="VB_gb_08"/>
+        <gap quantity="1" reason="lost" unit="folio"/>
 
-  <gap quantity="1" unit="folio" reason="lost"/>
+        <pb n="56r" xml:id="VB_fol_056r"/>
 
-  <pb n="56r" xml:id="VB_fol_056r"/>
+        <fw place="top-right" type="fol"><add hand="unknown">56</add></fw>
 
-  <fw type="fol" place="top-right"><add hand="unknown">56</add></fw>
- 
-<lb n="1"/><p>denum <choice><orig>hylocedon</orig><reg>hy locedon</reg></choice> <choice><orig>on<g ref="#eenl"/>gypta</orig><reg><name type="place">Egypt</name></reg></choice> dune <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hie</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hie</reg></choice> wæron <g ref="#slong"/>wiðe gef<damage type="faded"><g ref="#eenl"/>o</damage>nde<g ref="#middot"/> ond
-<lb n="2"/>mytte þe hie comon <choice><orig>toþære</orig><reg>to þære</reg></choice> c<g ref="#eenl"/>a<g ref="#sins"/>tre hie nænigne cuðne næfdon
-<lb n="3"/>mid hwam hie wunian m<g ref="#eenl"/>ahton<g ref="#punctmet"/> <choice><orig><g ref="#hrdes"/>yb<g ref="#eenl"/> cyrdon</orig><reg><g ref="#hrdes"/>y becyrdon</reg></choice> <choice><orig>toþara</orig><reg>to þara</reg></choice> goda
-<lb n="4"/>t<g ref="#eenl"/>mple <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->mitte</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> mitte</reg></choice> þe hio <g ref="#inodotenl"/>n<g ref="#eenl"/>ode <name type="person"><choice><orig>maria</orig><reg>Maria</reg></choice></name> hæbb<g ref="#eenl"/>nde <name type="Crist"><choice><orig>hæl<g ref="#eenl"/>nd</orig><reg>Hæl<g ref="#eenl"/>nd</reg></choice></name> þæt
-<lb n="5"/>cild <choice><orig>onhyr<g ref="#eenl"/></orig><reg>on hyr<g ref="#eenl"/></reg></choice> fæðme<g ref="#punctmet"/> <hi rend="double"><g ref="#eenl"/></hi>all ða <choice><orig>dioful gild</orig><reg>diofulgild</reg></choice> <choice><orig>ge hruron</orig><reg>gehruron</reg></choice> b<g ref="#eenl"/>foran
-<lb n="6"/><name type="person"><choice><orig>marian</orig><reg>Marian</reg></choice></name> fotum <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->hie</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> hie</reg></choice> wæron <choice><orig>ge lytlode</orig><reg>gelytlode</reg></choice> ðæt mitte wæ<g ref="#sins"/> <g ref="#sins"/>æd
-<lb n="7"/><name type="person"><choice><orig>afra di<g ref="#sins"/>io</orig><reg>Afradi<g ref="#sins"/>io</reg></choice></name> þam <choice><orig>h<g ref="#eenl"/>r<g ref="#eenl"/> togan</orig><reg>h<g ref="#eenl"/>r<g ref="#eenl"/>togan</reg></choice> he þæder cwom mid ealle hi<g ref="#sins"/>
-<lb n="8"/>werode <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->he</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> he</reg></choice> wæ<g ref="#sins"/> <g ref="#inodotenl"/>ngang<g ref="#eenl"/>nde <choice><orig>onþæt</orig><reg>on þæt</reg></choice> t<g ref="#eenl"/>mpl <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->h<g ref="#eenl"/></orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> h<g ref="#eenl"/></reg></choice> ge<g ref="#sins"/><g ref="#eenl"/>ah <g ref="#eenl"/>al þa <w>dio
-<lb n="9"/><choice><orig><damage type="faded">ful</damage> gild</orig><reg><damage type="faded">ful</damage>gild</reg></choice></w> on <g ref="#eenl"/>orðan licgan he <g ref="#eenl"/>ode <choice><orig>tomarian</orig><reg><name type="person">Marian</name></reg></choice> þære fæmnan
-<lb n="10"/><choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->h<g ref="#eenl"/>ge bæd</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> h<g ref="#eenl"/> gebæd</reg></choice> <name type="Christ"><orig>hæl<g ref="#eenl"/>nd</orig><reg>Hæl<g ref="#eenl"/>nd</reg></name> þæt cild <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->he<g ref="#slong"/>præc</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> he <g ref="#slong"/>præc</reg></choice> to <g ref="#eenl"/>all<g ref="#umacr"/><!-- CHECK abbr/am to be added --> hi<g ref="#sins"/> w<g ref="#eenl"/>rode <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->cwæð</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> cwæð</reg></choice> 
-<lb n="11"/><q who="Afrodisio"><choice><orig>þærðe</orig><reg>þær ðe</reg></choice> þi<g ref="#sins"/> <choice><orig>godne</orig><reg><name type="God">God</name> ne</reg></choice> wære nænige þinga ura goda <choice><orig>onhyra</orig><reg>on hyra</reg></choice> on<g ref="#sins"/>yne
-<lb n="12"/>gef<g ref="#eenl"/>ollon <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->forþan</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> for þan</reg></choice> u<g ref="#sins"/> i<g ref="#sins"/> þearf <choice><abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr><expan>þ<ex>æt</ex></expan></choice> <choice><orig>wedon</orig><reg>we don</reg></choice> <g ref="#slong"/>wa ura god <choice><orig>þylæs</orig><reg>þy læs</reg></choice> <choice><orig>hi<g ref="#sins"/>yrre</orig><reg>hi<g ref="#sins"/> yrre</reg></choice>
-<lb n="13"/><choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->d<g ref="#eenl"/>að<g ref="#eenl"/><g ref="#sins"/></orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> d<g ref="#eenl"/>að<g ref="#eenl"/><g ref="#sins"/></reg></choice> fr<g ref="#eenl"/>cn<g ref="#eenl"/><g ref="#sins"/> of<g ref="#eenl"/>r u<g ref="#sins"/> cume;</q></p> <p><hi rend="cap1.0">Æ</hi>ft<g ref="#eenl"/>r þan ða <name type="God"><choice><orig>dryhtn<g ref="#eenl"/><g ref="#sins"/></orig><reg>Dryhtn<g ref="#eenl"/><g ref="#sins"/></reg></choice></name> <g ref="#eenl"/>ng<g ref="#eenl"/>l
-<lb n="14"/><choice><orig>æt <g ref="#eenl"/>owde</orig><reg>æt<g ref="#eenl"/>owde</reg></choice> <name type="person"><choice><orig><g ref="#inodotenl"/>o<g ref="#slong"/><g ref="#eenl"/>pe</orig><reg>Io<g ref="#slong"/><g ref="#eenl"/>pe</reg></choice></name> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->marian</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> <name type="person">Marian</name></reg></choice> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->him</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> him</reg></choice> to cwæð <q who="angel">Hwyrfað <g ref="#eenl"/>ft to <name type="place"><choice><orig>iud<g ref="#eenl"/>a</orig><reg>Iud<g ref="#eenl"/>a</reg></choice></name>
-<lb n="15"/>lande ealle <g ref="#slong"/>yndon d<g ref="#eenl"/>ad<g ref="#eenl"/> þa þe <g ref="#sins"/>ohton þæne cniht <choice><orig>toacw<g ref="#eenl"/>llanne</orig><reg>to acw<g ref="#eenl"/>llanne</reg></choice><g ref="#middot"/></q></p>
-<lb n="16"/><p><name type="Christ"><choice><orig><g ref="#hrdes"/>æl<g ref="#eenl"/>nd</orig><reg>Hæl<g ref="#eenl"/>nd</reg></choice></name> <damage type="faded">þa</damage> w<g ref="#eenl"/>ox <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->h<g ref="#eenl"/>wæ<g ref="#sins"/></orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> h<g ref="#eenl"/> wæ<g ref="#sins"/></reg></choice> ge<g ref="#sins"/>trangod ga<g ref="#slong"/>te <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->mæg<g ref="#eenl"/>ne</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> mæg<g ref="#eenl"/>ne</reg></choice> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --><g ref="#slong"/>nyt<g ref="#eenl"/>ro</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> <g ref="#slong"/>nyt<g ref="#eenl"/>ro</reg></choice> <choice><orig>hewæ<g ref="#sins"/></orig><reg>he wæ<g ref="#sins"/></reg></choice>
-<lb n="17"/>gefylled mid <name type="God"><choice><orig>gode</orig><reg>Gode</reg></choice></name> <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->mid</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> mid</reg></choice> mannum him anum is wuldor <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->weorð mynd</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> weorðmynd</reg></choice> on
-<lb n="18"/>worulda woruld<g ref="#punctmet"/></p> <p><g ref="#hrdes"/>wæt we <choice><orig>nuge hyrdon</orig><reg>nu gehyrdon</reg></choice> <g ref="#sins"/>ecgan <choice><orig>hw<g ref="#yrgmainstrok"/>lcn<g ref="#eenl"/><del type="erasure">we</del> hw<g ref="#eenl"/>gu</orig><reg>hw<g ref="#yrgmainstrok"/>lcnehw<g ref="#eenl"/>gu</reg></choice> dæl
-<lb n="19"/><g ref="#windy"/>mb u<g ref="#sins"/><g ref="#sins"/>e<g ref="#sins"/> <name type="Christ"><choice><orig>dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/></orig><reg>Dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/></reg></choice></name> gebyrd <g ref="#slong"/>wylce <g ref="#eenl"/>ac ymb <sic>þawun</sic><corr resp="scragg">þa wundor</corr> þe he <choice><orig>onhi<g ref="#sins"/>cild</orig><reg>on hi<g ref="#sins"/> <w>cild
-<lb n="20"/>hade</w></reg></choice> <supplied resp="scragg">worhte</supplied> Utan we nu <g ref="#eenl"/>orne tilian þæt we þe <g ref="#sins"/>elran <g ref="#sins"/>yn <choice><abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr><expan>þon<ex>ne</ex></expan></choice> we <w>þyl
-<lb n="21"/>leca</w> by<g ref="#sins"/><g ref="#eenl"/>na u<g ref="#sins"/><g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/> <name type="Christ"><choice><orig>dryhtn<g ref="#eenl"/><g ref="#sins"/></orig><reg>Dryhtn<g ref="#eenl"/><g ref="#sins"/></reg></choice></name> b<g ref="#eenl"/>foran<del type="erasure">r</del> u<g ref="#sins"/> r<g ref="#eenl"/>ccan <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->rædang<g ref="#eenl"/></orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> rædan <sic><w>g<g ref="#eenl"/><lb n="22"/>g<g ref="#eenl"/>hyrað</w></sic><corr resp="scragg"><w>g<g ref="#eenl"/>
-<lb n="22"/>hyrað</w></corr></reg></choice><g ref="#punctmet"/> utan we h<g ref="#eenl"/>aldan <g ref="#sins"/>ybbe <choice><orig><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->lufan</orig><reg><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --> lufan</reg></choice> <choice><orig>be twioh<g ref="#sins"/></orig><reg>betwioh<g ref="#sins"/></reg></choice> u<g ref="#sins"/> þonne
-<lb n="23"/>gyldeð u<g ref="#sins"/> <name type="God"><choice><orig>god</orig><reg>God</reg></choice></name> ece med<g ref="#eenl"/> æt u<g ref="#sins"/><g ref="#sins"/>um <g ref="#eenl"/>nde;</p> <fw type="num" place="right-side"><add hand="unknown"><num value="2">.II.</num></add></fw>
+        <lb n="1" xml:id="VB_lb_056r_01"/>
+        <p>denum <choice>
+            <orig>hylocedon</orig>
+            <reg>hy locedon</reg>
+          </choice>
+          <choice>
+            <orig>on<g ref="#eenl"/>gypta</orig>
+            <reg><name type="place">Egypt</name></reg>
+          </choice> dune <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
+            <reg><expan><ex>and</ex></expan> hie</reg>
+          </choice> wæron <g ref="#slong"/>wiðe gef<damage type="faded"><g ref="#eenl"/>o</damage>nde<g ref="#middot"/>
+          ond <lb n="2" xml:id="VB_lb_056r_02"/>mytte þe hie comon <choice>
+            <orig>toþære</orig>
+            <reg>to þære</reg>
+          </choice> c<g ref="#eenl"/>a<g ref="#sins"/>tre hie nænigne cuðne næfdon <lb n="3" xml:id="VB_lb_056r_03"/>mid
+          hwam hie wunian m<g ref="#eenl"/>ahton<g ref="#punctmet"/>
+          <choice>
+            <orig><g ref="#hrdes"/>yb<g ref="#eenl"/> cyrdon</orig>
+            <reg><g ref="#hrdes"/>y becyrdon</reg>
+          </choice>
+          <choice>
+            <orig>toþara</orig>
+            <reg>to þara</reg>
+          </choice> goda <lb n="4" xml:id="VB_lb_056r_04"/>t<g ref="#eenl"/>mple <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mitte</orig>
+            <reg><expan><ex>and</ex></expan> mitte</reg>
+          </choice> þe hio <g ref="#inodotenl"/>n<g ref="#eenl"/>ode <name type="person">
+            <choice>
+              <orig>maria</orig>
+              <reg>Maria</reg>
+            </choice></name> hæbb<g ref="#eenl"/>nde <name type="Crist">
+            <choice>
+              <orig>hæl<g ref="#eenl"/>nd</orig>
+              <reg>Hæl<g ref="#eenl"/>nd</reg>
+            </choice></name> þæt <lb n="5" xml:id="VB_lb_056r_05"/>cild <choice>
+            <orig>onhyr<g ref="#eenl"/></orig>
+            <reg>on hyr<g ref="#eenl"/></reg>
+          </choice> fæðme<g ref="#punctmet"/>
+          <hi rend="double"><g ref="#eenl"/></hi>all ða <choice>
+            <orig>dioful gild</orig>
+            <reg>diofulgild</reg>
+          </choice>
+          <choice>
+            <orig>ge hruron</orig>
+            <reg>gehruron</reg>
+          </choice> b<g ref="#eenl"/>foran <lb n="6" xml:id="VB_lb_056r_06"/><name type="person">
+            <choice>
+              <orig>marian</orig>
+              <reg>Marian</reg>
+            </choice></name> fotum <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hie</orig>
+            <reg><expan><ex>and</ex></expan> hie</reg>
+          </choice> wæron <choice>
+            <orig>ge lytlode</orig>
+            <reg>gelytlode</reg>
+          </choice> ðæt mitte wæ<g ref="#sins"/>
+          <g ref="#sins"/>æd <lb n="7" xml:id="VB_lb_056r_07"/><name type="person">
+            <choice>
+              <orig>afra di<g ref="#sins"/>io</orig>
+              <reg>Afradi<g ref="#sins"/>io</reg>
+            </choice></name> þam <choice>
+            <orig>h<g ref="#eenl"/>r<g ref="#eenl"/> togan</orig>
+            <reg>h<g ref="#eenl"/>r<g ref="#eenl"/>togan</reg>
+          </choice> he þæder cwom mid ealle hi<g ref="#sins"/>
+          <lb n="8" xml:id="VB_lb_056r_08"/>werode <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he</orig>
+            <reg><expan><ex>and</ex></expan> he</reg>
+          </choice> wæ<g ref="#sins"/>
+          <g ref="#inodotenl"/>ngang<g ref="#eenl"/>nde <choice>
+            <orig>onþæt</orig>
+            <reg>on þæt</reg>
+          </choice> t<g ref="#eenl"/>mpl <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>h<g ref="#eenl"
+              /></orig>
+            <reg><expan><ex>and</ex></expan> h<g ref="#eenl"/></reg>
+          </choice> ge<g ref="#sins"/><g ref="#eenl"/>ah <g ref="#eenl"/>al þa <w>dio <lb n="9" xml:id="VB_lb_056r_09"/>
+            <choice>
+              <orig><damage type="faded">ful</damage> gild</orig>
+              <reg><damage type="faded">ful</damage>gild</reg>
+            </choice></w> on <g ref="#eenl"/>orðan licgan he <g ref="#eenl"/>ode <choice>
+            <orig>tomarian</orig>
+            <reg><name type="person">Marian</name></reg>
+          </choice> þære fæmnan <lb n="10" xml:id="VB_lb_056r_10"/>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>h<g ref="#eenl"/>ge bæd</orig>
+            <reg><expan><ex>and</ex></expan> h<g ref="#eenl"/> gebæd</reg>
+          </choice>
+          <name type="Christ"><orig>hæl<g ref="#eenl"/>nd</orig><reg>Hæl<g ref="#eenl"/>nd</reg></name> þæt cild <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>he<g ref="#slong"/>præc</orig>
+            <reg><expan><ex>and</ex></expan> he <g ref="#slong"/>præc</reg>
+          </choice> to <g ref="#eenl"/>all<g ref="#umacr"/><!-- CHECK abbr/am to be added --> hi<g ref="#sins"/> w<g
+            ref="#eenl"/>rode <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>cwæð</orig>
+            <reg><expan><ex>and</ex></expan> cwæð</reg>
+          </choice>
+          <lb n="11" xml:id="VB_lb_056r_11"/><q who="Afrodisio">
+            <choice>
+              <orig>þærðe</orig>
+              <reg>þær ðe</reg>
+            </choice> þi<g ref="#sins"/>
+            <choice>
+              <orig>godne</orig>
+              <reg><name type="God">God</name> ne</reg>
+            </choice> wære nænige þinga ura goda <choice>
+              <orig>onhyra</orig>
+              <reg>on hyra</reg>
+            </choice> on<g ref="#sins"/>yne <lb n="12" xml:id="VB_lb_056r_12"/>gef<g ref="#eenl"/>ollon <choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>forþan</orig>
+              <reg><expan><ex>and</ex></expan> for þan</reg>
+            </choice> u<g ref="#sins"/> i<g ref="#sins"/> þearf <choice>
+              <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
+              <expan>þ<ex>æt</ex></expan>
+            </choice>
+            <choice>
+              <orig>wedon</orig>
+              <reg>we don</reg>
+            </choice>
+            <g ref="#slong"/>wa ura god <choice>
+              <orig>þylæs</orig>
+              <reg>þy læs</reg>
+            </choice>
+            <choice>
+              <orig>hi<g ref="#sins"/>yrre</orig>
+              <reg>hi<g ref="#sins"/> yrre</reg>
+            </choice>
+            <lb n="13" xml:id="VB_lb_056r_13"/>
+            <choice>
+              <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>d<g ref="#eenl"/>að<g ref="#eenl"/><g ref="#sins"/></orig>
+              <reg><expan><ex>and</ex></expan> d<g ref="#eenl"/>að<g ref="#eenl"/><g ref="#sins"/></reg>
+            </choice> fr<g ref="#eenl"/>cn<g ref="#eenl"/><g ref="#sins"/> of<g ref="#eenl"/>r u<g ref="#sins"/>
+            cume;</q></p>
+        <p><hi rend="cap1.0">Æ</hi>ft<g ref="#eenl"/>r þan ða <name type="God">
+            <choice>
+              <orig>dryhtn<g ref="#eenl"/><g ref="#sins"/></orig>
+              <reg>Dryhtn<g ref="#eenl"/><g ref="#sins"/></reg>
+            </choice></name>
+          <g ref="#eenl"/>ng<g ref="#eenl"/>l <lb n="14" xml:id="VB_lb_056r_14"/>
+          <choice>
+            <orig>æt <g ref="#eenl"/>owde</orig>
+            <reg>æt<g ref="#eenl"/>owde</reg>
+          </choice>
+          <name type="person">
+            <choice>
+              <orig><g ref="#inodotenl"/>o<g ref="#slong"/><g ref="#eenl"/>pe</orig>
+              <reg>Io<g ref="#slong"/><g ref="#eenl"/>pe</reg>
+            </choice></name>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><name type="person">marian</name></orig>
+            <reg><expan><ex>and</ex></expan> <name type="person">Marian</name></reg>
+          </choice>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>him</orig>
+            <reg><expan><ex>and</ex></expan> him</reg>
+          </choice> to cwæð <q who="angel">Hwyrfað <g ref="#eenl"/>ft to <name type="place">
+              <choice>
+                <orig>iud<g ref="#eenl"/>a</orig>
+                <reg>Iud<g ref="#eenl"/>a</reg>
+              </choice></name>
+            <lb n="15" xml:id="VB_lb_056r_15"/>lande ealle <g ref="#slong"/>yndon d<g ref="#eenl"/>ad<g ref="#eenl"/> þa
+            þe <g ref="#sins"/>ohton þæne cniht <choice>
+              <orig>toacw<g ref="#eenl"/>llanne</orig>
+              <reg>to acw<g ref="#eenl"/>llanne</reg>
+            </choice><g ref="#middot"/></q></p>
+        <lb n="16" xml:id="VB_lb_056r_16"/>
+        <p><name type="Christ">
+            <choice>
+              <orig><g ref="#hrdes"/>æl<g ref="#eenl"/>nd</orig>
+              <reg>Hæl<g ref="#eenl"/>nd</reg>
+            </choice></name>
+          <damage type="faded">þa</damage> w<g ref="#eenl"/>ox <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>h<g ref="#eenl"/>wæ<g ref="#sins"/></orig>
+            <reg><expan><ex>and</ex></expan> h<g ref="#eenl"/> wæ<g ref="#sins"/></reg>
+          </choice> ge<g ref="#sins"/>trangod ga<g ref="#slong"/>te <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mæg<g ref="#eenl"/>ne</orig>
+            <reg><expan><ex>and</ex></expan> mæg<g ref="#eenl"/>ne</reg>
+          </choice>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><g ref="#slong"/>nyt<g ref="#eenl"/>ro</orig>
+            <reg><expan><ex>and</ex></expan> <g ref="#slong"/>nyt<g ref="#eenl"/>ro</reg>
+          </choice>
+          <choice>
+            <orig>hewæ<g ref="#sins"/></orig>
+            <reg>he wæ<g ref="#sins"/></reg>
+          </choice>
+          <lb n="17" xml:id="VB_lb_056r_17"/>gefylled mid <name type="God">
+            <choice>
+              <orig>gode</orig>
+              <reg>Gode</reg>
+            </choice></name>
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
+            <reg><expan><ex>and</ex></expan> mid</reg>
+          </choice> mannum him anum is wuldor <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>weorð mynd</orig>
+            <reg><expan><ex>and</ex></expan> weorðmynd</reg>
+          </choice> on <lb n="18" xml:id="VB_lb_056r_18"/>worulda woruld<g ref="#punctmet"/></p>
+        <p><g ref="#hrdes"/>wæt we <choice>
+            <orig>nuge hyrdon</orig>
+            <reg>nu gehyrdon</reg>
+          </choice>
+          <g ref="#sins"/>ecgan <choice>
+            <orig>hw<g ref="#yrgmainstrok"/>lcn<g ref="#eenl"/><del type="erasure">we</del> hw<g ref="#eenl"/>gu</orig>
+            <reg>hw<g ref="#yrgmainstrok"/>lcnehw<g ref="#eenl"/>gu</reg>
+          </choice> dæl <lb n="19" xml:id="VB_lb_056r_19"/><g ref="#windy"/>mb u<g ref="#sins"/><g ref="#sins"/>e<g
+            ref="#sins"/>
+          <name type="Christ">
+            <choice>
+              <orig>dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/></orig>
+              <reg>Dr<g ref="#yrgmainstrok"/>htn<g ref="#eenl"/><g ref="#sins"/></reg>
+            </choice></name> gebyrd <g ref="#slong"/>wylce <g ref="#eenl"/>ac ymb 
+          <choice>
+            <sic>þawun</sic>
+            <corr resp="scragg">þa wundor</corr>
+          </choice> þe he <choice>
+            <orig>onhi<g ref="#sins"/>cild</orig>
+            <reg>on hi<g ref="#sins"/>
+              <w>cild <lb n="20" xml:id="VB_lb_056r_20"/>hade</w></reg>
+          </choice>
+          <supplied resp="scragg">worhte</supplied> Utan we nu <g ref="#eenl"/>orne tilian þæt we þe <g ref="#sins"
+          />elran <g ref="#sins"/>yn <choice>
+            <abbr type="brev">þ<am><g ref="#omacr"/></am>n</abbr>
+            <expan>þon<ex>ne</ex></expan>
+          </choice> we <w>þyl <lb n="21" xml:id="VB_lb_056r_21"/>leca</w> by<g ref="#sins"/><g ref="#eenl"/>na u<g
+            ref="#sins"/><g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/>
+          <name type="Christ">
+            <choice>
+              <orig>dryhtn<g ref="#eenl"/><g ref="#sins"/></orig>
+              <reg>Dryhtn<g ref="#eenl"/><g ref="#sins"/></reg>
+            </choice></name> b<g ref="#eenl"/>foran<del type="erasure">r</del> u<g ref="#sins"/> r<g ref="#eenl"/>ccan 
+          <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>rædang<g ref="#eenl"/></orig>
+            <!-- CHECK nesting --><reg><expan><ex>and</ex></expan> rædan <sic><w>g<g ref="#eenl"/><lb n="22" xml:id="VB_lb_056r_22_sic"/>g<g
+                    ref="#eenl"/>hyrað</w></sic><corr resp="scragg"><w>g<g ref="#eenl"/>
+                  <lb n="22" xml:id="VB_lb_056r_22_corr"/>hyrað</w></corr></reg>
+          </choice><g ref="#punctmet"/> utan we h<g ref="#eenl"/>aldan <g ref="#sins"/>ybbe <choice>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>lufan</orig>
+            <reg><expan><ex>and</ex></expan> lufan</reg>
+          </choice>
+          <choice>
+            <orig>be twioh<g ref="#sins"/></orig>
+            <reg>betwioh<g ref="#sins"/></reg>
+          </choice> u<g ref="#sins"/> þonne <lb n="23" xml:id="VB_lb_056r_23"/>gyldeð u<g ref="#sins"/>
+          <name type="God">
+            <choice>
+              <orig>god</orig>
+              <reg>God</reg>
+            </choice></name> ece med<g ref="#eenl"/> æt u<g ref="#sins"/><g ref="#sins"/>um <g ref="#eenl"/>nde;</p>
+        <fw place="right-side" type="num"><add hand="unknown"><num value="2">.II.</num></add></fw>
 
-</div>
-</body>
-</text>
+      </div>
+    </body>
+  </text>
 </TEI>

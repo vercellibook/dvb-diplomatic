@@ -12,7 +12,7 @@
     <fileDesc>
 
       <titleStmt>
-        <title>The Vercelli Book: a diplomatic/interpretative transcription with digital facsimile</title>
+        <title>The Vercelli Book: a diplomatic/interpretative edition with digital facsimile</title>
         <title>Homily IV</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
@@ -1345,9 +1345,12 @@
                <!-- #######################################  folio 18r  ####################################### -->
  
                <pb n="018r" xml:id="VB_fol_018r"/>
+                  
+                  <fw place="top-right" type="fol"><add>18</add></fw>
             
-              <add place="top-right"><fw type="end_of_quire" rend="upsidedown">18</fw></add><!--
+              <!--<add place="top-right"><fw type="end_of_quire" rend="upsidedown">18</fw></add>
                 - CHECK upsidedown come valore appropriato
+                - <fw type="end_of_quire" rend="upsidedown"> non sembra comunque corretto
                 - controllare tutte le altre lettere di fine fascicolo
                 - uniformare la marcatura dove necessario
               -->
@@ -1590,7 +1593,7 @@
               
               <pb n="018v" xml:id="VB_fol_018v"/>
           
-            <fw type="fol" place="bottom-centred"><add hand="#TBD">B</add></fw>
+            <fw type="fol" place="bottom-centred"><add hand="#TBD">B</add></fw><!-- CHECK fw type -->
           
             <lb facs="#VB_line_018v_01" xml:id="VB_lb_018v_01" n="1"/><damage type="faded">gearod</damage> 
                 <choice>

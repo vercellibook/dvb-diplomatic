@@ -12,7 +12,7 @@
     <fileDesc>
 
       <titleStmt>
-        <title>The Vercelli Book: a diplomatic/interpretative transcription with digital facsimile</title>
+        <title>The Vercelli Book: a diplomatic/interpretative edition with digital facsimile</title>
         <title>The Dream of the Rood</title>
         <author>Unknown</author>
         <principal>Roberto Rosselli Del Turco</principal>
@@ -1479,7 +1479,7 @@
                 ht<lb facs="#VB_line_106r_06" n="6" xml:id="VB_lb_106r_06_orig"/>ne<g ref="#sins"/></w></orig>
             <reg><w>dryht<lb facs="#VB_line_106r_06" n="6" xml:id="VB_lb_106r_06_reg"/>nes</w></reg>
           </choice> naman deaðe<g ref="#sins"/>
-          <gap extent="3char" reason="rasure"/> <choice>
+          <gap extent="3char" reason="deletion"/><del rend="erasure">þro</del><choice>
             <orig>wo<add place="sub">,</add><add place="sup">l</add>de</orig>
             <reg>wo<add place="sup">l</add>de</reg>
           </choice></l>
