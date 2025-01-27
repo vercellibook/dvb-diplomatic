@@ -1822,7 +1822,7 @@
           <l n="355">halige <choice>
                <orig>hige frofre</orig>
                <reg>higefrofre</reg>
-             </choice> <g ref="#aacute"/>c hie hyrwdon <sic>m</sic><corr>þ</corr>e<!-- ??? --></l>
+             </choice> <g ref="#aacute"/>c hie hyrwdon <sic>m</sic><corr>þ</corr>e<!-- CHECK ??? --></l>
           <l n="356"><lb n="10" xml:id="VB_lb_124v_10"/>feodon þurh <choice>
                <orig>feond <g ref="#sins"/>cipe</orig>
                <reg>feondscipe</reg>
@@ -2507,7 +2507,11 @@
               <orig>ne<g ref="#slong"/>ette</orig>
               <reg>ne <g ref="#slong"/>ette</reg>
             </choice></l>
-          <l n="496">þæt <sic>he</sic><corr resp="Dobbie">hie</corr> for æf<g ref="#slong"/>tum un<g ref="#slong"/>c<g
+          <l n="496">þæt 
+            <choice><!-- CHECK resp -->
+              <sic>he</sic>
+              <corr resp="Dobbie">hie</corr>
+            </choice> for æf<g ref="#slong"/>tum un<g ref="#slong"/>c<g
               ref="#yrgmainstrok"/>ldigne</l>
           <l n="497"><g ref="#sins"/>ynna lea<g ref="#sins"/>ne <g ref="#sins"/>awle<g ref="#sins"/> lar<g ref="#umacr"
             /></l>
@@ -2789,7 +2793,11 @@
           <l n="561">hu <choice>
               <orig>onworulde</orig>
               <reg>on worulde</reg>
-            </choice> ær <sic>witga</sic><corr resp="Dobbie">witgan</corr>
+            </choice> ær 
+            <choice><!-- CHECK resp -->
+              <sic>witga</sic>
+              <corr resp="Dobbie">witgan</corr>
+            </choice>
             <g ref="#sins"/>ungon</l>
           <l n="562"><lb n="7" xml:id="VB_lb_126v_07"/><choice>
               <orig>ga<g ref="#sins"/>t halige</orig>
@@ -2925,7 +2933,11 @@
           <l n="588">sægdon hine <w><g ref="#sins"/>undor<lb n="25" xml:id="VB_lb_126v_25"/>wi<g ref="#sins"/>ne</w>
             <q rend="begin">he þe mæg <g ref="#sins"/>oð gecyðan</q></l>
           <l n="589">onwreon wyrda geryno <g ref="#slong"/>wa<lb n="26" xml:id="VB_lb_126v_26"/>ðu hine wordum frigne<g ref="#sins"/>t</l>
-          <l n="590"><g ref="#aeligacute"/>riht from <sic>ord</sic><corr resp="krapp">orde</corr> oð ende forð</l>
+          <l n="590"><g ref="#aeligacute"/>riht from 
+            <choice>
+              <sic>ord</sic>
+              <corr resp="krapp">orde</corr>
+            </choice> oð ende forð</l>
           <l n="591">he i<g ref="#sins"/> for eorðan æðele<g ref="#sins"/> cynne<g ref="#sins"/></l>
           <l n="592"><choice>
               <orig>word cræfte<g ref="#sins"/></orig>
@@ -3681,7 +3693,11 @@
               <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hwæðre</orig>
               <reg><expan><ex>and</ex></expan> hwæðre</reg>
             </choice> geare ny<g ref="#slong"/>te</l>
-          <l n="720">hungre gehyned hwær<lb n="12" xml:id="VB_lb_128r_12"/><g ref="#sins"/>io <sic>halig</sic><corr resp="krapp">halige</corr>
+          <l n="720">hungre gehyned hwær<lb n="12" xml:id="VB_lb_128r_12"/><g ref="#sins"/>io 
+            <choice>
+              <sic>halig</sic>
+              <corr resp="krapp">halige</corr>
+            </choice>
               r<g ref="#oacute"/>d</l>
           <l n="721">þurh <corr resp="krapp">feondes</corr>
             <g ref="#sins"/>earu foldan <choice>
@@ -4632,7 +4648,7 @@
               <orig>to<w>feorh<lb n="24" xml:id="VB_lb_129v_24_orig"/>nere</w></orig>
               <reg>to <w>feorh<lb n="24" xml:id="VB_lb_129v_24_reg"/>nere</w></reg>
             </choice> fira cynne</l>
-          <l n="898">life<g ref="#sins"/> lattiow<sic>'</sic> þa þær <choice>
+          <l n="898">life<g ref="#sins"/> lattiow<sic>'</sic><!-- CHECK ??? --> þa þær <choice>
               <orig>lige <g ref="#sins"/>ynnig</orig>
               <reg>lige<g ref="#sins"/>ynnig</reg>
             </choice></l>

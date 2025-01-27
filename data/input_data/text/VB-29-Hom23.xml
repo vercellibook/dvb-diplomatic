@@ -1249,8 +1249,11 @@
               <reg>ða he ða</reg>
             </choice> <g ref="#sins"/>e eadiga wer
           <lb xml:id="VB_lb_134v_14" n="14" facs="#VB_line_134v_14"/>þa<g ref="#sins"/> word gehyrde þa
-            ara<g ref="#sins"/> he <g ref="#sins"/>ona <abbr type="brev"><g ref="#et"
-            /></abbr><expan><ex>and</ex></expan>to <choice>
+            ara<g ref="#sins"/> he <g ref="#sins"/>ona 
+          <choice>
+            <orig><abbr type="brev"><g ref="#et"/></abbr>to</orig>
+            <reg><expan><ex>and</ex></expan> to</reg>
+          </choice> <choice>
             <orig><name type="religion">gode</name></orig>
             <reg><name type="religion">Gode</name></reg>
           </choice> cleopode <choice>
