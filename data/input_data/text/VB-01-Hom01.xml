@@ -3429,8 +3429,7 @@
           </choice> rode<orig><pc type="metrical">.</pc></orig>
           <supplied resp="scragg">for</supplied> þam ne bræcon hie hi<g ref="#sins"/> b<g ref="#aacute"/>n <choice>
             <orig>ag<g ref="#ginsmacr"/></orig>
-            <reg>ac <w><g ref="#ginsmacr"/>
-          <lb facs="#VB_line_008r_23" xml:id="VB_lb_008r_23" n="23"/>nam</w></reg>
+            <reg>ac <w><g ref="#ginsmacr"/><lb facs="#VB_line_008r_23" xml:id="VB_lb_008r_23" n="23"/>nam</w></reg>
           </choice> þara c<g ref="#eenl"/>mp<g ref="#eenl"/>na <g ref="#aacute"/>n <choice>
             <orig><abbr type="brev"><g ref="#et"/></abbr>mid</orig>
             <reg><expan><ex>and</ex></expan> mid</reg>

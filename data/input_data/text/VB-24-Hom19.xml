@@ -2892,7 +2892,7 @@
             <orig><g ref="#aenlacute"/>butan</orig>
             <reg><g ref="#aenlacute"/> butan</reg>
           </choice> ende ame<hi rend="cap1.0">n</hi>
-          <g ref="coldmidcomposit"/><!-- sostituire con milestone -->
+          <g ref="coldmidcomposit"/><!-- CHECK sostituire con milestone (???) -->
         </p>
       </div>
     </body>

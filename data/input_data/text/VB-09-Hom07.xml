@@ -249,7 +249,10 @@
             />ncte þe <g ref="#slong"/>wa manig<damage type="faded">r</damage>a haligra manna mæg<g ref="#eenl"/>nu <lb
               n="14" xml:id="VB_lb_056v_14"/>to by<g ref="#sins"/><g ref="#eenl"/>ne habbað</q> hwæt w<g ref="#eenl"
             />n<g ref="#slong"/>t ðu hwæt he an aræfnede <w>be <lb n="15" xml:id="VB_lb_056v_15"/>tw<g ref="#eenl"
-            />oh</w> arl<g ref="#eenl"/>as<g ref="#umacr"/><!-- CHECK abbr/am to be added --> butan ælc<g ref="#eenl"
+            />oh</w> <choice>
+              <abbr>arl<g ref="#eenl"/>as<am><g ref="#umacr"/></am></abbr>
+              <expan>arl<g ref="#eenl"/>asu<ex>m</ex></expan>
+            </choice> butan ælc<g ref="#eenl"
           />re bysene<g ref="#punctmet"/>
           <choice>
             <orig><g ref="#Gins"/>e þ<g ref="#eenl"/>ncað</orig>
@@ -320,7 +323,10 @@
             <orig>g<g ref="#eenl"/>
               <g ref="#slong"/>winc</orig>
             <reg>g<g ref="#eenl"/><g ref="#slong"/>winc</reg>
-          </choice> be <lb n="22" xml:id="VB_lb_056v_22"/>ðam ge<g ref="#slong"/>winc<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+          </choice> be <lb n="22" xml:id="VB_lb_056v_22"/>ðam <choice>
+            <abbr>ge<g ref="#slong"/>winc<am><g ref="#umacr"/></am></abbr>
+            <expan>ge<g ref="#slong"/>wincu<ex>m</ex></expan>
+          </choice>
           <choice>
             <orig>hewæ<g ref="#sins"/></orig>
             <reg>he wæ<g ref="#sins"/></reg>
@@ -353,9 +359,13 @@
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>moy<g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/></orig>
             <reg><expan><ex>and</ex></expan>
               <name type="person">Moy<g ref="#sins"/><g ref="#eenl"/><g ref="#sins"/></name></reg>
-          </choice><gap extent="8char" reason="illegible"/><supplied resp="scragg"><abbr type="brev"><am><g ref="#et"
-                /></am></abbr><!-- CHECK expan/ex missing -->
-            <name type="person">Ieremaie</name></supplied>
+          </choice><gap extent="8char" reason="illegible"/>
+          <supplied resp="scragg"><choice>
+              <abbr type="brev"><am><g ref="#et"/></am></abbr>
+              <expan><ex>and</ex></expan>
+            </choice>
+            <name type="person">Ieremaie</name>
+          </supplied>
           <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>dauid</orig>
             <reg><expan><ex>and</ex></expan>
@@ -414,7 +424,10 @@
           </choice> willað <hi rend="double">i</hi>c <g ref="#eenl"/>ow <g ref="#sins"/>ecge <choice>
             <orig>beðam</orig>
             <reg>be ðam</reg>
-          </choice> apo<g ref="#slong"/>tol<g ref="#umacr"/><!-- CHECK abbr/am to be added --> eall<g ref="#eenl"/> hie
+          </choice> <choice>
+            <abbr>apo<g ref="#slong"/>tol<am><g ref="#umacr"/></am></abbr>
+            <expan>apo<g ref="#slong"/>tolu<ex>m</ex></expan>
+          </choice> eall<g ref="#eenl"/> hie
           wæron <lb n="7" xml:id="VB_lb_057r_07"/>ge<g ref="#slong"/>w<g ref="#eenl"/>ncte <choice>
             <orig>marang<g ref="#eenl"/>swincum</orig>
             <reg>maran g<g ref="#eenl"/>swincum</reg>
@@ -508,7 +521,12 @@
               <orig>ladzaru<g ref="#sins"/></orig>
               <reg>Ladzaru<g ref="#sins"/></reg>
             </choice></name>
-          <supplied resp="scragg"><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing --></supplied> þone welegan <choice>
+          <supplied resp="scragg">
+            <choice>
+              <abbr type="brev"><am><g ref="#et"/></am></abbr>
+              <expan><ex>and</ex></expan>
+            </choice>
+          </supplied> þone welegan <choice>
             <orig>þeh<g ref="#eenl"/>r</orig>
             <reg>þe h<g ref="#eenl"/>r</reg>
           </choice>
@@ -645,9 +663,13 @@
           </choice>
           <g ref="#sins"/>yndon on <g ref="#eenl"/>cum witum<g ref="#middot"/>
           <g ref="#eenl"/>ac <damage type="faded"><g ref="#slong"/></damage>wylce þa ilcan witu <g ref="#sins"/>yndon
-            <lb n="6" xml:id="VB_lb_057v_06"/>g<g ref="#eenl"/>aruwe þam mann<g ref="#umacr"
-          /><!-- CHECK abbr/am to be added --> þ<g ref="#eenl"/> nu <g ref="#slong"/>wylc<g ref="#umacr"
-          /><!-- CHECK abbr/am to be added --> lifum lifiað <g ref="#slong"/>wylce hie <lb n="7" xml:id="VB_lb_057v_07"
+            <lb n="6" xml:id="VB_lb_057v_06"/>g<g ref="#eenl"/>aruwe þam <choice>
+              <abbr>mann<am><g ref="#umacr"/></am></abbr>
+              <expan>mannu<ex>m</ex></expan>
+            </choice> þ<g ref="#eenl"/> nu <choice>
+              <abbr><g ref="#slong"/>wylc<am><g ref="#umacr"/></am></abbr>
+              <expan><g ref="#slong"/>wylcu<ex>m</ex></expan>
+            </choice> lifum lifiað <g ref="#slong"/>wylce hie <lb n="7" xml:id="VB_lb_057v_07"
           />lyfedon</p>
         <p>
           <choice>
@@ -739,7 +761,10 @@
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>hi<g ref="#eenl"/></orig>
             <reg><expan><ex>and</ex></expan> hi<g ref="#eenl"/></reg>
           </choice> oft baðiað<g ref="#punctmet"/>
-          <abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex missing -->
+          <choice>
+            <abbr type="brev"><am><g ref="#et"/></am></abbr>
+            <expan><ex>and</ex></expan>
+          </choice>
           <lb n="15" xml:id="VB_lb_057v_15"/><damage type="faded">mid</damage>
           <choice>
             <orig><damage type="faded">wyrt ge ma</damage>ngum</orig>
@@ -750,9 +775,12 @@
             <reg><expan><ex>and</ex></expan> <g ref="#sins"/>yml<g ref="#eenl"/></reg>
           </choice>
           <choice>
-            <orig>onhn<g ref="#eenl"/><g ref="#sins"/>c<g ref="#umacr"/><!-- CHECK abbr/am to be added --></orig>
-            <reg>on hn<g ref="#eenl"/><g ref="#sins"/>c<g ref="#umacr"/><!-- CHECK abbr/am to be added --></reg>
-          </choice> bedd<g ref="#umacr"/><!-- CHECK abbr/am to be added -->
+            <orig><abbr>onhn<g ref="#eenl"/><g ref="#sins"/>c<am><g ref="#umacr"/></am></abbr></orig>
+            <reg>on <expan>hn<g ref="#eenl"/><g ref="#sins"/>cu<ex>m</ex></expan></reg>
+          </choice> <choice>
+            <abbr>bedd<am><g ref="#umacr"/></am></abbr>
+            <expan>beddu<ex>m</ex></expan>
+          </choice>
           <sic>hyr<g ref="#slong"/>tað</sic><corr resp="scragg">hy re<g ref="#slong"/>tað</corr><g ref="#punctmet"/>
           <lb n="16" xml:id="VB_lb_057v_16"/><damage type="faded"><g ref="#eenl"/>ac ðu m<g ref="#eenl"/></damage>aht
             <damage type="faded">þ<g ref="#eenl"/></damage> b<g ref="#eenl"/>t ongytan þæt ic þe <g ref="#sins"/>oð <g
@@ -905,10 +933,8 @@
             <reg><expan><ex>and</ex></expan> oftþw<g ref="#eenl"/>ale</reg>
           </choice>
           <choice>
-            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>oðr<g ref="#umacr"
-              /><!-- CHECK abbr/am to be added --></orig>
-            <reg><expan><ex>and</ex></expan> oðr<g ref="#umacr"
-              /><!-- CHECK abbr/am to be added --></reg>
+            <orig><abbr type="brev"><am><g ref="#et"/></am></abbr><abbr>oðr<am><g ref="#umacr"/></am></abbr></orig>
+            <reg><expan><ex>and</ex></expan> <expan>oðru<ex>m</ex></expan></reg>
           </choice> liðn<g ref="#eenl"/><g ref="#sins"/><g ref="#sins"/>um <choice>
             <orig><hi rend="cap1.0">O</hi>fðam</orig>
             <reg><hi rend="cap1.0">O</hi>f ðam</reg>
@@ -1200,7 +1226,10 @@
               <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
               <expan>þ<ex>æt</ex></expan>
             </choice></damage> þone <lb n="13" xml:id="VB_lb_058v_13"/>lichoman ly<g ref="#sins"/>te þære <g ref="#sins"
-          />awle worc<g ref="#umacr"/><!-- CHECK abbr/am to be added --> fulgan<g ref="#punctmet"/> witodlice ne mæg <lb
+          />awle <choice>
+            <abbr>worc<am><g ref="#umacr"/></am></abbr>
+            <expan>worcu<ex>m</ex></expan>
+          </choice> fulgan<g ref="#punctmet"/> witodlice ne mæg <lb
             n="14" xml:id="VB_lb_058v_14"/><g ref="#sins"/>io <choice>
             <orig>of<g ref="#eenl"/>r fyl</orig>
             <reg>of<g ref="#eenl"/>rfyl</reg>

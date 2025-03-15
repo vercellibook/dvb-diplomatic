@@ -1910,8 +1910,8 @@
             <reg>ge<g ref="#slong"/>cildode</reg>
           </choice>
           <choice><!-- CHECK if Scragg acceptable -->
-            <sic><abbr type="brev"><am><g ref="#et"/></am></abbr><!-- CHECK expan/ex + orig/reg missing -->ge <g ref="#slong"/>weordode</sic>
-            <corr resp="Scragg"><abbr type="brev"><am><g ref="#et"/></am></abbr> gesperode</corr>
+            <sic><abbr type="brev"><am><g ref="#et"/></am></abbr>ge <g ref="#slong"/>weordode</sic>
+            <corr resp="Scragg"><expan><ex>and</ex></expan> gesperode</corr>
           </choice>
           <choice>
             <orig><abbr type="brev"><am><g ref="#et"/></am></abbr>mid</orig>
