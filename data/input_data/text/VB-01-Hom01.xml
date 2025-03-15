@@ -528,14 +528,13 @@
             <choice>
               <orig><abbr type="brev"><g ref="#et"/></abbr>ge t<g ref="#eenl"/>ohod</orig>
               <reg><expan><ex>and</ex></expan> get<g ref="#eenl"/>ohod</reg>
-            </choice> hæfde þæt ic for <w>man
-          <lb n="3" facs="#VB_line_002r_03" xml:id="VB_lb_002r_03"/>cynn<g ref="#eenl"/><g ref="#sins"/></w> hælo <choice>
+            </choice> hæfde þæt ic for <w>man<lb n="3" facs="#VB_line_002r_03" xml:id="VB_lb_002r_03"/>cynn<g ref="#eenl"/><g ref="#sins"/></w>
+            hælo <choice>
               <orig>ge þrowian</orig>
               <reg>geþrowian</reg>
             </choice>
               <g ref="#slong"/>ceolde<orig><pc type="metrical">.</pc></orig>
-              <hi rend="cap1.0">S</hi>agaþ oðer <w>god
-          <lb n="4" facs="#VB_line_002r_04" xml:id="VB_lb_002r_04"/><g ref="#slong"/>p<g ref="#eenl"/>ll<g ref="#eenl"/>re</w>
+              <hi rend="cap1.0">S</hi>agaþ oðer <w>god<lb n="4" facs="#VB_line_002r_04" xml:id="VB_lb_002r_04"/><g ref="#slong"/>p<g ref="#eenl"/>ll<g ref="#eenl"/>re</w>
             <choice>
               <orig>þæthe</orig>
               <reg>þæt he</reg>
@@ -626,11 +625,10 @@
             <choice>
               <orig><abbr>þ<am><g ref="#omacr"/></am>n</abbr></orig>
               <reg><expan>þon<ex>ne</ex></expan></reg>
-            </choice> we æfre <space extent=""/>
+            </choice> we æfre <space quantity="6" unit="char"/>
             <choice>
-              <orig>ærge</orig>
-              <reg>ær <w>ge
-            <lb facs="#VB_line_002r_14" xml:id="VB_lb_002r_14" n="14"/><g ref="#sins"/>awon</w></reg>
+              <orig><w>ærge<lb facs="#VB_line_002r_14" xml:id="VB_lb_002r_14_orig" n="14"/><g ref="#sins"/>awon</w></orig>
+              <reg>ær <w>ge<lb facs="#VB_line_002r_14" xml:id="VB_lb_002r_14_reg" n="14"/><g ref="#sins"/>awon</w></reg>
             </choice><orig><pc type="metrical">.</pc></orig> gif we hine <choice>
               <orig>for lætaþ</orig>
               <reg>forlætaþ</reg>
@@ -651,10 +649,9 @@
                 <reg><name type="people">Romane</name></reg>
               </choice>
             <choice>
-              <orig><abbr type="brev"><g ref="#et"/></abbr>ge</orig>
+              <orig><w><abbr type="brev"><g ref="#et"/></abbr>ge<lb facs="#VB_line_002r_16" xml:id="VB_lb_002r_16_abbr" n="16"/>ni<damage type="smudge">m</damage>aþ</w></orig>
               <reg><expan><ex>and</ex></expan>
-                <w>ge
-          <lb facs="#VB_line_002r_16" xml:id="VB_lb_002r_16" n="16"/>ni<damage type="smudge">m</damage>aþ</w></reg>
+                <w>ge<lb facs="#VB_line_002r_16" xml:id="VB_lb_002r_16_expan" n="16"/>nimaþ</w></reg>
             </choice> ure land <choice>
               <orig><abbr type="brev"><g ref="#et"/></abbr>ure</orig>
               <reg><expan><ex>and</ex></expan> ure</reg>
@@ -685,9 +682,8 @@
               <reg><damage type="faded">f</damage>orw<g ref="#yrgmainstrok"/>rþe</reg>
             </choice><orig><pc type="metrical">.</pc></orig></q> w<damage type="faded">itgode he þæt </damage>
           <choice>
-            <orig><damage type="faded">un</damage>ge w<g ref="#eenl"/>al</orig>
-            <reg><w><damage type="faded">un</damage>gew<g ref="#eenl"/>al
-          <lb facs="#VB_line_002r_20" n="20" xml:id="VB_lb_002r_20"/>d<g ref="#eenl"/>n<g ref="#eenl"/></w></reg>
+            <orig><damage type="faded">un</damage>ge <w>w<g ref="#eenl"/>al<lb facs="#VB_line_002r_20" n="20" xml:id="VB_lb_002r_20_orig"/>d<g ref="#eenl"/>n<g ref="#eenl"/></w></orig>
+            <reg><w>ungew<g ref="#eenl"/>al<lb facs="#VB_line_002r_20" n="20" xml:id="VB_lb_002r_20_reg"/>d<g ref="#eenl"/>n<g ref="#eenl"/></w></reg>
           </choice> muðe <choice>
             <orig>be<name type="Christ">cri<g ref="#slong"/>t<g ref="#eenl"/><g ref="#sins"/></name></orig>
             <reg>be <name type="Christ">Cri<g ref="#slong"/>t<g ref="#eenl"/><g ref="#sins"/></name></reg>
@@ -720,8 +716,7 @@
               <orig><name type="Christ">cri<g ref="#slong"/>t</name></orig>
               <reg><name type="Christ">Crist</name></reg>
             </choice>
-          <w>ge
-          <lb facs="#VB_line_002r_24" xml:id="VB_lb_002r_24" n="24"/>bund<g ref="#eenl"/>nne</w>
+          <w>ge<lb facs="#VB_line_002r_24" xml:id="VB_lb_002r_24" n="24"/>bund<g ref="#eenl"/>nne</w>
           <damage type="faded"><g ref="#inodotenl"/>n</damage>
           <unclear><g ref="#sins"/>umne</unclear><gap reason="illegible"/><supplied resp="scragg">cafertun þa eode <name
               type="person">Petrus</name> ond þes ilca</supplied>
@@ -847,9 +842,9 @@
           <choice>
             <orig><abbr type="brev"><g ref="#et"/></abbr>w<g ref="#yrgmainstrok"/>rmdon</orig>
             <reg><expan><ex>and</ex></expan> w<g ref="#yrgmainstrok"/>rmdon</reg>
-          </choice> hie<orig><pc type="metrical">.</pc></orig> wæ<g ref="#sins"/> þæt <w>w<g ref="#eenl"/>
-          <lb facs="#VB_line_002v_13" n="13" xml:id="VB_lb_002v_13"/>der</w><space extent=""/> w<g ref="#eenl"/>l <add place="sub">;</add><add place="sup"
-            >c<g ref="#oacute"/>l</add> þa <g ref="#sins"/>tod he <name type="person"><choice>
+          </choice> hie<orig><pc type="metrical">.</pc></orig> wæ<g ref="#sins"/> þæt <w>w<g ref="#eenl"/><lb facs="#VB_line_002v_13" n="13" xml:id="VB_lb_002v_13"/>der</w><space extent=""/>
+          w<g ref="#eenl"/>l <add place="sub">;</add><add place="sup">c<g ref="#oacute"/>l</add> þa
+          <g ref="#sins"/>tod he <name type="person"><choice>
               <orig>p<g ref="#eenl"/>tru<g ref="#sins"/></orig>
               <reg>P<g ref="#eenl"/>tru<g ref="#sins"/></reg>
             </choice></name> æt ðam f<g ref="#yrgmainstrok"/>re <choice>
@@ -907,8 +902,7 @@
                     <corr resp="scragg">Iudea<g ref="#sins"/></corr>
                   </choice></name>
           <lb facs="#VB_line_002v_19" n="19" xml:id="VB_lb_002v_19"/>comon <orig><pc type="metrical">.</pc></orig> þonne ic hie <g ref="#eenl"/>alle lærde<orig><pc
-                type="metrical">.</pc></orig> ne ic owiht <w>d<g ref="#eenl"/>ar
-          <lb facs="#VB_line_002v_20" n="20" xml:id="VB_lb_002v_20"/>nunga</w>
+                type="metrical">.</pc></orig> ne ic owiht <w>d<g ref="#eenl"/>ar<lb facs="#VB_line_002v_20" n="20" xml:id="VB_lb_002v_20"/>nunga</w>
             <g ref="#slong"/>præc<orig><pc type="metrical">.</pc></orig>
             <choice>
               <orig>n<g ref="#eenl"/>min</orig>
@@ -1238,8 +1232,7 @@
               <g ref="#sins"/>e <choice>
               <orig><g ref="#eenl"/>ador man</orig>
               <reg><g ref="#eenl"/>aldorman</reg>
-            </choice> þara <w><g ref="#eenl"/>aldor
-          <lb facs="#VB_line_003v_08" n="8" xml:id="VB_lb_003v_08"/><g ref="#sins"/>ac<g ref="#eenl"/>rda</w>
+            </choice> þara <w><g ref="#eenl"/>aldor<lb facs="#VB_line_003v_08" n="8" xml:id="VB_lb_003v_08"/><g ref="#sins"/>ac<g ref="#eenl"/>rda</w>
               <g ref="#eenl"/>ft to him <q who="man">ic þe hal<g ref="#sins"/>ige þurh lifig<g ref="#eenl"/>ndne
           <lb facs="#VB_line_003v_09" n="9" xml:id="VB_lb_003v_09"/><name type="God"><choice>
                 <orig>god</orig>
@@ -1455,8 +1448,7 @@
               <orig>ge r<g ref="#eenl"/>fan</orig>
               <reg>ger<g ref="#eenl"/>fan</reg>
             </choice>
-            <hi rend="cap">Đ</hi>a <w>nol
-          <lb facs="#VB_line_004r_06" xml:id="VB_lb_004r_06" n="6"/>don</w> hie þa <name type="place"><choice>
+            <hi rend="cap">Đ</hi>a <w>nol<lb facs="#VB_line_004r_06" xml:id="VB_lb_004r_06" n="6"/>don</w> hie þa <name type="place"><choice>
               <orig>iud<g ref="#eenl"/>a<g ref="#sins"/></orig>
               <reg>Iudeas</reg>
             </choice></name> þæd<g ref="#eenl"/>r <choice>
@@ -1703,8 +1695,7 @@
                 <orig>iud<g ref="#eenl"/>i<g ref="#sins"/>c</orig>
                 <reg>Iudeisc</reg>
               </choice></name> mann<orig><pc type="metrical">.</pc></orig> ne ic þe
-            <g ref="#sins"/><g ref="#yrgmainstrok"/>nd<g ref="#eenl"/>rlice <w>æf<lb facs="#VB_line_004v_08" xml:id="VB_lb_004v_08" n="8"/><damage type="smugde"
-                >þan</damage>can</w> to wat<orig><pc type="metrical">.</pc></orig>
+            <g ref="#sins"/><g ref="#yrgmainstrok"/>nd<g ref="#eenl"/>rlice <w>æf<lb facs="#VB_line_004v_08" xml:id="VB_lb_004v_08" n="8"/><damage type="smugde">þan</damage>can</w> to wat<orig><pc type="metrical">.</pc></orig>
             <hi rend="double">a</hi>c þine ag<g ref="#eenl"/>ne l<g ref="#eenl"/>ode <choice>
               <orig><abbr type="brev"><g ref="#et"/></abbr>hira</orig>
               <reg><expan><ex>and</ex></expan> hira</reg>
@@ -2048,10 +2039,11 @@
           <lb facs="#VB_line_005r_22" xml:id="VB_lb_005r_22" n="22"/>willaþ þæt u<g ref="#sins"/> man agife <name type="person"><choice>
                 <orig>barraban</orig>
                 <reg>Barraban</reg>
-              </choice></name><orig><pc type="metrical">.</pc></orig></q> wæ<g ref="#sins"/> <g ref="#sins"/>e <choice>
-              <orig>barra</orig>
-              <reg><name type="person"><w>barra<lb facs="#VB_line_005r_23" xml:id="VB_lb_005r_23" n="23"/>ba<g ref="#sins"/></w></name></reg>
-            </choice> hat<g ref="#eenl"/>n s<g ref="#umacr"/>
+          </choice></name><orig><pc type="metrical">.</pc></orig></q> wæ<g ref="#sins"/> <g ref="#sins"/>e
+          <name type="person"><choice><!-- CHECK -->
+              <orig><w>barra<lb facs="#VB_line_005r_23" xml:id="VB_lb_005r_23_orig" n="23"/>ba<g ref="#sins"/></w></orig>
+              <reg><w>barra<lb facs="#VB_line_005r_23" xml:id="VB_lb_005r_23_reg" n="23"/>ba<g ref="#sins"/></w></reg>
+            </choice></name> hat<g ref="#eenl"/>n s<g ref="#umacr"/>
             <g ref="#slong"/>c<g ref="#eenl"/>aþa <choice>
               <orig><abbr type="brev"><g ref="#et"/></abbr>for wyrht</orig>
               <reg><expan><ex>and</ex></expan> forwyrht</reg>
@@ -2251,8 +2243,7 @@
           </choice>
           <choice>
             <orig><abbr type="brev"><g ref="#et"/></abbr><w>ead mod<lb facs="#VB_line_005v_18" xml:id="VB_lb_005v_18_orig" n="18"/>lice</w></orig>
-            <reg><expan><ex>and</ex></expan>
-              <w><g ref="#eenl"/>admod<lb facs="#VB_line_005v_18" xml:id="VB_lb_005v_18_reg" n="18"/>lice</w></reg>
+            <reg><expan><ex>and</ex></expan><w><g ref="#eenl"/>admod<lb facs="#VB_line_005v_18" xml:id="VB_lb_005v_18_reg" n="18"/>lice</w></reg>
           </choice> for u<g ref="#sins"/> þrowode <choice>
             <orig><abbr type="brev"><g ref="#et"/></abbr><g ref="#aacute"/>bær</orig>
             <reg><expan><ex>and</ex></expan>
@@ -3093,8 +3084,7 @@
             <name type="Christ"><choice>
               <orig>cri<g ref="#slong"/>t</orig>
               <reg>Cri<g ref="#slong"/>t</reg>
-            </choice></name> to hi<g ref="#sins"/> med<g ref="#eenl"/>r <q who="Christ"><foreign xml:lang="latin"><w>mu
-          <lb facs="#VB_line_007v_14" xml:id="VB_lb_007v_14" n="14"/>li<g ref="#eenl"/>r</w><orig><pc type="metrical">.</pc></orig></foreign> þu wif
+            </choice></name> to hi<g ref="#sins"/> med<g ref="#eenl"/>r <q who="Christ"><foreign xml:lang="latin"><w>mu<lb facs="#VB_line_007v_14" xml:id="VB_lb_007v_14" n="14"/>li<g ref="#eenl"/>r</w><orig><pc type="metrical">.</pc></orig></foreign> þu wif
             þi<g ref="#sins"/> i<g ref="#sins"/> þin <g ref="#sins"/>unu<orig><pc rend="mid" type="metrical"
               >·</pc></orig>
             <choice>
@@ -3224,10 +3214,9 @@
               <orig>þeb<g ref="#eenl"/></orig>
               <reg>þe b<g ref="#eenl"/></reg>
             </choice> hi<g ref="#sins"/></damage> þrowunge awrit<g ref="#eenl"/>ne <choice>
-            <orig><abbr type="brev"><g ref="#et"/></abbr>a<damage type="faded">wit</damage></orig>
+            <orig><w><abbr type="brev"><g ref="#et"/></abbr>a<damage type="faded">wit</damage><lb facs="#VB_line_008r_02" xml:id="VB_lb_008r_02_orig" n="2"/><damage type="faded">g</damage>ode</w></orig>
             <reg><expan><ex>and</ex></expan>
-              <w>a<damage type="faded">wit</damage>
-          <lb facs="#VB_line_008r_02" xml:id="VB_lb_008r_02" n="2"/><damage type="faded">g</damage>ode</w></reg>
+              <w>awit<lb facs="#VB_line_008r_02" xml:id="VB_lb_008r_02_reg" n="2"/><damage type="faded">g</damage>ode</w></reg>
           </choice> wæron<orig><pc type="metrical">.</pc></orig>
           <choice>
             <orig><abbr type="brev"><g ref="#et"/></abbr>þæt</orig>
@@ -3298,8 +3287,7 @@
             <g ref="#sins"/></damage>e <choice>
             <orig>wit<g ref="#eenl"/> d<g ref="#oacute"/>m</orig>
             <reg>wit<g ref="#eenl"/>d<g ref="#oacute"/>m</reg>
-          </choice> bion <w>g<g ref="#eenl"/>
-            <lb facs="#VB_line_008r_07" xml:id="VB_lb_008r_07" n="7"/>f<g ref="#ydot"/>lled</w> þe ær <choice>
+          </choice> bion <w>g<g ref="#eenl"/><lb facs="#VB_line_008r_07" xml:id="VB_lb_008r_07" n="7"/>f<g ref="#ydot"/>lled</w> þe ær <choice>
             <orig><g ref="#inodotenl"/>n<damage type="faded">þam</damage></orig>
             <reg><g ref="#inodotenl"/>n <damage type="faded">þam</damage></reg>
           </choice>
@@ -3308,8 +3296,7 @@
           <choice>
             <orig><damage type="faded"><abbr type="brev"><g ref="#et"/></abbr>awit</damage>god</orig>
             <reg><damage type="faded"><expan><ex>and</ex></expan> awit</damage>od</reg>
-          </choice> wæ<g ref="#sins"/><orig><pc type="metrical">.</pc></orig> be <w>þ<g ref="#yrgmainstrok"/>
-            <lb facs="#VB_line_008r_08" xml:id="VB_lb_008r_08" n="8"/><g ref="#sins"/><g ref="#sins"/>um</w>
+          </choice> wæ<g ref="#sins"/><orig><pc type="metrical">.</pc></orig> be <w>þ<g ref="#yrgmainstrok"/><lb facs="#VB_line_008r_08" xml:id="VB_lb_008r_08" n="8"/><g ref="#sins"/><g ref="#sins"/>um</w>
           <g ref="#ydot"/>lcan ðinge <quote><foreign xml:lang="latin"><damage type="faded"><choice>
                   <orig><g ref="#inodotenl"/>n<g ref="#sins"/>iti</orig>
                   <reg><g ref="#inodotenl"/>n <g ref="#sins"/>iti</reg>
@@ -3428,8 +3415,8 @@
             <reg>on þære</reg>
           </choice> rode<orig><pc type="metrical">.</pc></orig>
           <supplied resp="scragg">for</supplied> þam ne bræcon hie hi<g ref="#sins"/> b<g ref="#aacute"/>n <choice>
-            <orig>ag<g ref="#ginsmacr"/></orig>
-            <reg>ac <w><g ref="#ginsmacr"/><lb facs="#VB_line_008r_23" xml:id="VB_lb_008r_23" n="23"/>nam</w></reg>
+            <orig><w>ag<!-- CHECK --><g ref="#ginsmacr"/><lb facs="#VB_line_008r_23" xml:id="VB_lb_008r_23_orig" n="23"/>nam</w></orig>
+            <reg>ac <w><g ref="#ginsmacr"/><lb facs="#VB_line_008r_23" xml:id="VB_lb_008r_23_reg" n="23"/>nam</w></reg>
           </choice> þara c<g ref="#eenl"/>mp<g ref="#eenl"/>na <g ref="#aacute"/>n <choice>
             <orig><abbr type="brev"><g ref="#et"/></abbr>mid</orig>
             <reg><expan><ex>and</ex></expan> mid</reg>
@@ -3707,7 +3694,7 @@
           <g ref="#eenl"/>alne <choice>
             <orig>ge <g ref="#slong"/>m<g ref="#yrgmainstrok"/>r<g ref="#eenl"/>don</orig>
             <reg>ge<g ref="#slong"/>m<g ref="#yrgmainstrok"/>r<g ref="#eenl"/>don</reg>
-          </choice> mid þam æðelan <w>wyrt<lb facs="#VB_line_008v_24" xml:id="VB_lb_008v_24" n="24"/><choice>
+          </choice> mid þam æðelan <w>wyrt<lb facs="#VB_line_008v_24" xml:id="VB_lb_008v_24" n="24"/><choice><!-- CHECK -->
               <orig>ge magn<g ref="#eenl"/><g ref="#sins"/><g ref="#sins"/><g ref="#umacr"/></orig>
               <reg>gemagn<g ref="#eenl"/><g ref="#sins"/><g ref="#sins"/><g ref="#umacr"/></reg>
             </choice></w><orig><pc type="metrical">.</pc></orig>
