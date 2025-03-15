@@ -503,11 +503,11 @@
         
         <gb n="1" xml:id="VB_gb_01"/> 
 
-        <pb n="001r" xml:id="VB_fol_001r"/>
+        <pb n="1r" xml:id="VB_fol_001r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">1.</add></fw>
 
-        <pb n="001v" xml:id="VB_fol_001v"/>
+        <pb n="1v" xml:id="VB_fol_001v"/>
 
         <lb/>
 
@@ -515,7 +515,7 @@
 
         <!-- #######################################  folio 2r  ####################################### -->
 
-        <pb n="002r" xml:id="VB_fol_002r"/>
+        <pb n="2r" xml:id="VB_fol_002r"/>
 
         <p>
           
@@ -728,7 +728,7 @@
 
           <!-- #######################################  folio 2v  ####################################### -->
           
-          <pb n="002v" xml:id="VB_fol_002v"/>
+          <pb n="2v" xml:id="VB_fol_002v"/>
 
           <lb facs="#VB_line_002v_01" n="1" xml:id="VB_lb_002v_01"/><choice>
               <orig><name type="person">iohanne<g ref="#sins"/></name></orig>
@@ -946,7 +946,7 @@
 
           <!-- #######################################  folio 3r  ####################################### -->
           
-          <pb n="003r" xml:id="VB_fol_003r"/>
+          <pb n="3r" xml:id="VB_fol_003r"/>
 
           <damage type="faded"><fw place="top-right" type="fol">3.<add hand="unknown"/></fw></damage>
 
@@ -1168,7 +1168,7 @@
 
           <!-- #######################################  folio 3v  ####################################### -->
           
-          <pb n="003v" xml:id="VB_fol_003v"/>
+          <pb n="3v" xml:id="VB_fol_003v"/>
 
           <lb facs="#VB_line_003v_01" n="1" xml:id="VB_lb_003v_01"/>l<g ref="#eenl"/>a<g ref="#sins"/>e <choice>
             <orig>g<g ref="#eenl"/> wit n<g ref="#eenl"/><g ref="#sins"/><g ref="#sins"/>e</orig>
@@ -1400,7 +1400,7 @@
 
           <!-- #######################################  folio 4r  ####################################### -->
           
-          <pb n="004r" xml:id="VB_fol_004r"/>
+          <pb n="4r" xml:id="VB_fol_004r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">4.</add></fw>
 
@@ -1629,7 +1629,7 @@
 
           <!-- #######################################  folio 4v  ####################################### -->
           
-          <pb n="004v" xml:id="VB_fol_004v"/>
+          <pb n="4v" xml:id="VB_fol_004v"/>
 
           <lb facs="#VB_line_004v_01" xml:id="VB_lb_004v_01" n="1"/>c<g ref="#yrgmainstrok"/>nn<g ref="#eenl"/><g ref="#sins"/><orig><pc type="metrical">.</pc></orig>
             <choice>
@@ -1845,7 +1845,7 @@
 
           <!-- #######################################  folio 5r  ####################################### -->
           
-          <pb n="005r" xml:id="VB_fol_005r"/>
+          <pb n="5r" xml:id="VB_fol_005r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">5.</add></fw>
 
@@ -2071,7 +2071,7 @@
 
           <!-- #######################################  folio 5v  ####################################### -->
           
-          <pb n="005v" xml:id="VB_fol_005v"/>
+          <pb n="5v" xml:id="VB_fol_005v"/>
 
           <lb facs="#VB_line_005v_01" xml:id="VB_lb_005v_01" n="1"/>man þone agefe þæt <choice>
              <orig>himo<g ref="#slong"/>ton</orig>
@@ -2307,7 +2307,7 @@
 
           <!-- #######################################  folio 6r  ####################################### -->
           
-          <pb n="006r" xml:id="VB_fol_006r"/>
+          <pb n="6r" xml:id="VB_fol_006r"/>
 
           <fw type="fol"><add hand="unknown" place="top-right">6.</add></fw>
 
@@ -2532,7 +2532,7 @@
 
           <!-- #######################################  folio 6v  ####################################### -->
           
-          <pb n="006v" xml:id="VB_fol_006v"/>
+          <pb n="6v" xml:id="VB_fol_006v"/>
 
           <lb facs="#VB_line_006v_01" xml:id="VB_lb_006v_01" n="1"/><choice>
             <orig>for gifan</orig>
@@ -2735,7 +2735,7 @@
 
           <!-- #######################################  folio 7r  ####################################### -->
           
-          <pb n="007r" xml:id="VB_fol_007r"/>
+          <pb n="7r" xml:id="VB_fol_007r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">7.</add></fw>
 
@@ -2962,7 +2962,7 @@
 
           <!-- #######################################  folio 7v  ####################################### -->
           
-          <pb n="007v" xml:id="VB_fol_007v"/>
+          <pb n="7v" xml:id="VB_fol_007v"/>
 
           <lb facs="#VB_line_007v_01" xml:id="VB_lb_007v_01" n="1"/>d<g ref="#windy"/>don hi<g ref="#eenl"/>
           <g ref="#slong"/>wa<orig><pc type="metrical">.</pc></orig>
@@ -3213,7 +3213,7 @@
  
           <!-- #######################################  folio 8r  ####################################### -->
           
-          <pb n="008r" xml:id="VB_fol_008r"/>
+          <pb n="8r" xml:id="VB_fol_008r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">8.</add></fw>
 
@@ -3453,7 +3453,7 @@
           
           <!-- #######################################  folio 8v  ####################################### -->
           
-          <pb n="008v" xml:id="VB_fol_008v"/>
+          <pb n="8v" xml:id="VB_fol_008v"/>
 
           <lb facs="#VB_line_008v_01" xml:id="VB_lb_008v_01" n="1"/>þære wunde<orig><pc type="metrical">.</pc></orig> þæt tacnode hælo <choice>
             <orig>middan geard<g ref="#eenl"/><g ref="#sins"/></orig>
@@ -3718,7 +3718,7 @@
 
           <!-- #######################################  folio 9r  ####################################### -->
           
-          <pb n="009r" xml:id="VB_fol_009r"/>
+          <pb n="9r" xml:id="VB_fol_009r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">9.</add></fw>
 

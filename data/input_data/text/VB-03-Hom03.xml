@@ -315,7 +315,7 @@
      <body>
        <div type="prose">
 
-         <pb n="012v" xml:id="VB_fol_012v"/>
+         <pb n="12v" xml:id="VB_fol_012v"/>
 
             <p>
               <lb n="1" xml:id="VB_lb_012v_01"/><hi rend="cap2.1">B</hi><hi rend="cap1.0">R</hi>oðor þa leofestan ic c<g ref="#windy"/>ðe þæt
@@ -537,7 +537,7 @@
                   <reg>i<g ref="#sins"/> <expan>þ<ex>æt</ex></expan></reg>
                 </choice>
 
-              <pb n="013r" xml:id="VB_fol_013r"/>
+              <pb n="13r" xml:id="VB_fol_013r"/>
 
               <add hand="unknown">
                 <fw place="top-right" type="fol">13.</fw>
@@ -1118,7 +1118,7 @@
                 <reg>ne tweoge</reg>
               </choice> him <w>for
 
-                  <pb n="014r" xml:id="VB_fol_014r"/>
+                  <pb n="14r" xml:id="VB_fol_014r"/>
 
                 <add hand="unknown">
                   <fw place="top-right" type="fol">14.</fw>
@@ -1414,7 +1414,7 @@
               </choice> 
               <g ref="#sins"/>wa <g ref="#slong"/>wa þæt
 
-              <pb n="014v" xml:id="VB_fol_014v"/>
+              <pb n="14v" xml:id="VB_fol_014v"/>
 
               <lb n="1" xml:id="VB_lb_014v_01"/><choice>
                   <abbr type="brev"><am><g ref="#thornbarslash"/></am></abbr>
@@ -1748,7 +1748,7 @@
                 <reg>geearnodon</reg>
               </choice>
 
-              <pb n="015r" xml:id="VB_fol_015r"/>
+              <pb n="15r" xml:id="VB_fol_015r"/>
 
               <add hand="unknown">
                 <fw place="top-right" type="fol">15.</fw>
@@ -2108,7 +2108,7 @@
               </choice>. 
               <hi rend="double">b</hi>roðor mine
 
-              <pb n="015v" xml:id="VB_fol_015v"/>
+              <pb n="15v" xml:id="VB_fol_015v"/>
 
               <lb n="1" xml:id="VB_lb_015v_01"/><g ref="#sins"/><g ref="#yrgmainstrok"/>nt þa fæ<g ref="#sins"/>t<g ref="#eenl"/>nu to beganne
               <choice>
@@ -2472,7 +2472,7 @@
                 <reg>forgifn<g ref="#eenl"/><g ref="#sins"/><g ref="#sins"/>e</reg>
               </choice>
 
-                <pb n="016r" xml:id="VB_fol_016r"/>
+                <pb n="16r" xml:id="VB_fol_016r"/>
 
               <add hand="unknown">
                 <fw place="top-right" type="fol">16.</fw>

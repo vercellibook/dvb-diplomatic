@@ -571,7 +571,7 @@
 
                 <!-- #######################################  folio 16v  ####################################### -->
 
-                <pb n="016v" xml:id="VB_fol_016v"/>
+                <pb n="16v" xml:id="VB_fol_016v"/>
 
             <p>
 
@@ -864,7 +864,7 @@
   
                   <!-- #######################################  folio 17r  ####################################### -->
 
-                  <pb n="017r" xml:id="VB_fol_017r"/>
+                  <pb n="17r" xml:id="VB_fol_017r"/>
             
             <fw type="fol" place="top-right"><add hand="#TBD">17</add></fw>
    
@@ -1095,7 +1095,7 @@
             
                   <!-- #######################################  folio 17v  ####################################### -->
 
-                  <pb n="017v" xml:id="VB_fol_017v"/>
+                  <pb n="17v" xml:id="VB_fol_017v"/>
             
             <lb facs="#VB_line_017v_01" xml:id="VB_lb_017v_01" n="1"/>hungre 
                 <choice>
@@ -1344,7 +1344,7 @@
             
                <!-- #######################################  folio 18r  ####################################### -->
  
-               <pb n="018r" xml:id="VB_fol_018r"/>
+               <pb n="18r" xml:id="VB_fol_018r"/>
                   
                   <fw place="top-right" type="fol"><add>18</add></fw>
             
@@ -1591,7 +1591,7 @@
             
               <!-- #######################################  folio 18v  ####################################### -->
               
-              <pb n="018v" xml:id="VB_fol_018v"/>
+              <pb n="18v" xml:id="VB_fol_018v"/>
           
             <fw type="fol" place="bottom-centred"><add hand="#TBD">B</add></fw><!-- CHECK fw type -->
           
@@ -1831,7 +1831,7 @@
 
               <!-- #######################################  folio 19r  ####################################### -->
               
-              <pb n="019r" xml:id="VB_fol_019r"/>
+              <pb n="19r" xml:id="VB_fol_019r"/>
           
             <fw type="fol" place="top-left"><add hand="#TBD"><num value="3">.III.</num></add></fw>
             <fw type="fol" place="top-right"><add hand="#TBD">19</add></fw>
@@ -2085,7 +2085,7 @@
   
               <!-- #######################################  folio 19v  ####################################### -->
               
-              <pb n="019v" xml:id="VB_fol_019v"/>
+              <pb n="19v" xml:id="VB_fol_019v"/>
   
             <lb facs="#VB_line_019v_01" xml:id="VB_lb_019v_01" n="1"/><damage type="faded">ea</damage>rdung<damage type="faded">e</damage> 
                   <choice>
@@ -2356,7 +2356,7 @@
 
                 <!-- #######################################  folio 20r  ####################################### -->
                 
-                <pb n="020r" xml:id="VB_fol_020r"/>
+                <pb n="20r" xml:id="VB_fol_020r"/>
              
             <fw type="fol"><add hand="#TBD">20.</add></fw>
             
@@ -2612,7 +2612,7 @@
 
                 <!-- #######################################  folio 20v  ####################################### -->
                 
-                <pb n="020v" xml:id="VB_fol_020v"/>
+                <pb n="20v" xml:id="VB_fol_020v"/>
   
             <lb facs="#VB_line_020v_01" xml:id="VB_lb_020v_01" n="1"/>d<g ref="#eenl"/>man <g ref="#slong"/>t<g ref="#eenl"/>fn <g ref="#punctmet"/> <q who="God">
                   <choice>
@@ -2907,7 +2907,7 @@
 
                 <!-- #######################################  folio 21r  ####################################### -->
                 
-                <pb n="021r" xml:id="VB_fol_021r"/>
+                <pb n="21r" xml:id="VB_fol_021r"/>
             
             <fw type="fol" place="top-right"><add hand="#TBD">21.</add></fw>
   
@@ -3175,7 +3175,7 @@
 
                 <!-- #######################################  folio 21v  ####################################### -->
       
-                <pb n="021v" xml:id="VB_fol_021v"/>
+                <pb n="21v" xml:id="VB_fol_021v"/>
 
             <lb facs="#VB_line_021v_01" xml:id="VB_lb_021v_01" n="1"/><damage type="fuzzy">ðu me <g ref="#middot"/> 
                     <choice>
@@ -3463,7 +3463,7 @@
 
                 <!-- #######################################  folio 22r  ####################################### -->
                 
-                <pb n="022r" xml:id="VB_fol_022r"/>
+                <pb n="22r" xml:id="VB_fol_022r"/>
              
             <fw type="fol" place="top-right"><add hand="#TBD">22.</add></fw> 
   
@@ -3685,7 +3685,7 @@
 
                 <!-- #######################################  folio 22v  ####################################### -->
                 
-                <pb n="022v" xml:id="VB_fol_022v"/>
+                <pb n="22v" xml:id="VB_fol_022v"/>
   
             <lb facs="#VB_line_022v_01" xml:id="VB_lb_022v_01" n="1"/>
                   <choice>
@@ -3891,7 +3891,7 @@
 
                 <!-- #######################################  folio 23r  ####################################### -->
                 
-                <pb n="023r" xml:id="VB_fol_023r"/>
+                <pb n="23r" xml:id="VB_fol_023r"/>
             
             <fw type="fol" place="top-right"><add hand="#TBD">23</add></fw>
   
@@ -4216,7 +4216,7 @@
 
                 <!-- #######################################  folio 23v  ####################################### -->
                 
-                <pb n="023v" xml:id="VB_fol_023v"/>
+                <pb n="23v" xml:id="VB_fol_023v"/>
    
             <lb facs="#VB_line_023v_01" xml:id="VB_lb_023v_01" n="1"/><damage type="faded">ane</damage> tid on anum w<damage type="faded">i</damage>llan <g ref="#punctmet"/> 
                   <choice>
@@ -4529,7 +4529,7 @@
                     
                 <!-- #######################################  folio 24r  ####################################### -->
 
-                  <pb n="024r" xml:id="VB_fol_024r"/>
+                  <pb n="24r" xml:id="VB_fol_024r"/>
                    
                   <fw type="fol" place="top-right"><add hand="#TBD">24</add></fw>
        
@@ -4802,7 +4802,7 @@
 
                 <!-- #######################################  folio 24v  ####################################### -->
 
-                <pb n="024v" xml:id="VB_fol_024v"/>   
+                <pb n="24v" xml:id="VB_fol_024v"/>   
             
             <lb facs="#VB_line_024v_01" xml:id="VB_lb_024v_01" n="1"/><g ref="#sins"/><g ref="#eenl"/>t</w> mid to <gap reason="illegible"/><!-- ??? extent -->
                 <supplied resp="scragg">sc</supplied><damage type="faded"><g ref="#windy"/>ld</damage><gap reason="illegible"/><!-- ??? extent --><supplied resp="scragg">a</supplied><damage type="faded">n</damage>ne
